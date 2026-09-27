@@ -1,2 +1,4 @@
 # Preserve captured bytes so evidence-hashes.json survives checkout unchanged.
-** -text -eol
+** -text -eol whitespace=cr-at-eol
+# Terminal captures contain vendor progress escapes and deliberate whitespace.
+logs/** -diff -whitespace
