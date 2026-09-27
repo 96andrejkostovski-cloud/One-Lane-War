@@ -1,0 +1,6 @@
+{
+  "name": "OneLaneWar.Core",
+  "rootNamespace": "OneLaneWar",
+  "references": ["Unity.Newtonsoft.Json"],
+  "noEngineReferences": true
+}
