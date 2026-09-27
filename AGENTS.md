@@ -15,7 +15,9 @@ source-navigation and verifier corrections. `OLW-AMEND-003.md` records
 the only designated GitHub remote and its verification requirements.
 `OLW-AMEND-004.md` allows only explicitly issued Astra Goals to bundle
 listed task packets while keeping their tests and evidence gates.
-These amendments change no B001 content, T001 pins, or WF002 phase order.
+`OLW-AMEND-005.md` resolves fixed-point spawning under hostile fortress
+pressure for the issued OLW-CORE-001 Goal. Read it before combat work.
+These amendments change no B001 numbers, T001 pins, or WF002 phase order.
 
 The sequential execution plan is
 `Documentation/Director/ASTRA_BUILD_PLAN.md`; its companion prompts are
