@@ -1,0 +1,114 @@
+{
+  "tested_implementation_commit": "53051512a99774f974ae335c3ffff77cb3462646",
+  "exclusions": [
+    "evidence-hashes.json",
+    "FINAL_RECEIPT.md"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 93,
+      "sha256": "b8828189f7272415556cd2c00152aeae4d2fd08816d46ff6f882c05d1f7b1c96"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 103,
+      "sha256": "7233d763e33631fd2ff631e631c4a3577916f4b43c0d7ab734ceae505004b3e2"
+    },
+    {
+      "path": "DIRECTOR_BLOCKER.md",
+      "bytes": 4376,
+      "sha256": "a10f082b48201a408e200364dd617aeb494f70945d4e73e9076cb812bd8440a7"
+    },
+    {
+      "path": "logs/arithmetic-audit.txt",
+      "bytes": 304,
+      "sha256": "5418f6653e5842d77649a6db368300dcef48fcaa6cd45593ce2fa3be29ca3192"
+    },
+    {
+      "path": "logs/authority-hashes.txt",
+      "bytes": 1008,
+      "sha256": "25b802da7c00c4f4ab1e79142f4cfed862d2bfc4d061c0d78cd0cfd72fe4d6fb"
+    },
+    {
+      "path": "logs/environment.txt",
+      "bytes": 6877,
+      "sha256": "18d83c6b9bc6c122a8665c1bd91caa9867f6926adb176ed306f95260d85505ba"
+    },
+    {
+      "path": "logs/hub-help.txt",
+      "bytes": 3621,
+      "sha256": "e54d996a23aa89bc7152ae5a9449f8823dc069988bc2cfa1609e1057f33ba000"
+    },
+    {
+      "path": "logs/hub-install-t001.txt",
+      "bytes": 543588,
+      "sha256": "db5c269ee7d5dc126d0836d11075d8f86b187610e2bd2e9f33070062704f4217"
+    },
+    {
+      "path": "logs/operational-notes.txt",
+      "bytes": 3438,
+      "sha256": "1f71bcc89ca25bdc10d701b4a0081fc79189aa5905bbb709e38f4a4446bebf4e"
+    },
+    {
+      "path": "logs/pure-tests-canonical-repro.txt",
+      "bytes": 5385,
+      "sha256": "d5c2632862d337bcb3a6ea840560f70005713d0caea18d784e8aeee47fd614a3"
+    },
+    {
+      "path": "logs/pure-tests-exact-head.txt",
+      "bytes": 5695,
+      "sha256": "85a4ca310bf87b872b51e974c5fa3a42495f1dd13bf1ad41cd61d285229432a7"
+    },
+    {
+      "path": "logs/pure-tests-initial.txt",
+      "bytes": 1326,
+      "sha256": "8eca47cc46be9e4823b0a1f7be84a37669989195f932adee84389b8c204d981f"
+    },
+    {
+      "path": "logs/pure-tests-r2.txt",
+      "bytes": 5262,
+      "sha256": "c0b5a1331d609618abfe1db8530cf90cd407c3071abcd0984827b0b1c7a0ed50"
+    },
+    {
+      "path": "logs/push-implementation.txt",
+      "bytes": 524,
+      "sha256": "7be8ac161ef08b219aebf4a09037155d664cc01cb145f73fc77baba58e5b5806"
+    },
+    {
+      "path": "logs/remote-verification.txt",
+      "bytes": 430,
+      "sha256": "41974bfd0aecfea250a3924bf6afd95103ace201197aceb26838fe14580d6f65"
+    },
+    {
+      "path": "logs/sealed-source-exact-head.txt",
+      "bytes": 255,
+      "sha256": "1a2c4b7c78a04b4d6ef28b9e5d16e0a7b5dc278338f2b207a013582419570022"
+    },
+    {
+      "path": "logs/sealed-source.txt",
+      "bytes": 255,
+      "sha256": "1a2c4b7c78a04b4d6ef28b9e5d16e0a7b5dc278338f2b207a013582419570022"
+    },
+    {
+      "path": "logs/source-reference-tests.txt",
+      "bytes": 2975,
+      "sha256": "0095633a5fc2d59e05676a59bbe9e24ff30c7f7d1e70d2735388e628a5cb2139"
+    },
+    {
+      "path": "logs/source-semantic.txt",
+      "bytes": 173,
+      "sha256": "3ba5d174319e879b01af8a4c3272ca8e23ebb771eeda1647977471b60b8354f9"
+    },
+    {
+      "path": "logs/source-verifier.txt",
+      "bytes": 216,
+      "sha256": "b162b3b676bfbbee76c324b7ac789ec7e59032cf90382b85e6f6fd589327c696"
+    },
+    {
+      "path": "TASK_RESULT.md",
+      "bytes": 15354,
+      "sha256": "b4ff3328ce4a575bd2e154cf476e79059b40f4b0cad9723ef8badd770893421d"
+    }
+  ]
+}

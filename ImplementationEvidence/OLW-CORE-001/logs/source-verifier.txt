@@ -1,0 +1,9 @@
+FAIL: manifest complete source coverage 
+{
+  "scope": "SOURCE FILES/REFERENCES/STRUCTURE ONLY;NOT UNITY OR GAME TESTS",
+  "manifest_checked": true,
+  "checks": 1136,
+  "passed": 1135,
+  "failed": 1
+}
+EXIT=1

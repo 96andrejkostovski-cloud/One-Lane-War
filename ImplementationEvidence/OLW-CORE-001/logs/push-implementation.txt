@@ -1,0 +1,8 @@
+remote: 
+remote: Create a pull request for 'codex/olw-core-001-toolchain-combat' on GitHub by visiting:        
+remote:      https://github.com/96andrejkostovski-cloud/One-Lane-War/pull/new/codex/olw-core-001-toolchain-combat        
+remote: 
+To https://github.com/96andrejkostovski-cloud/One-Lane-War.git
+ * [new branch]      codex/olw-core-001-toolchain-combat -> codex/olw-core-001-toolchain-combat
+branch 'codex/olw-core-001-toolchain-combat' set up to track 'origin/codex/olw-core-001-toolchain-combat'.
+EXIT=0

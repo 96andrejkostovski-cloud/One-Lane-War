@@ -1,0 +1,166 @@
+COMMAND: host and disk inventory
+Microsoft Windows 10.0.26200
+X64
+
+Name : C
+Used : 457325666304
+Free : 53717381120
+
+COMMAND: installed editor paths and binary identity
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\source.properties EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\source.properties EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\source.properties EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Unity.exe EXISTS=True
+
+FileVersion    : 6000.3.25.14801824
+ProductVersion : 6000.3.25f1_e1dba0a9aba4
+
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe EXISTS=False
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\source.properties EXISTS=True
+Pkg.Desc = Android NDK
+Pkg.Revision = 27.2.12479018
+Pkg.BaseRevision = 27.2.12479018
+Pkg.ReleaseName = r27c
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\source.properties EXISTS=True
+Pkg.Desc=Android SDK Platform 16
+Pkg.UserSrc=false
+Platform.Version=16
+Platform.CodeName=
+Pkg.Revision=2
+AndroidVersion.ApiLevel=36
+AndroidVersion.ExtensionLevel=17
+AndroidVersion.IsBaseSdk=true
+Layoutlib.Api=15
+Layoutlib.Revision=1
+Platform.MinToolsRev=22
+PATH=C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\source.properties EXISTS=True
+Pkg.UserSrc=false
+Pkg.Revision=36.0.0
+#Pkg.Revision=36.0.0 rc5
+PATH=C:\Unity\Hub\Editor\6000.3.18f1\Editor\Unity.exe EXISTS=True
+
+FileVersion    : 6000.3.18.6209205
+ProductVersion : 6000.3.18f1_5ebeb53e4c07
+
+PATH=C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe EXISTS=True
+PATH=C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\source.properties EXISTS=True
+Pkg.Desc = Android NDK
+Pkg.Revision = 27.2.12479018
+Pkg.BaseRevision = 27.2.12479018
+Pkg.ReleaseName = r27c
+PATH=C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-36\source.properties EXISTS=True
+Pkg.Desc=Android SDK Platform 16
+Pkg.UserSrc=false
+Platform.Version=16
+Platform.CodeName=
+Pkg.Revision=2
+AndroidVersion.ApiLevel=36
+AndroidVersion.ExtensionLevel=17
+AndroidVersion.IsBaseSdk=true
+Layoutlib.Api=15
+Layoutlib.Revision=1
+Platform.MinToolsRev=22
+PATH=C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0\source.properties EXISTS=True
+Pkg.UserSrc=false
+Pkg.Revision=36.0.0
+#Pkg.Revision=36.0.0 rc5
+License availability for exact editor: NOT_RUN; no license secrets read.
+COMMAND: C:\Users\Andrej\AppData\Local\Android\Sdk\platform-tools\adb.exe version
+Android Debug Bridge version 1.0.41
+Version 37.0.0-14910828
+Installed as C:\Users\Andrej\AppData\Local\Android\Sdk\platform-tools\adb.exe
+Running on Windows 10.0.26200
+EXIT=0
+COMMAND: C:\Users\Andrej\AppData\Local\Android\Sdk\platform-tools\adb.exe devices -l
+List of devices attached
+emulator-5554          device product:sdk_gphone64_x86_64 model:sdk_gphone64_x86_64 device:emu64xa transport_id:1
+
+EXIT=0
+COMMAND: adb -s emulator-5554 shell getprop ro.product.cpu.abilist
+x86_64,arm64-v8a
+EXIT=0
+COMMAND: adb -s emulator-5554 shell getprop ro.build.fingerprint
+google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys
+EXIT=0
+COMMAND: adb -s emulator-5554 shell getprop ro.build.version.sdk
+36
+EXIT=0
+COMMAND: adb -s emulator-5554 shell getprop ro.dalvik.vm.native.bridge
+libndk_translation.so
+EXIT=0
+COMMAND: adb -s emulator-5554 shell getconf PAGE_SIZE
+4096
+EXIT=0
+COMMAND: adb -s emulator-5554 emu avd name
+Pixel_8
+
+OK
+
+EXIT=0
+C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-24\default\x86\source.properties
+Pkg.Desc=Android SDK Platform 7.0
+Pkg.UserSrc=false
+Pkg.Revision=8
+AndroidVersion.ApiLevel=24
+SystemImage.Abi=x86
+SystemImage.GpuSupport=true
+SystemImage.TagId=default
+
+C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-35\google_apis\x86_64\source.properties
+Pkg.Desc=System Image x86_64 with Google APIs.
+Pkg.Revision=9
+Pkg.Dependencies=emulator#33.1.24
+AndroidVersion.ApiLevel=35
+AndroidVersion.ExtensionLevel=13
+AndroidVersion.IsBaseSdk=true
+SystemImage.Abi=x86_64
+SystemImage.TagId=google_apis
+SystemImage.TagDisplay=Google APIs
+SystemImage.GpuSupport=true
+Addon.VendorId=google
+Addon.VendorDisplay=Google Inc.
+
+C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64\source.properties
+Pkg.Desc=System Image x86_64 with Google Play.
+Pkg.Revision=7
+Pkg.Dependencies=emulator#35.4.9
+AndroidVersion.ApiLevel=36
+AndroidVersion.ExtensionLevel=17
+AndroidVersion.IsBaseSdk=true
+SystemImage.Abi=x86_64
+SystemImage.TagId=google_apis_playstore
+SystemImage.TagDisplay=Google Play
+SystemImage.GpuSupport=true
+Addon.VendorId=google
+Addon.VendorDisplay=Google Inc.
+C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-37.0\google_apis_playstore_ps16k\x86_64\source.properties
+Pkg.Desc=System Image Page Size 16k x86_64 with Google Play.
+Pkg.Revision=6
+Pkg.Dependencies=emulator#36.5.11
+AndroidVersion.ApiLevel=37.0
+AndroidVersion.ExtensionLevel=22
+AndroidVersion.IsBaseSdk=true
+SystemImage.Abi=x86_64
+SystemImage.TagId=google_apis_playstore,page_size_16kb,ai_glasses_compatible
+SystemImage.TagDisplay=Google APIs PlayStore,Page Size 16KB,AI Glasses Compatible
+SystemImage.GpuSupport=true
+Addon.VendorId=google
+Addon.VendorDisplay=Google Inc.
+COMMAND: emulator -version
+Android emulator version 36.6.11.0 (build_id 15507667) (CL:N/A)
+Copyright (C) 2006-2024 The Android Open Source Project and many others.
+This program is a derivative of the QEMU CPU emulator (www.qemu.org).
+
+  This software is licensed under the terms of the GNU General Public
+  License version 2, as published by the Free Software Foundation, and
+  may be copied, distributed, and modified under those terms.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+INFO         | Android emulator version 36.6.11.0 (build_id 15507667) (CL:N/A)
+INFO         | Graphics backend: gfxstream

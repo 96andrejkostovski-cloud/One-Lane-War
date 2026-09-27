@@ -1,0 +1,28 @@
+Pure C# compiler/runtime only. NOT Unity/T001 editor proof. ToolEditor=C:\Unity\Hub\Editor\6000.3.18f1
+Mono JIT compiler version 6.13.0 (Visual Studio built mono)
+Copyright (C) Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+	TLS:           __thread
+	SIGSEGV:       normal
+	Notification:  Thread + polling
+	Architecture:  x86
+	Disabled:      none
+	Misc:          softdebug 
+	Interpreter:   yes
+	Suspend:       preemptive
+	GC:            sgen (concurrent by default)
+
+Algorithm : SHA256
+Hash      : 1EF3C7F3368281A7247EFB53CF3DB43CC03134AE1F55BA6C5E515A85C642F893
+Path      : C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+
+Algorithm : SHA256
+Hash      : 7228085C2028C2426F8AE4272C9BA7EFDCAA76B08B8EA8EA9168C203BB0BCB15
+Path      : C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\csc.exe
+
+Algorithm : SHA256
+Hash      : 72CF291D4BAB0EDD08A9B07C6173E1E7AD1ABB7AB727FD7044BF6305D7515661
+Path      : C:\Unity\Hub\Editor\6000.3.18f1\Editor\Data\Managed\Newtonsoft.Json.dll
+
+﻿Assets\OneLaneWar\Core\Content.cs(41,10): error CS0012: The type 'Attribute' is defined in an assembly that is not referenced. You must add a reference to assembly 'netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'.
+﻿
+EXIT=1

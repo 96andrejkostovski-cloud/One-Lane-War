@@ -1,0 +1,8 @@
+{
+  "scope": "SOURCE FILES/REFERENCES/STRUCTURE ONLY;NOT UNITY OR GAME TESTS",
+  "manifest_checked": false,
+  "checks": 837,
+  "passed": 837,
+  "failed": 0
+}
+EXIT=0

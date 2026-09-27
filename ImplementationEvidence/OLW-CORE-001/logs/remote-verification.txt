@@ -1,0 +1,8 @@
+{"default_branch":"main","full_name":"96andrejkostovski-cloud/One-Lane-War","permissions":{"admin":true,"maintain":true,"pull":true,"push":true,"triage":true},"private":false}
+repository_exit=0
+{"name":"main","protected":false,"sha":"c8130bfb304b40047c703b44ff3db19bc5cae89d"}
+branches_exit=0
+[]rulesets_exit=0
+c8130bfb304b40047c703b44ff3db19bc5cae89d	HEAD
+c8130bfb304b40047c703b44ff3db19bc5cae89d	refs/heads/main
+refs_exit=0

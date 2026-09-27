@@ -1,0 +1,21 @@
+
+Algorithm : SHA256
+Hash      : 6C5AB38839A42DFE9A8C0085860D13BF05899441B2A389F3B6D243B552A16D90
+Path      : C:\Users\Andrej\Downloads\One Lane War\One_Lane_War_Codex_Source_v1.0.0\SOURCE_MANIFEST.json
+
+Algorithm : SHA256
+Hash      : AED8A3CD8394F55D71E4A4B5E008E9A130CE67CEDE3501C3EFEBB288BAD24DEB
+Path      : C:\Users\Andrej\Downloads\One Lane War\Documentation\SourceAmendments\OLW-AMEND-001.md
+
+Algorithm : SHA256
+Hash      : 33444CD4CC77AF87883CD0A9930CBD587274AA6822850048E2C8813EC404F5EE
+Path      : C:\Users\Andrej\Downloads\One Lane War\Documentation\SourceAmendments\OLW-AMEND-002.md
+
+Algorithm : SHA256
+Hash      : B3C2A8C226F7E96778BE8F74BA93A6FA91FFFE46965D65F76D229F1830CF2EF5
+Path      : C:\Users\Andrej\Downloads\One Lane War\Documentation\SourceAmendments\OLW-AMEND-003.md
+
+Algorithm : SHA256
+Hash      : 69F02358F49CFFC429D9F87FCC6ECC2A461C4D08B766F96ECC5533C814F69859
+Path      : C:\Users\Andrej\Downloads\One Lane War\Documentation\SourceAmendments\OLW-AMEND-004.md
+

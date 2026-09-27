@@ -1,0 +1,2 @@
+# Preserve captured bytes so evidence-hashes.json survives checkout unchanged.
+** -text -eol
