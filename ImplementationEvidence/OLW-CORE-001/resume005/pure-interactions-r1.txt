@@ -1,0 +1,160 @@
+Pure C# compiler/runtime only. NOT Unity/T001 editor proof. ToolEditor=C:\Program Files\Unity\Hub\Editor\6000.3.21f1
+UTC=2026-09-27T20:05:46.6374767Z
+TESTED_HEAD=5fe736af31765bb7e31f2bfb02517e9f17336bfb
+ M Assets/OneLaneWar/Core/CombatModel.cs
+ M Assets/OneLaneWar/Core/Content.cs
+ M Assets/OneLaneWar/Tests/Fixtures/ModelFixtures.cs
+ M Assets/OneLaneWar/Tests/Fixtures/OneLaneWar.ModelFixtures.asmdef
+ M Tools/run-pure-tests.ps1
+?? Assets/OneLaneWar.meta
+?? Assets/OneLaneWar/Core.meta
+?? Assets/OneLaneWar/Core/AssemblyInfo.cs.meta
+?? Assets/OneLaneWar/Core/CombatModel.cs.meta
+?? Assets/OneLaneWar/Core/Content.cs.meta
+?? Assets/OneLaneWar/Core/OneLaneWar.Core.asmdef.meta
+?? Assets/OneLaneWar/Editor.meta
+?? Assets/OneLaneWar/Editor/
+?? Assets/OneLaneWar/Presentation.meta
+?? Assets/OneLaneWar/Presentation/
+?? Assets/OneLaneWar/Resources.meta
+?? Assets/OneLaneWar/Resources/
+?? Assets/OneLaneWar/Tests.meta
+?? Assets/OneLaneWar/Tests/EditMode.meta
+?? Assets/OneLaneWar/Tests/EditMode/
+?? Assets/OneLaneWar/Tests/Fixtures.meta
+?? Assets/OneLaneWar/Tests/Fixtures/ModelFixtures.cs.meta
+?? Assets/OneLaneWar/Tests/Fixtures/OneLaneWar.ModelFixtures.asmdef.meta
+?? Assets/OneLaneWar/Tests/PlayMode.meta
+?? Assets/OneLaneWar/Tests/PlayMode/
+?? Assets/Scenes.meta
+?? Assets/Scenes/
+?? ImplementationEvidence/OLW-CORE-001/resume005/
+?? Packages/
+?? ProjectSettings/
+?? Tools/install-t001-components.py
+?? Tools/run-unity.ps1
+Mono JIT compiler version 6.13.0 (Visual Studio built mono)
+Copyright (C) Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+	TLS:           __thread
+	SIGSEGV:       normal
+	Notification:  Thread + polling
+	Architecture:  x86
+	Disabled:      none
+	Misc:          softdebug 
+	Interpreter:   yes
+	Suspend:       preemptive
+	GC:            sgen (concurrent by default)
+
+Algorithm : SHA256
+Hash      : 1EF3C7F3368281A7247EFB53CF3DB43CC03134AE1F55BA6C5E515A85C642F893
+Path      : C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+
+Algorithm : SHA256
+Hash      : 7228085C2028C2426F8AE4272C9BA7EFDCAA76B08B8EA8EA9168C203BB0BCB15
+Path      : C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\csc.exe
+
+Algorithm : SHA256
+Hash      : 72CF291D4BAB0EDD08A9B07C6173E1E7AD1ABB7AB727FD7044BF6305D7515661
+Path      : C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\Managed\Newtonsoft.Json.dll
+
+﻿
+﻿
+
+Algorithm : SHA256
+Hash      : 5406659818B9D9BC87589C96CFF8061ABC2B7226B489DC039699AE51EC5C7686
+Path      : C:\Users\Andrej\Downloads\One Lane War\Temp\PureTests\OneLaneWar.PureTests.exe
+
+﻿PASS barrier.exact_expiry_with_remaining_budget
+PASS barrier.first_hit_same_tick_budget_and_expiry
+PASS battle.empty_lane_and_no_tick_zero_income
+PASS bolt.does_not_chase_past_extent
+PASS bolt.no_travel_on_release_tick
+PASS bolt.shooter_death_does_not_remove_projectile
+PASS bolt.target_death_and_swept_intersection
+PASS boss.bulwark_resolved_stats_barrier
+PASS boss.powder_captain_resolved_stats
+PASS commands.reject_duplicate_sequence_and_past_tick
+PASS content.all_15_loadouts_have_18_upgrades
+PASS content.all_authored_queues_and_boss_replacements
+PASS content.bad_selection_rejected
+PASS content.canonical_counts_and_hash
+PASS content.modified_bytes_rejected
+PASS content.unknown_reference_rejected
+PASS damage.minimum_one_and_overkill_diagnostics
+PASS deploy.cap_includes_living_bonus_and_releases_next_tick
+PASS deploy.cooldown_exact_six_ticks
+PASS deploy.insufficient_and_unequipped_spend_nothing
+PASS deploy.same_tick_cooldown_is_atomic
+PASS end.due_impact_before_hard_finish
+PASS end.hard_finish_fractions_and_draw
+PASS end.overtime_exact_tick_3000
+PASS end.queue_cutoff_at_3600
+PASS end.simultaneous_base_destruction_draw
+PASS formation.body_blocks_ram_base_target
+PASS formation.melee_passes_friendly_ranged
+PASS formation.opposing_fast_units_proportional_clamp
+PASS formation.ranged_only_targetable
+PASS formation.three_slots_reserve_turnover
+PASS formation.unequal_speed_mirror_stable
+PASS grenade.commits_ground_position_and_no_friendly_fire
+PASS grenade.radius_edge_and_no_base_splash_bypass
+PASS interaction.boots_march_and_barrier_from_modified_hp
+PASS interaction.brute_belly_force_and_sweep
+PASS interaction.militia_hp_damage_and_field_training
+PASS interaction.powder_charges_fuses_splash_edge
+FAIL interaction.ram_engineering_frame_training_paid_and_base: System.Exception:  expected=560 actual=567
+  at OneLaneWar.Tests.ModelFixtures.Equal[T] (T expected, T actual, System.String context) [0x0006d] in <839d85e540ab44a5a06af0cf21525233>:0 
+  at OneLaneWar.Tests.ModelFixtures+<>c.<.cctor>b__13_77 () [0x00093] in <839d85e540ab44a5a06af0cf21525233>:0 
+  at PureTestRunner.Main (System.String[] args) [0x00043] in <839d85e540ab44a5a06af0cf21525233>:0 
+PASS interaction.windlass_reload_delivers_modified_bolt
+PASS melee.same_tick_mutual_kill
+PASS melee.target_death_causes_miss_not_retarget
+PASS numeric.exact_decimal_half_up_and_ceiling
+PASS pause.overlapping_reasons_and_no_catchup
+PASS rally.initial_boundary_duplicate_and_expiry
+PASS rally.snapshots_existing_attack
+REPLAY fps=30 speed=1 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=30 speed=2 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=30 speed=4 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=30 speed=10 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=60 speed=1 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=60 speed=2 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=60 speed=4 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+REPLAY fps=60 speed=10 tick=1152 outcome=PlayerWin sha256=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+PASS replay.30_60fps_1_2_4_10x_identical
+SPAWN_PRESSURE encounter=c01_e01_b01 tick=582 command=ACCEPTED player_x=800000 enemy_x=825000 required_gap=500000
+PASS spawn_contact.canonical_fortress_reinforcement
+PASS spawn_contact.conscription_cap_supply_accounting
+PASS spawn_contact.enemy_queue_symmetric
+PASS spawn_contact.nearest_then_id_priority_before_forward
+PASS spawn_contact.no_movement_created_exception_or_crossing
+PASS spawn_contact.released_grenade_base_impact_is_blocked
+PASS spawn_contact.reserves_do_not_attack_or_gain_slots
+PASS spawn_contact.reverse_centres_hold_and_resume_after_death
+PASS spawn_contact.reverse_crossbow_hits_after_release_not_immediately
+PASS upgrade.u01_conscription_nonrecursive_and_owed_cap
+PASS upgrade.u02_scrap_blades
+PASS upgrade.u03_thick_coats
+PASS upgrade.u04_first_into_battle_modified_hp
+PASS upgrade.u05_reinforced_shields
+PASS upgrade.u06_heavy_boots
+PASS upgrade.u07_piercing_bolts_one_secondary_independent_armor
+PASS upgrade.u08_tighter_windlass
+PASS upgrade.u09_quick_reload
+PASS upgrade.u10_packed_powder
+PASS upgrade.u11_heavy_charges
+PASS upgrade.u12_fast_fuses
+PASS upgrade.u13_sweeping_club_two_secondaries
+PASS upgrade.u14_iron_belly
+PASS upgrade.u15_brutal_force
+PASS upgrade.u16_splintering_head_third_direct_hit
+PASS upgrade.u17_siege_engineering_additive_cost
+PASS upgrade.u18_reinforced_frame
+PASS upgrade.u19_war_economy
+PASS upgrade.u20_deep_stores
+PASS upgrade.u21_war_drums
+PASS upgrade.u22_field_training
+PASS upgrade.u23_rapid_orders_preserves_initial_delay
+PASS upgrade.u24_forced_march_additive_with_boots
+RESULT passed=79 failed=1 total=80
+﻿

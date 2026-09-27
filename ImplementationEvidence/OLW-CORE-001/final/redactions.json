@@ -1,0 +1,152 @@
+{
+  "reason": "Remove Unity licensing/account identifiers before public Git handoff. Test outcomes, commands and diagnostics retained; raw bytes preserved in ignored Builds/RawEvidence.",
+  "files": [
+    {
+      "path": "resume005/android-r1.log",
+      "identifier_lines": 1,
+      "raw_sha256": "af4a116cc948182b19931f9bdf0b3513a0303b9ae5fdecba9ac38b8b6eabeccc",
+      "published_sha256": "920bb43295a2fbde1761637c7c3754aaf21f7a8c75fd72783e0c6b9adc80c943",
+      "local_raw": "Builds/RawEvidence/resume005/android-r1.log"
+    },
+    {
+      "path": "resume005/android-r2.log",
+      "identifier_lines": 1,
+      "raw_sha256": "64e4f3ba527a78df13f79d48fe02fcb67933d29d23c678ee1fe7ec3628e1f067",
+      "published_sha256": "71cf21727298b8ada814d39d821e6f8ef72218078b5d2cda67fd5f9316fb7286",
+      "local_raw": "Builds/RawEvidence/resume005/android-r2.log"
+    },
+    {
+      "path": "resume005/editmode-r1.log",
+      "identifier_lines": 1,
+      "raw_sha256": "3e7922e137e879e23d3393ad9fe9251d2c901a4130da76c906e808d64bd8fd91",
+      "published_sha256": "a4f6fad890c378eb7beb6a24e560ececda2ef843b4adce1429696f50cb383493",
+      "local_raw": "Builds/RawEvidence/resume005/editmode-r1.log"
+    },
+    {
+      "path": "resume005/playmode-r1.log",
+      "identifier_lines": 1,
+      "raw_sha256": "a47b51ad306149c7509d3548451fb0430fb9e667bf6bb22bc013b906db85da5f",
+      "published_sha256": "414694d6ff1a4e37fe80a3495414b0d7e2a94ae9d86d09cfbb48314071dbb27c",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r1.log"
+    },
+    {
+      "path": "resume005/playmode-r10.log",
+      "identifier_lines": 1,
+      "raw_sha256": "fc620ace016bd3584fc17975daa1f7a32b158328bed1662bc7ea8de08822ad4f",
+      "published_sha256": "3a07d4d28d67890b83f578bd04a43995f5037610cb6a75237fffadeeacd9f6e2",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r10.log"
+    },
+    {
+      "path": "resume005/playmode-r11.log",
+      "identifier_lines": 1,
+      "raw_sha256": "c24175b4078f1697c24accf39c258ce1df569bf2228a95e57185161c445fd306",
+      "published_sha256": "5515cfaf49796b07dab9f7430f1161496a2de56b7097f34070514967aec386b8",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r11.log"
+    },
+    {
+      "path": "resume005/playmode-r12.log",
+      "identifier_lines": 1,
+      "raw_sha256": "ed98e4baf87c9fbfb3295f9b718ac95b3bf8c71bc1e1f1c93ccf09721bb1a463",
+      "published_sha256": "0f55aea374946035331d0cf0cbd0a21e6795446705e39e7b0e269f3b1880cc4f",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r12.log"
+    },
+    {
+      "path": "resume005/playmode-r13.log",
+      "identifier_lines": 1,
+      "raw_sha256": "46f49eff9cef6df904c2bcfdb610c88d71edf46a60137aca33778af0e02fb376",
+      "published_sha256": "f458b5fc5c7ed5cad56f696ec52fa0bb50a7b791006e9f808dfe8fb97b7fc60d",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r13.log"
+    },
+    {
+      "path": "resume005/playmode-r2.log",
+      "identifier_lines": 1,
+      "raw_sha256": "0e7d0e849bb44247d48cf1a4528cecb9dca88cdfb121c513a4b93b1869e72f51",
+      "published_sha256": "28db33c0c3826c46c47adce55a3e4a8fd186eb6c70d49ad0da972b7c8d88cc6f",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r2.log"
+    },
+    {
+      "path": "resume005/playmode-r3.log",
+      "identifier_lines": 1,
+      "raw_sha256": "855d2e91e6a9f1736243c034e08db8a5ac4e82929be93260b25b043a02267521",
+      "published_sha256": "d7021531ba508423278fe1b3d8bfbccc646fe69215c819822c2f5e5c0303b21e",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r3.log"
+    },
+    {
+      "path": "resume005/playmode-r4.log",
+      "identifier_lines": 1,
+      "raw_sha256": "3dd491f889cd5347ca2eb1198c361e5b1cc6d1995b7957e90165a8794bc4497c",
+      "published_sha256": "45aaf15d23cf8b1ae04a463052cb72a3d1fe523cb69116071a0fdd9724ce8412",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r4.log"
+    },
+    {
+      "path": "resume005/playmode-r5.log",
+      "identifier_lines": 1,
+      "raw_sha256": "6ca09183e99c22e818b737865f64013d62aac2b0632fd7f818a2a6bb7d942423",
+      "published_sha256": "37476af6c723b9965a4b2ba1ac0a9922504a88068e357b53a4dbcb8ffeaa229e",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r5.log"
+    },
+    {
+      "path": "resume005/playmode-r6.log",
+      "identifier_lines": 1,
+      "raw_sha256": "d649e62c7383d40a5131773020344df3ede92a3d5a3819762cc3242e8228cbf7",
+      "published_sha256": "d8e26713e97f3ff91a8f98ce46f5577a903ed0c870ebe08a8be62c4a787b5817",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r6.log"
+    },
+    {
+      "path": "resume005/playmode-r7.log",
+      "identifier_lines": 1,
+      "raw_sha256": "f88e272b20b86740b90ffd2951366e7f78f0d2e054a4ead8320ab31b6f34ce6c",
+      "published_sha256": "0595ace500194c0435be905675eeb4fbed3c0b1181a5949fa8bd2043d070ceb1",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r7.log"
+    },
+    {
+      "path": "resume005/playmode-r8.log",
+      "identifier_lines": 1,
+      "raw_sha256": "aa5aa02b5428cce7b452da32e7c1fc4f2ca4f80acd06c0428165eca822743e2a",
+      "published_sha256": "1817c365f30dcf8c5cab7448d3e07093e8548ae39c06a0cf75f270d46aa069e5",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r8.log"
+    },
+    {
+      "path": "resume005/playmode-r9.log",
+      "identifier_lines": 1,
+      "raw_sha256": "b8b52f9fcf6a3dbcc2724560fbc372ba3518ae71972000a32aaa44f8370014df",
+      "published_sha256": "d98ead528daf6b0798dbceb4f7c80de556bac308aa3f1909721d911f7decfd4c",
+      "local_raw": "Builds/RawEvidence/resume005/playmode-r9.log"
+    },
+    {
+      "path": "resume005/unity-initial-import.log",
+      "identifier_lines": 1,
+      "raw_sha256": "622ca36fd380cde27e84efdffb4344b01e4fb7ec15295385aa0b530e60c4d2a8",
+      "published_sha256": "86c46173f8c08205e485923b10f340bdf084b093e975e66c175989ad8323aaa3",
+      "local_raw": "Builds/RawEvidence/resume005/unity-initial-import.log"
+    },
+    {
+      "path": "resume005/unity-prepare-r1.log",
+      "identifier_lines": 1,
+      "raw_sha256": "5421a5c3c7df0568e47da616cf66c2b2d05740ee796d5060b1622254d043c5ea",
+      "published_sha256": "890b468a2eb8229aa7373954d118424a6093b1e25f86f6c34c0163b96a8066f4",
+      "local_raw": "Builds/RawEvidence/resume005/unity-prepare-r1.log"
+    },
+    {
+      "path": "final/android-clean.log",
+      "identifier_lines": 1,
+      "raw_sha256": "9e2c742525ee51bcd4160cd176d6843164ed78c8be9569a86194efa8ea2a45af",
+      "published_sha256": "05c9175928832603d360a549c979ad62f48cb12c080664490617bb8052b4fbf5",
+      "local_raw": "Builds/RawEvidence/final/android-clean.log"
+    },
+    {
+      "path": "final/editmode.log",
+      "identifier_lines": 1,
+      "raw_sha256": "69856be6a00f9fd8dc4e513717fc8643c12835c1e5d2d431d9d70674b32c9b13",
+      "published_sha256": "ed11cfae1aca2c77822bf526151022c0083507b1e0dc351e32a0c02f2db582ea",
+      "local_raw": "Builds/RawEvidence/final/editmode.log"
+    },
+    {
+      "path": "final/playmode.log",
+      "identifier_lines": 1,
+      "raw_sha256": "a00080279a0981860525ac97fe0e62394a9edaddab81b4a1c7176783ad24315c",
+      "published_sha256": "19e97ecbfdeb5200f219d3bd75000f3bc52ca118814a7798f9a943268534760e",
+      "local_raw": "Builds/RawEvidence/final/playmode.log"
+    }
+  ]
+}

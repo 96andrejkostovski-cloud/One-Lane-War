@@ -1,0 +1,339 @@
+Captured at: 22:55:06.260
+Sensor Device:
+Total 12 h/w sensors, 12 running 0 disabled clients:
+0x00000000) active-count = 3; sampling_period(ms) = {66.7, 200.0, 200.0}, selected = 66.67 ms; batching_period(ms) = {100.0, 2000.0, 0.0}, selected = 100.00 ms
+Sensor List:
+0000000000) Goldfish 3-axis Accelerometer | The Android Open Source Project | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000050
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, has-additional-info, 
+0x00000001) Goldfish 3-axis Gyroscope | The Android Open Source Project | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000050
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, has-additional-info, 
+0x00000002) Goldfish 3-axis Magnetic field sensor | The Android Open Source Project | ver: 1 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000010
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, 
+0x00000003) Goldfish Orientation sensor | The Android Open Source Project | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000010
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, 
+0x00000004) Goldfish Ambient Temperature sensor | The Android Open Source Project | ver: 1 | type: android.sensor.ambient_temperature(13) | perm: n/a | flags: 0x00000012
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | data-injection, 
+0x00000005) Goldfish Proximity sensor | The Android Open Source Project | ver: 1 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000013
+	on-change | maxDelay=0us | minDelay=0us | no batching | wakeUp | data-injection, 
+0x00000006) Goldfish Light sensor     | The Android Open Source Project | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000012
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | data-injection, 
+0x00000007) Goldfish Pressure sensor  | The Android Open Source Project | ver: 1 | type: android.sensor.pressure(6) | perm: n/a | flags: 0x00000010
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, 
+0x00000008) Goldfish Humidity sensor  | The Android Open Source Project | ver: 1 | type: android.sensor.relative_humidity(12) | perm: n/a | flags: 0x00000012
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | data-injection, 
+0x00000009) Goldfish 3-axis Magnetic field sensor (uncalibrated) | The Android Open Source Project | ver: 1 | type: android.sensor.magnetic_field_uncalibrated(14) | perm: n/a | flags: 0x00000010
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, 
+0x0000000a) Goldfish 3-axis Gyroscope (uncalibrated) | The Android Open Source Project | ver: 1 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x00000010
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, 
+0x00000011) Goldfish 3-axis Accelerometer Uncalibrated | The Android Open Source Project | ver: 1 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x00000050
+	continuous | minRate=2.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | data-injection, has-additional-info, 
+0x5f636779) Corrected Gyroscope Sensor | AOSP            | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f676172) Game Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f676273) Gyroscope Bias (debug)    | AOSP            | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f67656f) GeoMag Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.geomagnetic_rotation_vector(20) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f677276) Gravity Sensor            | AOSP            | ver: 3 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f6c696e) Linear Acceleration Sensor | AOSP            | ver: 3 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f726f76) Rotation Vector Sensor    | AOSP            | ver: 3 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f797072) Orientation Sensor        | AOSP            | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+Fusion States:
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0.677248, 1.21123e-05, 7.49069e-05, 0.735755 > (1), b=< 3.69193e-12, 4.26089e-12, 2.55276e-12 >
+game fusion(no mag) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0.495021, -0.462197, -0.502066, 0.537827 > (1), b=< 0, 0, 0 >
+geomag fusion (no gyro) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+Recent Sensor events:
+Rotation Vector Sensor: last 10 events
+	 1 (ts=2282.206144100, wall=22:51:10.070) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 2 (ts=2282.226144100, wall=22:51:10.087) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 3 (ts=2282.246144100, wall=22:51:10.110) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 4 (ts=2282.266144100, wall=22:51:10.129) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 5 (ts=2282.286144100, wall=22:51:10.151) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 6 (ts=2282.306144100, wall=22:51:10.168) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 7 (ts=2282.326144100, wall=22:51:10.187) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 8 (ts=2282.346144100, wall=22:51:10.211) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	 9 (ts=2282.366144100, wall=22:51:10.229) 0.68, 0.00, 0.00, 0.74, 0.00, 
+	10 (ts=2282.386144100, wall=22:51:10.247) 0.68, 0.00, 0.00, 0.74, 0.00, 
+Goldfish 3-axis Gyroscope (uncalibrated): last 10 events
+	 1 (ts=2282.368657100, wall=22:51:10.230) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 2 (ts=2282.373657100, wall=22:51:10.239) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 3 (ts=2282.378657100, wall=22:51:10.239) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 4 (ts=2282.383657100, wall=22:51:10.245) 0.00, 0.00, 0.00, 0.00, -0.00, 0.00, 
+	 5 (ts=2282.388657100, wall=22:51:10.250) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 6 (ts=2282.393657100, wall=22:51:10.255) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 7 (ts=2282.398657100, wall=22:51:10.260) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 8 (ts=2282.403657100, wall=22:51:10.266) 0.00, 0.00, 0.00, -0.00, 0.00, -0.00, 
+	 9 (ts=2282.408657100, wall=22:51:10.274) 0.00, 0.00, 0.00, 0.00, 0.00, -0.00, 
+	10 (ts=2282.413657100, wall=22:51:10.274) 0.00, 0.00, 0.00, -0.00, 0.00, 0.00, 
+Goldfish Pressure sensor: last 10 events
+	 1 (ts=1825.944842800, wall=22:43:33.806) 1013.25, 0.00, 0.00, 
+	 2 (ts=1826.044842800, wall=22:43:33.914) 1013.25, 0.00, 0.00, 
+	 3 (ts=1826.144842800, wall=22:43:34.006) 1013.25, 0.00, 0.00, 
+	 4 (ts=1826.244842800, wall=22:43:34.107) 1013.25, 0.00, 0.00, 
+	 5 (ts=1826.344842800, wall=22:43:34.206) 1013.25, 0.00, 0.00, 
+	 6 (ts=1826.444842800, wall=22:43:34.305) 1013.25, 0.00, 0.00, 
+	 7 (ts=1826.544842800, wall=22:43:34.406) 1013.25, 0.00, 0.00, 
+	 8 (ts=1826.644842800, wall=22:43:34.506) 1013.25, 0.00, 0.00, 
+	 9 (ts=1826.744842800, wall=22:43:34.606) 1013.25, 0.00, 0.00, 
+	10 (ts=1826.844842800, wall=22:43:34.706) 1013.25, 0.00, 0.00, 
+Linear Acceleration Sensor: last 10 events
+	 1 (ts=2282.226144100, wall=22:51:10.087) -0.00, 0.00, 0.00, 
+	 2 (ts=2282.246144100, wall=22:51:10.110) -0.00, 0.00, 0.00, 
+	 3 (ts=2282.266144100, wall=22:51:10.129) -0.00, 0.00, 0.00, 
+	 4 (ts=2282.286144100, wall=22:51:10.151) -0.00, 0.00, 0.00, 
+	 5 (ts=2282.306144100, wall=22:51:10.168) -0.00, 0.00, 0.00, 
+	 6 (ts=2282.326144100, wall=22:51:10.187) -0.00, 0.00, 0.00, 
+	 7 (ts=2282.346144100, wall=22:51:10.211) -0.00, 0.00, 0.00, 
+	 8 (ts=2282.366144100, wall=22:51:10.229) -0.00, 0.00, 0.00, 
+	 9 (ts=2282.386144100, wall=22:51:10.247) -0.00, 0.00, 0.00, 
+	10 (ts=2282.406144100, wall=22:51:10.274) -0.00, 0.00, 0.00, 
+Goldfish 3-axis Magnetic field sensor: last 10 events
+	 1 (ts=2282.315993000, wall=22:51:10.177) 0.00, 9.88, -47.75, 
+	 2 (ts=2282.325993000, wall=22:51:10.187) 0.00, 9.88, -47.75, 
+	 3 (ts=2282.335993000, wall=22:51:10.197) 0.00, 9.88, -47.75, 
+	 4 (ts=2282.345993000, wall=22:51:10.211) 0.00, 9.88, -47.75, 
+	 5 (ts=2282.355993000, wall=22:51:10.217) 0.00, 9.88, -47.75, 
+	 6 (ts=2282.365993000, wall=22:51:10.227) 0.00, 9.88, -47.75, 
+	 7 (ts=2282.375993000, wall=22:51:10.239) 0.00, 9.88, -47.75, 
+	 8 (ts=2282.385993000, wall=22:51:10.247) 0.00, 9.88, -47.75, 
+	 9 (ts=2282.395993000, wall=22:51:10.257) 0.00, 9.88, -47.75, 
+	10 (ts=2282.405993000, wall=22:51:10.274) 0.00, 9.88, -47.75, 
+Goldfish 3-axis Accelerometer: last 50 events
+	 1 (ts=2515.127273100, wall=22:55:02.993) -9.81, 0.00, 0.00, 
+	 2 (ts=2515.193940100, wall=22:55:03.057) -9.81, 0.00, 0.00, 
+	 3 (ts=2515.260607100, wall=22:55:03.122) -9.81, 0.00, 0.00, 
+	 4 (ts=2515.327274100, wall=22:55:03.189) -9.81, 0.00, 0.00, 
+	 5 (ts=2515.393941100, wall=22:55:03.255) -9.81, 0.00, 0.00, 
+	 6 (ts=2515.460608100, wall=22:55:03.324) -9.81, 0.00, 0.00, 
+	 7 (ts=2515.527275100, wall=22:55:03.391) -9.81, 0.00, 0.00, 
+	 8 (ts=2515.593942100, wall=22:55:03.455) -9.81, 0.00, 0.00, 
+	 9 (ts=2515.660609100, wall=22:55:03.522) -9.81, 0.00, 0.00, 
+	10 (ts=2515.727276100, wall=22:55:03.589) -9.81, 0.00, 0.00, 
+	11 (ts=2515.793943100, wall=22:55:03.655) -9.81, 0.00, 0.00, 
+	12 (ts=2515.860610100, wall=22:55:03.731) -9.81, 0.00, 0.00, 
+	13 (ts=2515.927277100, wall=22:55:03.795) -9.81, 0.00, 0.00, 
+	14 (ts=2515.993944100, wall=22:55:03.858) -9.81, 0.00, 0.00, 
+	15 (ts=2516.060611100, wall=22:55:03.922) -9.81, 0.00, 0.00, 
+	16 (ts=2516.127278100, wall=22:55:03.992) -9.81, 0.00, 0.00, 
+	17 (ts=2516.193945100, wall=22:55:04.054) -9.81, 0.00, 0.00, 
+	18 (ts=2516.260612100, wall=22:55:04.126) -9.81, 0.00, 0.00, 
+	19 (ts=2516.327279100, wall=22:55:04.189) -9.81, 0.00, 0.00, 
+	20 (ts=2516.393946100, wall=22:55:04.255) -9.81, 0.00, 0.00, 
+	21 (ts=2516.460613100, wall=22:55:04.328) -9.81, 0.00, 0.00, 
+	22 (ts=2516.527280100, wall=22:55:04.388) -9.81, 0.00, 0.00, 
+	23 (ts=2516.593947100, wall=22:55:04.464) -9.81, 0.00, 0.00, 
+	24 (ts=2516.660614100, wall=22:55:04.543) -9.81, 0.00, 0.00, 
+	25 (ts=2516.727281100, wall=22:55:04.590) -9.81, 0.00, 0.00, 
+	26 (ts=2516.793948100, wall=22:55:04.664) -9.81, 0.00, 0.00, 
+	27 (ts=2516.860615100, wall=22:55:04.723) -9.81, 0.00, 0.00, 
+	28 (ts=2516.927282100, wall=22:55:04.789) -9.81, 0.00, 0.00, 
+	29 (ts=2516.993949100, wall=22:55:04.859) -9.81, 0.00, 0.00, 
+	30 (ts=2517.060616100, wall=22:55:04.921) -9.81, 0.00, 0.00, 
+	31 (ts=2517.127283100, wall=22:55:04.988) -9.81, 0.00, 0.00, 
+	32 (ts=2517.193950100, wall=22:55:05.055) -9.81, 0.00, 0.00, 
+	33 (ts=2517.260617100, wall=22:55:05.122) -9.81, 0.00, 0.00, 
+	34 (ts=2517.327284100, wall=22:55:05.188) -9.81, 0.00, 0.00, 
+	35 (ts=2517.393951100, wall=22:55:05.255) -9.81, 0.00, 0.00, 
+	36 (ts=2517.460618100, wall=22:55:05.324) -9.81, 0.00, 0.00, 
+	37 (ts=2517.527285100, wall=22:55:05.390) -9.81, 0.00, 0.00, 
+	38 (ts=2517.593952100, wall=22:55:05.457) -9.81, 0.00, 0.00, 
+	39 (ts=2517.660619100, wall=22:55:05.537) -9.81, 0.00, 0.00, 
+	40 (ts=2517.727286100, wall=22:55:05.589) -9.81, 0.00, 0.00, 
+	41 (ts=2517.793953100, wall=22:55:05.655) -9.81, 0.00, 0.00, 
+	42 (ts=2517.860620100, wall=22:55:05.722) -9.81, 0.00, 0.00, 
+	43 (ts=2517.927287100, wall=22:55:05.788) -9.81, 0.00, 0.00, 
+	44 (ts=2517.993954100, wall=22:55:05.857) -9.81, 0.00, 0.00, 
+	45 (ts=2518.060621100, wall=22:55:05.935) -9.81, 0.00, 0.00, 
+	46 (ts=2518.127288100, wall=22:55:05.988) -9.81, 0.00, 0.00, 
+	47 (ts=2518.193955100, wall=22:55:06.057) -9.81, 0.00, 0.00, 
+	48 (ts=2518.260622100, wall=22:55:06.123) -9.81, 0.00, 0.00, 
+	49 (ts=2518.327289100, wall=22:55:06.189) -9.81, 0.00, 0.00, 
+	50 (ts=2518.393956100, wall=22:55:06.255) -9.81, 0.00, 0.00, 
+Active sensors:
+Goldfish 3-axis Accelerometer (handle=0x00000000, connections=3)
+Socket Buffer size = 39 events
+WakeLock Status: not held 
+Mode : NORMAL
+Sensor Privacy: disabled
+3 open event connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 com.android.server.wm.WindowOrientationListener$AccelSensorJudge | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 984 | has sensor access: true
+	 Goldfish 3-axis Accelerometer 0x00000000 | first flush pending: false | pending flush events 0 
+Connection Number: 1 
+	Operating Mode: NORMAL
+	 com.android.server.power.FaceDownDetector | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 984 | has sensor access: true
+	 Goldfish 3-axis Accelerometer 0x00000000 | first flush pending: false | pending flush events 0 
+Connection Number: 2 
+	Operating Mode: NORMAL
+	 android.view.OrientationEventListener | WakeLockRefCount 0 | uid 10217 | cache size 0 | max cache size 0 | has sensor access: true
+	 Goldfish 3-axis Accelerometer 0x00000000 | first flush pending: false | pending flush events 0 
+0 open direct connections
+Previous Registrations:
+22:53:19 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:53:16 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:53:11 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:53:07 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:51:10 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:51:10 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:51:10 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:51:10 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:48:42 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:48:38 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:48:33 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:48:30 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:45:51 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:45:51 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:45:51 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:45:51 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:45:41 - 0x5f67656f pid= 8485 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (GeoMag Rotation Vector Sensor, unknown_package_pid_8485)
+22:45:41 - 0x00000011 pid= 8485 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Accelerometer Uncalibrated, unknown_package_pid_8485)
+22:45:41 - 0x0000000a pid= 8485 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Gyroscope (uncalibrated), unknown_package_pid_8485)
+22:45:41 - 0x00000009 pid= 8485 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Magnetic field sensor (uncalibrated), unknown_package_pid_8485)
+22:45:41 - 0x00000003 pid= 8485 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish Orientation sensor, unknown_package_pid_8485)
+22:45:38 + 0x00000000 pid= 8485 uid=10217 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, android.view.OrientationEventListener)
+22:44:04 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:44:00 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:43:55 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:43:53 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:53 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:52 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+22:43:43 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:43 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:43 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:43 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:43 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:43 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:35 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:35 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:34 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:43:34 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:43:34 - 0x00000007 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish Pressure sensor   , com.google.android.location.fused.PressureProvider)
+22:43:34 - 0x00000000 pid= 7252 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.fused.StepDetector)
+22:43:33 + 0x00000000 pid= 7252 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.google.android.location.fused.StepDetector)
+22:43:30 + 0x00000007 pid= 7252 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish Pressure sensor   , com.google.android.location.fused.PressureProvider)
+22:42:27 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:42:27 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:42:27 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:42:27 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:40:30 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:40:30 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:40:30 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:40:30 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:55 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:55 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:52 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:52 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:49 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:49 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:49 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:49 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:04 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:04 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:04 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:39:04 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:02 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:39:02 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:59 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:59 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:49 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:49 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:47 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:47 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:47 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:47 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:39 - 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:39 - 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:29 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:29 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:38:29 + 0x5f726f76 pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:38:29 + 0x5f6c696e pid= 7727 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:31:42 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:31:42 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:31:39 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:31:38 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:30:39 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:30:39 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:30:38 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:30:38 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:29:53 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:29:53 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:29:50 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:29:50 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:28:18 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:28:18 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:28:15 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:28:15 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:25:44 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:25:44 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:25:44 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:25:44 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:25:39 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:25:39 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:25:38 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:25:38 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:22:47 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:22:47 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:22:45 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:22:45 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:22:43 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:22:43 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:22:39 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:22:39 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:21:58 - 0x5f67656f pid= 4320 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (GeoMag Rotation Vector Sensor, unknown_package_pid_4320)
+22:21:58 - 0x00000011 pid= 4320 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Accelerometer Uncalibrated, unknown_package_pid_4320)
+22:21:58 - 0x0000000a pid= 4320 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Gyroscope (uncalibrated), unknown_package_pid_4320)
+22:21:58 - 0x00000009 pid= 4320 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish 3-axis Magnetic field sensor (uncalibrated), unknown_package_pid_4320)
+22:21:58 - 0x00000003 pid= 4320 uid=10217 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=BAD_VALUE (sensor, package): (Goldfish Orientation sensor, unknown_package_pid_4320)
+22:21:35 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:21:35 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:21:33 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:21:33 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:21:11 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:21:11 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:21:08 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:21:08 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:55 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:55 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:52 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:52 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:52 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:52 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:49 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:49 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:33 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:33 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:30 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:30 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:16 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:16 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:14 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:14 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:11 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:11 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:09 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:09 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:00 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:00 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:20:00 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:20:00 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:59 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:59 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:19:57 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:57 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:19:45 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:19:45 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:40 - 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:19:40 - 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:38 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:38 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:19:31 + 0x5f726f76 pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+22:19:31 + 0x5f6c696e pid= 3211 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+22:18:52 + 0x00000000 pid= 4320 uid=10217 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, android.view.OrientationEventListener)
+22:15:24 + 0x00000000 pid=  654 uid= 1000 samplingPeriod=   66667us batchingPeriod=  100000us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.android.server.wm.WindowOrientationListener$AccelSensorJudge)
+22:15:09 + 0x00000000 pid=  654 uid= 1000 samplingPeriod=  200000us batchingPeriod= 2000000us result=OK (sensor, package): (Goldfish 3-axis Accelerometer, com.android.server.power.FaceDownDetector)

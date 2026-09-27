@@ -1,0 +1,20 @@
+TESTED_HEAD=f41126d87e77a534da977715224cf9d8ce7999ce
+UTC=2026-09-27T20:45:26.9453396Z
+SERIAL=emulator-5556
+APK_SHA256=18d8c724a21b30fc8dcd6e1d636331edb62f08e7d21581c1058eb2df42feee30
+COMMAND=adb -s emulator-5556 install -r Builds/Android/OneLaneWar-PH01.apk
+Performing Streamed Install
+Success
+INSTALL_EXIT=0
+COMMAND=adb -s emulator-5556 shell pm clear com.example.onelanewar.dev (only this Goal-created development app)
+Success
+CLEAR_EXIT=0
+COMMAND=adb -s emulator-5556 shell am start -W -n com.example.onelanewar.dev/com.unity3d.player.UnityPlayerGameActivity --ez olwProof true
+Starting: Intent { cmp=com.example.onelanewar.dev/com.unity3d.player.UnityPlayerGameActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.example.onelanewar.dev/com.unity3d.player.UnityPlayerGameActivity
+TotalTime: 5165
+WaitTime: 5189
+Complete
+LAUNCH_EXIT=0

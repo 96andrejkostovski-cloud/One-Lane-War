@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.9111829">
+  <test-suite type="TestSuite" id="1014" name="One Lane War PH01" fullname="One Lane War PH01" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.911183" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="OneLaneWar.PlayModeTests.dll" fullname="C:/Users/Andrej/Downloads/One Lane War/Library/ScriptAssemblies/OneLaneWar.PlayModeTests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.892345" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="58848" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1010" name="OneLaneWar" fullname="OneLaneWar" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.880583" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="OneLaneWar.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.879350" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="HarnessTests" fullname="OneLaneWar.Tests.HarnessTests" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:28:07Z" duration="12.875946" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1005" name="BackgroundRequiresExplicitResumeWithoutElapsedCredit" fullname="OneLaneWar.Tests.HarnessTests.BackgroundRequiresExplicitResumeWithoutElapsedCredit" methodname="BackgroundRequiresExplicitResumeWithoutElapsedCredit" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="925498108" result="Passed" start-time="2026-09-27 20:27:54Z" end-time="2026-09-27 20:27:56Z" duration="2.520964" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="CommandSubmissionDoesNotBypassDeploymentCooldown" fullname="OneLaneWar.Tests.HarnessTests.CommandSubmissionDoesNotBypassDeploymentCooldown" methodname="CommandSubmissionDoesNotBypassDeploymentCooldown" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1219107209" result="Passed" start-time="2026-09-27 20:27:56Z" end-time="2026-09-27 20:27:57Z" duration="0.135867" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="EveryEncounterAndEligibleUpgradeCanConfigure" fullname="OneLaneWar.Tests.HarnessTests.EveryEncounterAndEligibleUpgradeCanConfigure" methodname="EveryEncounterAndEligibleUpgradeCanConfigure" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1899774663" result="Passed" start-time="2026-09-27 20:27:57Z" end-time="2026-09-27 20:27:57Z" duration="0.117823" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="InputSystemRequiresReleaseAndCannotBypassCooldown" fullname="OneLaneWar.Tests.HarnessTests.InputSystemRequiresReleaseAndCannotBypassCooldown" methodname="InputSystemRequiresReleaseAndCannotBypassCooldown" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="236716653" result="Passed" start-time="2026-09-27 20:27:57Z" end-time="2026-09-27 20:27:57Z" duration="0.592457" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="RenderedHarnessMatchesHeadlessAcrossScheduledRates" fullname="OneLaneWar.Tests.HarnessTests.RenderedHarnessMatchesHeadlessAcrossScheduledRates" methodname="RenderedHarnessMatchesHeadlessAcrossScheduledRates" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1862648345" result="Passed" start-time="2026-09-27 20:27:57Z" end-time="2026-09-27 20:28:06Z" duration="8.771195" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[OLW_PLAYMODE_REPLAY scheduled_fps=30 speed=1 frames=1730 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=30 speed=2 frames=865 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=30 speed=4 frames=433 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=30 speed=10 frames=173 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=60 speed=1 frames=3459 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=60 speed=2 frames=1730 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=60 speed=4 frames=865 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+OLW_PLAYMODE_REPLAY scheduled_fps=60 speed=10 frames=346 hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+]]></output>
+            </test-case>
+            <test-case id="1002" name="SceneReloadDoesNotDuplicateHarnessOrInput" fullname="OneLaneWar.Tests.HarnessTests.SceneReloadDoesNotDuplicateHarnessOrInput" methodname="SceneReloadDoesNotDuplicateHarnessOrInput" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="955596849" result="Passed" start-time="2026-09-27 20:28:06Z" end-time="2026-09-27 20:28:07Z" duration="0.485682" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="SingleStepAndCleanCaptureDoNotAdvancePausedModel" fullname="OneLaneWar.Tests.HarnessTests.SingleStepAndCleanCaptureDoNotAdvancePausedModel" methodname="SingleStepAndCleanCaptureDoNotAdvancePausedModel" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="478819803" result="Passed" start-time="2026-09-27 20:28:07Z" end-time="2026-09-27 20:28:07Z" duration="0.201297" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\playmode-r13.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

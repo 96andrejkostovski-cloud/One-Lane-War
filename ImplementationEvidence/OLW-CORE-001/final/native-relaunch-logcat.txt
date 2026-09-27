@@ -1,0 +1,177 @@
+--------- beginning of main
+09-27 22:56:52.815  9214  9214 I .onelanewar.dev: Late-enabling -Xcheck:jni
+09-27 22:56:52.943  9214  9214 I .onelanewar.dev: Using CollectorTypeCMC GC.
+09-27 22:56:52.945  9214  9214 W .onelanewar.dev: Unexpected CPU variant for x86: x86_64.
+09-27 22:56:52.945  9214  9214 W .onelanewar.dev: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-27 22:56:53.066  9214  9214 I berberis: Initialized Berberis (aarch64), version 16.0.0
+09-27 22:56:53.224  9214  9214 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-27 22:56:53.892  9214  9214 D nativeloader: Configuring clns-9 for other apk /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64:/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.example.onelanewar.dev
+09-27 22:56:53.978  9214  9214 I .onelanewar.dev: AssetManager2(0x79c156290b38) locale list changing from [] to [en-US]
+09-27 22:56:53.988  9214  9214 V GraphicsEnvironment: Currently set values for:
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment: com.example.onelanewar.dev is not listed in per-application setting
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment: com.example.onelanewar.dev is not listed in ANGLE allowlist or settings, returning default
+09-27 22:56:53.989  9214  9214 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-27 22:56:54.190  9214  9214 I .onelanewar.dev: AssetManager2(0x79c156290e58) locale list changing from [] to [en-US]
+09-27 22:56:54.416  9214  9214 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libgame.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk!classes2.dex): ok
+09-27 22:56:54.421  9214  9214 D GameActivity: GameActivity_register
+09-27 22:56:54.495  9214  9214 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-27 22:56:54.498  9214  9214 I .onelanewar.dev: AssetManager2(0x79c1562901d8) locale list changing from [] to [en-US]
+09-27 22:56:54.508  9214  9214 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-27 22:56:54.523  9214  9214 D gti.InputConnection: InputConnection created
+09-27 22:56:54.524  9214  9214 D gti.InputConnection: setEditorInfo
+09-27 22:56:54.544  9214  9214 D CompatChangeReporter: Compat change id reported: 377864165; UID 10217; state: ENABLED
+09-27 22:56:54.547  9214  9214 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+09-27 22:56:54.576  9214  9214 I .onelanewar.dev: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+09-27 22:56:54.577  9214  9214 I .onelanewar.dev: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+09-27 22:56:54.598  9214  9214 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:56:54.604  9214  9214 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libmain.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): ok
+09-27 22:56:54.962  9214  9214 I IL2CPP  : JNI_OnLoad
+09-27 22:56:54.962  9214  9214 V Unity   : Context Type: GameActivity
+09-27 22:56:54.969  9214  9214 D Unity   : CommandLine:  
+09-27 22:56:55.005  9214  9214 I GameActivity: Looking for library libgame.so
+09-27 22:56:55.005  9214  9214 I GameActivity: Found library libgame.so. Loading...
+09-27 22:56:55.009  9214  9214 D GameActivity: SDK version: 36
+09-27 22:56:55.014  9214  9233 I Unity   : UnityApplication::CreateInstance
+09-27 22:56:55.014  9214  9233 I Unity   : GameActivity Package Version '4.4.0'
+09-27 22:56:55.021  9214  9233 I Unity   : Starting Game Loop
+09-27 22:56:55.105  9214  9214 I Unity   : onResume
+09-27 22:56:55.108  9214  9233 I Unity   : Handle cmd APP_CMD_START(11)
+09-27 22:56:55.125  9214  9233 I Unity   : Handle cmd APP_CMD_RESUME(12)
+--------- beginning of system
+09-27 22:56:55.162  9214  9214 D InsetsController: Setting requestedVisibleTypes to -12 (was -9)
+09-27 22:56:55.163  9214  9214 D InsetsController: Setting requestedVisibleTypes to -16 (was -12)
+09-27 22:56:55.193  9214  9214 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:56:55.197  9214  9233 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:56:55.210  9214  9214 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:56:55.217  9214  9233 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:56:55.218  9214  9233 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+09-27 22:56:55.229  9214  9233 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+09-27 22:56:55.620  9214  9214 I Unity   : windowFocusChanged: true
+09-27 22:56:55.620  9214  9214 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:56:55.621  9214  9214 I Unity   : resumeUnity
+09-27 22:56:55.804  9214  9233 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+09-27 22:56:55.811  9214  9233 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+09-27 22:56:55.811  9214  9233 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+09-27 22:56:55.812  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+09-27 22:56:55.813  9214  9233 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+09-27 22:56:55.814  9214  9233 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+09-27 22:56:55.846  9214  9214 D InsetsController: hide(ime(), fromIme=false)
+09-27 22:56:55.849  9214  9214 I ImeTracker: com.example.onelanewar.dev:c0b013c7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 22:56:55.952  9214  9239 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.onelanewar.dev
+09-27 22:56:56.474  9214  9233 D Unity   : Enabling Unity systrace
+09-27 22:56:56.474  9214  9233 D Unity   : Starting Unity systrace
+09-27 22:56:56.685  9214  9233 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+09-27 22:56:56.703  9214  9233 D Unity   : [VFS] Mount /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk
+09-27 22:56:56.766  9214  9233 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 AVX, Cores = 2, Memory = 2472mb
+09-27 22:56:56.767  9214  9214 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:56:56.768  9214  9233 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+09-27 22:56:56.770  9214  9233 I Unity   : ApplicationInfo 'com.example.onelanewar.dev', Version '0.1.0', Min API Level '28', Target API Level '36'
+09-27 22:56:56.770  9214  9233 I Unity   : Built from '6000.3/staging' branch, Version '6000.3.21f1 (c02631ffc030)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+09-27 22:56:56.770  9214  9233 I Unity   : Device Model 'Google sdk_gphone64_x86_64', OS 'Android OS 16 (API 36)'
+09-27 22:56:56.783  9214  9233 D Unity   : Determine if il2cpp resources need to extracted:
+09-27 22:56:56.799  9214  9233 D Unity   :     il2cpp resources are up to date, not extracting
+09-27 22:56:57.434  9214  9233 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:56:57.434  9214  9233 D Unity   : InitializeScriptEngine OK (0x79c399329fc0)
+09-27 22:56:57.449  9214  9233 D Unity   : Found 2 interfaces on host :
+09-27 22:56:57.449  9214  9233 D Unity   :  0) 10.0.2.15
+09-27 22:56:57.450  9214  9233 D Unity   :  1) 10.0.2.17
+09-27 22:56:57.450  9214  9233 D Unity   : 
+09-27 22:56:57.454  9214  9233 D Unity   : Player connection [133867312744080]  Target information:
+09-27 22:56:57.454  9214  9233 D Unity   : 
+09-27 22:56:57.454  9214  9233 D Unity   : Player connection [133867312744080]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 2627670804 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:56:57.454  9214  9233 D Unity   : 
+09-27 22:56:57.454  9214  9233 D Unity   : Player connection [133867312744080]  * "[IP] 10.0.2.17 [Port] 55000 [Flags] 2 [Guid] 2627670804 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:56:57.454  9214  9233 D Unity   : 
+09-27 22:56:57.454  9214  9233 D Unity   : Player connection [133867312744080] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+09-27 22:56:57.454  9214  9233 D Unity   : 
+09-27 22:56:57.601  9214  9233 D Unity   : Input System module state changed to: Initialized.
+09-27 22:56:57.614  9214  9233 I DisplayManager: Implicitly registering for refresh rate
+09-27 22:56:57.627  9214  9233 D Unity   : [Physics::Module] Initialized fallback backend.
+09-27 22:56:57.627  9214  9233 D Unity   : [Physics::Module] Id: 0xdecafbad
+09-27 22:56:57.631  9214  9214 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:56:57.719  9214  9233 D Unity   : PlayerInitEngineNoGraphics OK
+09-27 22:56:57.719  9214  9233 I Unity   : Company Name: One Lane War Development
+09-27 22:56:57.719  9214  9233 I Unity   : Product Name: One Lane War PH01
+09-27 22:56:57.720  9214  9233 D Unity   : AndroidGraphics::Startup window =  0x79c2062a24f0
+09-27 22:56:57.720  9214  9233 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:56:57.723  9214  9214 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:56:57.774  9214  9233 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+09-27 22:56:57.774  9214  9233 I EGL_emulation: Opening libGLESv2_emulation.so
+09-27 22:56:57.787  9214  9233 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:56:57.788  9214  9233 D Unity   : [EGL] Checking ES 3.2 support...
+09-27 22:56:57.788  9214  9233 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.2 support
+09-27 22:56:57.788  9214  9233 E EGL_emulation: tid 9233: eglCreateContext(1828): error 0x3005 (EGL_BAD_CONFIG)
+09-27 22:56:57.788  9214  9233 D Unity   : [EGL] ES3.2 not supported
+09-27 22:56:57.789  9214  9233 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:56:57.789  9214  9233 D Unity   : [EGL] Checking ES 3.1 support...
+09-27 22:56:57.789  9214  9233 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.1 support
+09-27 22:56:57.789  9214  9233 E EGL_emulation: tid 9233: eglCreateContext(1822): error 0x3005 (EGL_BAD_CONFIG)
+09-27 22:56:57.789  9214  9233 D Unity   : [EGL] ES3.1 not supported
+09-27 22:56:57.789  9214  9233 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:56:57.789  9214  9233 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:56:57.790  9214  9233 E EGL_emulation: [getAttribValue] Bad attribute idx
+09-27 22:56:57.790  9214  9233 E EGL_emulation: tid 9233: eglGetConfigAttrib(1247): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-27 22:56:57.790  9214  9233 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:56:57.793  9214  9233 D Unity   : GfxDevice: creating device client; kGfxThreadingModeThreaded
+09-27 22:56:57.800  9214  9233 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:56:57.804  9214  9233 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:56:57.805  9214  9233 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:56:57.806  9214  9233 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:56:57.806  9214  9233 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:56:57.809  9214  9233 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+09-27 22:56:57.811  9214  9233 D Unity   : [EGL] Found: ID[2] ES 3.0 RGBA 8888 24/8
+09-27 22:56:57.815  9214  9233 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:56:57.876  9214  9233 D Unity   : Renderer: Android Emulator OpenGL ES Translator (Google SwiftShader)
+09-27 22:56:57.876  9214  9233 D Unity   : Vendor:   Google (Google Inc.)
+09-27 22:56:57.876  9214  9233 D Unity   : Version:  OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+09-27 22:56:57.876  9214  9233 D Unity   : GLES:     3
+09-27 22:56:57.877  9214  9233 D Unity   :  GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROI
+09-27 22:56:57.877  9214  9233 D Unity   : D_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+09-27 22:56:57.885  9214  9233 D Unity   : OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1982511520
+09-27 22:56:57.905  9214  9220 I .onelanewar.dev: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+09-27 22:56:57.932  9214  9233 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:56:57.937  9214  9233 D Unity   : Requested framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[on], samples[1]
+09-27 22:56:57.938  9214  9233 D Unity   : Created framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+09-27 22:56:57.966  9214  9233 D nativeloader: Load liblibswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+09-27 22:56:57.969  9214  9233 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): ok
+09-27 22:56:57.970  9214  9233 I SwappyWrapper: SwappyWrapperInit() succeeded. Build: Sun Sep 27 22:33:51 2026
+09-27 22:56:57.970  9214  9233 D Unity   : SwappyWrapper: InitSwappyWrapper() succeeded.
+09-27 22:56:57.993  9214  9275 D AChoreographer: Attaching thread to JVM for AChoreographer
+09-27 22:56:58.003  9214  9233 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, 133872355296592]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+09-27 22:56:58.005  9214  9276 I SwappyDisplayManager: Starting looper thread
+09-27 22:56:58.045  9214  9233 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:56:58.048  9214  9233 D Unity   : Initialize engine version: 6000.3.21f1 (c02631ffc030)
+09-27 22:56:58.925  9214  9233 D Unity   : [Physics::Module] Selected backend.
+09-27 22:56:58.925  9214  9233 D Unity   : [Physics::Module] Name: PhysX
+09-27 22:56:58.926  9214  9233 D Unity   : [Physics::Module] Id: 0xf2b8ea05
+09-27 22:56:58.926  9214  9233 D Unity   : [Physics::Module] SDK Version: 4.1.2
+09-27 22:56:58.926  9214  9233 D Unity   : [Physics::Module] Integration Version: 1.0.0
+09-27 22:56:58.926  9214  9233 D Unity   : [Physics::Module] Threading Mode: Multi-Threaded

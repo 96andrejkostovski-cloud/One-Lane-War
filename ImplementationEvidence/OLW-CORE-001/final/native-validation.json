@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "tested_commit": "f41126d87e77a534da977715224cf9d8ce7999ce",
+  "app_pid": 8485,
+  "runs": [
+    {
+      "target_fps": "30",
+      "speed": "1",
+      "frames": "1384",
+      "elapsed_s": "56.889",
+      "measured_fps": "24.33",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "30",
+      "speed": "2",
+      "frames": "728",
+      "elapsed_s": "28.854",
+      "measured_fps": "25.23",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "30",
+      "speed": "4",
+      "frames": "372",
+      "elapsed_s": "14.428",
+      "measured_fps": "25.78",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "30",
+      "speed": "10",
+      "frames": "142",
+      "elapsed_s": "5.790",
+      "measured_fps": "24.53",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "60",
+      "speed": "1",
+      "frames": "1864",
+      "elapsed_s": "57.634",
+      "measured_fps": "32.34",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "60",
+      "speed": "2",
+      "frames": "945",
+      "elapsed_s": "28.836",
+      "measured_fps": "32.77",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "60",
+      "speed": "4",
+      "frames": "466",
+      "elapsed_s": "14.420",
+      "measured_fps": "32.32",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    },
+    {
+      "target_fps": "60",
+      "speed": "10",
+      "frames": "173",
+      "elapsed_s": "5.774",
+      "measured_fps": "29.96",
+      "tick": "1152",
+      "result": "PlayerWin",
+      "hash": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533",
+      "expected": "7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533"
+    }
+  ],
+  "screenshots": 17,
+  "measured_fps_min": 24.33,
+  "measured_fps_max": 32.77,
+  "physical_device": false
+}

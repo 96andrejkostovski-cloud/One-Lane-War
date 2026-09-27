@@ -1,0 +1,650 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.21f1 (c02631ffc030) revision 12592689'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-Andrej doesn't exist
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-27T20:24:41Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 56996)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Andrej" at "2026-09-27T20:24:44.0766006Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 56996, path: "C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2816cfcec05f4e9bb7f8e4a68accc490
+  Correlation Id:          9d9e72158d211c0f58001eea60510508
+  External correlation Id: 112733806568129779
+  Machine Id: [REDACTED]
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Andrej" (connect: 1.99s, validation: 0.34s, handshake: 0.30s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Andrej-notifications" at "2026-09-27T20:24:44.7136035Z"
+[Licensing::Module] Connected to LicensingClient (PId: 56996, launch time: 0.09, total connection time: 2.62s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YJKE-ZXTP-R3H2-JWDT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872858344471-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.04
+[Licensing::Module] Licensing Background thread has ended after 2.89s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Andrej\Downloads\One Lane War
+-logFile
+C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\playmode-r12.log
+-runTests
+-testPlatform
+PlayMode
+-testResults
+C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\playmode-r12.xml
+Successfully changed project path to: C:\Users\Andrej\Downloads\One Lane War
+C:/Users/Andrej/Downloads/One Lane War
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [6932]  Target information:
+
+Player connection [6932]  * "[IP] 192.168.1.3 [Port] 55504 [Flags] 2 [Guid] 3519317868 [EditorId] 3519317868 [Version] 1048832 [Id] WindowsEditor(7,Andrej) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6932] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6932] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-82212" after 0.8 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YJKE-ZXTP-R3H2-JWDT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872858344471-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YJKE-ZXTP-R3H2-JWDT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872858344471-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.21f1 (c02631ffc030)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andrej/Downloads/One Lane War/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:          NVIDIA
+    VRAM:            5996 MB
+    App VRAM Budget: 5228 MB
+    Driver:          32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.013615 seconds.
+- Loaded All Assemblies, in  1.888 seconds
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.418 seconds
+Domain Reload Profiling: 3297ms
+	BeginReloadAssembly (745ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (194ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (217ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (650ms)
+			TypeCache.Refresh (642ms)
+				TypeCache.ScanAssembly (582ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (208ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (329ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YJKE-ZXTP-R3H2-JWDT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872858344471-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YJKE-ZXTP-R3H2-JWDT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872858344471-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 15 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.ugui@e20f1880fa04)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.modules.physics)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\Andrej\Downloads\One Lane War\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.06 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Andrej/Downloads/One Lane War
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 3s619ms
+[291/303    1s] Csc Library/Bee/artifacts/1300b0aE.dag/OneLaneWar.Presentation.dll (+2 others)
+[292/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.Presentation.dll
+[293/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.Presentation.pdb
+[294/303    1s] Csc Library/Bee/artifacts/1300b0aE.dag/OneLaneWar.PlayModeTests.dll (+2 others)
+[295/303    1s] Csc Library/Bee/artifacts/1300b0aE.dag/OneLaneWar.EditModeTests.dll (+2 others)
+[296/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.PlayModeTests.dll
+[297/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.PlayModeTests.pdb
+[298/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.EditModeTests.pdb
+[299/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.EditModeTests.dll
+[300/303    1s] Csc Library/Bee/artifacts/1300b0aE.dag/OneLaneWar.Editor.dll (+2 others)
+[301/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.Editor.pdb
+[302/303    0s] CopyFiles Library/ScriptAssemblies/OneLaneWar.Editor.dll
+*** Tundra build success (3.35 seconds), 12 items updated, 303 evaluated
+AssetDatabase: script compilation time: 9.848595s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.817 seconds
+Refreshing native plugins compatible for Editor in 11.62 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.970 seconds
+Domain Reload Profiling: 5776ms
+	BeginReloadAssembly (2057ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (98ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (215ms)
+	RebuildCommonClasses (150ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (1416ms)
+		LoadAssemblies (2788ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (146ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (661ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (87ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=aaa5b0240f89b1e41832762a699e4770): Total: 17.628 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3322 ms
+		Asset DB Callback time: managed=441 ms, native=140 ms
+		Scripting: domain reloads=1, domain reload time=3820 ms, compile time=9852 ms, other=49 ms
+		Project Asset Count: scripts=289, non-scripts=251
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.003ms
+	InvokePackagesCallback: 90.950ms
+	ApplyChangesToAssetFolders: 1.182ms
+	Scan: 452.970ms
+	OnSourceAssetsModified: 1.725ms
+	CategorizeAssetsWithTransientArtifact: 24.898ms
+	ProcessAssetsWithTransientArtifactChanges: 142.097ms
+	CategorizeAssets: 90.697ms
+	ImportOutOfDateAssets: 2030.342ms (-7823.710ms without children)
+		CompileScripts: 9852.443ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.254ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.291ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.062ms
+	PostProcessAllAssets: 468.815ms
+	Hotreload: 30.505ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.007ms
+	UnloadStreamsBegin: 1.909ms
+	PersistCurrentRevisions: 0.028ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 2.540ms
+	Untracked: 14291.929ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Scanning for USB devices : 36.336ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-One Lane War PH01
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1211 unused Assets / (0.6 MB). Loaded Objects now: 1841.
+Memory consumption went from 101.9 MB to 101.4 MB.
+Total: 19.655500 ms (FindLiveObjects: 0.441400 ms CreateObjectMapping: 0.367300 ms MarkObjects: 17.933300 ms  DeleteObjects: 0.911000 ms)
+
+[Project] Loading completed in 41.832 seconds
+	Project init time: 				28.625 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.924 seconds
+		Asset Database init time: 		1.156 seconds
+		Global illumination init time: 	0.029 seconds
+		Assemblies load time: 			3.431 seconds
+		Unity extensions init time: 	0.004 seconds
+		Asset Database refresh time: 	17.641 seconds
+	Scene opening time: 			9.901 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790540723770,"processId":82212,"projectLoad":41.8324593,"projectInit":28.6253083,"templateInit":0.0,"packageManagerInit":0.923683,"assetDatabaseInit":1.1564721,"globalIlluminationInit":0.0292334,"assembliesLoad":3.4312506,"unityExtensionsInit":0.0035404,"assetDatabaseRefresh":17.6414816,"sceneOpening":9.9005883}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790540723771,"processId":82212,"editorVersion":"6000.3.21f1 (c02631ffc030)","branch":"6000.3/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (43.9 KB). Loaded Objects now: 1859.
+Memory consumption went from 100.5 MB to 100.5 MB.
+Total: 15.364600 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.117700 ms MarkObjects: 15.017500 ms  DeleteObjects: 0.031500 ms)
+
+Start importing Assets/InitTestScene578dfb8b-b445-4908-87c0-58aef9cb9a8f.unity using Guid(661a89c17266131449429904311971c9) (DefaultImporter) -> (artifact id: 'db8df3b62760501396c43810a64b6c98') in 0.0195613 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6813f900a7d22434784797d59641710b): Total: 0.132 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Created GICache directory at C:/Users/Andrej/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.933s, timestamps: [41.876 - 42.809]
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.186 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.530 seconds
+Domain Reload Profiling: 3699ms
+	BeginReloadAssembly (729ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (80ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (553ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1857ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (480ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (458ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Asset Pipeline Refresh (id=71fea0928e0c2794389a64772a4ac76f): Total: 3.966 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2622 ms
+		Asset DB Callback time: managed=116 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=1222 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=289, non-scripts=252
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.003ms
+	InvokePackagesCallback: 5.225ms
+	ApplyChangesToAssetFolders: 0.217ms
+	Scan: 0.002ms
+	OnSourceAssetsModified: 0.003ms
+	CategorizeAssetsWithTransientArtifact: 0.005ms
+	ProcessAssetsWithTransientArtifactChanges: 1.139ms
+	CategorizeAssets: 9.676ms
+	ImportOutOfDateAssets: 2542.521ms (2537.990ms without children)
+		CompileScripts: 2.725ms
+		CollectScriptTypesHashes: 0.001ms
+		ReloadNativeAssets: 0.000ms
+		UnloadImportedAssets: 0.009ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.255ms
+		InitializingProgressBar: 0.002ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.538ms
+	PostProcessAllAssets: 116.824ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.034ms
+	UnloadStreamsBegin: 0.004ms
+	PersistCurrentRevisions: 0.030ms
+	UnloadStreamsEnd: 0.004ms
+	GenerateScriptTypeHashes: 2.687ms
+	Untracked: 1290.046ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.817 ms
+	Integration:            111.457 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   113.298 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.492600 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            29.809 ms
+	Integration:            2023.859 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   2053.708 ms
+Unloading 19 unused Assets / (4.4 KB). Loaded Objects now: 2393.
+Memory consumption went from 98.8 MB to 98.8 MB.
+Total: 12.890700 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.138100 ms MarkObjects: 12.392600 ms  DeleteObjects: 0.066900 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.542700 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.002 ms
+	Integration:            77.364 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   78.382 ms
+Unloading 27 unused Assets / (7.4 KB). Loaded Objects now: 2392.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 16.783800 ms (FindLiveObjects: 0.424400 ms CreateObjectMapping: 0.181300 ms MarkObjects: 16.104900 ms  DeleteObjects: 0.071600 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.394100 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.163 ms
+	Integration:            99.319 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       14.591 ms
+	Total Operation Time:   115.076 ms
+Unloading 27 unused Assets / (9.0 KB). Loaded Objects now: 2392.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 27.037000 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.102200 ms MarkObjects: 26.568200 ms  DeleteObjects: 0.087400 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.302900 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            2.304 ms
+	Integration:            121.439 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       14.358 ms
+	Total Operation Time:   138.102 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2392.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 28.677900 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.140000 ms MarkObjects: 28.114400 ms  DeleteObjects: 0.093400 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.282000 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.390 ms
+	Integration:            59.609 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       10.834 ms
+	Total Operation Time:   71.836 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2392.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 22.777400 ms (FindLiveObjects: 0.478300 ms CreateObjectMapping: 0.241000 ms MarkObjects: 21.978200 ms  DeleteObjects: 0.078100 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.238100 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            0.894 ms
+	Integration:            86.721 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       14.838 ms
+	Total Operation Time:   102.454 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2392.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 13.158600 ms (FindLiveObjects: 0.330600 ms CreateObjectMapping: 0.129100 ms MarkObjects: 12.626900 ms  DeleteObjects: 0.070400 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.311500 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            0.993 ms
+	Integration:            83.395 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       16.529 ms
+	Total Operation Time:   100.921 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2393.
+Memory consumption went from 99.4 MB to 99.4 MB.
+Total: 17.138800 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.123900 ms MarkObjects: 16.673900 ms  DeleteObjects: 0.073400 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.940000 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.147 ms
+	Integration:            52.813 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       173.274 ms
+	Total Operation Time:   227.236 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2399.
+Memory consumption went from 100.7 MB to 100.6 MB.
+Total: 18.938700 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.107400 ms MarkObjects: 18.495100 ms  DeleteObjects: 0.091300 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.575500 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.085 ms
+	Integration:            72.734 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       7.608 ms
+	Total Operation Time:   81.430 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2399.
+Memory consumption went from 100.0 MB to 100.0 MB.
+Total: 17.230800 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.132100 ms MarkObjects: 16.712500 ms  DeleteObjects: 0.070300 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.707800 ms
+Loaded scene 'Assets/Scenes/Battle.unity'
+	Deserialize:            1.525 ms
+	Integration:            76.459 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       8.444 ms
+	Total Operation Time:   86.430 ms
+Unloading 27 unused Assets / (3.6 KB). Loaded Objects now: 2398.
+Memory consumption went from 99.5 MB to 99.5 MB.
+Total: 24.619100 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.120100 ms MarkObjects: 24.176900 ms  DeleteObjects: 0.069100 ms)
+
+Saving results to: C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\playmode-r12.xml
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.082 ms
+	Integration:            18.521 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   19.621 ms
+Unloading 0 unused Assets / (12.5 KB). Loaded Objects now: 1868.
+Memory consumption went from 98.8 MB to 98.8 MB.
+Total: 27.300800 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.080900 ms MarkObjects: 27.028500 ms  DeleteObjects: 0.017900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1873.
+Memory consumption went from 98.8 MB to 98.8 MB.
+Total: 15.777200 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.123000 ms MarkObjects: 15.434300 ms  DeleteObjects: 0.009700 ms)
+
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a5df96ef88b96094c93c87f5a4ebed12): Total: 0.173 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 2 (Failed). One or more tests failed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@bd7f943e9647/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+Killing ADB server in 0.2657856 seconds.
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: 'b0b7d843d77f4418e2fff41f050c1831') in 0.0167154 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b89a4722c6e02374d86011ec885f717e): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Andrej-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Andrej channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790540737575,"processId":82212,"allocatedMemory":10549750,"memoryLabels":[{"Default":14409},{"Permanent":15236},{"NewDelete":68515},{"Thread":4237960},{"Manager":32029},{"VertexData":8},{"Geometry":816},{"Texture":296},{"Shader":79381},{"Material":24},{"GfxDevice":57912},{"Animation":392},{"Audio":2664},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":656},{"Input":14984},{"JobScheduler":33024},{"TextLib":280},{"Mono":32},{"ScriptingNativeRuntime":155060},{"BaseObject":1620272},{"Resource":1336},{"Renderer":3000},{"Transform":4685},{"File":3937},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":14318},{"DynamicArray":88645},{"HashMap":79138},{"Utility":2660278},{"Curl":2478},{"PoolAlloc":2056},{"AI":80},{"TypeTree":13861},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7792},{"Director":8240},{"CloudService":432},{"WebRequest":552},{"VR":47994},{"SceneManager":504},{"Video":208},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":336},{"Hierarchy":608},{"CoreStats":13112},{"Identifiers":6480},{"Gui":96},{"EditorUtility":103405},{"VersionControl":4},{"Undo":947},{"AssetDatabase":739056},{"EditorGi":328},{"UnityConnect":29232},{"Upm":1896},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":262},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3224},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

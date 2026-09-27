@@ -1,0 +1,6 @@
+INFO         | Android emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64\
+INFO         | Saving last run QEMU version for the AVD to 2
+INFO         | Guest usage of host flag 'VulkanVirtualQueue' will be ignored.
+ERROR        | partition-size (2048) must be between 10MB and 2047MB

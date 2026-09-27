@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-27 20:25:29Z" end-time="2026-09-27 20:25:34Z" duration="4.0930502">
+  <test-suite type="TestSuite" id="1014" name="One Lane War PH01" fullname="One Lane War PH01" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-09-27 20:25:29Z" end-time="2026-09-27 20:25:34Z" duration="4.093050" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1009" name="OneLaneWar.PlayModeTests.dll" fullname="C:/Users/Andrej/Downloads/One Lane War/Library/ScriptAssemblies/OneLaneWar.PlayModeTests.dll" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-09-27 20:25:30Z" end-time="2026-09-27 20:25:34Z" duration="4.068042" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="82212" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1010" name="OneLaneWar" fullname="OneLaneWar" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-09-27 20:25:30Z" end-time="2026-09-27 20:25:34Z" duration="4.066097" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="OneLaneWar.Tests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-09-27 20:25:30Z" end-time="2026-09-27 20:25:34Z" duration="4.065523" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="HarnessTests" fullname="OneLaneWar.Tests.HarnessTests" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-09-27 20:25:30Z" end-time="2026-09-27 20:25:34Z" duration="4.062963" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1005" name="BackgroundRequiresExplicitResumeWithoutElapsedCredit" fullname="OneLaneWar.Tests.HarnessTests.BackgroundRequiresExplicitResumeWithoutElapsedCredit" methodname="BackgroundRequiresExplicitResumeWithoutElapsedCredit" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="442594211" result="Failed" label="Error" start-time="2026-09-27 20:25:30Z" end-time="2026-09-27 20:25:32Z" duration="2.322166" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<BackgroundRequiresExplicitResumeWithoutElapsedCredit>d__8.MoveNext () [0x00021] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:88 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1003" name="CommandSubmissionDoesNotBypassDeploymentCooldown" fullname="OneLaneWar.Tests.HarnessTests.CommandSubmissionDoesNotBypassDeploymentCooldown" methodname="CommandSubmissionDoesNotBypassDeploymentCooldown" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1513277376" result="Failed" label="Error" start-time="2026-09-27 20:25:32Z" end-time="2026-09-27 20:25:32Z" duration="0.139723" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<CommandSubmissionDoesNotBypassDeploymentCooldown>d__6.MoveNext () [0x00021] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:44 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1007" name="EveryEncounterAndEligibleUpgradeCanConfigure" fullname="OneLaneWar.Tests.HarnessTests.EveryEncounterAndEligibleUpgradeCanConfigure" methodname="EveryEncounterAndEligibleUpgradeCanConfigure" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1019332770" result="Failed" label="Error" start-time="2026-09-27 20:25:32Z" end-time="2026-09-27 20:25:32Z" duration="0.182882" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<EveryEncounterAndEligibleUpgradeCanConfigure>d__10.MoveNext () [0x0003b] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:100 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1004" name="InputSystemRequiresReleaseAndCannotBypassCooldown" fullname="OneLaneWar.Tests.HarnessTests.InputSystemRequiresReleaseAndCannotBypassCooldown" methodname="InputSystemRequiresReleaseAndCannotBypassCooldown" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1128669259" result="Failed" label="Error" start-time="2026-09-27 20:25:32Z" end-time="2026-09-27 20:25:32Z" duration="0.209193" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<InputSystemRequiresReleaseAndCannotBypassCooldown>d__7.MoveNext () [0x00049] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:49 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1008" name="RenderedHarnessMatchesHeadlessAcrossScheduledRates" fullname="OneLaneWar.Tests.HarnessTests.RenderedHarnessMatchesHeadlessAcrossScheduledRates" methodname="RenderedHarnessMatchesHeadlessAcrossScheduledRates" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="625054701" result="Failed" label="Error" start-time="2026-09-27 20:25:32Z" end-time="2026-09-27 20:25:33Z" duration="0.360369" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<RenderedHarnessMatchesHeadlessAcrossScheduledRates>d__11.MoveNext () [0x00156] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:113 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1002" name="SceneReloadDoesNotDuplicateHarnessOrInput" fullname="OneLaneWar.Tests.HarnessTests.SceneReloadDoesNotDuplicateHarnessOrInput" methodname="SceneReloadDoesNotDuplicateHarnessOrInput" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="75577804" result="Passed" start-time="2026-09-27 20:25:33Z" end-time="2026-09-27 20:25:33Z" duration="0.627424" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="SingleStepAndCleanCaptureDoNotAdvancePausedModel" fullname="OneLaneWar.Tests.HarnessTests.SingleStepAndCleanCaptureDoNotAdvancePausedModel" methodname="SingleStepAndCleanCaptureDoNotAdvancePausedModel" classname="OneLaneWar.Tests.HarnessTests" runstate="Runnable" seed="1057436582" result="Failed" label="Error" start-time="2026-09-27 20:25:33Z" end-time="2026-09-27 20:25:34Z" duration="0.161011" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+                <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <048e1259bbea40078e5d4fad1c7a86a5>:0 
+  at OneLaneWar.Presentation.BattleHarness.StartBattle (System.String encounter, System.String[] loadout, System.String[] chosen, System.UInt32 seed) [0x000b4] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Presentation\BattleHarness.cs:47 
+  at OneLaneWar.Tests.HarnessTests+<SingleStepAndCleanCaptureDoNotAdvancePausedModel>d__9.MoveNext () [0x00021] in C:\Users\Andrej\Downloads\One Lane War\Assets\OneLaneWar\Tests\PlayMode\HarnessTests.cs:94 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+              <output><![CDATA[Saving results to: C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\playmode-r12.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

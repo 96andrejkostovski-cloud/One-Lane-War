@@ -1,0 +1,9 @@
+Auto-selecting single ABI x86_64
+Error: Could not load devices from C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-24\default\x86\devices.xml
+Error: C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-24\default\x86\devices.xml
+Error: Could not load devices from C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-35\google_apis\x86_64\devices.xml
+Error: C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-35\google_apis\x86_64\devices.xml
+Error: Could not load devices from C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64\devices.xml
+Error: C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64\devices.xml
+Error: Could not load devices from C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-37.0\google_apis_playstore_ps16k\x86_64\devices.xml
+Error: C:\Users\Andrej\AppData\Local\Android\Sdk\system-images\android-37.0\google_apis_playstore_ps16k\x86_64\devices.xml

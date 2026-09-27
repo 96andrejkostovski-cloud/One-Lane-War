@@ -1,0 +1,53 @@
+openjdk version "17.0.18" 2026-01-20
+OpenJDK Runtime Environment Temurin-17.0.18+8 (build 17.0.18+8)
+OpenJDK 64-Bit Server VM Temurin-17.0.18+8 (build 17.0.18+8, mixed mode, sharing)
+
+Algorithm : SHA256
+Hash      : 5369CF92FC590944793E47CC9C9FEF7955CE1A68DE22BA22023CDD3513E87C2B
+Path      : C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe
+
+
+NDK\source.properties
+Pkg.Desc = Android NDK
+Pkg.Revision = 27.2.12479018
+Pkg.BaseRevision = 27.2.12479018
+Pkg.ReleaseName = r27c
+SDK\build-tools\36.0.0\source.properties
+Pkg.UserSrc=false
+Pkg.Revision=36.0.0
+#Pkg.Revision=36.0.0 rc5
+SDK\platform-tools\source.properties
+Pkg.UserSrc=false
+Pkg.Revision=36.0.0
+SDK\cmdline-tools\16.0\source.properties
+Pkg.Revision=16.0
+Pkg.Path=cmdline-tools;16.0
+Pkg.Desc=Android SDK Command-line Tools
+SDK\platforms\android-36\source.properties
+Pkg.Desc=Android SDK Platform 16
+Pkg.UserSrc=false
+Platform.Version=16
+Platform.CodeName=
+Pkg.Revision=2
+AndroidVersion.ApiLevel=36
+AndroidVersion.ExtensionLevel=17
+AndroidVersion.IsBaseSdk=true
+Layoutlib.Api=15
+Layoutlib.Revision=1
+Platform.MinToolsRev=22
+Tools\GradleTemplates\baseProjectTemplate.gradle
+plugins {
+    // If you are changing the Android Gradle Plugin version, make sure it is compatible with the Gradle version preinstalled with Unity
+    // See which Gradle version is preinstalled with Unity here https://docs.unity3d.com/Manual/android-gradle-overview.html
+    // See official Gradle and Android Gradle Plugin compatibility table here https://developer.android.com/studio/releases/gradle-plugin#updating-gradle
+    // To specify a custom Gradle version in Unity, go do "Preferences > External Tools", uncheck "Gradle Installed with Unity (recommended)" and specify a path to a custom Gradle version
+    id 'com.android.application' version '9.0.0' apply false
+    id 'com.android.library' version '9.0.0' apply false
+    **BUILD_SCRIPT_DEPS**
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+}
+gradle-launcher-9.1.0.jar
+Android emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)

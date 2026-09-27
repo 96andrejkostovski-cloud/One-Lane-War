@@ -1,0 +1,1 @@
+Stopped only the preliminary PH01 app after its 8 replay runs; AVD and original emulator preserved.

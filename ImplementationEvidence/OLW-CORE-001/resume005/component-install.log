@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\Andrej\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK\\bin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrej\Downloads\One Lane War\Tools\install-t001-components.py", line 44, in <module>
+    if entry.is_dir(): target.mkdir(parents=True, exist_ok=True); continue
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrej\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "C:\Users\Andrej\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] Access is denied: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK'

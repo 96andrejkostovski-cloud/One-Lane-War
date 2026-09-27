@@ -1,3 +1,5 @@
+> HISTORICAL — resolved by active OLW-AMEND-005. The original report below is preserved for context; its proposed options are superseded. The amended canonical reinforcement and focused contact fixtures pass in the 80-case suite at `f41126d87e77a534da977715224cf9d8ce7999ce`. Current PH01 evidence is in TASK_RESULT.md.
+
 # OLW-CORE-001: spawn-pressure source decision required
 
 Status: **BLOCKED — proposed clarification only, no source amendment enacted.**

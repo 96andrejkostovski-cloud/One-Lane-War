@@ -1,0 +1,6 @@
+
+Failed to execute the command due the following, please see '-- --headless help' for assistance.
+Error: No modules found for this editor.
+Module installation is only supported for editors installed with Unity Hub.
+Try reinstalling this editor with Unity Hub to use this feature.
+EXIT=1

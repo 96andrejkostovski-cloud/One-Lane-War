@@ -1,0 +1,12 @@
+UTC=2026-09-27T20:43:00.1366544Z
+HEAD=f41126d87e77a534da977715224cf9d8ce7999ce
+COMMAND=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe -batchmode -projectPath "C:\Users\Andrej\Downloads\One Lane War" -logFile "C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\final\editmode.log" -runTests -testPlatform EditMode -testResults "C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\final\editmode.xml"
+ M .gitignore
+ M ImplementationEvidence/OLW-CORE-001/.gitattributes
+ M ImplementationEvidence/OLW-CORE-001/DIRECTOR_BLOCKER.md
+ M ImplementationEvidence/OLW-CORE-001/TASK_RESULT.md
+?? ImplementationEvidence/OLW-CORE-001/PRE_AMEND005_TASK_RESULT.md
+?? ImplementationEvidence/OLW-CORE-001/final/
+?? ImplementationEvidence/OLW-CORE-001/resume005/
+PID=56016
+EXIT=0

@@ -1,0 +1,66 @@
+[
+  {
+    "file": "libc++_shared.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  },
+  {
+    "file": "libgame.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  },
+  {
+    "file": "libil2cpp.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  },
+  {
+    "file": "libmain.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  },
+  {
+    "file": "libswappywrapper.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  },
+  {
+    "file": "libunity.so",
+    "machine": "AArch64",
+    "load_alignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "status": "PASS"
+  }
+]

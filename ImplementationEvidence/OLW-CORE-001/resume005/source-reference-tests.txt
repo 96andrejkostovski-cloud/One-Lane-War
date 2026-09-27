@@ -1,0 +1,40 @@
+test_ceil_cost (test_reference_math.Arithmetic.test_ceil_cost) ... ok
+test_crossbow_rally_reload (test_reference_math.Arithmetic.test_crossbow_rally_reload) ... ok
+test_decimal_exact (test_reference_math.Arithmetic.test_decimal_exact) ... ok
+test_decimal_reject_loss (test_reference_math.Arithmetic.test_decimal_reject_loss) ... ok
+test_defense_absorption (test_reference_math.Arithmetic.test_defense_absorption) ... ok
+test_defense_overflow (test_reference_math.Arithmetic.test_defense_overflow) ... ok
+test_eligible_only (test_reference_math.Arithmetic.test_eligible_only) ... ok
+test_half_up (test_reference_math.Arithmetic.test_half_up) ... ok
+test_invalid_divisor (test_reference_math.Arithmetic.test_invalid_divisor) ... ok
+test_militia_baseline (test_reference_math.Arithmetic.test_militia_baseline) ... ok
+test_minimum_damage (test_reference_math.Arithmetic.test_minimum_damage) ... ok
+test_movement_groups (test_reference_math.Arithmetic.test_movement_groups) ... ok
+test_ram_additive_base (test_reference_math.Arithmetic.test_ram_additive_base) ... ok
+test_shield_modified_barrier (test_reference_math.Arithmetic.test_shield_modified_barrier) ... ok
+test_splash_and_base_source (test_reference_math.Arithmetic.test_splash_and_base_source) ... ok
+test_all_army_eligibility (test_reference_math.Draft.test_all_army_eligibility) ... ok
+test_all_four_drafts (test_reference_math.Draft.test_all_four_drafts) ... ok
+test_bad_loadout (test_reference_math.Draft.test_bad_loadout) ... ok
+test_bound_one (test_reference_math.Draft.test_bound_one) ... ok
+test_first_behavior (test_reference_math.Draft.test_first_behavior) ... ok
+test_replay_state (test_reference_math.Draft.test_replay_state) ... ok
+test_xorshift_known_vector (test_reference_math.Draft.test_xorshift_known_vector) ... ok
+test_zero_rejected (test_reference_math.Draft.test_zero_rejected) ... ok
+test_ad_route (test_reference_math.SourceRoutes.test_ad_route) ... ok
+test_all_funding (test_reference_math.SourceRoutes.test_all_funding) ... ok
+test_first_campaign_total (test_reference_math.SourceRoutes.test_first_campaign_total) ... ok
+test_intro_schedule (test_reference_math.SourceRoutes.test_intro_schedule) ... ok
+test_newer_envelope (test_reference_math.SourceRoutes.test_newer_envelope) ... ok
+test_no_final_assets (test_reference_math.SourceRoutes.test_no_final_assets) ... ok
+test_noad_milestones (test_reference_math.SourceRoutes.test_noad_milestones) ... ok
+test_qa_not_run (test_reference_math.SourceRoutes.test_qa_not_run) ... ok
+test_save_corruption (test_reference_math.SourceRoutes.test_save_corruption) ... ok
+test_save_example (test_reference_math.SourceRoutes.test_save_example) ... ok
+test_total_sinks (test_reference_math.SourceRoutes.test_total_sinks) ... ok
+test_workflow_order (test_reference_math.SourceRoutes.test_workflow_order) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.241s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90",
+  "manifest_files": 147,
+  "excluded_baseline_files": 2,
+  "scope": "SEALED SOURCE BYTES ONLY; NOT RUNTIME",
+  "failures": []
+}

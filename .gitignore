@@ -27,6 +27,7 @@
 
 # Android/Gradle local state
 /.gradle/
+/.utmp/
 /AndroidBuild/
 *.apk
 *.aab

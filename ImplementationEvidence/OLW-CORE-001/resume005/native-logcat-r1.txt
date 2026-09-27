@@ -1,0 +1,217 @@
+--------- beginning of main
+09-27 22:13:15.218   208   208 W linker  : Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"
+09-27 22:13:15.236   209   209 W linker  : Warning: failed to find generated linker configuration from "/linkerconfig/ld.config.txt"
+09-27 22:13:23.450   436   436 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+09-27 22:13:23.489   436   436 I AndroidRuntime: Using default boot image
+09-27 22:13:23.489   436   436 I AndroidRuntime: Leaving lock profiling enabled
+09-27 22:15:15.638  1097  1097 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+09-27 22:18:35.857  4320  4320 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:18:36.891  4320  4320 V Unity   : Context Type: GameActivity
+09-27 22:18:36.968  4320  4320 D Unity   : CommandLine:  
+09-27 22:18:37.222  4320  4388 I Unity   : UnityApplication::CreateInstance
+09-27 22:18:37.222  4320  4388 I Unity   : GameActivity Package Version '4.4.0'
+09-27 22:18:37.238  4320  4388 I Unity   : Starting Game Loop
+09-27 22:18:37.559  4320  4388 I Unity   : Handle cmd APP_CMD_START(11)
+09-27 22:18:37.570  4320  4320 I Unity   : onResume
+09-27 22:18:37.630  4320  4388 I Unity   : Handle cmd APP_CMD_RESUME(12)
+09-27 22:18:37.949  4320  4388 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:18:38.112  4320  4388 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+09-27 22:18:38.128  4320  4388 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+09-27 22:18:39.785  4320  4388 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+09-27 22:18:39.795  4320  4388 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+09-27 22:18:39.795  4320  4388 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+09-27 22:18:39.796  4320  4388 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+09-27 22:18:39.796  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+09-27 22:18:39.796  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+09-27 22:18:39.796  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+09-27 22:18:39.797  4320  4388 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+09-27 22:18:39.884  4320  4388 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+09-27 22:18:39.921  4320  4388 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+09-27 22:18:39.921  4320  4388 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+09-27 22:18:39.922  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+09-27 22:18:39.924  4320  4388 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+09-27 22:18:39.924  4320  4388 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+09-27 22:18:39.924  4320  4388 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+09-27 22:18:39.944  4320  4388 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+09-27 22:18:41.358  4320  4388 D Unity   : Enabling Unity systrace
+09-27 22:18:41.359  4320  4388 D Unity   : Starting Unity systrace
+09-27 22:18:41.936  4320  4388 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+09-27 22:18:42.052  4320  4388 D Unity   : [VFS] Mount /data/app/~~cT7P4Cvc1UZZ4xOaTx2uzA==/com.example.onelanewar.dev-FDtU7TMsnnmaYz4E07V1-g==/base.apk
+09-27 22:18:42.400  4320  4388 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 AVX, Cores = 2, Memory = 2472mb
+09-27 22:18:42.405  4320  4320 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:18:42.436  4320  4388 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+09-27 22:18:42.445  4320  4388 I Unity   : ApplicationInfo 'com.example.onelanewar.dev', Version '0.1.0', Min API Level '28', Target API Level '36'
+09-27 22:18:42.445  4320  4388 I Unity   : Built from '6000.3/staging' branch, Version '6000.3.21f1 (c02631ffc030)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+09-27 22:18:42.445  4320  4388 I Unity   : Device Model 'Google sdk_gphone64_x86_64', OS 'Android OS 16 (API 36)'
+09-27 22:18:42.491  4320  4388 D Unity   : Determine if il2cpp resources need to extracted:
+09-27 22:18:42.514  4320  4388 D Unity   :     Missing '/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/il2cpp/unity.ver'
+09-27 22:18:42.514  4320  4388 D Unity   :     Extracting il2cpp resources
+09-27 22:18:44.814  4320  4388 D Unity   : Unable to find library path for 'il2cpp.usym'.
+09-27 22:18:46.108  4320  4388 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:18:46.126  4320  4388 D Unity   : InitializeScriptEngine OK (0x79c3994e0fc0)
+09-27 22:18:46.219  4320  4388 D Unity   : Found 2 interfaces on host :
+09-27 22:18:46.219  4320  4388 D Unity   :  0) 10.0.2.15
+09-27 22:18:46.219  4320  4388 D Unity   :  1) 10.0.2.17
+09-27 22:18:46.219  4320  4388 D Unity   : 
+09-27 22:18:46.343  4320  4388 D Unity   : Player connection [133867461981840]  Target information:
+09-27 22:18:46.343  4320  4388 D Unity   : 
+09-27 22:18:46.343  4320  4388 D Unity   : Player connection [133867461981840]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 2782535005 [EditorId] 870633959 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:18:46.343  4320  4388 D Unity   : 
+09-27 22:18:46.343  4320  4388 D Unity   : Player connection [133867461981840]  * "[IP] 10.0.2.17 [Port] 55000 [Flags] 2 [Guid] 2782535005 [EditorId] 870633959 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:18:46.343  4320  4388 D Unity   : 
+09-27 22:18:46.343  4320  4388 D Unity   : Player connection [133867461981840] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+09-27 22:18:46.343  4320  4388 D Unity   : 
+09-27 22:18:46.873  4320  4388 D Unity   : Input System module state changed to: Initialized.
+09-27 22:18:46.955  4320  4388 D Unity   : [Physics::Module] Initialized fallback backend.
+09-27 22:18:46.955  4320  4388 D Unity   : [Physics::Module] Id: 0xdecafbad
+09-27 22:18:47.129  4320  4388 D Unity   : PlayerInitEngineNoGraphics OK
+09-27 22:18:47.129  4320  4388 I Unity   : Company Name: One Lane War Development
+09-27 22:18:47.129  4320  4388 I Unity   : Product Name: One Lane War PH01
+09-27 22:18:47.130  4320  4388 D Unity   : AndroidGraphics::Startup window =  0x79c2062a24f0
+09-27 22:18:47.130  4320  4388 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:18:47.165  4320  4320 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:18:47.387  4320  4388 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:18:47.388  4320  4388 D Unity   : [EGL] Checking ES 3.2 support...
+09-27 22:18:47.388  4320  4388 D Unity   : [EGL] ES3.2 not supported
+09-27 22:18:47.388  4320  4388 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:18:47.391  4320  4388 D Unity   : [EGL] Checking ES 3.1 support...
+09-27 22:18:47.391  4320  4388 D Unity   : [EGL] ES3.1 not supported
+09-27 22:18:47.391  4320  4388 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:18:47.391  4320  4388 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:18:47.392  4320  4388 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:18:47.410  4320  4388 D Unity   : GfxDevice: creating device client; kGfxThreadingModeThreaded
+09-27 22:18:47.446  4320  4388 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:18:47.448  4320  4388 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:18:47.448  4320  4388 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:18:47.448  4320  4388 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:18:47.450  4320  4388 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:18:47.460  4320  4388 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+09-27 22:18:47.465  4320  4388 D Unity   : [EGL] Found: ID[2] ES 3.0 RGBA 8888 24/8
+09-27 22:18:47.483  4320  4388 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:18:47.780  4320  4388 D Unity   : Renderer: Android Emulator OpenGL ES Translator (Google SwiftShader)
+09-27 22:18:47.780  4320  4388 D Unity   : Vendor:   Google (Google Inc.)
+09-27 22:18:47.785  4320  4388 D Unity   : Version:  OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+09-27 22:18:47.785  4320  4388 D Unity   : GLES:     3
+09-27 22:18:47.786  4320  4388 D Unity   :  GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROI
+09-27 22:18:47.786  4320  4388 D Unity   : D_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+09-27 22:18:47.855  4320  4388 D Unity   : OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1982520016
+09-27 22:18:47.991  4320  4388 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:18:48.007  4320  4388 D Unity   : Requested framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[on], samples[1]
+09-27 22:18:48.023  4320  4388 D Unity   : Created framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+09-27 22:18:48.142  4320  4388 D Unity   : SwappyWrapper: InitSwappyWrapper() succeeded.
+09-27 22:18:48.291  4320  4388 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:18:48.298  4320  4388 D Unity   : Initialize engine version: 6000.3.21f1 (c02631ffc030)
+09-27 22:18:50.501  4320  4388 D Unity   : [Physics::Module] Selected backend.
+09-27 22:18:50.501  4320  4388 D Unity   : [Physics::Module] Name: PhysX
+09-27 22:18:50.502  4320  4388 D Unity   : [Physics::Module] Id: 0xf2b8ea05
+09-27 22:18:50.502  4320  4388 D Unity   : [Physics::Module] SDK Version: 4.1.2
+09-27 22:18:50.502  4320  4388 D Unity   : [Physics::Module] Integration Version: 1.0.0
+09-27 22:18:50.502  4320  4388 D Unity   : [Physics::Module] Threading Mode: Multi-Threaded
+09-27 22:18:51.826  4320  4388 D Unity   : PlayerInitEngineGraphics OK
+09-27 22:18:52.446  4320  4388 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: -1, quality: 2
+09-27 22:18:52.454  4320  4388 I Unity   :     HasWindow = 1, HasFocus = 0
+09-27 22:18:52.478  4320  4388 I Unity   : Handle cmd APP_CMD_WINDOW_RESIZED(3)
+09-27 22:18:52.479  4320  4388 D Unity   : NativeWindow resized 2400x1080
+09-27 22:18:52.481  4320  4388 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+09-27 22:18:52.481  4320  4388 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:18:52.484  4320  4388 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:21:53.648  4320  4320 I Unity   : windowFocusChanged: true
+09-27 22:21:53.653  4320  4320 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:21:53.654  4320  4320 I Unity   : resumeUnity
+09-27 22:21:53.807  4320  4388 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+09-27 22:21:53.941  4320  4388 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:21:54.713  4320  4388 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: 0, quality: 2
+09-27 22:21:56.976  4320  4388 D Unity   : UnloadTime: 64.111600 ms
+09-27 22:21:58.992  4320  4388 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 0, quality: 2
+09-27 22:21:59.046  4320  4388 D Unity   : Using NDK Choreographer.
+09-27 22:21:59.099  4320  4388 D Unity   : Stopping Unity systrace
+09-27 22:21:59.174  4320  4388 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: 1, quality: 2
+09-27 22:21:59.326  4320  6070 D Unity   : Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+09-27 22:22:00.181  4320  4388 D Unity   : UnloadTime: 33.706000 ms
+09-27 22:22:05.761  4320  4388 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 1, quality: 2
+09-27 22:22:05.841  4320  4388 D Unity   : Unloading 19 unused Assets / (0 B). Loaded Objects now: 1160.
+09-27 22:22:05.841  4320  4388 D Unity   : Memory consumption went from 36.4 MB to 36.4 MB.
+09-27 22:22:05.850  4320  4388 D Unity   : Total: 56.083200 ms (FindLiveObjects: 7.907100 ms CreateObjectMapping: 6.482500 ms MarkObjects: 37.668000 ms  DeleteObjects: 3.673400 ms)
+09-27 22:22:05.850  4320  4388 D Unity   : 
+09-27 22:22:06.370  4320  4388 I Unity   : OLW_NATIVE_START unity=6000.3.21f1 graphics=OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1) output=/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01
+09-27 22:22:06.370  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:22:06.370  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:22:06.370  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:22:06.370  4320  4388 I Unity   : 
+09-27 22:22:11.523  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/configuration.png)
+09-27 22:22:24.150  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-30-1.png)
+09-27 22:23:09.326  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=1 frames=783 elapsed_s=54.352 measured_fps=14.41 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:23:09.326  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:23:09.326  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:23:09.326  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:23:09.326  4320  4388 I Unity   : 
+09-27 22:23:09.727  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-30-1.png)
+09-27 22:23:16.239  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-30-2.png)
+09-27 22:23:38.642  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=2 frames=578 elapsed_s=28.830 measured_fps=20.05 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:23:38.642  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:23:38.642  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:23:38.642  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:23:38.642  4320  4388 I Unity   : 
+09-27 22:23:39.151  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-30-2.png)
+09-27 22:23:42.676  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-30-4.png)
+09-27 22:23:53.577  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=4 frames=261 elapsed_s=14.407 measured_fps=18.12 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:23:53.577  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:23:53.577  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:23:53.577  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:23:53.577  4320  4388 I Unity   : 
+09-27 22:23:54.056  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-30-4.png)
+09-27 22:23:55.755  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-30-10.png)
+09-27 22:23:59.847  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=10 frames=109 elapsed_s=5.773 measured_fps=18.88 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:23:59.847  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:23:59.847  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:23:59.847  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:23:59.847  4320  4388 I Unity   : 
+09-27 22:24:00.199  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-30-10.png)
+09-27 22:24:12.958  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-60-1.png)
+09-27 22:24:57.991  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=1 frames=1009 elapsed_s=57.749 measured_fps=17.47 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:24:57.991  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:24:57.991  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:24:57.991  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:24:57.991  4320  4388 I Unity   : 
+09-27 22:24:58.739  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-60-1.png)
+09-27 22:25:05.339  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-60-2.png)
+09-27 22:25:27.812  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=2 frames=364 elapsed_s=29.041 measured_fps=12.53 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:25:27.812  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:25:27.812  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:25:27.812  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:25:27.812  4320  4388 I Unity   : 
+09-27 22:25:28.845  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-60-2.png)
+09-27 22:25:33.386  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-60-4.png)
+09-27 22:25:43.376  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=4 frames=66 elapsed_s=14.513 measured_fps=4.55 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:25:43.376  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:25:43.376  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:25:43.376  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:25:43.376  4320  4388 I Unity   : 
+09-27 22:25:44.298  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-60-4.png)
+09-27 22:25:46.062  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/battle-60-10.png)
+09-27 22:25:50.123  4320  4388 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=10 frames=63 elapsed_s=5.775 measured_fps=10.91 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:25:50.123  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:25:50.123  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:25:50.123  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:25:50.123  4320  4388 I Unity   : 
+09-27 22:25:50.612  4320  4388 E Unity   : Failed to store screen shot (/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01/clean-60-10.png)
+09-27 22:25:50.625  4320  4388 I Unity   : OLW_NATIVE_PROOF_ALL_PASS runs=8 source=6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90
+09-27 22:25:50.625  4320  4388 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:25:50.625  4320  4388 I Unity   : OneLaneWar.Presentation.<Start>d__2:MoveNext()
+09-27 22:25:50.625  4320  4388 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:25:50.625  4320  4388 I Unity   : 

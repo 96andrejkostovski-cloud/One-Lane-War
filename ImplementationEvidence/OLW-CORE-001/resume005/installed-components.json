@@ -1,0 +1,74 @@
+[
+  {
+    "id": "android-open-jdk-17.0.18+8",
+    "url": "https://download.unity3d.com/download_unity/open-jdk/open-jdk-win-x64/jdk17.0.18-8_15e8817d1f5db6db3571ebe7430ef37f7fa8e60e8ff6f3e18ca1cb4c29f78774.zip",
+    "sha256": "15e8817d1f5db6db3571ebe7430ef37f7fa8e60e8ff6f3e18ca1cb4c29f78774",
+    "bytes": 118110508,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK",
+    "files": 421
+  },
+  {
+    "id": "android-ndk-r27c",
+    "url": "https://dl.google.com/android/repository/android-ndk-r27c-windows.zip",
+    "sha256": "27e49f11e0cee5800983d8af8f4acd5bf09987aa6f790d4439dda9f3643d2494",
+    "bytes": 781511249,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "files": 7935
+  },
+  {
+    "id": "cmake-3.22.1",
+    "url": "https://dl.google.com/android/repository/cmake-3.22.1-windows.zip",
+    "sha256": "c9a9d568452a20cf27d703cb21ef9529dd67bda6be048c4d4b884acb3ac3a2b8",
+    "bytes": 16116742,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1",
+    "files": 2991
+  },
+  {
+    "id": "android-sdk-build-tools-36.0.0",
+    "url": "https://dl.google.com/android/repository/build-tools_r36_windows.zip",
+    "sha256": "aa1095cb14d83e483818a748a2c06faaeb8e601561b06a356a119a1b2ca280d3",
+    "bytes": 58699878,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\build-tools\\36.0.0",
+    "files": 169
+  },
+  {
+    "id": "android-sdk-platform-tools-36.0.0",
+    "url": "https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip",
+    "sha256": "12c2841f354e92a0eb2fd7bf6f0f9bf8538abce7bd6b060ac8349d6f6a61107c",
+    "bytes": 7138784,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK",
+    "files": 14
+  },
+  {
+    "id": "android-sdk-platforms-34",
+    "url": "https://dl.google.com/android/repository/platform-34-ext7_r02.zip",
+    "sha256": "5323311cc3e4ad614f0b8053c72b651726f3422448cedd39e48f00737cda8ad0",
+    "bytes": 63180079,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\platforms",
+    "files": 10963
+  },
+  {
+    "id": "android-sdk-platforms-35",
+    "url": "https://dl.google.com/android/repository/platform-35_r01.zip",
+    "sha256": "ec20a0a65704e1b2554f8e3eebf588ef260569673c848c01aff2e29c28734cf4",
+    "bytes": 64281654,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\platforms",
+    "files": 11162
+  },
+  {
+    "id": "android-sdk-platforms-36",
+    "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+    "sha256": "37607369a28c5b640b3a7998868d45898ebcb777565a0e85f9acf36f29631d2e",
+    "bytes": 65878410,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\platforms",
+    "files": 11342
+  },
+  {
+    "id": "android-sdk-command-line-tools-16.0",
+    "url": "https://dl.google.com/android/repository/commandlinetools-win-12266719_latest.zip",
+    "sha256": "f9088c04a44f1f37a8a3a228a7663e11ae9445fa07529c96cef38acb985a88f3",
+    "bytes": 143481958,
+    "destination": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.21f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmdline-tools\\16.0",
+    "files": 107
+  }
+]

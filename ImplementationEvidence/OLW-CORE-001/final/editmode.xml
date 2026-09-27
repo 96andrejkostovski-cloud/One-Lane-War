@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="81" result="Passed" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.4856986">
+  <test-suite type="TestSuite" id="1000" name="One Lane War PH01" fullname="One Lane War PH01" runstate="Runnable" testcasecount="81" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.485699" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1084" name="OneLaneWar.EditModeTests.dll" fullname="C:/Users/Andrej/Downloads/One Lane War/Library/ScriptAssemblies/OneLaneWar.EditModeTests.dll" runstate="Runnable" testcasecount="81" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.472370" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="56016" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1085" name="OneLaneWar" fullname="OneLaneWar" runstate="Runnable" testcasecount="81" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.471912" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1086" name="Tests" fullname="OneLaneWar.Tests" runstate="Runnable" testcasecount="81" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.471697" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="ModelTests" fullname="OneLaneWar.Tests.ModelTests" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" testcasecount="81" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:53Z" duration="5.470690" total="81" passed="81" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1083" name="GeneratedContentMatchesSealedSource" fullname="OneLaneWar.Tests.ModelTests.GeneratedContentMatchesSealedSource" methodname="GeneratedContentMatchesSealedSource" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="504572963" result="Passed" start-time="2026-09-27 20:43:47Z" end-time="2026-09-27 20:43:48Z" duration="0.306797" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1082" name="ModelFixture" fullname="OneLaneWar.Tests.ModelTests.ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" testcasecount="80" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:53Z" duration="5.141063" total="80" passed="80" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1002" name="ModelFixture(&quot;barrier.exact_expiry_with_remaining_budget&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;barrier.exact_expiry_with_remaining_budget&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1416037681" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.062325" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="ModelFixture(&quot;barrier.first_hit_same_tick_budget_and_expiry&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;barrier.first_hit_same_tick_budget_and_expiry&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1711542049" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.024638" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="ModelFixture(&quot;battle.empty_lane_and_no_tick_zero_income&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;battle.empty_lane_and_no_tick_zero_income&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1034876544" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.009777" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="ModelFixture(&quot;bolt.does_not_chase_past_extent&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;bolt.does_not_chase_past_extent&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="213715812" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.020524" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="ModelFixture(&quot;bolt.no_travel_on_release_tick&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;bolt.no_travel_on_release_tick&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1498509967" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.010865" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="ModelFixture(&quot;bolt.shooter_death_does_not_remove_projectile&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;bolt.shooter_death_does_not_remove_projectile&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1176473754" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.011104" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="ModelFixture(&quot;bolt.target_death_and_swept_intersection&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;bolt.target_death_and_swept_intersection&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="906441546" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.019706" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="ModelFixture(&quot;boss.bulwark_resolved_stats_barrier&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;boss.bulwark_resolved_stats_barrier&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="991169982" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.006731" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="ModelFixture(&quot;boss.powder_captain_resolved_stats&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;boss.powder_captain_resolved_stats&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="980073191" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.010056" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="ModelFixture(&quot;commands.reject_duplicate_sequence_and_past_tick&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;commands.reject_duplicate_sequence_and_past_tick&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1563305845" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.018205" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="ModelFixture(&quot;content.all_15_loadouts_have_18_upgrades&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.all_15_loadouts_have_18_upgrades&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="842137248" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:48Z" duration="0.009761" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="ModelFixture(&quot;content.all_authored_queues_and_boss_replacements&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.all_authored_queues_and_boss_replacements&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="668930887" result="Passed" start-time="2026-09-27 20:43:48Z" end-time="2026-09-27 20:43:51Z" duration="2.795998" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="ModelFixture(&quot;content.bad_selection_rejected&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.bad_selection_rejected&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1418901368" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.014633" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="ModelFixture(&quot;content.canonical_counts_and_hash&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.canonical_counts_and_hash&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1487619301" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.009914" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="ModelFixture(&quot;content.modified_bytes_rejected&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.modified_bytes_rejected&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="460722710" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.005418" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="ModelFixture(&quot;content.unknown_reference_rejected&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;content.unknown_reference_rejected&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1584764770" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.011019" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="ModelFixture(&quot;damage.minimum_one_and_overkill_diagnostics&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;damage.minimum_one_and_overkill_diagnostics&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="53872527" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.023045" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="ModelFixture(&quot;deploy.cap_includes_living_bonus_and_releases_next_tick&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;deploy.cap_includes_living_bonus_and_releases_next_tick&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1935268340" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.011273" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="ModelFixture(&quot;deploy.cooldown_exact_six_ticks&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;deploy.cooldown_exact_six_ticks&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="722549893" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.007264" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="ModelFixture(&quot;deploy.insufficient_and_unequipped_spend_nothing&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;deploy.insufficient_and_unequipped_spend_nothing&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="726377467" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.010292" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="ModelFixture(&quot;deploy.same_tick_cooldown_is_atomic&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;deploy.same_tick_cooldown_is_atomic&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="676467762" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.011623" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="ModelFixture(&quot;end.due_impact_before_hard_finish&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;end.due_impact_before_hard_finish&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="303506247" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.102308" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="ModelFixture(&quot;end.hard_finish_fractions_and_draw&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;end.hard_finish_fractions_and_draw&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="498387690" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.108719" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="ModelFixture(&quot;end.overtime_exact_tick_3000&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;end.overtime_exact_tick_3000&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="363871806" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.076358" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="ModelFixture(&quot;end.queue_cutoff_at_3600&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;end.queue_cutoff_at_3600&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1144596825" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.085696" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1027" name="ModelFixture(&quot;end.simultaneous_base_destruction_draw&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;end.simultaneous_base_destruction_draw&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="203557687" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.009689" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="ModelFixture(&quot;formation.body_blocks_ram_base_target&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.body_blocks_ram_base_target&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="415402843" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.011024" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="ModelFixture(&quot;formation.melee_passes_friendly_ranged&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.melee_passes_friendly_ranged&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1801374411" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.007277" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1030" name="ModelFixture(&quot;formation.opposing_fast_units_proportional_clamp&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.opposing_fast_units_proportional_clamp&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="2038093239" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.010463" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1031" name="ModelFixture(&quot;formation.ranged_only_targetable&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.ranged_only_targetable&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1273851972" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.011428" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="ModelFixture(&quot;formation.three_slots_reserve_turnover&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.three_slots_reserve_turnover&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="856905252" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.008694" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1033" name="ModelFixture(&quot;formation.unequal_speed_mirror_stable&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;formation.unequal_speed_mirror_stable&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="2087816770" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.018969" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="ModelFixture(&quot;grenade.commits_ground_position_and_no_friendly_fire&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;grenade.commits_ground_position_and_no_friendly_fire&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1923885254" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.008869" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1035" name="ModelFixture(&quot;grenade.radius_edge_and_no_base_splash_bypass&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;grenade.radius_edge_and_no_base_splash_bypass&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1589635462" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.013287" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="ModelFixture(&quot;interaction.boots_march_and_barrier_from_modified_hp&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.boots_march_and_barrier_from_modified_hp&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="135620187" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.010712" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="ModelFixture(&quot;interaction.brute_belly_force_and_sweep&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.brute_belly_force_and_sweep&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1713372423" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.012513" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="ModelFixture(&quot;interaction.militia_hp_damage_and_field_training&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.militia_hp_damage_and_field_training&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="666932054" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.012420" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1039" name="ModelFixture(&quot;interaction.powder_charges_fuses_splash_edge&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.powder_charges_fuses_splash_edge&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="788484227" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.007333" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1040" name="ModelFixture(&quot;interaction.ram_engineering_frame_training_paid_and_base&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.ram_engineering_frame_training_paid_and_base&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="468675551" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.007614" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1041" name="ModelFixture(&quot;interaction.windlass_reload_delivers_modified_bolt&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;interaction.windlass_reload_delivers_modified_bolt&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="890907333" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.014241" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1042" name="ModelFixture(&quot;melee.same_tick_mutual_kill&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;melee.same_tick_mutual_kill&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1905521148" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.010045" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="ModelFixture(&quot;melee.target_death_causes_miss_not_retarget&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;melee.target_death_causes_miss_not_retarget&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1700448954" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.006393" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1044" name="ModelFixture(&quot;numeric.exact_decimal_half_up_and_ceiling&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;numeric.exact_decimal_half_up_and_ceiling&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1913324353" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.000569" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1045" name="ModelFixture(&quot;pause.overlapping_reasons_and_no_catchup&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;pause.overlapping_reasons_and_no_catchup&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="909902412" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.012404" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1046" name="ModelFixture(&quot;rally.initial_boundary_duplicate_and_expiry&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;rally.initial_boundary_duplicate_and_expiry&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1315021005" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:51Z" duration="0.017438" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1047" name="ModelFixture(&quot;rally.snapshots_existing_attack&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;rally.snapshots_existing_attack&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="2088088328" result="Passed" start-time="2026-09-27 20:43:51Z" end-time="2026-09-27 20:43:52Z" duration="0.013040" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1048" name="ModelFixture(&quot;replay.30_60fps_1_2_4_10x_identical&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;replay.30_60fps_1_2_4_10x_identical&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1399020408" result="Passed" start-time="2026-09-27 20:43:52Z" end-time="2026-09-27 20:43:52Z" duration="0.926517" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1049" name="ModelFixture(&quot;spawn_contact.canonical_fortress_reinforcement&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.canonical_fortress_reinforcement&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="977469887" result="Passed" start-time="2026-09-27 20:43:52Z" end-time="2026-09-27 20:43:52Z" duration="0.052832" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1050" name="ModelFixture(&quot;spawn_contact.conscription_cap_supply_accounting&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.conscription_cap_supply_accounting&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1059627977" result="Passed" start-time="2026-09-27 20:43:52Z" end-time="2026-09-27 20:43:53Z" duration="0.014965" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1051" name="ModelFixture(&quot;spawn_contact.enemy_queue_symmetric&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.enemy_queue_symmetric&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="552075186" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.014902" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1052" name="ModelFixture(&quot;spawn_contact.nearest_then_id_priority_before_forward&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.nearest_then_id_priority_before_forward&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1326077823" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.020322" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1053" name="ModelFixture(&quot;spawn_contact.no_movement_created_exception_or_crossing&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.no_movement_created_exception_or_crossing&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="528824525" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.017044" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1054" name="ModelFixture(&quot;spawn_contact.released_grenade_base_impact_is_blocked&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.released_grenade_base_impact_is_blocked&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="473186986" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.021592" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1055" name="ModelFixture(&quot;spawn_contact.reserves_do_not_attack_or_gain_slots&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.reserves_do_not_attack_or_gain_slots&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="838499166" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.025952" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1056" name="ModelFixture(&quot;spawn_contact.reverse_centres_hold_and_resume_after_death&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.reverse_centres_hold_and_resume_after_death&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1681917326" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.025608" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="ModelFixture(&quot;spawn_contact.reverse_crossbow_hits_after_release_not_immediately&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;spawn_contact.reverse_crossbow_hits_after_release_not_immediately&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1112531434" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.020571" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="ModelFixture(&quot;upgrade.u01_conscription_nonrecursive_and_owed_cap&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u01_conscription_nonrecursive_and_owed_cap&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1213154359" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.012514" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1059" name="ModelFixture(&quot;upgrade.u02_scrap_blades&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u02_scrap_blades&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="671004738" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.015157" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="ModelFixture(&quot;upgrade.u03_thick_coats&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u03_thick_coats&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1216602634" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.006045" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="ModelFixture(&quot;upgrade.u04_first_into_battle_modified_hp&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u04_first_into_battle_modified_hp&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1294952280" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.009046" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="ModelFixture(&quot;upgrade.u05_reinforced_shields&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u05_reinforced_shields&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="761070911" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.009952" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1063" name="ModelFixture(&quot;upgrade.u06_heavy_boots&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u06_heavy_boots&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1252550782" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.009917" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1064" name="ModelFixture(&quot;upgrade.u07_piercing_bolts_one_secondary_independent_armor&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u07_piercing_bolts_one_secondary_independent_armor&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1100560390" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.014121" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1065" name="ModelFixture(&quot;upgrade.u08_tighter_windlass&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u08_tighter_windlass&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1853704866" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.009838" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1066" name="ModelFixture(&quot;upgrade.u09_quick_reload&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u09_quick_reload&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="706400593" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.008131" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1067" name="ModelFixture(&quot;upgrade.u10_packed_powder&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u10_packed_powder&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="901804125" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.013302" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1068" name="ModelFixture(&quot;upgrade.u11_heavy_charges&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u11_heavy_charges&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="892529280" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.013141" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1069" name="ModelFixture(&quot;upgrade.u12_fast_fuses&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u12_fast_fuses&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1976749553" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.007013" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1070" name="ModelFixture(&quot;upgrade.u13_sweeping_club_two_secondaries&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u13_sweeping_club_two_secondaries&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1351999114" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.006240" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1071" name="ModelFixture(&quot;upgrade.u14_iron_belly&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u14_iron_belly&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="894833934" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.010802" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="ModelFixture(&quot;upgrade.u15_brutal_force&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u15_brutal_force&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="917832716" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.008257" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="ModelFixture(&quot;upgrade.u16_splintering_head_third_direct_hit&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u16_splintering_head_third_direct_hit&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1412871947" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.011342" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1074" name="ModelFixture(&quot;upgrade.u17_siege_engineering_additive_cost&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u17_siege_engineering_additive_cost&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1466592789" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.019497" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="ModelFixture(&quot;upgrade.u18_reinforced_frame&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u18_reinforced_frame&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1979126207" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.007085" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1076" name="ModelFixture(&quot;upgrade.u19_war_economy&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u19_war_economy&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="968339966" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.007404" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="ModelFixture(&quot;upgrade.u20_deep_stores&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u20_deep_stores&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1123502455" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.027918" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="ModelFixture(&quot;upgrade.u21_war_drums&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u21_war_drums&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="537665541" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.015130" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="ModelFixture(&quot;upgrade.u22_field_training&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u22_field_training&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1735968925" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.006989" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1080" name="ModelFixture(&quot;upgrade.u23_rapid_orders_preserves_initial_delay&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u23_rapid_orders_preserves_initial_delay&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1196334448" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.012528" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="ModelFixture(&quot;upgrade.u24_forced_march_additive_with_boots&quot;)" fullname="OneLaneWar.Tests.ModelTests.ModelFixture(&quot;upgrade.u24_forced_march_additive_with_boots&quot;)" methodname="ModelFixture" classname="OneLaneWar.Tests.ModelTests" runstate="Runnable" seed="1203992144" result="Passed" start-time="2026-09-27 20:43:53Z" end-time="2026-09-27 20:43:53Z" duration="0.020278" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\final\editmode.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

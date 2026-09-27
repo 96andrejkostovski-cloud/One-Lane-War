@@ -1,0 +1,312 @@
+libc++_shared.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          1291048 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         12
+  Size of section headers:           64 (bytes)
+  Number of section headers:         29
+  Section header string table index: 28
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 12 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x0002a0 0x0002a0 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x09aca8 0x09aca8 R   0x4000
+  LOAD           0x09acb0 0x000000000009ecb0 0x000000000009ecb0 0x096640 0x096640 R E 0x4000
+  LOAD           0x1312f0 0x00000000001392f0 0x00000000001392f0 0x009b50 0x009d10 RW  0x4000
+  LOAD           0x13ae40 0x0000000000146e40 0x0000000000146e40 0x000238 0x007d10 RW  0x4000
+  DYNAMIC        0x1397c0 0x00000000001417c0 0x00000000001417c0 0x0001d0 0x0001d0 RW  0x8
+  GNU_RELRO      0x1312f0 0x00000000001392f0 0x00000000001392f0 0x009b50 0x009d10 R   0x1
+  GNU_EH_FRAME   0x078e8c 0x0000000000078e8c 0x0000000000078e8c 0x004bec 0x004bec R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  GNU_PROPERTY   0x0003a0 0x00000000000003a0 0x00000000000003a0 0x000020 0x000020 R   0x8
+  NOTE           0x0002e0 0x00000000000002e0 0x00000000000002e0 0x0000bc 0x0000bc R   0x4
+  NOTE           0x0003a0 0x00000000000003a0 0x00000000000003a0 0x000020 0x000020 R   0x8
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .note.gnu.property .dynsym .gnu.version .gnu.version_r .gnu.hash .hash .dynstr .rela.dyn .rela.plt .gcc_except_table .rodata .eh_frame_hdr .eh_frame 
+   02     .text .plt 
+   03     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   04     .data .bss 
+   05     .dynamic 
+   06     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   07     .eh_frame_hdr 
+   08     
+   09     .note.gnu.property 
+   10     .note.android.ident .note.gnu.build-id 
+   11     .note.gnu.property 
+   None   .comment .shstrtab 
+libgame.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          250280 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         27
+  Section header string table index: 26
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x0001f8 0x0001f8 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x03b7d0 0x03b7d0 R E 0x4000
+  LOAD           0x03b7d0 0x000000000003f7d0 0x000000000003f7d0 0x001618 0x001830 RW  0x4000
+  LOAD           0x03cde8 0x0000000000044de8 0x0000000000044de8 0x0000a0 0x0014f8 RW  0x4000
+  DYNAMIC        0x03bc58 0x000000000003fc58 0x000000000003fc58 0x0001e0 0x0001e0 RW  0x8
+  GNU_RELRO      0x03b7d0 0x000000000003f7d0 0x000000000003f7d0 0x001618 0x001830 R   0x1
+  GNU_EH_FRAME   0x0136cc 0x00000000000136cc 0x00000000000136cc 0x001e64 0x001e64 R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  NOTE           0x000238 0x0000000000000238 0x0000000000000238 0x0000bc 0x0000bc R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .gcc_except_table .rodata .eh_frame_hdr .eh_frame .text .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   03     .data .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   06     .eh_frame_hdr 
+   07     
+   08     .note.android.ident .note.gnu.build-id 
+   None   .comment .shstrtab 
+libil2cpp.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          51783704 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         10
+  Size of section headers:           64 (bytes)
+  Number of section headers:         29
+  Section header string table index: 27
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 10 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x000230 0x000230 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x11f86bc 0x11f86bc R   0x4000
+  LOAD           0x11f86c0 0x00000000011fc6c0 0x00000000011fc6c0 0x1c010d0 0x1c010d0 R E 0x4000
+  LOAD           0x2df9790 0x0000000002e01790 0x0000000002e01790 0x1d9300 0x1d9870 RW  0x4000
+  LOAD           0x2fd2a90 0x0000000002fdea90 0x0000000002fdea90 0x18fad8 0x3b1b10 RW  0x4000
+  DYNAMIC        0x2f88d40 0x0000000002f90d40 0x0000000002f90d40 0x0001c0 0x0001c0 RW  0x8
+  GNU_RELRO      0x2df9790 0x0000000002e01790 0x0000000002e01790 0x1d9300 0x1d9870 R   0x1
+  GNU_EH_FRAME   0xada084 0x0000000000ada084 0x0000000000ada084 0x151bdc 0x151bdc R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  NOTE           0x000270 0x0000000000000270 0x0000000000000270 0x0000bc 0x0000bc R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .gcc_except_table .rodata .eh_frame_hdr .eh_frame 
+   02     .text il2cpp .plt 
+   03     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   04     .data .bss 
+   05     .dynamic 
+   06     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   07     .eh_frame_hdr 
+   08     
+   09     .note.android.ident .note.gnu.build-id 
+   None   .comment .shstrtab .gnu_debuglink 
+libmain.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          6928 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         10
+  Size of section headers:           64 (bytes)
+  Number of section headers:         28
+  Section header string table index: 24
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 10 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x000230 0x000230 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x000a20 0x000a20 R   0x4000
+  LOAD           0x000a20 0x0000000000004a20 0x0000000000004a20 0x000500 0x000500 R E 0x4000
+  LOAD           0x000f20 0x0000000000008f20 0x0000000000008f20 0x000230 0x0010e0 RW  0x4000
+  LOAD           0x001150 0x000000000000d150 0x000000000000d150 0x000030 0x000040 RW  0x4000
+  DYNAMIC        0x000f38 0x0000000000008f38 0x0000000000008f38 0x0001a0 0x0001a0 RW  0x8
+  GNU_RELRO      0x000f20 0x0000000000008f20 0x0000000000008f20 0x000230 0x0010e0 R   0x1
+  GNU_EH_FRAME   0x000880 0x0000000000000880 0x0000000000000880 0x00005c 0x00005c R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  NOTE           0x000270 0x0000000000000270 0x0000000000000270 0x0000bc 0x0000bc R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .rodata .eh_frame_hdr .eh_frame 
+   02     .text .plt 
+   03     .data.rel.ro .fini_array .dynamic .got.plt .relro_padding 
+   04     .data .bss 
+   05     .dynamic 
+   06     .data.rel.ro .fini_array .dynamic .got.plt .relro_padding 
+   07     .eh_frame_hdr 
+   08     
+   09     .note.android.ident .note.gnu.build-id 
+   None   .comment .symtab .shstrtab .strtab .note.unity .gnu_debuglink 
+libswappywrapper.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          225376 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         9
+  Size of section headers:           64 (bytes)
+  Number of section headers:         26
+  Section header string table index: 25
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x0001f8 0x0001f8 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x032fc0 0x032fc0 R E 0x4000
+  LOAD           0x032fc0 0x0000000000036fc0 0x0000000000036fc0 0x001a90 0x002040 RW  0x4000
+  LOAD           0x034a50 0x000000000003ca50 0x000000000003ca50 0x002304 0x0024c0 RW  0x4000
+  DYNAMIC        0x033b88 0x0000000000037b88 0x0000000000037b88 0x0001e0 0x0001e0 RW  0x8
+  GNU_RELRO      0x032fc0 0x0000000000036fc0 0x0000000000036fc0 0x001a90 0x002040 R   0x1
+  GNU_EH_FRAME   0x013584 0x0000000000013584 0x0000000000013584 0x0011ec 0x0011ec R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  NOTE           0x000238 0x0000000000000238 0x0000000000000238 0x0000bc 0x0000bc R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .rodata .eh_frame_hdr .eh_frame .text .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   03     .data .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   06     .eh_frame_hdr 
+   07     
+   08     .note.android.ident .note.gnu.build-id 
+   None   .comment .shstrtab 
+libunity.so
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          31474192 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         10
+  Size of section headers:           64 (bytes)
+  Number of section headers:         32
+  Section header string table index: 28
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 10 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x000230 0x000230 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x4fcb54 0x4fcb54 R   0x4000
+  LOAD           0x4fcb60 0x0000000000500b60 0x0000000000500b60 0xf941d0 0xf941d0 R E 0x4000
+  LOAD           0x1490d30 0x0000000001498d30 0x0000000001498d30 0x057460 0x0582d0 RW  0x4000
+  LOAD           0x14e8190 0x00000000014f4190 0x00000000014f4190 0x016288 0x155f20 RW  0x4000
+  DYNAMIC        0x14e4d60 0x00000000014ecd60 0x00000000014ecd60 0x000230 0x000230 RW  0x8
+  GNU_RELRO      0x1490d30 0x0000000001498d30 0x0000000001498d30 0x057460 0x0582d0 R   0x1
+  GNU_EH_FRAME   0x26bd0c 0x000000000026bd0c 0x000000000026bd0c 0x078944 0x078944 R   0x4
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0x0
+  NOTE           0x000270 0x0000000000000270 0x0000000000000270 0x0000b0 0x0000b0 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_d .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .rodata .gcc_except_table .eh_frame_hdr .eh_frame 
+   02     .text .plt 
+   03     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   04     .data .bss 
+   05     .dynamic 
+   06     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   07     .eh_frame_hdr 
+   08     
+   09     .note.android.ident .note.gnu.build-id 
+   None   .comment .symtab .shstrtab .strtab .note.unity .gnu_debuglink 

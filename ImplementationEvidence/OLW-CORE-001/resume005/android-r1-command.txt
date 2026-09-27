@@ -1,0 +1,37 @@
+UTC=2026-09-27T20:02:57.4036452Z
+HEAD=5fe736af31765bb7e31f2bfb02517e9f17336bfb
+COMMAND=C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe -batchmode -projectPath "C:\Users\Andrej\Downloads\One Lane War" -logFile "C:\Users\Andrej\Downloads\One Lane War\ImplementationEvidence\OLW-CORE-001\resume005\android-r1.log" -quit -executeMethod OneLaneWar.Editor.BuildTools.Android
+ M Assets/OneLaneWar/Core/CombatModel.cs
+ M Assets/OneLaneWar/Core/Content.cs
+ M Assets/OneLaneWar/Tests/Fixtures/ModelFixtures.cs
+ M Assets/OneLaneWar/Tests/Fixtures/OneLaneWar.ModelFixtures.asmdef
+ M Tools/run-pure-tests.ps1
+?? Assets/OneLaneWar.meta
+?? Assets/OneLaneWar/Core.meta
+?? Assets/OneLaneWar/Core/AssemblyInfo.cs.meta
+?? Assets/OneLaneWar/Core/CombatModel.cs.meta
+?? Assets/OneLaneWar/Core/Content.cs.meta
+?? Assets/OneLaneWar/Core/OneLaneWar.Core.asmdef.meta
+?? Assets/OneLaneWar/Editor.meta
+?? Assets/OneLaneWar/Editor/
+?? Assets/OneLaneWar/Presentation.meta
+?? Assets/OneLaneWar/Presentation/
+?? Assets/OneLaneWar/Resources.meta
+?? Assets/OneLaneWar/Resources/
+?? Assets/OneLaneWar/Tests.meta
+?? Assets/OneLaneWar/Tests/EditMode.meta
+?? Assets/OneLaneWar/Tests/EditMode/
+?? Assets/OneLaneWar/Tests/Fixtures.meta
+?? Assets/OneLaneWar/Tests/Fixtures/ModelFixtures.cs.meta
+?? Assets/OneLaneWar/Tests/Fixtures/OneLaneWar.ModelFixtures.asmdef.meta
+?? Assets/OneLaneWar/Tests/PlayMode.meta
+?? Assets/OneLaneWar/Tests/PlayMode/
+?? Assets/Scenes.meta
+?? Assets/Scenes/
+?? ImplementationEvidence/OLW-CORE-001/resume005/
+?? Packages/
+?? ProjectSettings/
+?? Tools/install-t001-components.py
+?? Tools/run-unity.ps1
+PID=83748
+EXIT=0

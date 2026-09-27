@@ -1,0 +1,323 @@
+--------- beginning of main
+09-27 22:45:29.474  8485  8485 I .onelanewar.dev: Late-enabling -Xcheck:jni
+09-27 22:45:29.604  8485  8485 I .onelanewar.dev: Using CollectorTypeCMC GC.
+09-27 22:45:29.605  8485  8485 W .onelanewar.dev: Unexpected CPU variant for x86: x86_64.
+09-27 22:45:29.605  8485  8485 W .onelanewar.dev: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-27 22:45:29.715  8485  8485 I berberis: Initialized Berberis (aarch64), version 16.0.0
+09-27 22:45:30.344  8485  8485 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-27 22:45:31.553  8485  8485 D nativeloader: Configuring clns-9 for other apk /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64:/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.example.onelanewar.dev
+09-27 22:45:32.095  8485  8485 I .onelanewar.dev: AssetManager2(0x79c156290b38) locale list changing from [] to [en-US]
+09-27 22:45:32.149  8485  8485 V GraphicsEnvironment: Currently set values for:
+09-27 22:45:32.149  8485  8485 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-27 22:45:32.149  8485  8485 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-27 22:45:32.150  8485  8485 V GraphicsEnvironment: com.example.onelanewar.dev is not listed in per-application setting
+09-27 22:45:32.150  8485  8485 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+09-27 22:45:32.150  8485  8485 V GraphicsEnvironment: com.example.onelanewar.dev is not listed in ANGLE allowlist or settings, returning default
+09-27 22:45:32.150  8485  8485 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-27 22:45:32.297  8485  8485 I .onelanewar.dev: AssetManager2(0x79c156290e58) locale list changing from [] to [en-US]
+09-27 22:45:32.776  8485  8485 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libgame.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk!classes2.dex): ok
+09-27 22:45:32.791  8485  8485 D GameActivity: GameActivity_register
+09-27 22:45:32.877  8485  8485 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-27 22:45:32.879  8485  8485 I .onelanewar.dev: AssetManager2(0x79c1562901d8) locale list changing from [] to [en-US]
+09-27 22:45:32.892  8485  8485 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-27 22:45:32.923  8485  8485 D gti.InputConnection: InputConnection created
+09-27 22:45:32.923  8485  8485 D gti.InputConnection: setEditorInfo
+09-27 22:45:32.947  8485  8485 D CompatChangeReporter: Compat change id reported: 377864165; UID 10217; state: ENABLED
+09-27 22:45:32.962  8485  8485 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+09-27 22:45:33.013  8485  8485 I .onelanewar.dev: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+09-27 22:45:33.014  8485  8485 I .onelanewar.dev: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+09-27 22:45:33.043  8485  8485 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:45:33.049  8485  8485 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libmain.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): ok
+09-27 22:45:33.299  8485  8485 I IL2CPP  : JNI_OnLoad
+09-27 22:45:33.299  8485  8485 V Unity   : Context Type: GameActivity
+09-27 22:45:33.324  8485  8485 D Unity   : CommandLine:  
+09-27 22:45:33.369  8485  8485 I GameActivity: Looking for library libgame.so
+09-27 22:45:33.369  8485  8485 I GameActivity: Found library libgame.so. Loading...
+09-27 22:45:33.376  8485  8485 D GameActivity: SDK version: 36
+09-27 22:45:33.389  8485  8572 I Unity   : UnityApplication::CreateInstance
+09-27 22:45:33.389  8485  8572 I Unity   : GameActivity Package Version '4.4.0'
+09-27 22:45:33.392  8485  8572 I Unity   : Starting Game Loop
+09-27 22:45:33.455  8485  8485 I Unity   : onResume
+09-27 22:45:33.457  8485  8572 I Unity   : Handle cmd APP_CMD_START(11)
+09-27 22:45:33.476  8485  8572 I Unity   : Handle cmd APP_CMD_RESUME(12)
+--------- beginning of system
+09-27 22:45:33.508  8485  8485 D InsetsController: Setting requestedVisibleTypes to -12 (was -9)
+09-27 22:45:33.510  8485  8485 D InsetsController: Setting requestedVisibleTypes to -16 (was -12)
+09-27 22:45:33.554  8485  8485 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:45:33.565  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:45:33.584  8485  8485 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:45:33.587  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:45:33.590  8485  8572 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+09-27 22:45:33.594  8485  8572 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+09-27 22:45:33.898  8485  8572 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+09-27 22:45:33.908  8485  8572 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+09-27 22:45:33.908  8485  8572 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+09-27 22:45:33.908  8485  8572 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+09-27 22:45:33.908  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+09-27 22:45:33.908  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+09-27 22:45:33.909  8485  8572 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+09-27 22:45:33.910  8485  8572 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+09-27 22:45:34.340  8485  8485 I Unity   : windowFocusChanged: true
+09-27 22:45:34.346  8485  8485 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:45:34.346  8485  8485 I Unity   : resumeUnity
+09-27 22:45:34.473  8485  8485 D InsetsController: hide(ime(), fromIme=false)
+09-27 22:45:34.473  8485  8485 I ImeTracker: com.example.onelanewar.dev:c8ec97b7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 22:45:34.670  8485  8579 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.onelanewar.dev
+09-27 22:45:35.489  8485  8572 D Unity   : Enabling Unity systrace
+09-27 22:45:35.490  8485  8572 D Unity   : Starting Unity systrace
+09-27 22:45:35.937  8485  8572 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+09-27 22:45:36.021  8485  8572 D Unity   : [VFS] Mount /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk
+09-27 22:45:36.129  8485  8485 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:45:36.135  8485  8572 I Unity   : SystemInfo CPU = x86-64 SSE3 SSE4.1 AVX, Cores = 2, Memory = 2472mb
+09-27 22:45:36.142  8485  8572 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+09-27 22:45:36.143  8485  8572 I Unity   : ApplicationInfo 'com.example.onelanewar.dev', Version '0.1.0', Min API Level '28', Target API Level '36'
+09-27 22:45:36.143  8485  8572 I Unity   : Built from '6000.3/staging' branch, Version '6000.3.21f1 (c02631ffc030)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+09-27 22:45:36.144  8485  8572 I Unity   : Device Model 'Google sdk_gphone64_x86_64', OS 'Android OS 16 (API 36)'
+09-27 22:45:36.167  8485  8572 D Unity   : Determine if il2cpp resources need to extracted:
+09-27 22:45:36.176  8485  8572 D Unity   :     Missing '/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/il2cpp/unity.ver'
+09-27 22:45:36.176  8485  8572 D Unity   :     Extracting il2cpp resources
+09-27 22:45:36.600  8485  8572 D Unity   : Unable to find library path for 'il2cpp.usym'.
+09-27 22:45:37.056  8485  8513 I .onelanewar.dev: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+09-27 22:45:37.102  8485  8572 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:45:37.102  8485  8572 D Unity   : InitializeScriptEngine OK (0x79c399208fc0)
+09-27 22:45:37.117  8485  8572 D Unity   : Found 2 interfaces on host :
+09-27 22:45:37.117  8485  8572 D Unity   :  0) 10.0.2.15
+09-27 22:45:37.118  8485  8572 D Unity   :  1) 10.0.2.17
+09-27 22:45:37.118  8485  8572 D Unity   : 
+09-27 22:45:37.121  8485  8572 D Unity   : Player connection [133867187099280]  Target information:
+09-27 22:45:37.121  8485  8572 D Unity   : 
+09-27 22:45:37.121  8485  8572 D Unity   : Player connection [133867187099280]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 3583072536 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:45:37.121  8485  8572 D Unity   : 
+09-27 22:45:37.122  8485  8572 D Unity   : Player connection [133867187099280]  * "[IP] 10.0.2.17 [Port] 55000 [Flags] 2 [Guid] 3583072536 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:45:37.122  8485  8572 D Unity   : 
+09-27 22:45:37.122  8485  8572 D Unity   : Player connection [133867187099280] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+09-27 22:45:37.122  8485  8572 D Unity   : 
+09-27 22:45:37.218  8485  8572 D Unity   : Input System module state changed to: Initialized.
+09-27 22:45:37.229  8485  8572 I DisplayManager: Implicitly registering for refresh rate
+09-27 22:45:37.240  8485  8572 D Unity   : [Physics::Module] Initialized fallback backend.
+09-27 22:45:37.240  8485  8572 D Unity   : [Physics::Module] Id: 0xdecafbad
+09-27 22:45:37.246  8485  8485 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:45:37.278  8485  8572 D Unity   : PlayerInitEngineNoGraphics OK
+09-27 22:45:37.279  8485  8572 I Unity   : Company Name: One Lane War Development
+09-27 22:45:37.279  8485  8572 I Unity   : Product Name: One Lane War PH01
+09-27 22:45:37.279  8485  8572 D Unity   : AndroidGraphics::Startup window =  0x79c2062a24f0
+09-27 22:45:37.280  8485  8572 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:45:37.282  8485  8485 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:45:37.320  8485  8572 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+09-27 22:45:37.320  8485  8572 I EGL_emulation: Opening libGLESv2_emulation.so
+09-27 22:45:37.324  8485  8572 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:45:37.325  8485  8572 D Unity   : [EGL] Checking ES 3.2 support...
+09-27 22:45:37.325  8485  8572 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.2 support
+09-27 22:45:37.325  8485  8572 E EGL_emulation: tid 8572: eglCreateContext(1828): error 0x3005 (EGL_BAD_CONFIG)
+09-27 22:45:37.325  8485  8572 D Unity   : [EGL] ES3.2 not supported
+09-27 22:45:37.325  8485  8572 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:45:37.325  8485  8572 D Unity   : [EGL] Checking ES 3.1 support...
+09-27 22:45:37.325  8485  8572 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.1 support
+09-27 22:45:37.326  8485  8572 E EGL_emulation: tid 8572: eglCreateContext(1822): error 0x3005 (EGL_BAD_CONFIG)
+09-27 22:45:37.326  8485  8572 D Unity   : [EGL] ES3.1 not supported
+09-27 22:45:37.326  8485  8572 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:45:37.326  8485  8572 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:45:37.326  8485  8572 E EGL_emulation: [getAttribValue] Bad attribute idx
+09-27 22:45:37.326  8485  8572 E EGL_emulation: tid 8572: eglGetConfigAttrib(1247): error 0x3004 (EGL_BAD_ATTRIBUTE)
+09-27 22:45:37.326  8485  8572 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:45:37.329  8485  8572 D Unity   : GfxDevice: creating device client; kGfxThreadingModeThreaded
+09-27 22:45:37.333  8485  8572 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+09-27 22:45:37.340  8485  8572 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+09-27 22:45:37.340  8485  8572 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+09-27 22:45:37.340  8485  8572 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+09-27 22:45:37.340  8485  8572 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+09-27 22:45:37.348  8485  8572 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+09-27 22:45:37.349  8485  8572 D Unity   : [EGL] Found: ID[2] ES 3.0 RGBA 8888 24/8
+09-27 22:45:37.353  8485  8572 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:45:37.417  8485  8572 D Unity   : Renderer: Android Emulator OpenGL ES Translator (Google SwiftShader)
+09-27 22:45:37.417  8485  8572 D Unity   : Vendor:   Google (Google Inc.)
+09-27 22:45:37.417  8485  8572 D Unity   : Version:  OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+09-27 22:45:37.417  8485  8572 D Unity   : GLES:     3
+09-27 22:45:37.418  8485  8572 D Unity   :  GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROI
+09-27 22:45:37.418  8485  8572 D Unity   : D_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+09-27 22:45:37.428  8485  8572 D Unity   : OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1982526064
+09-27 22:45:37.460  8485  8572 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:45:37.465  8485  8572 D Unity   : Requested framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[on], samples[1]
+09-27 22:45:37.467  8485  8572 D Unity   : Created framebuffer: resolution[2400x1080], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+09-27 22:45:37.472  8485  8572 D nativeloader: Load liblibswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+09-27 22:45:37.478  8485  8572 D nativeloader: Load /data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/lib/arm64/libswappywrapper.so using class loader ns clns-9 (caller=/data/app/~~fgRyiT-68Csw9foge0nzTg==/com.example.onelanewar.dev-DS5LT76FjyCaNKzF5gWaqg==/base.apk): ok
+09-27 22:45:37.480  8485  8572 I SwappyWrapper: SwappyWrapperInit() succeeded. Build: Sun Sep 27 22:33:51 2026
+09-27 22:45:37.480  8485  8572 D Unity   : SwappyWrapper: InitSwappyWrapper() succeeded.
+09-27 22:45:37.493  8485  8617 D AChoreographer: Attaching thread to JVM for AChoreographer
+09-27 22:45:37.505  8485  8572 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, 133872355250448]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+09-27 22:45:37.511  8485  8618 I SwappyDisplayManager: Starting looper thread
+09-27 22:45:37.521  8485  8572 D Unity   : [EGL] Attaching window :0x79c2062a24f0
+09-27 22:45:37.523  8485  8572 D Unity   : Initialize engine version: 6000.3.21f1 (c02631ffc030)
+09-27 22:45:37.935  8485  8572 D Unity   : [Physics::Module] Selected backend.
+09-27 22:45:37.936  8485  8572 D Unity   : [Physics::Module] Name: PhysX
+09-27 22:45:37.936  8485  8572 D Unity   : [Physics::Module] Id: 0xf2b8ea05
+09-27 22:45:37.936  8485  8572 D Unity   : [Physics::Module] SDK Version: 4.1.2
+09-27 22:45:37.936  8485  8572 D Unity   : [Physics::Module] Integration Version: 1.0.0
+09-27 22:45:37.936  8485  8572 D Unity   : [Physics::Module] Threading Mode: Multi-Threaded
+09-27 22:45:38.157  8485  8572 D Unity   : PlayerInitEngineGraphics OK
+09-27 22:45:38.204  8485  8572 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: -1, quality: 2
+09-27 22:45:38.205  8485  8572 I Unity   :     HasWindow = 1, HasFocus = 0
+09-27 22:45:38.206  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_RESIZED(3)
+09-27 22:45:38.206  8485  8572 D Unity   : NativeWindow resized 2400x1080
+09-27 22:45:38.206  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+09-27 22:45:38.206  8485  8572 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+09-27 22:45:38.207  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:45:38.212  8485  8572 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:45:38.224  8485  8572 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+09-27 22:45:38.225  8485  8572 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+09-27 22:45:38.397  8485  8572 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: 0, quality: 2
+09-27 22:45:40.466  8485  8485 D GameActivity: ************** mainWorkCallback *********
+09-27 22:45:40.466  8485  8485 D gti.InputConnection: setSoftKeyboardActive, active: false
+09-27 22:45:40.471  8485  8485 I ImeTracker: com.example.onelanewar.dev:eb29eeb1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+09-27 22:45:40.474  8485  8485 D InsetsController: hide(ime(), fromIme=false)
+09-27 22:45:40.475  8485  8485 I ImeTracker: com.example.onelanewar.dev:eb29eeb1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 22:45:40.475  8485  8485 D CompatChangeReporter: Compat change id reported: 395521150; UID 10217; state: ENABLED
+09-27 22:45:40.481  8485  8572 D Unity   : UnloadTime: 11.143900 ms
+09-27 22:45:40.645  8485  8572 I IL2CPP  : Locale en-US
+09-27 22:45:41.466  8485  8572 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 0, quality: 2
+09-27 22:45:41.487  8485  8572 D Unity   : Using NDK Choreographer.
+09-27 22:45:41.531  8485  8572 D Unity   : Stopping Unity systrace
+09-27 22:45:41.553  8485  8572 I Unity   : SetGameState: isLoading: true, mode: UNKNOWN, label: 1, quality: 2
+09-27 22:45:41.603  8485  8620 D Unity   : Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+09-27 22:45:41.821  8485  8485 D GameActivity: ************** mainWorkCallback *********
+09-27 22:45:41.821  8485  8485 D gti.InputConnection: setSoftKeyboardActive, active: false
+09-27 22:45:41.821  8485  8485 I ImeTracker: com.example.onelanewar.dev:1d5c0b9: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+09-27 22:45:41.822  8485  8485 D InsetsController: hide(ime(), fromIme=false)
+09-27 22:45:41.822  8485  8485 I ImeTracker: com.example.onelanewar.dev:1d5c0b9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 22:45:41.829  8485  8572 D Unity   : UnloadTime: 10.476400 ms
+09-27 22:45:43.280  8485  8572 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 1, quality: 2
+09-27 22:45:43.324  8485  8572 D Unity   : Unloading 19 unused Assets / (1.2 KB). Loaded Objects now: 1162.
+09-27 22:45:43.324  8485  8572 D Unity   : Memory consumption went from 36.5 MB to 36.5 MB.
+09-27 22:45:43.325  8485  8572 D Unity   : Total: 36.626900 ms (FindLiveObjects: 3.216200 ms CreateObjectMapping: 3.446100 ms MarkObjects: 27.596400 ms  DeleteObjects: 2.223300 ms)
+09-27 22:45:43.325  8485  8572 D Unity   : 
+09-27 22:45:43.463  8485  8572 I Unity   : OLW_NATIVE_START unity=6000.3.21f1 graphics=OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1) output=/storage/emulated/0/Android/data/com.example.onelanewar.dev/files/PH01
+09-27 22:45:43.463  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:45:43.463  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:45:43.463  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:45:43.463  8485  8572 I Unity   : 
+09-27 22:46:02.161  8485  8514 I .onelanewar.dev: Background concurrent mark compact GC freed 2446KB AllocSpace bytes, 3(144KB) LOS objects, 49% free, 2841KB/5682KB, paused 1.188ms,6.815ms total 39.771ms
+09-27 22:46:42.961  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=1 frames=1384 elapsed_s=56.889 measured_fps=24.33 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:46:42.961  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:46:42.961  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:46:42.961  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:46:42.961  8485  8572 I Unity   : 
+09-27 22:47:12.151  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=2 frames=728 elapsed_s=28.854 measured_fps=25.23 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:47:12.151  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:47:12.151  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:47:12.151  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:47:12.151  8485  8572 I Unity   : 
+09-27 22:47:26.932  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=4 frames=372 elapsed_s=14.428 measured_fps=25.78 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:47:26.932  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:47:26.932  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:47:26.932  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:47:26.932  8485  8572 I Unity   : 
+09-27 22:47:33.091  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=30 speed=10 frames=142 elapsed_s=5.790 measured_fps=24.53 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:47:33.091  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:47:33.091  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:47:33.091  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:47:33.091  8485  8572 I Unity   : 
+09-27 22:48:31.101  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=1 frames=1864 elapsed_s=57.634 measured_fps=32.34 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:48:31.101  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:48:31.101  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:48:31.101  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:48:31.101  8485  8572 I Unity   : 
+09-27 22:49:00.288  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=2 frames=945 elapsed_s=28.836 measured_fps=32.77 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:49:00.288  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:49:00.288  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:49:00.288  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:49:00.288  8485  8572 I Unity   : 
+09-27 22:49:15.055  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=4 frames=466 elapsed_s=14.420 measured_fps=32.32 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:49:15.055  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:49:15.055  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:49:15.055  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:49:15.055  8485  8572 I Unity   : 
+09-27 22:49:21.198  8485  8572 I Unity   : OLW_NATIVE_REPLAY target_fps=60 speed=10 frames=173 elapsed_s=5.774 measured_fps=29.96 tick=1152 result=PlayerWin hash=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533 expected=7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533
+09-27 22:49:21.198  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:49:21.198  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:49:21.198  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:49:21.198  8485  8572 I Unity   : 
+09-27 22:49:21.546  8485  8572 I Unity   : OLW_NATIVE_PROOF_ALL_PASS runs=8 source=6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90
+09-27 22:49:21.546  8485  8572 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+09-27 22:49:21.546  8485  8572 I Unity   : OneLaneWar.Presentation.<Start>d__3:MoveNext()
+09-27 22:49:21.546  8485  8572 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-27 22:49:21.546  8485  8572 I Unity   : 
+09-27 22:52:01.505  8485  8485 I Unity   : onPause
+09-27 22:52:01.526  8485  8485 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=com.unity3d.player.a.e@77b7177
+09-27 22:52:01.542  8485  8485 I Unity   : pauseUnity
+09-27 22:52:01.623  8485  8485 I Unity   : windowFocusChanged: false
+09-27 22:52:01.708  8485  8572 I Unity   : Handle cmd APP_CMD_PAUSE(14)
+09-27 22:52:01.926  8485  8621 D Unity   : ChoreographerNDK: Ignoring event, since Choreographer is disabled
+09-27 22:52:01.968  8485  8572 I Unity   : SetGameState: isLoading: false, mode: CONTENT, label: -6, quality: 2
+09-27 22:52:01.979  8485  8572 I Unity   : Handle cmd APP_CMD_LOST_FOCUS(8)
+09-27 22:52:03.071  8485  8485 D VRI[UnityPlayerGameActivity]: visibilityChanged oldVisibility=true newVisibility=false
+09-27 22:52:03.086  8485  8572 I Unity   : Handle cmd APP_CMD_TERM_WINDOW(2)
+09-27 22:52:03.087  8485  8572 D Unity   : [EGL] Attaching window :0x0
+09-27 22:52:03.097  8485  8485 D Unity   : PersistentUnitySurface.preserveContent: com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{30d364d VFE...... .F....I. 0,0-2400,1080 #7f080125 app:id/unitySurfaceView aid=1073741824}
+09-27 22:52:03.100  8485  8485 D Unity   : PersistentUnitySurface.PlaceholderView.Copy: com.unity3d.player.UnityPlayerGameActivity$GameActivitySurfaceView{30d364d VFE...... .F....I. 0,0-2400,1080 #7f080125 app:id/unitySurfaceView aid=1073741824} Width 2400  Height 1080
+09-27 22:52:03.152  8485  8776 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-27 22:52:03.502  8485  8775 D Unity   : PixelCopy finished: 0
+09-27 22:52:03.509  8485  8485 E Surface : freeAllBuffers: 1 buffers were freed while being dequeued!
+09-27 22:52:03.606  8485  8485 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:52:03.625  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:52:03.727  8485  8485 D ViewRootImpl: Skipping stats log for color mode
+09-27 22:52:03.747  8485  8572 I Unity   : Handle cmd APP_CMD_LOW_MEMORY(10)
+09-27 22:52:03.748  8485  8572 I Unity   : Handle cmd APP_CMD_STOP(15)
+09-27 22:52:03.774  8485  8572 I Unity   : Handle cmd APP_CMD_SAVE_STATE(13)
+09-27 22:52:04.476  8485  8485 D ViewRootImpl: Skipping stats log for color mode
+09-27 22:52:04.481  8485  8572 I Unity   : Handle cmd APP_CMD_START(11)
+09-27 22:52:04.482  8485  8485 I Unity   : onNewIntent
+09-27 22:52:04.483  8485  8485 I Unity   : onResume
+09-27 22:52:04.504  8485  8572 I Unity   : Handle cmd APP_CMD_RESUME(12)
+09-27 22:52:04.541  8485  8485 V GameActivity: onImeInsetsChanged from Text Listener
+09-27 22:52:04.542  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+09-27 22:52:04.553  8485  8572 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+09-27 22:52:04.556  8485  8572 D Unity   : [EGL] Attaching window :0x79c2062a0b30
+09-27 22:52:04.587  8485  8572 E Surface : getSlotFromBufferLocked: unknown buffer: 0x0
+09-27 22:52:04.591  8485  8572 E Surface : freeAllBuffers: 1 buffers were freed while being dequeued!
+09-27 22:52:04.733  8485  8572 D Unity   : ANativeWindow: (2400/1080) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (2400/1080)
+09-27 22:52:04.780  8485  8572 I Unity   :     HasWindow = 1, HasFocus = 0
+09-27 22:52:04.780  8485  8572 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+09-27 22:52:04.945  8485  8485 I Unity   : windowFocusChanged: true
+09-27 22:52:04.946  8485  8485 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+09-27 22:52:04.946  8485  8485 I Unity   : resumeUnity
+09-27 22:52:04.950  8485  8572 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+09-27 22:52:05.130  8485  8485 D InsetsController: hide(ime(), fromIme=false)
+09-27 22:52:05.131  8485  8485 I ImeTracker: com.example.onelanewar.dev:d9f7846c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-27 22:52:05.240  8485  8572 D Unity   : Found 2 interfaces on host Google_sdk_gphone64_x86_64@10.0.2.17:
+09-27 22:52:05.240  8485  8572 D Unity   :  0) 10.0.2.15
+09-27 22:52:05.240  8485  8572 D Unity   :  1) 10.0.2.17
+09-27 22:52:05.240  8485  8572 D Unity   : 
+09-27 22:52:05.341  8485  8572 D Unity   : Player connection [133867187099280]  Target information:
+09-27 22:52:05.341  8485  8572 D Unity   : 
+09-27 22:52:05.345  8485  8572 D Unity   : Player connection [133867187099280]  * "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 3583072536 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:52:05.345  8485  8572 D Unity   : 
+09-27 22:52:05.351  8485  8572 D Unity   : Player connection [133867187099280]  * "[IP] 10.0.2.17 [Port] 55000 [Flags] 2 [Guid] 3583072536 [EditorId] 2901414459 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.17) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] One Lane War PH01" 
+09-27 22:52:05.351  8485  8572 D Unity   : 
+09-27 22:52:05.366  8485  8572 D Unity   : Player connection [133867187099280] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+09-27 22:52:05.366  8485  8572 D Unity   : 
+09-27 22:52:05.373  8485  8572 D Unity   : Player connection [133867187099280] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+09-27 22:52:05.373  8485  8572 D Unity   : 
+09-27 22:52:05.447  8485  8572 I Unity   : SetGameState: isLoading: false, mode: UNKNOWN, label: 1, quality: 2

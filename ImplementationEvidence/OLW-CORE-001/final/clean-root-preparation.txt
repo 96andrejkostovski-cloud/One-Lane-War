@@ -1,0 +1,12 @@
+HEAD=f41126d87e77a534da977715224cf9d8ce7999ce
+UTC=2026-09-27T20:31:10.7819528Z
+No running Unity process uses this project; implementation diff empty.
+Reconstruct committed implementation files in sole root; isolate generated Library and Temp; preserve sealed source and evidence.
+MOVED C:\Users\Andrej\Downloads\One Lane War\Library -> C:\Users\Andrej\Downloads\One Lane War\Builds\PreCleanLibrary
+
+Algorithm : SHA256
+Hash      : 27B8E6AD3379D74EF07B8C5CE8FF29BA45D177DAD4B6ED344EEC07DE2CC729BC
+Path      : C:\Users\Andrej\Downloads\One Lane War\Builds\Android\OneLaneWar-PH01.apk
+
+
+UTC=2026-09-27T20:35:00.0084122Z Isolated Unity GameActivity .utmp cache before Gradle start; no CMake/ninja/clang/java process referenced it.

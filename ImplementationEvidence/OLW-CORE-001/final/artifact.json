@@ -1,0 +1,38 @@
+{
+  "tested_commit": "f41126d87e77a534da977715224cf9d8ce7999ce",
+  "artifact": "C:\\Users\\Andrej\\Downloads\\One Lane War\\Builds\\Android\\OneLaneWar-PH01.apk",
+  "sha256": "18d8c724a21b30fc8dcd6e1d636331edb62f08e7d21581c1058eb2df42feee30",
+  "bytes": 40654258,
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "sha256": "4397241b4bd20a8e579bfb41d21107857e12985f6a01ca0c2a5f83380d1270b4",
+      "bytes": 1292904
+    },
+    {
+      "path": "lib/arm64-v8a/libgame.so",
+      "sha256": "6c943c29f3ee23da29c2e3d1031c704394e313b20796369f790ec64d19a888da",
+      "bytes": 252008
+    },
+    {
+      "path": "lib/arm64-v8a/libil2cpp.so",
+      "sha256": "8d2c685ac3808ef7449fe2d41103562050314738151a24ad9afc5359011df597",
+      "bytes": 51785560
+    },
+    {
+      "path": "lib/arm64-v8a/libmain.so",
+      "sha256": "912912f413ec770b8cfccab4ec0f9f829760984be4f1e4d67c4223f9526e18de",
+      "bytes": 8720
+    },
+    {
+      "path": "lib/arm64-v8a/libswappywrapper.so",
+      "sha256": "20f42abee70bf61a950531845c84820422d539f997a05cf8655b5be57c64f710",
+      "bytes": 227040
+    },
+    {
+      "path": "lib/arm64-v8a/libunity.so",
+      "sha256": "b0bd6f57f67dd528bff92846e726ad9a44f751f0fe7b8e846871deb42fb0a7f5",
+      "bytes": 31476240
+    }
+  ]
+}

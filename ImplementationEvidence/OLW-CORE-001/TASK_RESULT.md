@@ -1,239 +1,244 @@
 # OLW-CORE-001 / PH01 result
 
-**Status: BLOCKED — Director source decision required. PH01 is NOT PASS.**
+**Status: PASS for the scoped PH01 implementation/build/native-load gates;
+ready for Director review. Director acceptance and phase advancement remain
+PENDING. No prerequisite blocker remains.**
 
-The actual canonical first encounter reproduces conflicting spawn and
-collision requirements. At tick 582, a legal paid Militia deployment at
-x=0.800000 overlaps an enemy Militia attacking the fortress at x=0.825000.
-Their required body separation is 0.500000. The failed test is retained;
-no spawn-rule exception, numerical change, or numbered amendment was
-silently applied. See [DIRECTOR_BLOCKER.md](DIRECTOR_BLOCKER.md) for source
-fields, reproduction, and two unapproved resolution options.
+OLW-AMEND-005 resolves the previous spawn-pressure conflict. Its canonical
+reinforcement fixture and focused contact fixtures now pass. The earlier
+report is preserved in [PRE_AMEND005_TASK_RESULT.md](PRE_AMEND005_TASK_RESULT.md);
+[DIRECTOR_BLOCKER.md](DIRECTOR_BLOCKER.md) is historical and superseded.
 
-## Identity and authorization
+## Commit and scope
 
-- Source: OLW-SOURCE-1.0.0; B001 / T001 / WF002 / ARC001 / QA001, plus
-  OLW-AMEND-001 through 004.
-- Sealed manifest SHA-256:
-  `6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90`.
-- Actual starting baseline: `c8130bfb304b40047c703b44ff3db19bc5cae89d`.
-  The issued user Goal supersedes the saved task/prompt's stale NONE text.
-- **Final tested implementation commit:**
-  `53051512a99774f974ae335c3ffff77cb3462646`.
-  [Exact-head test log](logs/pure-tests-exact-head.txt) records that SHA.
+- Main baseline: `c8130bfb304b40047c703b44ff3db19bc5cae89d`.
+- Resume baseline / Director amendment: `5fe736af31765bb7e31f2bfb02517e9f17336bfb`.
+- **Tested implementation commit: `f41126d87e77a534da977715224cf9d8ce7999ce`.**
 - Branch: `codex/olw-core-001-toolchain-combat`.
-- Sole workspace/repository: `C:\Users\Andrej\Downloads\One Lane War`.
-  Implementation files are under root `Assets/`; no `Game/`,
-  `UnityProject/`, secondary checkout, or competing source was created.
-  Full Unity project initialization is **incomplete**: no fabricated
-  `Packages/packages-lock.json`, ProjectSettings, scene or build is supplied.
-- This report and logs are an evidence-only follow-up to the tested
-  implementation commit. They do not change its C# or Tools files. The
-  final handoff commit is identified by Git and the final delivery message;
-  this file does not pretend to contain its own self-referential SHA.
-- Owner requested Astra Goal 01 only. Model selection/reasoning UI was
-  not independently inspected. No independent reviewer or subagent ran.
+- Sole repository and Unity root: `C:\Users\Andrej\Downloads\One Lane War`.
+- Authority: OLW-SOURCE-1.0.0, B001 / T001 / WF002 / ARC001 / QA001,
+  root amendments 001–005, Director task and issued Goal 01. The user's
+  existing-Git baseline supersedes saved NONE/initialize-Git wording.
+- Source manifest SHA-256:
+  `6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90`.
+- Amendment 005 SHA-256:
+  `1ca4183a26daccc3e2a08b714e65f4fba87ada1ccde1cdfbcaa11be6a0e8ccfd`.
+  Amendments 001–004 hashes remain in the historical report.
 
-Amendment SHA-256 values, recorded before coding:
+The implementation commits add the root Unity project, typed canonical
+Resources projection, plain-C# deterministic combat, developer Canvas/Input
+System harness, Bootstrap/Battle scenes, model/EditMode/PlayMode tests and
+build/evidence tools. All six troops, both authored boss replacements and all
+24 operators have fixtures; seven additional interaction fixtures measure
+actual movement, paid spending and delivered damage, including mirrored
+collision. The harness selects four troops, an authored encounter, up to four
+eligible upgrades and seed, with 1/2/4/10x scheduling, pause/single-step,
+Supply/bases, Rally, actor/damage/time diagnostics and clean capture mode.
 
-| Amendment | SHA-256 |
+Spawn creation alone registers hostile contact pairs. Fixed-position paid,
+enemy and owed Conscription spawns succeed after the existing checks. Contact
+holds both X positions, gives overlapping opponents distance/ID priority
+before normal forward/base targeting, retains normal melee slots and attack
+rules, and shields the base at committed impact. No B001 value was changed.
+
+No second checkout/project, CORE-002, campaign/progression/save work,
+commercial SDK initialization, spending, final media, publication, PR or merge
+is included. This remains a developer placeholder foundation, not the game.
+
+## Exact T001 investigation
+
+The selected editor was installed and actually executed at:
+`C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe`, changeset
+`c02631ffc030`. Unity Personal entitlement worked for import, tests and builds.
+No `.18f1` or `.25f1` editor was used as a substitute in this resumed work.
+
+Hub registered the editor but rejected module installation because it regarded
+it as a manual installation; its complete-install retry reported the existing
+editor. The signed official exact-changeset Android installer was downloaded,
+its metadata MD5 and Authenticode signature verified, then installed with
+Windows elevation approved by the user. Matching JDK/SDK/NDK archives came
+from the exact release metadata; their identities and hashes are recorded in
+[installed-components.json](resume005/installed-components.json). Installation
+initially hit Program Files access denial; the elevated extraction succeeded.
+
+| Component | Actual selection |
 |---|---|
-| 001 | `aed8a3cd8394f55d71e4a4b5e008e9a130ce67cede3501c3efebb288bad24deb` |
-| 002 | `33444cd4cc77af87883cd0a9930cbd587274aa6822850048e2c8813ec404f5ee` |
-| 003 | `b3c2a8c226f7e96778be8f74ba93a6fa91fffe46965d65f76d229f1830cf2ef5` |
-| 004 | `69f02358f49cffc429d9f87fcc6ecc2a461c4d08b766f96ecc5533c814f69859` |
+| Unity | 6000.3.21f1 / c02631ffc030 |
+| Bundled JDK | Temurin OpenJDK 17.0.18+8; editor-selected archive |
+| java.exe SHA-256 | `5369cf92fc590944793e47cc9c9fef7955ce1a68de22ba22023cdd3513e87c2b` |
+| NDK | 27.2.12479018 / r27c |
+| API min / target / compile | 28 / 36 / 36 |
+| SDK build tools / platform tools / command-line tools | 36.0.0 / 36.0.0 / 16.0 |
+| SDK Android 36 platform | revision 2 |
+| Gradle / Android Gradle Plugin | 9.1.0 / 9.0.0 |
+| Player | IL2CPP, ARM64 only, OpenGLES3, built-in pipeline, landscape left/right |
+| Input System / Newtonsoft | 1.20.0 / 3.2.2 |
+| Editor-bound uGUI / Test Framework | 2.0.0 / 1.6.0; actual package lock committed |
+| Emulator | 37.1.11.0 / build 15917651; dedicated OLW_PH01_API36 on port 5556 |
+| Image | API36 Google Play x86_64 revision 7; ARM64 translation exposed |
+| Native bridge / page size | libndk_translation.so / 4096 bytes |
 
-## Scope completed and incomplete
+The first exploratory APK (`resume005/android-r1.log`) built with a shared
+external JDK preference (17.0.20.101), so it is **rejected as T001 evidence**.
+The build entry point now temporarily selects the exact editor's bundled JDK
+and restores the prior preference. `android-r2.log` confirms the corrected
+executable. Final acceptance uses the separate clean build below.
 
-Implemented a **partial, unaccepted** Unity-independent C# content/model
-foundation: byte-hash validated typed import of the five combat registries,
-stable content IDs, fixed-point arithmetic, tick commands, Supply, finite
-enemy queues and authored boss replacements, formations/movement,
-melee/bolt/ground-lob damage, barriers, the 24 upgrade definitions, Rally,
-overtime/cutoff/finish, pause reasons, scheduling and ordered state hashes.
-The 65-fixture runner uses that same source, not a Python combat simulator.
-Its failed collision requirement prevents calling this a completed model.
+Official investigation references: [Unity exact release](https://unity.com/releases/editor/whats-new/6000.3.21f1),
+[release metadata](https://services.api.unity.com/unity/editor/release/v1/releases?version=6000.3.21f1),
+[Google SDK metadata](https://dl.google.com/android/repository/repository2-3.xml),
+[Unity JDK selection API](https://docs.unity.com/en-us/engine/6000.3/script-reference/unityeditor/android/androidexternaltoolssettings/jdkrootpath).
 
-The following are **NOT_RUN / incomplete**, not delivered capabilities:
-the developer Unity harness and no-debug capture path, Unity EditMode and
-PlayMode runners, real render-rate checks, Input System controls, Unity
-scene lifecycle/background tests, Android build, clean-checkout rebuild,
-native installation/load, screenshots and recordings. Scheduling fixtures
-use simulated frame intervals; they are not rendered Unity sessions.
-Several upgrade cases assert resolved model statistics; this is not a
-claim that every required interaction has been demonstrated in-game.
+## Final commands and results
 
-Changed implementation paths at the tested commit:
+All commands run from the sole root unless stated otherwise. Unity commands
+are recorded with UTC, actual HEAD, working status, executable, arguments,
+PID and exit in each `final/*-command.txt`. Source commands run inside the
+sealed source directory with `PYTHONUTF8=1`.
 
-- `Assets/OneLaneWar/Core/{Content.cs,CombatModel.cs,AssemblyInfo.cs,OneLaneWar.Core.asmdef}`
-- `Assets/OneLaneWar/Tests/Fixtures/{ModelFixtures.cs,OneLaneWar.ModelFixtures.asmdef}`
-- `Tools/{verify_sealed_source.py,run-pure-tests.ps1,PureTestRunner.cs,collect-core001-environment.ps1}`
+| Check / actual command | Result | Evidence |
+|---|---|---|
+| `python tools/verify_source.py` | FAIL 1135/1136, exit 1: retained known Windows separator coverage defect (AMEND-002) | [log](final/source-verifier.txt) |
+| `python tools/verify_source.py --no-manifest` | PASS 837/837, exit 0; source semantics only | [log](final/source-semantic.txt) |
+| `python -m unittest discover -s tests -v` | PASS 35, exit 0; reference tests only | [log](final/source-reference-tests.txt) |
+| `python tools/audit_balance.py` | PASS 45,900 configurations / 367,200 unit-Rally states; zero violations; arithmetic, not battles | [log](final/arithmetic-audit.txt) |
+| `python Tools/verify_sealed_source.py` | PASS 147 manifest files + 2 excluded baseline files; exact bytes | [JSON](final/sealed-source.json) |
+| `git show HEAD:Assets/.../Canonical/*.json` byte comparison | PASS all six committed projection blobs equal their sealed originals | [result](final/committed-projection.txt) |
+| `Tools/run-pure-tests.ps1` | PASS 80/80 at tested commit; standalone C# runtime | [log](final/pure-model.txt) |
+| `Tools/run-unity.ps1 -Mode EditMode -Evidence ImplementationEvidence/OLW-CORE-001/final -Label editmode` | PASS 81/81, exit 0, zero failed/skipped | [XML](final/editmode.xml), [log](final/editmode.log) |
+| `Tools/run-unity.ps1 -Mode PlayMode -Evidence ImplementationEvidence/OLW-CORE-001/final -Label playmode` | PASS 7/7, exit 0, zero failed/skipped | [XML](final/playmode.xml), [log](final/playmode.log) |
+| `Tools/run-unity.ps1 -Mode Android -Evidence ImplementationEvidence/OLW-CORE-001/final -Label android-clean` | PASS Succeeded, zero errors, exit 0 | [build log](final/android-clean.log) |
+| Final APK install, launch and eight native replay cases | PASS install/launch exit 0; eight matching terminal hashes | [commands](final/native-commands.txt), [logcat](final/native-logcat.txt), [validation](final/native-validation.json) |
+| Actual Android touch / lifecycle / visual inspection | PASS deployment, Rally and explicit foreground resume; orientation limitation below | [inspection](final/native-inspection.md) |
+| `gradle :launcher:dependencies --configuration debugRuntimeClasspath` with bundled Java/Gradle | PASS exit 0; no Firebase, AdMob or Billing dependencies | [graph](final/gradle-dependencies.txt) |
+| `aapt dump badging`, `aapt dump xmltree`, `zipalign -c -P 16 -v 4`, `apksigner verify --verbose --print-certs`, NDK `llvm-readelf -l` | PASS all exits 0; ARM64 only; six native libraries; all LOAD alignment >= 16384 | [exits](final/apk-check-exits.txt), [ELF](final/elf-alignment.json), [signing](final/apk-signing.txt) |
 
-The remaining changes are this evidence directory. The existing root
-`.gitignore`, source package, source amendments, main branch and other
-games were preserved. Commercial SDKs, services, provider generation,
-spending, publication and CORE-002 were not started.
+The clean-build preparation restored committed Assets/Packages/ProjectSettings/
+Tools in place after proving they had no changes, with no Unity process using
+this root. Previous Library and APK were isolated inside ignored Builds; Temp
+was absent. The separate generated `.utmp` GameActivity cache was discovered
+and isolated before Gradle started, after checking it was not in use. This is
+the single-root clean reconstruction required by the owner's no-second-project
+constraint. [Exact preparation receipt](final/clean-root-preparation.txt).
 
-## Commands and actual evidence
+## Replay, native and visual evidence
 
-Unless noted, working directory is the workspace root. Source commands
-ran from `One_Lane_War_Codex_Source_v1.0.0` with `PYTHONUTF8=1`.
+Expected terminal replay: tick **1152**, **PlayerWin**, SHA-256
+`7aa8d88bcf7f4ad6759c53d377e0754e9032aeca7468d0885e66dab68f37f533`.
+The pure runner and PlayMode harness use the same tick-stamped deployment/Rally
+stream. PlayMode paints real Unity frames while feeding scheduled 30/60-FPS
+intervals, and compares directly with a plain-C# stepped run. It does not
+claim those injected intervals are measured hardware frame rates.
 
-| Command | Exit | Result | Evidence |
-|---|---:|---|---|
-| `git status --short --branch`; `git rev-parse HEAD`; `git remote -v` | 0 | Clean main at requested baseline; designated origin | Initial session output; identities above |
-| `git switch -c codex/olw-core-001-toolchain-combat` | failed, then 0 with filesystem escalation | Initial sandbox could not create ref directory; authorized retry created scoped branch | Session output; actual branch |
-| `python tools/verify_source.py` | 1 | **FAIL**, 1135/1136; known Windows separator coverage defect | [source-verifier.txt](logs/source-verifier.txt) |
-| `python tools/verify_source.py --no-manifest` | 0 | **PASS**, 837/837 semantic checks only | [source-semantic.txt](logs/source-semantic.txt) |
-| `python -m unittest discover -s tests -v` | 0 | **PASS**, 35 reference tests; not runtime | [source-reference-tests.txt](logs/source-reference-tests.txt) |
-| `python tools/audit_balance.py` | 0 | **PASS**, 45,900 arithmetic configurations, 367,200 unit/Rally states, zero violations; not battles | [arithmetic-audit.txt](logs/arithmetic-audit.txt) |
-| `python Tools/verify_sealed_source.py` | 0 | **PASS**, 147 manifest files plus 2 excluded files compared byte-for-byte with baseline | [sealed-source-exact-head.txt](logs/sealed-source-exact-head.txt) |
-| `Tools/run-pure-tests.ps1` initial run | 1 | Compiler missing netstandard facade reference; ordinary tooling defect repaired | [pure-tests-initial.txt](logs/pure-tests-initial.txt) |
-| `Tools/run-pure-tests.ps1` after compiler repair | 1 | 64 PASS / 1 FAIL; initial synthetic spawn-pressure fixture | [pure-tests-r2.txt](logs/pure-tests-r2.txt) |
-| `Tools/run-pure-tests.ps1` canonical reproduction | 1 | 64 PASS / 1 FAIL; unchanged authored encounter confirms conflict | [pure-tests-canonical-repro.txt](logs/pure-tests-canonical-repro.txt) |
-| `Tools/run-pure-tests.ps1` at `5305151…` | 1 | **64 PASS / 1 FAIL / 65 total** at exact recorded implementation commit | [pure-tests-exact-head.txt](logs/pure-tests-exact-head.txt) |
-| `git diff --check`; `git diff --cached --check` | 0 | Formatting only, not gameplay evidence | Session output |
-| `git diff --exit-code 5305151… -- Assets Tools` | 0 | Working code/tools equal tested commit | Session output; Git history |
-| `git diff --exit-code c8130bf… -- One_Lane_War_Codex_Source_v1.0.0` | 0 | No tracked source changes; normalized checker also verifies full coverage | Session output; sealed checker |
+The final APK completed all eight requested frame-rate/speed runs with that
+same hash in native process **8485**, with `OLW_NATIVE_PROOF_ALL_PASS runs=8`.
+Actual measured rates were **24.33–32.77 FPS**, below requested 30/60; this is
+determinism/load evidence, not a target-frame-rate or physical-phone PASS.
+The log and `/proc/8485/maps` prove Unity 6000.3.21f1, ARM64 IL2CPP/Unity and
+OpenGLES3 through `libndk_translation.so` loaded. The API36 image fingerprint
+is `google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys`;
+`ro.product.cpu.abilist=x86_64,arm64-v8a`. This is actual compatible ARM64
+translation, not an inference from an x86 emulator screenshot.
 
-The source/reference checks preceded the implementation commit and their
-scope remained byte-identical; the normalized full-byte check and C# suite
-were rerun at the exact implementation commit. None is promoted to Unity
-or native evidence. Inspect each log's inner `EXIT`: an outer PowerShell
-command that prints a log can return 0 while the tested command failed.
+All **17 final runtime PNG captures** were pulled successfully. Inspected
+[configuration](final/native-captures/configuration.png),
+[battle](final/native-captures/battle-30-1.png) and
+[clean](final/native-captures/clean-30-1.png) show the real Canvas and actor HP,
+with no development error console. Clean capture removes harness diagnostics;
+Unity's Development Build watermark remains. Friendly actor labels can overlap
+when many actors crowd the terminal scene; this is a placeholder, not final UX.
+Actual taps deployed a paid Militia and activated Rally after its cooldown.
+Background/foreground returned PAUSED at tick 91; screenshots three seconds
+apart are byte-identical, and explicit resume advanced combat. Both landscape
+orientations were observed on separate cold launches; live emulator sensor
+changes did not rotate this running player. That supplementary check is
+**NOT PROVEN**, not a live-rotation PASS. See the exact inspection record.
 
-## Toolchain and native inventory
+The preliminary run encountered Android's first-run full-screen hint and a
+System UI ANR; choosing Wait recovered it. Those failed/stalled captures are
+retained as history and are not the final native-load evidence.
 
-See [environment.txt](logs/environment.txt). Host: Windows 10.0.26200,
-x64. Initial disk free was 66,141,188,096 bytes; later inventory recorded
-53,717,381,120. Initial WMI OS query was denied by the sandbox; the runtime
-OS/architecture query succeeded. No license file contents were read.
+Actual visual inspection then found Android ScreenCapture incorrectly
+receiving an absolute filename (Unity prefixed persistentDataPath again),
+opening the development error console. It also found long actor labels
+hiding HP. Both ordinary defects were fixed before the tested commit: Android
+uses relative capture names and compact role labels. Final recapture passed;
+preliminary screenshots are retained only as failure/repair history.
 
-T001 `6000.3.21f1 / c02631ffc030` was absent at both checked editor roots.
-[Unity's official release page](https://unity.com/releases/editor/whats-new/6000.3.21f1)
-provides that exact release. After inspecting Hub's CLI, attempted:
+## Failure and repair history
 
-```powershell
-& 'C:\Program Files\Unity Hub\Unity Hub.exe' -- --headless install --version 6000.3.21f1 --changeset c02631ffc030 --module android --childModules
-```
+- Known canonical spawn rejection/overlap conflict: resolved strictly by
+  AMEND-005; replaced failing fixture and added contact regressions.
+- Hub module-registration rejection and Program Files permissions: exact
+  official component installation, no editor/version substitution.
+- PlayMode r1: six original cases passed. Added synthetic input case then
+  exposed fixture ordering/isolation errors in r2–r12. r5 additionally found
+  the missing built-in ScreenCapture module; repaired in the manifest.
+  r12's incorrect setup order destroyed scene references; retained as FAIL.
+  Explicit InputTestFixture setup before scene/action creation fixed this;
+  r13 passed all seven, including input press/release and duplicate cooldown.
+- New Ram interaction expected HP was initially wrong (560); the sealed
+  420 × (1 + .25 + .10) gives 567. Corrected test, no balance change;
+  final pure suite passed 80/80.
+- First APK used a host JDK override; rejected for T001, corrected and rebuilt.
+- New emulator refused to share the existing running AVD and rejected a 2048-MB
+  partition option. Created a dedicated AVD and used its supported option.
+  The original emulator on port 5554 was never closed or modified.
+- Native first-run System UI stall and screenshot-path/label issues are
+  described above, with raw failed runs retained under `resume005/`.
 
-The sandbox-only CLI help initially failed writing Hub preferences; the
-approved retry succeeded. [Hub help](logs/hub-help.txt) and
-[actual install progress](logs/hub-install-t001.txt) are retained.
-After the source blocker was confirmed, stopped the exact task-owned
-headless Hub process PID 49024; its recorded exit is -1 (cancelled, not
-installed/PASS). Vendor download cache was preserved. The already-started
-child `UnitySetup64-6000.3.21f1.exe`, PID 50920, remained present.
-`Stop-Process -Id 50920` failed with **Windows Access is denied**, even
-outside the sandbox. This was an OS permission failure, not an automatic
-approval-review rejection. No other Unity/editor process was stopped.
-The final process receipt records whether it is still pending. The
-installer may require local user dismissal/completion; no license, editor
-launch or installed state is inferred from its process or folder.
+## QA mapping and review gate
 
-Existing `.25f1` and `.18f1` editors were inventoried but **not launched
-as replacement Unity editors**. For independent pure C# fixtures only,
-the runner uses existing `.18f1` Mono 6.13.0, `csc.exe`, and its managed
-Newtonsoft DLL, with binary hashes recorded in the exact-head log.
-This is **not T001 package/editor/runtime compatibility proof**.
-The `.25f1` Android installation reports NDK 27.2.12479018, API 36 and
-build tools 36.0.0; its bundled JDK path is absent. No `.21f1` resolved
-package lock, JDK hash/patch, Gradle graph or Android artifact exists.
+| QA ID | Scope / evidence | Final status |
+|---|---|---|
+| QA-082 | Single-root clean reconstruction and exact T001 Android build | PASS; clean-build receipt and final Android log |
+| MIG-QA-001 | Manifest, 147+2 byte checks and committed projection | PASS |
+| MIG-QA-003 | Core-only manifest/source and resolved Android dependencies; no real commercial initialization | PASS; package lock, manifest and resolved Gradle graph reviewed |
+| MIG-QA-004 | Three slots, reserve turnover, contact reserve exclusion | PASS model fixtures |
+| MIG-QA-005 | Opposing proportional clamp, unequal-speed mirror, no movement-created contact | PASS model fixtures |
+| MIG-QA-006 | No projectile travel on release tick; release/death/sweep cases | PASS model fixtures |
+| MIG-QA-007 | Due impacts before tick4200 finish, exact tick3600 cutoff | PASS model fixtures |
+| MIG-QA-009 | Atomic same-tick cost/cooldown and native/Unity input | PASS model/PlayMode fixtures plus final native deployment and Rally taps |
+| MIG-QA-041 | ABI/bridge inventory plus actual IL2CPP load and gameplay | PASS final ARM64 APK on compatible translated API36 image |
 
-Running AVD `Pixel_8` / serial `emulator-5554` was inspected read-only:
+[Review record](final/implementation-review.txt): primary-agent source/diff
+review, not an independent audit. No native standalone general code-review
+tool was available, and no subagent was authorized. Director acceptance is
+separate and pending. Source checks and arithmetic are not runtime approval.
 
-- API 36; system image `android-36/google_apis_playstore/x86_64`, revision 7.
-- Fingerprint `google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys`.
-- `ro.product.cpu.abilist=x86_64,arm64-v8a`;
-  native bridge `libndk_translation.so`; page size 4096.
-- Emulator version output: **36.6.11.0**, build 15507667, versus T001
-  selected 37.1.11. The version-query collector did not terminate after
-  printing the version; it was interrupted (exit 1). The prior property
-  commands each returned 0. Do not call the whole collector PASS.
-- ARM64 is advertised, so this is a **possible compatible route**, not
-  an established ABI mismatch and not a successful IL2CPP native load.
-  No APK was installed, launched or captured by this task. A36 native
-  coverage is NOT_RUN; A28/A30/A33/A36_16KB and physical coverage are
-  NOT_RUN. This existing AVD is 4 KB and cannot stand in for the 16 KB row.
+No claim is made for physical-phone performance, every AVD row, API28 native
+execution, 16-KB runtime execution, release signing, store distribution, full
+campaign balance or later-phase UX. Live landscape switching on this emulator
+remains unproven; both allowed orientations are selected in the project and
+load on cold launch. The scoped PH01 packet is ready for Director review;
+CORE-002 remains unissued.
 
-Exact editor/module installation, selected Emulator revision, package
-resolution and build proof remain prerequisites after the source decision.
-No T002 change is justified merely by this unfinished install. Investigate
-and install exact components on resume; only demonstrated incompatibility
-should lead to a narrow proposed T002.
+## Git handoff and artifact identity
 
-## Build and capture artifacts
+The designated origin was reverified as public
+`96andrejkostovski-cloud/One-Lane-War`, with authenticated push access,
+default/main at the requested baseline, no rulesets, and the scoped remote
+branch at `5fe736a…`. [Read-only verification](final/remote-before-push.txt).
+Normal push of tested `f41126d87e77a534da977715224cf9d8ce7999ce` succeeded
+(exit 0), and remote readback matches; main remains `c8130bfb…`.
+[Push receipt](final/tested-commit-push.txt),
+[remote readback](final/remote-after-tested-push.txt).
 
-| Artifact | Path | SHA-256 / state | Evidence class |
-|---|---|---|---|
-| C# fixture executable | `Temp/PureTests/OneLaneWar.PureTests.exe` | `dab45209a3776a94c7cee673e07b71ae6c9183433eb876d1600194fb2e08ffa9` | Local ignored, reproducible test binary; not an Android app |
-| Canonical spawn reproduction | `logs/pure-tests-exact-head.txt` | Manifested in evidence hashes | Actual C# fixture FAIL |
-| APK / AAB / native libs | NONE | NOT_BUILT | No Android claim |
-| Screenshot / recording | NONE | NOT_CAPTURED | No presentation claim |
-| Unity package lock | NONE | NOT_RESOLVED | No package-pin claim |
+Final local APK: `Builds/Android/OneLaneWar-PH01.apk`, **40,654,258 bytes**,
+SHA-256 `18d8c724a21b30fc8dcd6e1d636331edb62f08e7d21581c1058eb2df42feee30`.
+[Artifact and native-library hashes](final/artifact.json). The APK/installers,
+SDK caches and unredacted logs stay in ignored local Builds, not public Git.
+All six ARM64 ELF libraries and the APK ZIP passed 16-KB alignment inspection;
+the actual runtime image uses 4-KB pages, so this is not 16-KB runtime proof.
 
-Replay fixture: all eight combinations of synthetic 30/60 FPS and
-1x/2x/4x/10x scheduling ended at tick 1152, PlayerWin, hash
-`38147fa12dbec4e67eef33bd39e22d77d25aade260e10ec10e00080561cbc0f9`.
-This is one deterministic model scenario, not full balance validation,
-rendered-game equivalence, or proof that the known collision defect is absent.
+Before public handoff, 21 new logs had Unity licence/account identifier lines
+redacted. Original bytes remain locally in `Builds/RawEvidence`; their hashes
+and published hashes are in [redactions.json](final/redactions.json). Test
+outcomes, failures, commands and tool versions remain intact. The evidence
+manifest hashes the published bytes and excludes itself and the local receipt.
 
-## QA execution
-
-| QA ID | Status and measured scope |
-|---|---|
-| QA-082 | **BLOCKED**: no pinned Unity Android build or clean-checkout rebuild |
-| MIG-QA-001 | **PASS**: normalized 147-file manifest coverage and both excluded baseline files byte-identical |
-| MIG-QA-003 | **NOT_RUN** for built-app acceptance; static review finds no commercial SDK/code/deployment or spending |
-| MIG-QA-004 | **BLOCKED** for complete acceptance: focused three-slot/reserve/ranged-target model fixtures pass, spawn-pressure fixture fails |
-| MIG-QA-005 | **NOT_RUN** for full mapped acceptance: focused opposing equal-speed proportional clamp passes; exhaustive mirrored/native cases not supplied |
-| MIG-QA-006 | **PASS, pure model only**: no travel on release tick, travel next tick; Unity/render/native repetition NOT_RUN |
-| MIG-QA-007 | **PASS, pure model only**: exact queue cutoff and due impact before tick-4200 fraction comparison; native repetition NOT_RUN |
-| MIG-QA-009 | **PASS, pure model only**: same-tick deployment rejects second command without spend |
-| MIG-QA-041 | **NOT_RUN**: actual library install/load absent; advertised ARM64 support alone proves neither success nor mismatch |
-
-No fake adapters or commercial SDK flows were exercised; none were needed
-for these isolated fixtures. The original QA registry remains unchanged.
-
-## Review and remote handoff
-
-**Alternative same-agent source/diff review**, not a native Codex or
-independent review, of implementation commit
-`53051512a99774f974ae335c3ffff77cb3462646`. Checked module boundaries,
-canonical content provenance, fixture scope, forbidden changes, source
-preservation, command/test results and the failing geometry against Bible
-02. Disposition: **BLOCKED / partial implementation; do not merge or
-advance PH01**. The core assembler has no Unity references; views and a
-completed Unity build do not yet exist. No general all-code-correct claim
-is made. The failing acceptance test remains enabled.
-
-Verified designated remote:
-`https://github.com/96andrejkostovski-cloud/One-Lane-War.git`.
-Read-only GitHub API showed exact repository identity, **public** visibility,
-authenticated `push=true`, default `main`, `protected=false`, and empty
-rulesets. `git ls-remote` matched baseline main before the push. Its
-nonempty state is the explicitly user-confirmed baseline, not an unknown
-history to overwrite. Initial sandbox network calls failed against proxy
-127.0.0.1:9; approved network retries succeeded. See
-[remote-verification.txt](logs/remote-verification.txt).
-
-Normal implementation push command and actual result:
-`git push --set-upstream origin codex/olw-core-001-toolchain-combat`,
-[push-implementation.txt](logs/push-implementation.txt).
-Only the scoped branch is pushed. The report/logs follow in an evidence-only
-commit. No force push, main change, PR creation or merge is performed.
-Post-handoff remote refs and final exact-head review are recorded in the
-local final receipt linked below and summarized in the delivery message.
-
-## Next allowed action
-
-**Stop for Director review of this blocker.** Director must issue an
-explicit numbered spawn-pressure rule, then resume OLW-CORE-001 on this
-branch. Repair the failing property to that decision, finish the developer
-harness, resolve/prove exact T001, and complete required Unity, Android,
-clean-build and compatible native evidence. Do not start OLW-CORE-002.
-
-See `DIRECTOR_BLOCKER.md`, `logs/operational-notes.txt`,
-`evidence-hashes.json`, and the local `FINAL_RECEIPT.md` for supporting
-handoff details. The final receipt is intentionally outside its own commit
-to record the exact pushed/reviewed SHA without a self-reference cycle.
+The evidence follow-up must leave Assets/Packages/ProjectSettings/Tools
+identical to tested `f41126d…`. Its only non-evidence adjustment is ignoring
+Unity's generated `.utmp` directory. The final receipt records the evidence
+commit and verified remote ref without pretending this report contains its
+own self-referential commit SHA.

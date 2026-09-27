@@ -2,3 +2,5 @@
 ** -text -eol whitespace=cr-at-eol
 # Terminal captures contain vendor progress escapes and deliberate whitespace.
 logs/** -diff -whitespace
+resume005/** -diff -whitespace
+final/** -diff -whitespace

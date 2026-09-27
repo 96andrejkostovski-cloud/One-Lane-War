@@ -1,0 +1,18 @@
+
+[install-state] downloads-store: reaped stale row uid=f1f60828-b01e-4b30-95c1-afe0d9d4188a pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=8eae9803-c665-4d54-bb39-632cc17e2060 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=c5b17581-0796-4abc-98f2-173bc2e7b380 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=eab527d2-bbea-4c4f-a635-b4fa150d7c58 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=40238fee-f449-4206-939f-e8e6ec374bd8 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=1906aa9e-a447-4207-8ae4-ba78ddcf1ba0 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=8a84be26-0a18-4431-8b73-d91960497978 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=b4ead859-1e91-4a57-b536-1a1f5688e2b1 pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: reaped stale row uid=fbaa1970-8319-4919-b164-c3bb8337c18f pid=49024 (dead=true, expired=true)
+[install-state] downloads-store: pruned 3 terminal row(s) older than 600000ms
+6000.7.0b2
+6000.0.84f1
+6000.6.3f1
+6000.3.21f1 installed at C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe
+6000.3.25f1 installed at C:\Program Files\Unity\Hub\Editor\6000.3.25f1\Editor\Unity.exe
+6000.3.18f1 installed at C:/Unity/Hub/Editor/6000.3.18f1/Editor/Unity.exe
+EXIT=0

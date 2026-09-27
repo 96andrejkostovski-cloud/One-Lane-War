@@ -1,0 +1,5 @@
+
+Defaulting to system architecture: x86_64. You can provide a desired architecture using --architecture|-a <architecture>	(x86_64 or arm64)
+Error while installing an editor or a module from changeset. Error: Editor already installed in this location.
+
+EXIT=1
