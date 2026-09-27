@@ -12,3 +12,6 @@
 # This rule comes last so it overrides extension rules above.
 # Preserve every imported source-package byte across platforms.
 One_Lane_War_Codex_Source_v1.0.0/** -text -eol
+Assets/**/*.meta whitespace=-blank-at-eol
+Assets/Scenes/*.unity whitespace=-blank-at-eol
+ProjectSettings/*.asset whitespace=-blank-at-eol

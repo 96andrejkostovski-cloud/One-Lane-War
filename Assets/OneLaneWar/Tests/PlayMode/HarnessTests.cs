@@ -39,44 +39,44 @@ namespace OneLaneWar.Tests
             var inputFixture = new InputTestFixture(); inputFixture.Setup();
             try
             {
-            SceneManager.LoadScene("Battle"); yield return null;
-            harness = Object.FindFirstObjectByType<BattleHarness>();
-            harness.StartBattle("c01_e01_b01", Army, new string[0], 17); harness.enabled = false;
-            yield return null; Canvas.ForceUpdateCanvases();
-            // The headless editor reports focus loss on the first yielded frame.
-            // Establish a foreground model for this pointer-path test explicitly.
-            harness.Model.SetPause("SYSTEM_FOCUS", false); harness.Suspend(false); harness.Pause(false);
-            var button = harness.GetComponentsInChildren<Button>().First(b => b.name == "Deploy");
-            var rect = (RectTransform)button.transform;
-            Vector2 point = RectTransformUtility.WorldToScreenPoint(null, rect.TransformPoint(rect.rect.center));
-            var hits = new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>();
-            UnityEngine.EventSystems.EventSystem.current.RaycastAll(new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current) { position = point }, hits);
-            Assert.IsTrue(hits.Count > 0 && hits[0].gameObject == button.gameObject, "Button must be top raycast at " + point + "; hit=" + (hits.Count > 0 ? hits[0].gameObject.name : "none"));
-            var mouse = InputSystem.AddDevice<Mouse>();
-            // BatchMode has no focused Game view. Keep this synthetic test device
-            // processing; the separate lifecycle test covers production focus gates.
-            var backgroundBehavior = InputSystem.settings.backgroundBehavior;
-            var editorBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
-            InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
-            InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
-            var module = harness.GetComponentInChildren<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
-            int clicks = 0, actions = 0;
-            button.onClick.AddListener(() => clicks++);
-            module.leftClick.action.performed += _ => actions++;
-            System.Action<MouseState> send = state => { InputSystem.QueueStateEvent(mouse, state); InputSystem.Update(); };
-            try
-            {
-                send(new MouseState { position = point }); yield return null;
-                send(new MouseState { position = point }.WithButton(MouseButton.Left)); yield return null;
-                Assert.IsTrue(mouse.leftButton.isPressed, "Synthetic press must reach Input System");
-                harness.AdvanceFrame(0.05m); Assert.AreEqual(0, harness.Model.Alive(Side.Player), "Pointer down must not deploy");
-                send(new MouseState { position = point }); yield return null;
-                harness.AdvanceFrame(0.05m); Assert.AreEqual(1, harness.Model.Alive(Side.Player), "Completed click must deploy once; pauses=" + string.Join(",", harness.Model.PauseReasons) + "; action=" + module.leftClick.action.enabled + "; callbacks=" + actions + "; clicks=" + clicks + "; raycast=" + module.GetLastRaycastResult(mouse.deviceId).gameObject);
-                send(new MouseState { position = point }.WithButton(MouseButton.Left)); yield return null;
-                send(new MouseState { position = point }); yield return null;
-                harness.AdvanceFrame(0.05m); Assert.AreEqual(1, harness.Model.Alive(Side.Player));
-            }
-            finally { InputSystem.settings.backgroundBehavior = backgroundBehavior; InputSystem.settings.editorInputBehaviorInPlayMode = editorBehavior; InputSystem.RemoveDevice(mouse); }
+                SceneManager.LoadScene("Battle"); yield return null;
+                harness = Object.FindFirstObjectByType<BattleHarness>();
+                harness.StartBattle("c01_e01_b01", Army, new string[0], 17); harness.enabled = false;
+                yield return null; Canvas.ForceUpdateCanvases();
+                // The headless editor reports focus loss on the first yielded frame.
+                // Establish a foreground model for this pointer-path test explicitly.
+                harness.Model.SetPause("SYSTEM_FOCUS", false); harness.Suspend(false); harness.Pause(false);
+                var button = harness.GetComponentsInChildren<Button>().First(b => b.name == "Deploy");
+                var rect = (RectTransform)button.transform;
+                Vector2 point = RectTransformUtility.WorldToScreenPoint(null, rect.TransformPoint(rect.rect.center));
+                var hits = new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>();
+                UnityEngine.EventSystems.EventSystem.current.RaycastAll(new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current) { position = point }, hits);
+                Assert.IsTrue(hits.Count > 0 && hits[0].gameObject == button.gameObject, "Button must be top raycast at " + point + "; hit=" + (hits.Count > 0 ? hits[0].gameObject.name : "none"));
+                var mouse = InputSystem.AddDevice<Mouse>();
+                // BatchMode has no focused Game view. Keep this synthetic test device
+                // processing; the separate lifecycle test covers production focus gates.
+                var backgroundBehavior = InputSystem.settings.backgroundBehavior;
+                var editorBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
+                InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+                InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+                var module = harness.GetComponentInChildren<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
+                int clicks = 0, actions = 0;
+                button.onClick.AddListener(() => clicks++);
+                module.leftClick.action.performed += _ => actions++;
+                System.Action<MouseState> send = state => { InputSystem.QueueStateEvent(mouse, state); InputSystem.Update(); };
+                try
+                {
+                    send(new MouseState { position = point }); yield return null;
+                    send(new MouseState { position = point }.WithButton(MouseButton.Left)); yield return null;
+                    Assert.IsTrue(mouse.leftButton.isPressed, "Synthetic press must reach Input System");
+                    harness.AdvanceFrame(0.05m); Assert.AreEqual(0, harness.Model.Alive(Side.Player), "Pointer down must not deploy");
+                    send(new MouseState { position = point }); yield return null;
+                    harness.AdvanceFrame(0.05m); Assert.AreEqual(1, harness.Model.Alive(Side.Player), "Completed click must deploy once; pauses=" + string.Join(",", harness.Model.PauseReasons) + "; action=" + module.leftClick.action.enabled + "; callbacks=" + actions + "; clicks=" + clicks + "; raycast=" + module.GetLastRaycastResult(mouse.deviceId).gameObject);
+                    send(new MouseState { position = point }.WithButton(MouseButton.Left)); yield return null;
+                    send(new MouseState { position = point }); yield return null;
+                    harness.AdvanceFrame(0.05m); Assert.AreEqual(1, harness.Model.Alive(Side.Player));
+                }
+                finally { InputSystem.settings.backgroundBehavior = backgroundBehavior; InputSystem.settings.editorInputBehaviorInPlayMode = editorBehavior; InputSystem.RemoveDevice(mouse); }
             }
             finally { if (harness != null) Object.DestroyImmediate(harness.gameObject); inputFixture.TearDown(); }
         }

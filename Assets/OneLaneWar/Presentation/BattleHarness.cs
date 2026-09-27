@@ -174,6 +174,7 @@ namespace OneLaneWar.Presentation
                 + "          ENEMY  " + Model.BaseHp(Side.Enemy) + "/" + Model.BaseMax(Side.Enemy) + " HP";
             status.text = Model.Result != Outcome.Active ? Model.Result.ToString() : Model.Paused ? "PAUSED — resume to continue" : "Rally " + (Model.RallyActive ? "ACTIVE" : Math.Max(0, Model.RallyReadyTick - Model.Tick) / 20m + "s") + (Model.BossRevealed ? "   BOSS APPROACHING" : "");
             diagnostic.text = Model.EncounterId + "  tick " + Model.Tick + "  " + Speed + "x  actors " + Model.Alive(Side.Player) + "/" + Model.Alive(Side.Enemy) + "  queue " + Model.EnemyQueueIndex + "  HP damage " + Model.Counters.HpDamage + "  barrier " + Model.Counters.BarrierDamage + "  base " + Model.Counters.BaseDamage + "\nB001 · T001 · AMEND-005 · " + Content.SourceHash.Substring(0, 12);
+            diagnostic.text += "  time " + (Math.Max(0, Model.Tick) / 20m).ToString("F2", System.Globalization.CultureInfo.InvariantCulture) + "s";
             var views = Model.ActorViews(); var ids = new HashSet<int>(views.Select(v => v.Id));
             foreach (int id in actors.Keys.Where(id => !ids.Contains(id)).ToArray()) { var r = actors[id]; r.gameObject.SetActive(false); actorPool.Push(r); actors.Remove(id); }
             foreach (var a in views)
