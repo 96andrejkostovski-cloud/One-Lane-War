@@ -85,6 +85,7 @@ namespace OneLaneWar
         public string[] EncounterIds { get { return Encounters.Keys.ToArray(); } }
         public string UpgradeName(string id) { return Upgrades[id].name; }
         public string UnitName(string id) { return Units[id].name; }
+        public string[] UpgradesForUnits(string[] units) { return Upgrades.Values.Where(u => u.requires_equipped_unit == null || units.Contains(u.requires_equipped_unit)).Select(u => u.id).ToArray(); }
         public string[] Eligible(string[] loadout) { ValidateLoadout(loadout); return Upgrades.Values.Where(u => u.requires_equipped_unit == null || loadout.Contains(u.requires_equipped_unit)).Select(u => u.id).ToArray(); }
         internal void ValidateLoadout(string[] ids)
         {

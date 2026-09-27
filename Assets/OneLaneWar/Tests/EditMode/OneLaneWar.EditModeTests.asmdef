@@ -1,0 +1,6 @@
+{
+  "name": "OneLaneWar.EditModeTests",
+  "references": ["OneLaneWar.Core", "OneLaneWar.ModelFixtures", "OneLaneWar.Presentation"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

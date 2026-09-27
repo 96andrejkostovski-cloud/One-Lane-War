@@ -1,0 +1,4 @@
+{
+  "name": "OneLaneWar.Presentation",
+  "references": ["OneLaneWar.Core", "Unity.InputSystem", "Unity.ugui"]
+}

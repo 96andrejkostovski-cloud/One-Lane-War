@@ -44,9 +44,10 @@ namespace OneLaneWar
     internal sealed class Projectile
     {
         internal int Id, Source, BornTick, ArrivalTick, TargetBase, Damage, BaseDamage;
-        internal long X, End, Speed, Remainder, Splash;
+        internal long X, End, LaunchX, Speed, Remainder, Splash;
         internal Side Side; internal bool Lob; internal int Pierce, PierceFactor; internal long PierceRange;
-        internal int Direction { get { return Side == Side.Player ? 1 : -1; } }
+        internal int TravelDirection;
+        internal int Direction { get { return TravelDirection != 0 ? TravelDirection : Side == Side.Player ? 1 : -1; } }
     }
     internal sealed class DamageEvent
     {
@@ -75,6 +76,9 @@ namespace OneLaneWar
         internal readonly List<Actor> Actors = new List<Actor>();
         internal readonly List<Projectile> Projectiles = new List<Projectile>();
         internal readonly List<DamageEvent> Damage = new List<DamageEvent>();
+        // AMEND-005: only creation may introduce hostile overlap. Pair IDs persist
+        // until the bodies separate or die; movement never creates these exceptions.
+        readonly HashSet<long> spawnContacts = new HashSet<long>();
         readonly List<CombatCommand> commands = new List<CombatCommand>();
         readonly List<CommandResult> results = new List<CommandResult>();
         readonly HashSet<string> pauses = new HashSet<string>(StringComparer.Ordinal);
@@ -154,6 +158,7 @@ namespace OneLaneWar
         {
             if (Paused || Result != Outcome.Active) return false;
             Tick++; Damage.Clear(); results.Clear();
+            spawnContacts.RemoveWhere(key => !Overlaps(Find((int)(key >> 32)), Find((int)(key & uint.MaxValue))));
             foreach (var actor in Actors) if (actor.BarrierExpiry == Tick) actor.Barrier = 0;
             if (Tick > 0) for (int side = 0; side < 2; side++)
             {
@@ -208,8 +213,12 @@ namespace OneLaneWar
         internal Actor Spawn(Side side, Stats stats, string boss)
         {
             var a = new Actor { Id = nextActor++, Side = side, Stats = stats, Boss = boss, Hp = stats.Hp, X = Fixed.Scaled(Content.Rules.spawn_positions_m[(int)side]) };
+            foreach (var b in Actors.Where(b => b.Side != side && Overlaps(a, b))) spawnContacts.Add(ContactKey(a, b));
             Actors.Add(a); Counters.PeakPopulation = Math.Max(Counters.PeakPopulation, Actors.Count); return a;
         }
+        static long ContactKey(Actor a, Actor b) { return ((long)Math.Min(a.Id, b.Id) << 32) | (uint)Math.Max(a.Id, b.Id); }
+        static bool Overlaps(Actor a, Actor b) { return a != null && b != null && a.Hp > 0 && b.Hp > 0 && Math.Abs(a.X - b.X) < a.Stats.HalfWidth + b.Stats.HalfWidth; }
+        internal bool InSpawnContact(Actor a, Actor b) { return spawnContacts.Contains(ContactKey(a, b)) && Overlaps(a, b); }
         void AssignSlots()
         {
             foreach (Side side in Enum.GetValues(typeof(Side)))
@@ -230,6 +239,8 @@ namespace OneLaneWar
         }
         internal int Target(Actor a)
         {
+            var contact = Actors.Where(b => b.Side != a.Side && InSpawnContact(a, b)).OrderBy(b => Math.Abs(b.X - a.X)).ThenBy(b => b.Id).FirstOrDefault();
+            if (contact != null) return contact.Id;
             var target = Actors.Where(b => b.Side != a.Side && (b.X - a.X) * a.Direction >= 0).OrderBy(b => Math.Abs(b.X - a.X)).ThenBy(b => b.Id).FirstOrDefault();
             return target == null ? BaseId(Other(a.Side)) : target.Id;
         }
@@ -240,7 +251,7 @@ namespace OneLaneWar
             var moves = new Dictionary<int, long>();
             foreach (var a in Actors)
             {
-                if ((a.Attack != null && Tick < a.Attack.EndTick) || (CanAttack(a) && Reach(a, Target(a)))) { moves[a.Id] = 0; continue; }
+                if (Actors.Any(b => b.Side != a.Side && InSpawnContact(a, b)) || (a.Attack != null && Tick < a.Attack.EndTick) || (CanAttack(a) && Reach(a, Target(a)))) { moves[a.Id] = 0; continue; }
                 long total = checked(a.Stats.Speed + a.MoveRemainder);
                 moves[a.Id] = total / Content.Rules.simulation_hz; a.MoveRemainder = total % Content.Rules.simulation_hz;
                 moves[a.Id] = Math.Min(moves[a.Id], Math.Max(0, (Front(Other(a.Side)) - a.X) * a.Direction - a.Stats.HalfWidth));
@@ -308,10 +319,11 @@ namespace OneLaneWar
             long end = liveTarget != null ? liveTarget.X : attack.TargetX;
             bool legalBase = attack.Target < 0 && Target(a) == attack.Target && Reach(a, attack.Target);
             if (attack.Target < 0 && !legalBase) return;
-            var p = new Projectile { Id = nextProjectile++, Source = a.Id, Side = a.Side, BornTick = Tick, X = a.X, End = end,
+            var p = new Projectile { Id = nextProjectile++, Source = a.Id, Side = a.Side, BornTick = Tick, X = a.X, LaunchX = a.X, End = end,
                 Speed = a.Stats.ProjectileSpeed, Damage = attack.Damage, BaseDamage = attack.BaseDamage, Splash = a.Stats.Splash,
                 Lob = a.Stats.Splash > 0, TargetBase = legalBase ? attack.Target : 0,
                 Pierce = a.Stats.Pierce, PierceRange = a.Stats.PierceRange, PierceFactor = a.Stats.PierceFactor };
+            p.TravelDirection = end == a.X ? a.Direction : Math.Sign(end - a.X);
             p.ArrivalTick = Tick + (int)Math.Max(1, Fixed.Ceil(checked(Math.Abs(end - p.X) * Content.Rules.simulation_hz), p.Speed));
             Projectiles.Add(p);
         }
@@ -325,7 +337,7 @@ namespace OneLaneWar
                 {
                     if (Tick < p.ArrivalTick) continue;
                     foreach (var b in Actors.Where(b => b.Side != p.Side && Math.Abs(b.X - p.End) <= p.Splash)) AddDamage(p.Source, b.Id, p.Damage);
-                    if (p.TargetBase < 0) AddDamage(p.Source, p.TargetBase, p.BaseDamage);
+                    if (p.TargetBase < 0 && !ProjectileBaseBlocked(p)) AddDamage(p.Source, p.TargetBase, p.BaseDamage);
                     finished.Add(p); continue;
                 }
                 long start = p.X, total = checked(p.Speed + p.Remainder), distance = total / Content.Rules.simulation_hz;
@@ -345,11 +357,16 @@ namespace OneLaneWar
                 }
                 else if (p.X == p.End)
                 {
-                    if (p.TargetBase < 0) AddDamage(p.Source, p.TargetBase, p.BaseDamage);
+                    if (p.TargetBase < 0 && !ProjectileBaseBlocked(p)) AddDamage(p.Source, p.TargetBase, p.BaseDamage);
                     finished.Add(p);
                 }
             }
             foreach (var p in finished) Projectiles.Remove(p);
+        }
+        bool ProjectileBaseBlocked(Projectile p)
+        {
+            long low = Math.Min(p.LaunchX, p.End), high = Math.Max(p.LaunchX, p.End);
+            return Actors.Any(a => a.Side != p.Side && a.Hp > 0 && a.X + a.Stats.HalfWidth >= low && a.X - a.Stats.HalfWidth <= high);
         }
         internal void AddDamage(int source, int target, int amount)
         {
@@ -391,7 +408,8 @@ namespace OneLaneWar
         {
             using (var stream = new MemoryStream()) using (var w = new BinaryWriter(stream))
             {
-                w.Write("OLW-COMBAT-1"); w.Write(Content.SourceHash); w.Write(Encounter.id); w.Write(Seed); w.Write(Tick); w.Write((int)Result);
+                w.Write("OLW-COMBAT-2-AMEND005"); w.Write(Content.SourceHash); w.Write(Encounter.id); w.Write(Seed); w.Write(Tick); w.Write((int)Result);
+                w.Write(spawnContacts.Count); foreach (var key in spawnContacts.OrderBy(x => x)) w.Write(key);
                 foreach (var s in loadout) w.Write(s); w.Write(selected.Length); foreach (var s in selected) w.Write(s);
                 w.Write(pauses.Count); foreach (var p in PauseReasons) w.Write(p);
                 w.Write(nextActor); w.Write(nextProjectile); w.Write(nextDeploy); w.Write(nextEnemyDeploy); w.Write(EnemyQueueIndex); w.Write(enemySpent);
@@ -408,8 +426,8 @@ namespace OneLaneWar
                 foreach (var p in Projectiles.OrderBy(x => x.Id))
                 {
                     w.Write(p.Id); w.Write(p.Source); w.Write((int)p.Side); w.Write(p.BornTick); w.Write(p.ArrivalTick); w.Write(p.TargetBase);
-                    w.Write(p.X); w.Write(p.End); w.Write(p.Speed); w.Write(p.Remainder); w.Write(p.Damage); w.Write(p.BaseDamage); w.Write(p.Splash); w.Write(p.Lob);
-                    w.Write(p.Pierce); w.Write(p.PierceRange); w.Write(p.PierceFactor);
+                    w.Write(p.X); w.Write(p.End); w.Write(p.LaunchX); w.Write(p.Speed); w.Write(p.Remainder); w.Write(p.Damage); w.Write(p.BaseDamage); w.Write(p.Splash); w.Write(p.Lob);
+                    w.Write(p.Pierce); w.Write(p.PierceRange); w.Write(p.PierceFactor); w.Write(p.TravelDirection);
                 }
                 w.Write(commands.Count); foreach (var c in commands.OrderBy(x => x.Tick).ThenBy(x => x.Sequence)) { w.Write(c.Tick); w.Write(c.Sequence); w.Write((int)c.Kind); w.Write(c.Unit ?? ""); }
                 w.Write(Counters.Commands); w.Write(Counters.PaidDeployments); w.Write(Counters.BonusSpawns); w.Write(Counters.CapRejections); w.Write(Counters.SupplyWaste);

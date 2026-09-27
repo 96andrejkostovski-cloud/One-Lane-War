@@ -1,0 +1,5 @@
+{
+  "name": "OneLaneWar.Editor",
+  "references": ["OneLaneWar.Core", "OneLaneWar.Presentation"],
+  "includePlatforms": ["Editor"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "OneLaneWar.PlayModeTests",
+  "references": ["OneLaneWar.Core", "OneLaneWar.Presentation", "Unity.InputSystem", "Unity.InputSystem.TestFramework", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

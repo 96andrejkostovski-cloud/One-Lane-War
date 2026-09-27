@@ -1,4 +1,4 @@
-param([string]$ToolEditor = 'C:\Unity\Hub\Editor\6000.3.18f1')
+param([string]$ToolEditor = 'C:\Program Files\Unity\Hub\Editor\6000.3.21f1')
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $out = Join-Path $root 'Temp\PureTests'

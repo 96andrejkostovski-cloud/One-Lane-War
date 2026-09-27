@@ -2,5 +2,6 @@
   "name": "OneLaneWar.ModelFixtures",
   "references": ["OneLaneWar.Core"],
   "defineConstraints": ["UNITY_INCLUDE_TESTS"],
-  "noEngineReferences": true
+  "noEngineReferences": true,
+  "optionalUnityReferences": ["TestAssemblies"]
 }

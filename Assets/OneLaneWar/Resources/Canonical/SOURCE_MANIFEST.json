@@ -1,0 +1,748 @@
+{
+  "source_id": "OLW-SOURCE-1.0.0",
+  "format_version": 1,
+  "hash_algorithm": "SHA-256",
+  "created_utc_date": "2026-09-27",
+  "excluded_paths": [
+    "SOURCE_MANIFEST.json",
+    "evidence/FINAL_VERIFICATION.json"
+  ],
+  "exclusion_reason": "Manifest cannot hash itself; derived final verifier report is independently reproducible. ZIP hash identifies all archive bytes.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 2960,
+      "sha256": "7a80abc6f3dbf031669ec43ee16eeef7e0b38af9d2d575b5c4bab287b476639f"
+    },
+    {
+      "path": "ALL_BIBLES.md",
+      "bytes": 270764,
+      "sha256": "da1243ef8f66c2696cd83f4ee838a4cbfee305d2d51380b7bb64ec73fb5fccf3"
+    },
+    {
+      "path": "INDEX.html",
+      "bytes": 1498617,
+      "sha256": "3e56617652c08bd0d7219d4e7c39136b1e9aed7790e6ef1a4431e08615cf8a0e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 514,
+      "sha256": "33cf992e40bb5da788c668ee3df16d0eedc72bc5d06b2faeab1f56ef8ea78390"
+    },
+    {
+      "path": "SOURCE_AUTHORITY.json",
+      "bytes": 2524,
+      "sha256": "39269c4e0f698e9b26969589a1b964498050fede6919cf784bfe90c823ea24e5"
+    },
+    {
+      "path": "START_CODEX.md",
+      "bytes": 2131,
+      "sha256": "2d4e116e842794d519b8b1cf082e03071b578586f4060c2a0bad6dd06710c664"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2589,
+      "sha256": "720bf65bb60c2cd48e7027c9a2e0d2be92e6375f74c93ebea27cf64fb8eeeded"
+    },
+    {
+      "path": "bibles/00_SOURCE_GOVERNANCE.md",
+      "bytes": 7674,
+      "sha256": "d73c0e53a034be480596e23d4b8b92cefe9a2664dd7210459e3f445ba9dc5fed"
+    },
+    {
+      "path": "bibles/01_PRODUCT_AND_PLAYER_JOURNEY.md",
+      "bytes": 9140,
+      "sha256": "65b80c59b02535c88703f4a202e47f60cb31850beddb7484ecc1359d09f6f87b"
+    },
+    {
+      "path": "bibles/02_COMBAT_SIMULATION.md",
+      "bytes": 13340,
+      "sha256": "44000421ab58f64d86bad80bf97d8166184f321494147cbeb698048ec30e633e"
+    },
+    {
+      "path": "bibles/03_CONTENT_AND_ENEMY_DESIGN.md",
+      "bytes": 8858,
+      "sha256": "f9d9ad1430fcad7c135a8d4ca8d7fae5ab25d2946fd3ff02f74c0d2b9ed96670"
+    },
+    {
+      "path": "bibles/04_CAMPAIGN_ECONOMY_MONETIZATION_DESIGN.md",
+      "bytes": 7356,
+      "sha256": "f4f439444d963ae6467b5d2bb64774b60dfbfdad5c19dbfa5dcee0774c6aa9f7"
+    },
+    {
+      "path": "bibles/05_UI_UX_AND_COPY.md",
+      "bytes": 10244,
+      "sha256": "6486a7b7ad310953d35fcaa861bdb7ab2ddbbcba3d0eef3151c467047a73e247"
+    },
+    {
+      "path": "bibles/06_SAVE_AND_RECOVERY.md",
+      "bytes": 8444,
+      "sha256": "de28f114989e42e3e66c0bca216f522a9c78bd130a9ff20a7a1cf39ecd58b923"
+    },
+    {
+      "path": "bibles/07_TECHNICAL_ARCHITECTURE.md",
+      "bytes": 10224,
+      "sha256": "090bd1fb0cede51b05f1cd046d19aa63dfc4487f9975f05c27fa56aff638b38f"
+    },
+    {
+      "path": "bibles/08_TOOLCHAIN_ANDROID_AND_BUILD_PROFILES.md",
+      "bytes": 8358,
+      "sha256": "c57d1471e2ce18619d7afb8a6cf02856bb68f2eb0c98be792dc6647b2085fcae"
+    },
+    {
+      "path": "bibles/09_SERVICES_PURCHASES_AND_ADVERTISEMENTS.md",
+      "bytes": 10653,
+      "sha256": "c4162aa8da009d3798dd6321c3e94374d319ce4fe91c1d3ec9fee48f2ef179c5"
+    },
+    {
+      "path": "bibles/10_ANALYTICS_DATA_AND_DECISIONS.md",
+      "bytes": 9961,
+      "sha256": "6720fa8f17f6cba90f1ea20e6afbae8b18b09c9f197346796fb646110e4fcd7b"
+    },
+    {
+      "path": "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+      "bytes": 8276,
+      "sha256": "95fc2fce53ffd1e22a5bf9a48a3cb447c1d160c0db1bbf47689ef6af514153aa"
+    },
+    {
+      "path": "bibles/12_ASSETS_ANIMATION_AND_VFX.md",
+      "bytes": 8980,
+      "sha256": "cee418d5ef9e27adb2ae677ee698f335565c29f1c210c9f017850d9fd73c0cf4"
+    },
+    {
+      "path": "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md",
+      "bytes": 6056,
+      "sha256": "23382f2c1370f4028aa8b6baae9df8c7e7255cb200a68911538f7ad8782adeb3"
+    },
+    {
+      "path": "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+      "bytes": 8845,
+      "sha256": "f6b07d06e0582e2666234e874ac0f0b01a64cf99e357a86186d36c6e0aa1b473"
+    },
+    {
+      "path": "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md",
+      "bytes": 8224,
+      "sha256": "ae53485d0d5117886ba251361d05d8e1884155cc91750340f507e51f9f2efac8"
+    },
+    {
+      "path": "bibles/16_LEGAL_PRIVACY_AND_PUBLISHER.md",
+      "bytes": 7960,
+      "sha256": "3d62f50fe6196bdad2a6e10311fe5ed59d682b49d547b1bae0b2b2212ea9c7fe"
+    },
+    {
+      "path": "bibles/17_GOOGLE_PLAY_RELEASE_AND_DISTRIBUTION.md",
+      "bytes": 7337,
+      "sha256": "e40b376f6043f028949909fa75a5574022f9b9295f32428cbe8a307751355d44"
+    },
+    {
+      "path": "bibles/18_ORGANIC_MARKETING_AND_BUSINESS.md",
+      "bytes": 6226,
+      "sha256": "38f6a170f49b43804c1b4a2daaa7f46265248c0dfb3fe304212712978ca30840"
+    },
+    {
+      "path": "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md",
+      "bytes": 7025,
+      "sha256": "88de4ab5ef77bf156d65542cfef52b66578944f17ba27d14e420e1fde9ae1f81"
+    },
+    {
+      "path": "bibles/20_COMPLETE_GENERATED_CATALOGUE.md",
+      "bytes": 83648,
+      "sha256": "bcca906becb94e9807bebe46f7ddcfc3775563f7c6c125486464f3589e0c587f"
+    },
+    {
+      "path": "bibles/21_COVERAGE_AND_PRIMARY_REFERENCES.md",
+      "bytes": 12482,
+      "sha256": "c3849c69d3acd8cbef7616a50df144dad861ae8dc45d51079d0f56907d6639a0"
+    },
+    {
+      "path": "contracts/analytics_transport.json",
+      "bytes": 3211,
+      "sha256": "e3cc110a529844892fae3e206ad795f3302bd45a4042ba30f4ba18a21ad5f518"
+    },
+    {
+      "path": "contracts/data_inventory.json",
+      "bytes": 3340,
+      "sha256": "0fad1a174f42f59ae745cf56eea19f448d34d026b5c8bf88511da44d0b9851a3"
+    },
+    {
+      "path": "contracts/platform_interfaces.json",
+      "bytes": 3603,
+      "sha256": "d39e1281263cb9d6931e4d1b3dde0a7c95fd24ce287c634f5201da2927dedc71"
+    },
+    {
+      "path": "contracts/presentation_contract.json",
+      "bytes": 2005,
+      "sha256": "92cc7851c71b3aa5f83947d8c394c2966e6ff50345faadc72da40bcc8ab26044"
+    },
+    {
+      "path": "contracts/save_constraints.json",
+      "bytes": 755,
+      "sha256": "f90b3ae4899c9701c74873e48d418d613a6ffb435981cdbdd971d04efd410f12"
+    },
+    {
+      "path": "contracts/service_api.json",
+      "bytes": 5139,
+      "sha256": "89d492415dade82de68fc0fa0a883587beeb40ae51d001b659972fb9ad7c173c"
+    },
+    {
+      "path": "contracts/state_machines.json",
+      "bytes": 3050,
+      "sha256": "af91a512309819000c5f66c8b49a067a41bf849072f8e98664a7b10b27eeb0bf"
+    },
+    {
+      "path": "data/analytics_events.json",
+      "bytes": 18229,
+      "sha256": "328e1249e32d9da2d1191d4f5f8ea5937051e708c488426622d71c9722bd73d7"
+    },
+    {
+      "path": "data/analytics_metrics.json",
+      "bytes": 5716,
+      "sha256": "bdaf592fc2501fca0971dbec6229be2f04ce14aa43cfee2c35f01592c0554a63"
+    },
+    {
+      "path": "data/animation_contract.json",
+      "bytes": 6497,
+      "sha256": "05d53f48ef58e6dc3a0f958a435f0f6a9142883afb93a36d1fd0c8c148f41d17"
+    },
+    {
+      "path": "data/assets.json",
+      "bytes": 53764,
+      "sha256": "df0686d0bcc25526e7beddcefcccc6b1bfa8b9de808deedbb180968a85c527fb"
+    },
+    {
+      "path": "data/audio_vfx_contract.json",
+      "bytes": 3245,
+      "sha256": "03e8c5aa34f198ffde4afed367c6ec362354d0cf32a8562eed13c877db66c608"
+    },
+    {
+      "path": "data/boss_variants.json",
+      "bytes": 1346,
+      "sha256": "2be8efb983b451cfc76df2ef80daaf0a1d51e7b0d6dd2da4fef8af0e36fc58fd"
+    },
+    {
+      "path": "data/build_gates.json",
+      "bytes": 4654,
+      "sha256": "d716441004573d360edda70b2d07b9bc6e279c220ac7487921650408efa162e6"
+    },
+    {
+      "path": "data/deployment_inputs.json",
+      "bytes": 5152,
+      "sha256": "66224092c0edeff677fdb63e80ffc1b8100166727109640f3fe8d3f725b3974d"
+    },
+    {
+      "path": "data/economy.json",
+      "bytes": 1404,
+      "sha256": "a4feffc486f60197a198d38f4a58d5f099c06779d1898ac26d3ce7808b298a0f"
+    },
+    {
+      "path": "data/encounters.json",
+      "bytes": 55533,
+      "sha256": "b8e8c16c551079142f5f425393307bdc1eadfce25576181faef61c4cb10efe91"
+    },
+    {
+      "path": "data/expeditions.json",
+      "bytes": 2882,
+      "sha256": "caf422cb5c6e1f1aaa7e6abc1588e43a00e2b4988cd65e60fade29db0a0f8cd9"
+    },
+    {
+      "path": "data/external_sources.json",
+      "bytes": 12821,
+      "sha256": "23ebeede32ef859afb1ead78c846fd89e622a0cda405dd5f75dba4daf8c2482d"
+    },
+    {
+      "path": "data/game_rules.json",
+      "bytes": 7660,
+      "sha256": "334b2aa7b9f2110645a9d04eb2e19108169d70066332e7162e4a384cc59bf0c9"
+    },
+    {
+      "path": "data/products.json",
+      "bytes": 1335,
+      "sha256": "42043fb06625a430f929d8f974ae12ae861d46b569f902baeddf6b4d72501c31"
+    },
+    {
+      "path": "data/qa_cases.json",
+      "bytes": 54668,
+      "sha256": "1f32ad49a1c63d7019e7c7f02f51d319939a8d2c5a68a49f4ce081e20ca284a8"
+    },
+    {
+      "path": "data/release_checklist.json",
+      "bytes": 3920,
+      "sha256": "b17856ca72d729ee24869a67c32fd7ffcd6c03e102a3cb560117b0d61364d326"
+    },
+    {
+      "path": "data/screenshot_pack.json",
+      "bytes": 6067,
+      "sha256": "dcc09a79f5a1538c9621bc48a3d51e1f972024be7a79656b141a2339b76c9e82"
+    },
+    {
+      "path": "data/service_contract.json",
+      "bytes": 5905,
+      "sha256": "677bb0f525660682cab1c2a46a0ebf0d08d1d2d1b5e170ec46073bc09aa0d212"
+    },
+    {
+      "path": "data/strings_en.json",
+      "bytes": 10563,
+      "sha256": "fc9f615134f5939935f7e54fef1c498e7e86a5fe14e0ba028ee8ca2c46e1d296"
+    },
+    {
+      "path": "data/tasks.json",
+      "bytes": 24376,
+      "sha256": "bd6846520b6e4f47d560e11cfa557d6c848afe4aded91bb8c3a2bcc6a8d4ba53"
+    },
+    {
+      "path": "data/test_matrix.json",
+      "bytes": 3192,
+      "sha256": "4ef773f53e689507236923b6a94e79b80f98ec2973fff44495917e97307c04f7"
+    },
+    {
+      "path": "data/toolchain_lock.json",
+      "bytes": 4794,
+      "sha256": "fca73e2f69916685b74658729272d4eeda72f43cd98d1e40e9327f49acb4f7a7"
+    },
+    {
+      "path": "data/ui_contract.json",
+      "bytes": 3842,
+      "sha256": "104e9f91dc1a494daeaf95c909d2e26a0e8a9cbb069e7a117458d72f9cfef444"
+    },
+    {
+      "path": "data/units.json",
+      "bytes": 3691,
+      "sha256": "395d762bdec6aae1dc002872da3a168cc06b422e867ff638ac4af03dc454d67b"
+    },
+    {
+      "path": "data/upgrades.json",
+      "bytes": 11089,
+      "sha256": "57dd535f27ee896619e4a37eda2f032bfa3eb24aef2172afde7bbadd687f99a4"
+    },
+    {
+      "path": "data/visual_references.json",
+      "bytes": 2896,
+      "sha256": "399f2340bffa1b0925f33da0582f300f37b2a399abd020c984e8b07a672d84db"
+    },
+    {
+      "path": "evidence/ARITHMETIC_RUN.txt",
+      "bytes": 283,
+      "sha256": "7f35c3f23bbc3b6d34825575e9e019b431d32759d64868e2a51c8c843142b10e"
+    },
+    {
+      "path": "evidence/BALANCE_ARITHMETIC.json",
+      "bytes": 19034,
+      "sha256": "4130fd55c466b4853ad4da83f85f4bff82cbb221da8b0cc9213107a25020410b"
+    },
+    {
+      "path": "evidence/REFERENCE_TESTS.txt",
+      "bytes": 2927,
+      "sha256": "9e187c7a7c1eac0d6d5a2810e988a29de367f882086d36d4161e0f30fd107b53"
+    },
+    {
+      "path": "evidence/SCHEMA_VALIDATION.json",
+      "bytes": 4410,
+      "sha256": "041d2fd6cce3ed079a5901b4e48b61e4cdcb5a5dae5a5bc5a389ad3e47308ec1"
+    },
+    {
+      "path": "evidence/SOURCE_STRUCTURE.json",
+      "bytes": 79840,
+      "sha256": "bf25c74919d93f1294a7e914646f13ec4b134d9d717a31a6c8f662045ecd1849"
+    },
+    {
+      "path": "evidence/SOURCE_VALIDATION.md",
+      "bytes": 3903,
+      "sha256": "5ea732db238a6ea16414cbf8e92f44f4c01f3d16159b439e9a78ce87a1abfcb5"
+    },
+    {
+      "path": "evidence/reader/desktop_catalogue.png",
+      "bytes": 171806,
+      "sha256": "d4f993198501e19658902aa906c3e7a761d21ae6405faec001871efc3cad077b"
+    },
+    {
+      "path": "evidence/reader/desktop_combat.png",
+      "bytes": 330076,
+      "sha256": "37cdb614c121e0a99d4f062251c1bf83e38a16126f699aeab9e295cad12d6ce0"
+    },
+    {
+      "path": "evidence/reader/desktop_cover.png",
+      "bytes": 224588,
+      "sha256": "c8b1fed1bc1e1b7ec4d3ea1f969e251270b4863194413b9af0b79f17dbd3a55f"
+    },
+    {
+      "path": "evidence/reader/desktop_visual.png",
+      "bytes": 357012,
+      "sha256": "a46387f8fd1c3285c238971756671cfceb79e940bd1f7052f5d3eb3ad5570b06"
+    },
+    {
+      "path": "evidence/reader/mobile_combat.png",
+      "bytes": 119854,
+      "sha256": "362eb62226c0372053b3e04ef3cec4db7d921510db26bd830075050d3a5db3e8"
+    },
+    {
+      "path": "evidence/reader/mobile_cover.png",
+      "bytes": 75484,
+      "sha256": "b7ff5a3b5b4db6b0728d90b108a5939b5cde4f34b3b0a9c54e5611465d68639d"
+    },
+    {
+      "path": "evidence/reader/reader_review.json",
+      "bytes": 466,
+      "sha256": "f95aed982fc602b9f7eb8505ba80cf6ada9f0ebf411992be3050f3a0c4609666"
+    },
+    {
+      "path": "records/CHANGELOG.md",
+      "bytes": 1322,
+      "sha256": "d151922af59bccd0dfdd8e2ec8e09c192bd991ef51b021e2810a434c54dbde07"
+    },
+    {
+      "path": "records/COVERAGE_MATRIX.json",
+      "bytes": 6738,
+      "sha256": "ab2e4f3233d0075e17eaa166d3eba8c862f4cf30846a1f6196dadc18bce4d9fc"
+    },
+    {
+      "path": "records/DECISIONS.jsonl",
+      "bytes": 5591,
+      "sha256": "cbd43890abf69ceed2e6c112d766ccae104e11534b0fb40adc444f98eb1dc369"
+    },
+    {
+      "path": "records/KNOWN_LIMITATIONS.md",
+      "bytes": 1566,
+      "sha256": "121014f45e882b96b342bad46b56c9c26f4b2bc0407f85a33ea49ede219a29f3"
+    },
+    {
+      "path": "records/SOURCE_INPUTS.json",
+      "bytes": 2550,
+      "sha256": "f0e4399d3ca7593d75020b06f38682926b3133b24d8292cc3246202a6cf306b1"
+    },
+    {
+      "path": "records/SUPERSESSIONS.json",
+      "bytes": 2985,
+      "sha256": "840100147c40c4c2cff3c718b7557bf9bb3922670f673196a0bcc11184cfbf48"
+    },
+    {
+      "path": "references/history/One_Lane_War_Design_Lock_v0.2.0.zip",
+      "bytes": 135456,
+      "sha256": "119ee040c1962189387dd2e3a605c2247fc4b8cc1ee923aa78e3c443b2a6202f"
+    },
+    {
+      "path": "references/history/One_Lane_War_Planning_v0.1.0.zip",
+      "bytes": 104039,
+      "sha256": "f87b777132b01cb74e39fa660713c1912cd69050d3ef626c8950624a8a20f63c"
+    },
+    {
+      "path": "references/sources_v0_2.json",
+      "bytes": 6764,
+      "sha256": "e92cad65ff23f5261d3d39664b63dfeb9d9d68d1d606cf326bcdf32c45fe06c3"
+    },
+    {
+      "path": "references/toolchain_sources_v0_2.json",
+      "bytes": 3258,
+      "sha256": "1997e14b77a7beca10447af05200f96bbfe8017b1b6a43a9836d321208edb156"
+    },
+    {
+      "path": "references/visual/V001_A_OWNER_SELECTED.png",
+      "bytes": 375628,
+      "sha256": "d4e5224ad0b6226c5c7cc7a79606bf782f69df1a1a593b70f745ed2ae0923704"
+    },
+    {
+      "path": "references/visual/V001_B_FINISH_TARGET.png",
+      "bytes": 2525879,
+      "sha256": "adee0d1091dfbcc5fd99531bbd1241a645bdd7eec2298ebefd562edecf32aaa7"
+    },
+    {
+      "path": "references/visual/V001_C_UI_STYLE_SHEET.png",
+      "bytes": 2445198,
+      "sha256": "d75bc1be4f460c9d1d3a2d7369793405b80b3fe4e779323addf589412df043eb"
+    },
+    {
+      "path": "reports/sql/00_normalized_events.sql",
+      "bytes": 2021,
+      "sha256": "a42f3b100068202d1148dc0141917f51729643314e4b6162bb780fcdd179484d"
+    },
+    {
+      "path": "reports/sql/01_retention.sql",
+      "bytes": 1266,
+      "sha256": "d0c80581f3740e8ddd1b50e8082af0dc8931792dbd7f7c32566ff5bdc6dd9703"
+    },
+    {
+      "path": "reports/sql/02_gameplay.sql",
+      "bytes": 1038,
+      "sha256": "8438ec213163ae877accafd361f2596143625d2ee62dac8f2f58498c009b7a32"
+    },
+    {
+      "path": "reports/sql/03_revenue.sql",
+      "bytes": 887,
+      "sha256": "64c45e47a6a5e34b5490d5973b6f0246557c652e1a6a8a0014b477037016880c"
+    },
+    {
+      "path": "reports/sql/README.md",
+      "bytes": 1246,
+      "sha256": "4df8449552aa63ab311084d297c18b4983c04b8372cd37794f14e429299a2ab7"
+    },
+    {
+      "path": "schemas/SCHEMA_INDEX.json",
+      "bytes": 2832,
+      "sha256": "161310022e72046d0d6de5e74225360b96e542793596426a4f17f9362c76af1e"
+    },
+    {
+      "path": "schemas/analytics_events.schema.json",
+      "bytes": 899,
+      "sha256": "17e61595c93e8dc8d39195ac6b0cea705e47bf7657c5f8f5f4a82469683aa620"
+    },
+    {
+      "path": "schemas/analytics_metrics.schema.json",
+      "bytes": 3285,
+      "sha256": "d192d0108d6f003d8b219c3f922289c6d1d1da767d646ceb326faa240c0e8a7d"
+    },
+    {
+      "path": "schemas/animation_contract.schema.json",
+      "bytes": 6943,
+      "sha256": "66d5977342764b158117599a7574438bc822999fe4416c639708283a1020bd27"
+    },
+    {
+      "path": "schemas/assets.schema.json",
+      "bytes": 2085,
+      "sha256": "ed24c85f5dcfc737e4a2d5d06799799936014d354c8cb6e7d338b92fed9f0cc0"
+    },
+    {
+      "path": "schemas/audio_vfx_contract.schema.json",
+      "bytes": 7359,
+      "sha256": "bb12e5c5ef2aaa18ae74311dc8e468d98ed093da16076d88bd5b4c857ca5af44"
+    },
+    {
+      "path": "schemas/boss_variants.schema.json",
+      "bytes": 1991,
+      "sha256": "38e7ed5cd067385f0bca049265ce2f78decc3006e0dc726fa5e94f9a4f18f55d"
+    },
+    {
+      "path": "schemas/build_gates.schema.json",
+      "bytes": 1148,
+      "sha256": "3b3e9f90f0c0ffdb5cb532b4b4e502b1692db931edd977e0a82012dbaf3a5e4c"
+    },
+    {
+      "path": "schemas/deployment_inputs.schema.json",
+      "bytes": 883,
+      "sha256": "26bb83e1f7f0e2283e0a1792afb91d224d846814401ab8e75029c7e411d76287"
+    },
+    {
+      "path": "schemas/economy.schema.json",
+      "bytes": 2887,
+      "sha256": "fee4aaf925666c946c005c418cffb39beee412e36f6b684597a55e6311c4f226"
+    },
+    {
+      "path": "schemas/encounters.schema.json",
+      "bytes": 3440,
+      "sha256": "528836600d1c73c28d138611a69e59b3490db14895dcfb5a62a751d881422413"
+    },
+    {
+      "path": "schemas/expeditions.schema.json",
+      "bytes": 1098,
+      "sha256": "9c60c73b046ad15fe1a9146d757c2e083518b13d4344b9eb20a67a82e8ddfecd"
+    },
+    {
+      "path": "schemas/external_sources.schema.json",
+      "bytes": 944,
+      "sha256": "2936381db25ec6f2f2a8843c3a7f0079a1a972ebf0c60da2a8b8b3517f610e6b"
+    },
+    {
+      "path": "schemas/game_rules.schema.json",
+      "bytes": 12167,
+      "sha256": "94803703a03e6f01bfe63115689cfddeaa72c5c7b0c0db5114e37fa2270de2e9"
+    },
+    {
+      "path": "schemas/products.schema.json",
+      "bytes": 1171,
+      "sha256": "13867905e5b01d7e17e7fbd8adac6baba04586c962756e97eb39c9b8954778ab"
+    },
+    {
+      "path": "schemas/qa_cases.schema.json",
+      "bytes": 969,
+      "sha256": "d21d8d2782e3a99e22d90d50263ccf1a57eaeaa5e1079689f2412d818c525cab"
+    },
+    {
+      "path": "schemas/release_checklist.schema.json",
+      "bytes": 785,
+      "sha256": "a302a06def3697c99c3f96b398039f378dbd0c7fd86725f1716a19b0682e9bda"
+    },
+    {
+      "path": "schemas/save_envelope.schema.json",
+      "bytes": 545,
+      "sha256": "abc8f071e580cb58f35e3f66775e68b8df215316cfba7f72b147d5c630271044"
+    },
+    {
+      "path": "schemas/save_payload.schema.json",
+      "bytes": 6698,
+      "sha256": "7182b6fddb9acc6b4e98b485c284c6e0e770b5996488c7b132f4e8d7244d1b26"
+    },
+    {
+      "path": "schemas/screenshot_pack.schema.json",
+      "bytes": 1702,
+      "sha256": "c602c5a6e70ed0904cc5c8471e45546a6a477b468e8ce05ebfd4089fe56a55b9"
+    },
+    {
+      "path": "schemas/service_contract.schema.json",
+      "bytes": 8769,
+      "sha256": "2cf79a61b33aa4b230aaf0ac8ef19207fdba5f8f4bb59136e8557eb795fe7dad"
+    },
+    {
+      "path": "schemas/strings_en.schema.json",
+      "bytes": 17706,
+      "sha256": "dcfe2aa42d0179e55c6de2cda06294a554173d1f3fc01f17c041d8e9c3f022ba"
+    },
+    {
+      "path": "schemas/tasks.schema.json",
+      "bytes": 1423,
+      "sha256": "0c97bbf1f84618208b49e504beb1976c680d8c4279d655af4f50e4a1278ce204"
+    },
+    {
+      "path": "schemas/test_matrix.schema.json",
+      "bytes": 3576,
+      "sha256": "a335960d4399948a4946106978b403306468ea9063f4721eeb79b3792466003f"
+    },
+    {
+      "path": "schemas/toolchain_lock.schema.json",
+      "bytes": 8807,
+      "sha256": "763917edb98bac2791e6fa9d1798277a72da2a03c1ce150685e4542ece33b2ce"
+    },
+    {
+      "path": "schemas/ui_contract.schema.json",
+      "bytes": 2567,
+      "sha256": "a2f3206f961e7ede487b3ae1e5bf21674a80323bfb04d5ded3027c240b491c52"
+    },
+    {
+      "path": "schemas/units.schema.json",
+      "bytes": 2048,
+      "sha256": "7523e9293da72832fa22f22612f84c148ab751078d5021d8e112ae727e7b2d1c"
+    },
+    {
+      "path": "schemas/upgrades.schema.json",
+      "bytes": 3200,
+      "sha256": "41234baf1c897fa1c25f7c08c67fd1d66457b96a6f387fbf7370e1766d510c63"
+    },
+    {
+      "path": "schemas/visual_references.schema.json",
+      "bytes": 1965,
+      "sha256": "fe785d032137debd0e3394451a7ec8cf101a0a2b16f00ae0a98790566823747e"
+    },
+    {
+      "path": "tasks/OLW-ART-001.md",
+      "bytes": 3259,
+      "sha256": "6e433a1065803e270db864fd3ac135f46208e7fbb11ceafe1763cf25bf1945ce"
+    },
+    {
+      "path": "tasks/OLW-CAP-001.md",
+      "bytes": 3281,
+      "sha256": "2d49de49a73894dff84682ab66242bbeac9a232e5ee19eeb2b75c2953b409e23"
+    },
+    {
+      "path": "tasks/OLW-CORE-001.md",
+      "bytes": 4112,
+      "sha256": "a911af7b8f57ac4cc523227886e5d7f4423036819afba6b1a031756db659ea03"
+    },
+    {
+      "path": "tasks/OLW-CORE-002.md",
+      "bytes": 3587,
+      "sha256": "cfa452f8a9cad129316315e141eaaeb10dee350a417c415fe6a9505753180d1c"
+    },
+    {
+      "path": "tasks/OLW-CORE-003.md",
+      "bytes": 3964,
+      "sha256": "46c88d90c217600708770a1dacd9143e2e030d6eb086410ad89c7536288bc551"
+    },
+    {
+      "path": "tasks/OLW-CORE-004.md",
+      "bytes": 3088,
+      "sha256": "b74378801da16e1142f95006621f8c6f6c7f1f3e0152b3c0b993968ccf134499"
+    },
+    {
+      "path": "tasks/OLW-INT-001.md",
+      "bytes": 4154,
+      "sha256": "5f7d8bac79180cad2230196c68d13fb4425eeeda8a907a18c6d814464f398fe4"
+    },
+    {
+      "path": "tasks/OLW-OPS-001.md",
+      "bytes": 2862,
+      "sha256": "ea6a7782bd6702718ae2ea43eb40c5708472fb6ecd7b32b340cfcf5101a72458"
+    },
+    {
+      "path": "tasks/OLW-PRES-001.md",
+      "bytes": 3100,
+      "sha256": "23d3d86d84ab1212e5848fae3069dd44d7e2085e031b5bf594e79f4ed6ddea5d"
+    },
+    {
+      "path": "tasks/OLW-PRES-002.md",
+      "bytes": 3193,
+      "sha256": "5039c19b8f534a3fb8207e7c430c7e45039149c20a4dad8a4ed925681d0c73f7"
+    },
+    {
+      "path": "tasks/OLW-REL-001.md",
+      "bytes": 3470,
+      "sha256": "58dbdc1e96a348930f34e77d218b1539a4b359cae8f0f6317b2002f2329a8545"
+    },
+    {
+      "path": "tasks/OLW-REL-002.md",
+      "bytes": 2979,
+      "sha256": "57f8899f2346c28f279ff621502a79bd4c72c43c8a2be25d17e1e134df478575"
+    },
+    {
+      "path": "templates/ASSET_RIGHTS_RECORD.json",
+      "bytes": 511,
+      "sha256": "c5f10abe85bf00efc06c45078d9aa76f6d5ed5839f1094a23c9d79c6489673dc"
+    },
+    {
+      "path": "templates/CAPTURE_SIDECAR_EXAMPLE.json",
+      "bytes": 570,
+      "sha256": "04ba6ef45339fd255ee81940cf02293cd93f1f9e85e4647a1829dd941370e2e8"
+    },
+    {
+      "path": "templates/GITIGNORE_TEMPLATE.txt",
+      "bytes": 351,
+      "sha256": "3938598458a58341be7be6bab48fd238a9ddcaf2c205f32aa567081b59671a50"
+    },
+    {
+      "path": "templates/PRESENTATION_PAINTOVER_BRIEF.md",
+      "bytes": 1260,
+      "sha256": "baac4fdca77e352a33483c2c59bfd0c36fead589062b921b352479b92647d801"
+    },
+    {
+      "path": "templates/PUBLIC_DOCUMENTS_WORKSHEET.md",
+      "bytes": 1645,
+      "sha256": "6d6c62523e86481dfddaf59568dfeba4cb89a81fae5392edb0afbcff8c1a9e7b"
+    },
+    {
+      "path": "templates/SAVE_S1_EXAMPLE.json",
+      "bytes": 899,
+      "sha256": "7baac96bb3b69266667a15d22a93f259e86f3b6ef19384c50b771921c974699d"
+    },
+    {
+      "path": "templates/TASK_RESULT.md",
+      "bytes": 962,
+      "sha256": "3372f5815ca79ff00ef5448e1289a057e6292121ded1932cb2ed0535fd4687e0"
+    },
+    {
+      "path": "tests/fixtures/save_payload_draft.json",
+      "bytes": 1356,
+      "sha256": "ae2678f39505b9069330fe92a87b2f4de07f2978e8b10a1acca133db99acaf09"
+    },
+    {
+      "path": "tests/fixtures/save_payload_new.json",
+      "bytes": 834,
+      "sha256": "27861b9bc3c6312ba3ebd572e1386476ccfa892952d022ec6fdab0394773e4c5"
+    },
+    {
+      "path": "tests/test_reference_math.py",
+      "bytes": 5611,
+      "sha256": "2bc2c4a4ee6f7aa25500f288aa981e1fbbe9fd405cc63ef98734b5005c478026"
+    },
+    {
+      "path": "tools/audit_balance.py",
+      "bytes": 2990,
+      "sha256": "148e80fcfe7d15eaf6b7197b48f0efc594ee3ff4297409345efa491b28f146f3"
+    },
+    {
+      "path": "tools/reference_math.py",
+      "bytes": 8928,
+      "sha256": "d5656a8998ee61079eb7848c1ba0e517dc6cd347a2f6a159e51404eb617990e3"
+    },
+    {
+      "path": "tools/verify_source.py",
+      "bytes": 10106,
+      "sha256": "44c3cd488be9408d3b2f0e9ded6b32f4eac5e82bce9ac56f3588b5f287907255"
+    }
+  ]
+}
