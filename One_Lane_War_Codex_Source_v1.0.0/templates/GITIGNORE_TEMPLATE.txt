@@ -1,0 +1,15 @@
+# Apply to authorized localgameworkspace;thissourcepack doesnotmodifyanexistingrepo.
+__pycache__/
+*.pyc
+Game/[Ll]ibrary/
+Game/[Tt]emp/
+Game/[Oo]bj/
+Game/[Ll]ogs/
+Game/[Uu]ser[Ss]ettings/
+Services/**/node_modules/
+.env
+.env.*
+*.keystore
+*.jks
+*service-account*.json
+# Do not ignore source-controlled content, .meta files or accepted release manifests.

@@ -1,0 +1,237 @@
+{
+  "id": "CAP001",
+  "capture_after": "PH06",
+  "target_approval_phase": "PH07",
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "native_sizes_also_required": true,
+  "raw_capture_no_retouch": true,
+  "sidecar_required": [
+    "capture_id",
+    "app_version",
+    "source_manifest_sha256",
+    "commit",
+    "balance_version",
+    "state_id",
+    "encounter_id",
+    "run_id",
+    "attempt_id",
+    "loadout",
+    "upgrades",
+    "sim_tick",
+    "resolution",
+    "safe_area",
+    "camera",
+    "device_or_avd",
+    "fixture_only",
+    "raw_file_sha256"
+  ],
+  "captures": [
+    {
+      "id": "SC01",
+      "filename": "SC01_home_new.png",
+      "view": "Home/Campaign",
+      "state": "new save;first expedition highlighted",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC02",
+      "filename": "SC02_home_progress.png",
+      "view": "Home/Campaign",
+      "state": "chapter2unlocked;earnedcurrency;resumeentry",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC03",
+      "filename": "SC03_army_starter.png",
+      "view": "Army",
+      "state": "fourstarterunits;BruteRamlocked",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC04",
+      "filename": "SC04_army_full.png",
+      "view": "Army",
+      "state": "allsixunlocked;fourselected;clearreplacementstate",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC05",
+      "filename": "SC05_battle_open.png",
+      "view": "Battle",
+      "state": "firstengagement;cleanHUD",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC06",
+      "filename": "SC06_battle_frontline.png",
+      "view": "Battle",
+      "state": "threeengagementslots/protectedranged visuallyreadable",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC07",
+      "filename": "SC07_battle_dense.png",
+      "view": "Battle",
+      "state": "24vs24engineeringfixture,labelnotmarketproof",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC08",
+      "filename": "SC08_battle_grenade.png",
+      "view": "Battle",
+      "state": "grenadeimpactfiniteframe;UIunobscured",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC09",
+      "filename": "SC09_battle_crossbow.png",
+      "view": "Battle",
+      "state": "protectedfiringlineandprojectile",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC10",
+      "filename": "SC10_battle_ram.png",
+      "view": "Battle",
+      "state": "Ramcontactwithfortress",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC11",
+      "filename": "SC11_battle_rally.png",
+      "view": "Battle",
+      "state": "Rallyactiveandcooldownreadable",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC12",
+      "filename": "SC12_battle_barrier.png",
+      "view": "Battle",
+      "state": "first-hitShieldguardbarrier",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC13",
+      "filename": "SC13_battle_overtime.png",
+      "view": "Battle",
+      "state": "150s+overtime,correctHP",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC14",
+      "filename": "SC14_battle_caps.png",
+      "view": "Battle",
+      "state": "unitcaporinsufficientSupplydisabledreasons",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC15",
+      "filename": "SC15_draft_normal.png",
+      "view": "Draft",
+      "state": "threeactualeligibleoptions",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC16",
+      "filename": "SC16_draft_reroll.png",
+      "view": "Draft",
+      "state": "freeused;extraoffereligibleorowned",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC17",
+      "filename": "SC17_result_win.png",
+      "view": "Results",
+      "state": "completeexpedition;banked/completion/firstclearbreakdown",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC18",
+      "filename": "SC18_result_loss.png",
+      "view": "Results",
+      "state": "partiallossretainwins;eligiblebonus",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC19",
+      "filename": "SC19_result_draw.png",
+      "view": "Results",
+      "state": "drawreasonnotwin",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC20",
+      "filename": "SC20_shop_available.png",
+      "view": "Shop",
+      "state": "twoexactproducts;testmetadata labeledifneeded",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC21",
+      "filename": "SC21_shop_owned.png",
+      "view": "Shop",
+      "state": "ownedbenefitsandfiniteMedalstate",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC22",
+      "filename": "SC22_settings.png",
+      "view": "Settings",
+      "state": "audio/haptics/reducedmotion/privacy/restore",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC23",
+      "filename": "SC23_pause.png",
+      "view": "Pause",
+      "state": "resume/abandonnohiddenaction",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC24",
+      "filename": "SC24_save_recovery.png",
+      "view": "Save recovery",
+      "state": "recoverableerror/newerschemalimitation",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC25",
+      "filename": "SC25_purchase_pending.png",
+      "view": "Purchase pending",
+      "state": "clearpendingstate,nogrant",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC26",
+      "filename": "SC26_privacy_options.png",
+      "view": "Privacy",
+      "state": "actualSDKorclearlymarkedplaceholderform",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC27",
+      "filename": "SC27_victory_field.png",
+      "view": "Battle terminal",
+      "state": "fortressdestructionandvictory",
+      "status": "NOT_CAPTURED"
+    },
+    {
+      "id": "SC28",
+      "filename": "SC28_defeat_field.png",
+      "view": "Battle terminal",
+      "state": "lossandclearcontinuation",
+      "status": "NOT_CAPTURED"
+    }
+  ],
+  "recordings": [
+    "20sordinarybattle",
+    "crowdedformationturnover",
+    "grenadeandRamcontact",
+    "Rallysnapshotanimation",
+    "suspendresumeandadreturn"
+  ],
+  "generation_rule": "Real suppliedcapture+V001 reference;geometry/text/countsreviewed;targetnotruntimeproof"
+}

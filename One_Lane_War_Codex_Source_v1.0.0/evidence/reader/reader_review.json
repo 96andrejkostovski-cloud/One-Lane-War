@@ -1,0 +1,23 @@
+{
+  "javascript_errors": [],
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": true,
+    "sections": 22
+  },
+  "mobile": {
+    "width": 412,
+    "scrollWidth": 412
+  },
+  "filter_analytics_visible_links": 1,
+  "captures": [
+    "mobile_combat.png",
+    "desktop_visual.png",
+    "desktop_catalogue.png",
+    "desktop_cover.png",
+    "mobile_cover.png",
+    "desktop_combat.png"
+  ],
+  "scope": "HTML reader layout only; not game screenshots"
+}

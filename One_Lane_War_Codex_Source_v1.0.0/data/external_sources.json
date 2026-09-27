@@ -1,0 +1,431 @@
+[
+  {
+    "id": "EXT01",
+    "title": "Unity editor release",
+    "url": "https://unity.com/releases/editor/whats-new/6000.3.21f1",
+    "supports": "Selected editor and changeset",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT02",
+    "title": "Unity Android dependencies",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/android-supported-dependency-versions.html",
+    "supports": "Editor-range NDK/JDK/SDK compatibility",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT03",
+    "title": "Unity Gradle compatibility",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/android-gradle-version-compatibility.html",
+    "supports": "6000.3.17–.25 mapsGradle9.1/AGP9.0",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT04",
+    "title": "Firebase Unity release notes",
+    "url": "https://firebase.google.com/support/release-notes/unity",
+    "supports": "13.17 and native dependencies",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT05",
+    "title": "Unity IAP changelog",
+    "url": "https://docs.unity3d.com/Packages/com.unity.purchasing@5.4/changelog/CHANGELOG.html",
+    "supports": "5.4.3 and acknowledged-order/telemetry behavior",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT06",
+    "title": "Google Mobile Ads Unity release",
+    "url": "https://github.com/googleads/googleads-mobile-unity/releases/tag/v11.5.0",
+    "supports": "Selected ads release",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT07",
+    "title": "Google Mobile Ads native dependencies",
+    "url": "https://raw.githubusercontent.com/googleads/googleads-mobile-unity/v11.5.0/source/plugin/Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml",
+    "supports": "SelectednativeGMAdependencies",
+    "review_date": "2026-09-27",
+    "verification": "RETAINED_V0_2_PRIMARY_REFERENCE_RECHECK_AT_PHASE",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT08",
+    "title": "Android Studio updates",
+    "url": "https://developer.android.com/latest-updates",
+    "supports": "Studio release selection",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT09",
+    "title": "Android emulator releases",
+    "url": "https://developer.android.com/studio/releases/emulator",
+    "supports": "Emulator selection and particular ARMtranslationimages",
+    "review_date": "2026-09-27",
+    "verification": "RETAINED_V0_2_PRIMARY_REFERENCE_RECHECK_AT_PHASE",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT10",
+    "title": "Unity x86_64 target restriction",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AndroidArchitecture.X86_64.html",
+    "supports": "Do notassumenewphoneappx86target",
+    "review_date": "2026-09-27",
+    "verification": "RETAINED_V0_2_PRIMARY_REFERENCE_RECHECK_AT_PHASE",
+    "recheck_at": [
+      "PH01",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT11",
+    "title": "Android page sizes",
+    "url": "https://developer.android.com/guide/practices/page-sizes",
+    "supports": "16KBnativecompatibility",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT12",
+    "title": "Play Billing testing",
+    "url": "https://developer.android.com/google/play/billing/test",
+    "supports": "Licence-testvsrealcharges,pendingrestoretest",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT13",
+    "title": "Billing security",
+    "url": "https://developer.android.com/google/play/billing/security",
+    "supports": "Backendverificationandacknowledgement",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT14",
+    "title": "Rewarded ads policy",
+    "url": "https://support.google.com/admob/answer/7313578?hl=en",
+    "supports": "Disclosure,optin,earnedreward",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT15",
+    "title": "Unity UMP privacy",
+    "url": "https://developers.google.com/admob/unity/privacy",
+    "supports": "Consentreadiness/options",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT16",
+    "title": "AdMob impression revenue",
+    "url": "https://developers.google.com/admob/unity/impression-level-ad-revenue",
+    "supports": "Valuecurrencyandprecision",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT17",
+    "title": "Play target API",
+    "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+    "supports": "NewphoneappsupdatesAPI36checked2026-09-27",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT18",
+    "title": "Target audience/content",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+    "supports": "Actualaudiencepresentationmustmatchdeclaration",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT19",
+    "title": "Data Safety",
+    "url": "https://support.google.com/googleplay/android-developer/answer/10787469",
+    "supports": "SDKdatainventoryanddeclarations",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT20",
+    "title": "Firebase BigQuery export",
+    "url": "https://firebase.google.com/docs/projects/bigquery-export",
+    "supports": "Exportsetupanddatahandling",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT21",
+    "title": "Crashlytics Unity setup",
+    "url": "https://firebase.google.com/docs/crashlytics/unity/get-started",
+    "supports": "UnityIL2CPPsymbols",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT22",
+    "title": "Developer identity",
+    "url": "https://support.google.com/googleplay/android-developer/answer/13628312?hl=en",
+    "supports": "Organization/contactverification",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT23",
+    "title": "Personal account test requirements",
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "supports": "Qualifyingpersonalaccounttestprerequisite",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT24",
+    "title": "Prepare and roll out release",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9859348?hl=en",
+    "supports": "Firstreleaseversusupdatestaging",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT25",
+    "title": "AdMob app readiness",
+    "url": "https://support.google.com/admob/answer/14538460?hl=en",
+    "supports": "appadsverification/readiness",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT26",
+    "title": "Cloud budget alerts",
+    "url": "https://cloud.google.com/billing/docs/how-to/budgets",
+    "supports": "Alertsarenotuniversalautomaticspendcap",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT27",
+    "title": "Billing deprecation",
+    "url": "https://developer.android.com/google/play/billing/deprecation-faq",
+    "supports": "SupportedBillingversionsbeforefuturesubmission",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT28",
+    "title": "Firebase Analytics Unity",
+    "url": "https://firebase.google.com/docs/analytics/unity/get-started",
+    "supports": "SDKsetup",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT29",
+    "title": "Codex AGENTS guide",
+    "url": "https://developers.openai.com/codex/guides/agents-md",
+    "supports": "Repositoryinstructionfilebehavior",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT30",
+    "title": "Unity Editor terms",
+    "url": "https://unity.com/legal/editor-terms-of-service/software",
+    "supports": "Actualentitylicenceeligibility",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT31",
+    "title": "Higgsfield terms",
+    "url": "https://higgsfield.ai/terms-of-use-agreement",
+    "supports": "Actualoutputcommercialrightsandrestrictions",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT32",
+    "title": "Suno paid commercial guidance",
+    "url": "https://help.suno.com/en/articles/9601665",
+    "supports": "Actualpaidoutputcommercialpermissions",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  },
+  {
+    "id": "EXT33",
+    "title": "ElevenLabs SFX terms",
+    "url": "https://elevenlabs.io/sound-effects-terms",
+    "supports": "Actualoutputpermissionsandterms",
+    "review_date": "2026-09-27",
+    "verification": "OPENED_PRIMARY_SOURCE_DURING_CONSOLIDATION",
+    "recheck_at": [
+      "PH05",
+      "PH10"
+    ],
+    "not_gameplay_evidence": true
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW expeditions structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "chapter_id": {
+        "type": "string"
+      },
+      "completion_medals": {
+        "type": "integer"
+      },
+      "encounter_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "first_clear_medals": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "replayable": {
+        "type": "boolean"
+      },
+      "unlock_after_expedition": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "required": [
+      "chapter_id",
+      "completion_medals",
+      "encounter_ids",
+      "first_clear_medals",
+      "id",
+      "name",
+      "replayable",
+      "unlock_after_expedition"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 9,
+  "maxItems": 9
+}

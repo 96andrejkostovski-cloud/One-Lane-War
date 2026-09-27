@@ -1,0 +1,146 @@
+{
+  "version": "UX001",
+  "visual_style": "V001_APPROVED_REFERENCE_ONLY",
+  "reference_canvas": [
+    1920,
+    1080
+  ],
+  "layout": "uGUI CanvasScaler ScaleWithScreenSize, matchWidthOrHeight0.5, safe-area root; preserve entire gameplay X range; expand/letterbox background outside safe play geometry; no portrait mode",
+  "minimum_touch_target_dp": 48,
+  "body_font_min_reference_px": 24,
+  "numeric_font_min_reference_px": 28,
+  "battle_regions": {
+    "top_hud_height_reference_px": 112,
+    "bottom_controls_height_reference_px": 224,
+    "side_margin_reference_px": 32,
+    "deploy_controls": "four equal slots centered lower strip; each includes icon, supply price, readable disabled reason; Rally on right; pause top right",
+    "input": "one valid pointer-up inside originating control = one command; drag-out cancels; no hold-to-spam; no double currency spend; keyboard debug excluded from shipping"
+  },
+  "views": [
+    {
+      "id": "home",
+      "states": [
+        "new",
+        "campaign_progress",
+        "resumable_run",
+        "campaign_complete"
+      ],
+      "actions": [
+        "start",
+        "resume",
+        "army",
+        "shop",
+        "settings"
+      ]
+    },
+    {
+      "id": "army",
+      "states": [
+        "four_equipped",
+        "incomplete_selection",
+        "unlock_affordable",
+        "unlock_unaffordable",
+        "active_run_locked"
+      ],
+      "actions": [
+        "equip",
+        "unequip",
+        "unit_details",
+        "unlock",
+        "continue"
+      ]
+    },
+    {
+      "id": "battle",
+      "states": [
+        "running",
+        "insufficient_supply",
+        "deployment_cooldown",
+        "army_cap",
+        "rally_initial",
+        "rally_ready",
+        "rally_active",
+        "rally_cooldown",
+        "overtime",
+        "paused",
+        "victory",
+        "defeat",
+        "draw"
+      ],
+      "actions": [
+        "deploy",
+        "rally",
+        "pause"
+      ]
+    },
+    {
+      "id": "draft",
+      "states": [
+        "three_offers",
+        "free_reroll",
+        "rewarded_reroll",
+        "entitlement_reroll",
+        "rerolls_exhausted",
+        "ad_loading",
+        "ad_unavailable",
+        "grant_pending"
+      ],
+      "actions": [
+        "choose",
+        "reroll",
+        "back_to_home_between_battles"
+      ]
+    },
+    {
+      "id": "results",
+      "states": [
+        "battle_win",
+        "expedition_win",
+        "loss",
+        "draw",
+        "reward_bonus_eligible",
+        "bonus_claimed",
+        "all_medal_sinks_owned",
+        "save_failed"
+      ],
+      "actions": [
+        "continue",
+        "retry",
+        "claim_bonus",
+        "home"
+      ]
+    },
+    {
+      "id": "shop",
+      "states": [
+        "products_loading",
+        "ready",
+        "owned",
+        "price_unavailable",
+        "pending",
+        "verified",
+        "failed",
+        "restore_empty",
+        "restore_success"
+      ],
+      "actions": [
+        "preview",
+        "buy",
+        "restore",
+        "back"
+      ]
+    }
+  ],
+  "overlay_priority": [
+    "OS_store_or_consent",
+    "save_or_reward_commit_error",
+    "purchase_recovery",
+    "confirmation",
+    "pause_or_settings",
+    "unit_or_briefing_info"
+  ],
+  "android_back": "close top dismissible overlay; in running battle open pause; back from menu returns Home; never silently abandon",
+  "accessibility": "no color-only teams; separate sound sliders; haptics off toggle; reduced motion/flash removes shake/large flashes without hiding timing; text is real UI not image",
+  "final_geometry": "Functional layout and safe-area budgets are implemented with placeholders. Final styling comes from geometry-preserving paintovers of real build captures; generated images never override mechanics, prices, text or source values.",
+  "strings_registry": "strings_en.json"
+}

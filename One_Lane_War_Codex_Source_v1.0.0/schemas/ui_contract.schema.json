@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW ui_contract structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "accessibility": {
+      "type": "string"
+    },
+    "android_back": {
+      "type": "string"
+    },
+    "battle_regions": {
+      "type": "object",
+      "properties": {
+        "bottom_controls_height_reference_px": {
+          "type": "integer"
+        },
+        "deploy_controls": {
+          "type": "string"
+        },
+        "input": {
+          "type": "string"
+        },
+        "side_margin_reference_px": {
+          "type": "integer"
+        },
+        "top_hud_height_reference_px": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "bottom_controls_height_reference_px",
+        "deploy_controls",
+        "input",
+        "side_margin_reference_px",
+        "top_hud_height_reference_px"
+      ],
+      "additionalProperties": false
+    },
+    "body_font_min_reference_px": {
+      "type": "integer"
+    },
+    "final_geometry": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "minimum_touch_target_dp": {
+      "type": "integer"
+    },
+    "numeric_font_min_reference_px": {
+      "type": "integer"
+    },
+    "overlay_priority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_canvas": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "strings_registry": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "views": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "states": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "actions",
+          "id",
+          "states"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "visual_style": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accessibility",
+    "android_back",
+    "battle_regions",
+    "body_font_min_reference_px",
+    "final_geometry",
+    "layout",
+    "minimum_touch_target_dp",
+    "numeric_font_min_reference_px",
+    "overlay_priority",
+    "reference_canvas",
+    "strings_registry",
+    "version",
+    "views",
+    "visual_style"
+  ],
+  "additionalProperties": false
+}

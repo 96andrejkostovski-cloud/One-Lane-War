@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW build_gates structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "acceptance": {
+        "type": "string"
+      },
+      "depends_on": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "evidence": {
+        "type": "null"
+      },
+      "external_generation_allowed": {
+        "type": "boolean"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "phase_specific_permission_required": {
+        "type": "boolean"
+      },
+      "primary_task": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "workflow": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "acceptance",
+      "depends_on",
+      "evidence",
+      "external_generation_allowed",
+      "id",
+      "name",
+      "phase_specific_permission_required",
+      "primary_task",
+      "status",
+      "workflow"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 11,
+  "maxItems": 11
+}

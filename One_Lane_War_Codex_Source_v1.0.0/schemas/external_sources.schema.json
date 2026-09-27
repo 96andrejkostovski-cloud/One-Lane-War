@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW external_sources structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "not_gameplay_evidence": {
+        "type": "boolean"
+      },
+      "recheck_at": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "review_date": {
+        "type": "string"
+      },
+      "supports": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "verification": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "not_gameplay_evidence",
+      "recheck_at",
+      "review_date",
+      "supports",
+      "title",
+      "url",
+      "verification"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 33,
+  "maxItems": 33
+}

@@ -1,0 +1,48 @@
+{
+  "currency": "medals",
+  "premium_currency": false,
+  "starting_balance": 0,
+  "troop_unlocks": {
+    "brute": 40,
+    "ram": 80
+  },
+  "cosmetic_banners": [
+    {
+      "id": "banner_oak",
+      "cost_medals": 160
+    },
+    {
+      "id": "banner_barrel",
+      "cost_medals": 340
+    },
+    {
+      "id": "banner_iron",
+      "cost_medals": 700
+    }
+  ],
+  "reward_bonus": {
+    "factor": 0.5,
+    "basis": "sum of battle-win Medals in the just-finished expedition only; excludes completion and first-clear bonuses",
+    "rounding": "floor",
+    "claim_once_per_run": true,
+    "eligible": "at least one battle won; expedition not the introductory attempt; at least one remaining Medal unlock",
+    "max_rewarded_ads_per_run_total": 2
+  },
+  "rewards_atomic": true,
+  "no_reward_on_unresolved_battle": true,
+  "no_daily_rewards": true,
+  "finite_sinks_acknowledged": true,
+  "ad_bonus_after_all_unlocks": "hidden for all players; do not sell future value that no longer exists",
+  "balance_version": "B001",
+  "total_medal_sinks": 1320,
+  "design_path": "Troops first, then Oak/Barrel/Iron. First-clear campaign in order; repeat c03_e03 after finishing nine. Consecutive full wins; no failure assumption.",
+  "purchase_priority": [
+    "brute",
+    "ram",
+    "banner_oak",
+    "banner_barrel",
+    "banner_iron"
+  ],
+  "promised_unlock_times": false,
+  "unlock_costs_are_design_authority": true
+}

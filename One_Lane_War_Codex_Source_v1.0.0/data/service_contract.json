@@ -1,0 +1,111 @@
+{
+  "version": "S002_CONSOLIDATED",
+  "runtime_ai_calls": false,
+  "accounts": false,
+  "local_progression": true,
+  "backend_limits": {
+    "memory_mib": 256,
+    "cpu": 1,
+    "min_instances": 0,
+    "max_instances": 2,
+    "concurrency": 10,
+    "request_timeout_s": 30,
+    "request_body_max_bytes": 16384
+  },
+  "client_network": {
+    "timeout_s": 15,
+    "retry_delays_s": [
+      1,
+      4,
+      15
+    ],
+    "max_automatic_attempts": 4,
+    "offline_play_blocked": false,
+    "background_polling": false
+  },
+  "entitlements": {
+    "products": [
+      "adfree_bonuses",
+      "cosmetic_army_pack"
+    ],
+    "verify": "Play Developer API authoritative purchase state; validate package, product, purchase token, quantity and state; installation identifier is never ownership proof",
+    "record_key": "SHA256(purchase_token); token encrypted/protected server-side only where needed for reverification",
+    "client_grant": "Persist server-signed verified entitlement and grant journal atomically; recover safely after interrupted local persistence. Backend durable entitlement is restorable; no pending purchase benefit.",
+    "pending": "no benefit until authoritative PURCHASED/verified; process redelivery safely",
+    "offline": "retain last verified ownership on connectivity failures; only authoritative revocation removes entitlement",
+    "restore": "query actual Play ownership, verify tokens, rebuild local entitlements; does not restore local campaign",
+    "refunds": "RTDN ingestion idempotent + reverification on online restore/ownership refresh; periodic server-side voided-purchases reconciliation",
+    "rtdn": "authenticated Google Pub/Sub trigger; event is a hint, fetch authoritative state; never trust unverified client refund input",
+    "acknowledgement": "Backend orchestrator is canonical acknowledgement owner after durable VERIFIED_GRANTED record; retries are idempotent. Unity IAP confirms local order only after durable verified entitlement; prove no second consumptive grant/ack path. Never consume non-consumables.",
+    "raw_tokens_in_analytics": false,
+    "client_firestorereadwrite": false,
+    "offline_receipt": "Server-signed ES256 JWS with product, token hash, issued_at and key ID; verify with bundled public keys; keep last valid ownership offline. Signing key is server-only. Never treat local checksum as purchase proof.",
+    "signature_key_rotation": "Ship new public key before using it; support previous keys for existing clients. No expiry-based removal on temporary offline use."
+  },
+  "saves": {
+    "schema": 1,
+    "format": "UTF-8 JSON envelope + payload SHA256",
+    "slots": [
+      "active",
+      "backup"
+    ],
+    "write": "temp + flush + verify + atomic replacement; preserve backup",
+    "unknown_newer_schema": "refuse destructive migration; retain files and explain",
+    "midbattle": "restart same prebattle checkpoint",
+    "reset": "two-step confirmation; reset gameplay only; keep entitlements, privacy choice and accessibility settings",
+    "android_backup": "explicitly exclude game save and entitlement cache from cloud backup/device-transfer rules; local-only promise; no OS-backup dependency"
+  },
+  "ads": {
+    "placements": [
+      "extra_reroll",
+      "medal_bonus"
+    ],
+    "intro_attempt_suppressed": true,
+    "reward_source": "earned callback, never close event",
+    "show_attempt_receipt": "journal attempt ID before show; persist earned reward immediately; deduplicate; stale reroll receipt applies only to its owning active run; if run has ended, consume with logged inapplicable reason, no new free run",
+    "ad_overlay_freezes_game": true,
+    "no_fill": "normal play plus manual retry; no repeated auto-popups",
+    "preload": "only if consent permits and an eligible non-intro placement can be reached",
+    "price_text": "localized Play price only; unavailable price disables purchase CTA but not play"
+  },
+  "privacy": {
+    "behavioral_collection_default": false,
+    "no_preconsent_backlog": true,
+    "crash_collection": "deliberate consent/lawful-basis configuration per actual region; not assumed covered by UMP",
+    "data_minimization": "No precise location, email, birthday, address, free text, raw order IDs or tokens in gameplay events",
+    "behavioral_export_retention_days": 90,
+    "support_log_retention_days": 30,
+    "financial_retention": "actual applicable accounting/legal schedule at deployment; cannot invent required period",
+    "analytics_choice": "Separate in-app optional diagnostics choice (off by default), independent of UMP advertising choice; no ad denial penalty, no pre-consent backfill."
+  },
+  "remote_config": {
+    "minimum_fetch_interval_s": 3600,
+    "activate": "Home or next expedition; never mid-run",
+    "allowlist": [
+      "ads_enabled",
+      "iap_enabled",
+      "reroll_ad_enabled",
+      "medal_ad_enabled",
+      "support_notice"
+    ],
+    "defaults": {
+      "ads_enabled": false,
+      "iap_enabled": false,
+      "reroll_ad_enabled": false,
+      "medal_ad_enabled": false,
+      "support_notice": ""
+    },
+    "ownership_survives_kill_switch": true,
+    "balance_remote_mutation": false
+  },
+  "spending": {
+    "acquisition": 0,
+    "new_subscriptions": 0,
+    "new_devices": 0,
+    "public_service_activation_authorized": false,
+    "existing_provider_credits": "Use only in separately authorized asset task; access is not unlimited-spend permission"
+  },
+  "support_identity": "Production input held until owner-supplied verified entity/domain/email; show noncommercial local diagnostic copy in development without fake contact addresses.",
+  "integration_stage": "PH05; no SDK/backend installation or live account activity in CORE-001 beyond stub interfaces",
+  "offline_revocation_limitation": "A device that never reconnects cannot learn a refund/revocation. Offline preservation is deliberate; do not claim perfect anti-fraud."
+}

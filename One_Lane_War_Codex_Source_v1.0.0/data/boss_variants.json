@@ -1,0 +1,44 @@
+[
+  {
+    "id": "boss_bulwark",
+    "base_unit": "shieldguard",
+    "hp_multiplier": 2,
+    "damage_multiplier": 1.2,
+    "supply_cost_multiplier": 1,
+    "special": "30%-max-HP barrier armed at spawn; activated by first positive incoming damage; lasts 8 seconds including trigger hit",
+    "maximum_per_encounter": 1,
+    "asset_id": "boss_bulwark",
+    "note": "Explicit encounter enemy-budget exception: stronger fixed variant costs base unit price; disclosed in briefing.",
+    "resolved_b001": {
+      "hp": 480,
+      "damage": 12,
+      "base_damage": 12,
+      "supply_cost": 45,
+      "attack_period_ticks": 22,
+      "windup_ticks": 5,
+      "move_speed_m_s": 0.9,
+      "barrier_hp": 144
+    }
+  },
+  {
+    "id": "boss_powder",
+    "base_unit": "grenadier",
+    "hp_multiplier": 1.75,
+    "damage_multiplier": 1.15,
+    "supply_cost_multiplier": 1,
+    "special": "existing splash radius multiplier 1.5",
+    "maximum_per_encounter": 1,
+    "asset_id": "boss_powder",
+    "note": "Explicit encounter enemy-budget exception: stronger fixed variant costs base unit price; disclosed in briefing.",
+    "resolved_b001": {
+      "hp": 158,
+      "damage": 41,
+      "base_damage": 21,
+      "supply_cost": 65,
+      "attack_period_ticks": 48,
+      "windup_ticks": 10,
+      "move_speed_m_s": 0.95,
+      "splash_radius_m": 1.5
+    }
+  }
+]

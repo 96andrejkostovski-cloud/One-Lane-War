@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "save_revision": 1,
+  "source_version": "1.0.0",
+  "balance_version": "B001",
+  "settings": {
+    "music": 0.55,
+    "sfx": 0.8,
+    "haptics": true,
+    "reduced_motion": false,
+    "analytics_allowed": false,
+    "diagnostics_allowed": false
+  },
+  "medals": 0,
+  "unlocked_units": [
+    "militia",
+    "shieldguard",
+    "crossbowman",
+    "grenadier"
+  ],
+  "unlocked_banners": [],
+  "completed_expeditions": [],
+  "first_clear_paid": [],
+  "tutorial": {
+    "resolved_steps": [],
+    "skipped": false,
+    "intro_attempt_started": false
+  },
+  "selected_loadout": [
+    "militia",
+    "shieldguard",
+    "crossbowman",
+    "grenadier"
+  ],
+  "selected_cosmetic": null,
+  "active_run": {
+    "run_id": "00000000-0000-4000-8000-000000000001",
+    "expedition_id": "c01_e01",
+    "loadout": [
+      "militia",
+      "shieldguard",
+      "crossbowman",
+      "grenadier"
+    ],
+    "selected_upgrades": [],
+    "battle_index": 1,
+    "phase": "DRAFT_READY",
+    "seed": 1,
+    "prng_state": 1,
+    "offers": [
+      "u01",
+      "u05",
+      "u19"
+    ],
+    "offer_ordinal": 0,
+    "free_rerolls_remaining": 1,
+    "extra_reroll_state": "AVAILABLE",
+    "banked_battle_medals": 0,
+    "content_version": "B001"
+  },
+  "last_run_result": null,
+  "settlement_journal": [],
+  "pending_rewards": [],
+  "entitlement_receipts": []
+}

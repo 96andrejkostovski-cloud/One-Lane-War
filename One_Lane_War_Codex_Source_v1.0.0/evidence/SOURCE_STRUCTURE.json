@@ -1,0 +1,4189 @@
+{
+  "scope": "SOURCE FILES/REFERENCES/STRUCTURE ONLY;NOT UNITY OR GAME TESTS",
+  "manifest_checked": false,
+  "checks": 836,
+  "passed": 836,
+  "failed": 0,
+  "results": [
+    {
+      "name": "current source identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON SOURCE_AUTHORITY.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/analytics_transport.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/data_inventory.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/platform_interfaces.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/presentation_contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/save_constraints.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/service_api.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON contracts/state_machines.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/analytics_events.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/analytics_metrics.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/animation_contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/assets.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/audio_vfx_contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/boss_variants.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/build_gates.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/deployment_inputs.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/economy.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/encounters.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/expeditions.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/external_sources.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/game_rules.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/products.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/qa_cases.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/release_checklist.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/screenshot_pack.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/service_contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/strings_en.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/tasks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/test_matrix.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/toolchain_lock.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/ui_contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/units.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/upgrades.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON data/visual_references.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON evidence/BALANCE_ARITHMETIC.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON evidence/FINAL_VERIFICATION.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON evidence/SCHEMA_VALIDATION.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON evidence/SOURCE_STRUCTURE.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON evidence/reader/reader_review.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON records/COVERAGE_MATRIX.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON records/SOURCE_INPUTS.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON records/SUPERSESSIONS.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON references/sources_v0_2.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON references/toolchain_sources_v0_2.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/SCHEMA_INDEX.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/analytics_events.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/analytics_metrics.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/animation_contract.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/assets.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/audio_vfx_contract.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/boss_variants.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/build_gates.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/deployment_inputs.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/economy.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/encounters.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/expeditions.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/external_sources.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/game_rules.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/products.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/qa_cases.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/release_checklist.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/save_envelope.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/save_payload.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/screenshot_pack.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/service_contract.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/strings_en.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/tasks.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/test_matrix.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/toolchain_lock.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/ui_contract.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/units.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/upgrades.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON schemas/visual_references.schema.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON templates/ASSET_RIGHTS_RECORD.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON templates/CAPTURE_SIDECAR_EXAMPLE.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON templates/SAVE_S1_EXAMPLE.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON tests/fixtures/save_payload_draft.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON tests/fixtures/save_payload_new.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JSONL DECISIONS.jsonl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unique decision IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "units count",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "units unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "upgrades count",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "name": "upgrades unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "encounters count",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "name": "encounters unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "expeditions count",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "name": "expeditions unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "boss_variants count",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "boss_variants unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "products count",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "products unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "assets count",
+      "pass": true,
+      "detail": "148"
+    },
+    {
+      "name": "assets unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "analytics_events count",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "name": "analytics_events unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "qa_cases count",
+      "pass": true,
+      "detail": "155"
+    },
+    {
+      "name": "qa_cases unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "build_gates count",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "name": "build_gates unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tasks count",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "tasks unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "184 English strings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "example envelope hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "new-save payload agrees with envelope",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_new.json valid wallet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_new.json valid selected loadout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_draft.json valid wallet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_draft.json valid selected loadout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_draft.json seed bounds",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "save_payload_draft.json offers selected disjoint",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "22 Bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required START_HERE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required START_CODEX.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required AGENTS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required INDEX.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required ALL_BIBLES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required records/COVERAGE_MATRIX.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required contracts/state_machines.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required contracts/analytics_transport.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required contracts/service_api.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "militia values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "militia timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "militia asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "shieldguard values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "shieldguard timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "shieldguard asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "crossbowman values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "crossbowman timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "crossbowman asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "grenadier values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "grenadier timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "grenadier asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brute values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brute timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brute asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ram values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ram timing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ram asset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "four starters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u01 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u01 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u02 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u02 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u03 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u03 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u04 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u04 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u05 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u05 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u06 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u06 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u07 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u07 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u08 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u08 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u09 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u09 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u10 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u10 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u11 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u11 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u12 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u12 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u13 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u13 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u14 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u14 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u15 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u15 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u16 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u16 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u17 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u17 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u18 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u18 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u19 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u19 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u20 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u20 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u21 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u21 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u22 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u22 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u23 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u23 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u24 references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "u24 one rank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03 assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "36 encounters once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e01_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e02_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c01_e03_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e01_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e02_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c02_e03_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e01_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e02_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b01 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b01 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b01 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b02 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b02 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b02 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b03 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b03 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b03 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b04 queue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b04 budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b04 environment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_e03_b04 boss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_militia planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_militia dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_militia planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_militia dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_militia_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_shieldguard planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_shieldguard dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_shieldguard planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_shieldguard dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_shieldguard_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_crossbowman planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_crossbowman dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_crossbowman planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_crossbowman dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_crossbowman_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_grenadier planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_grenadier dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_grenadier planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_grenadier dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_grenadier_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_brute planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_brute dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_brute planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_brute dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_brute_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_ram planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unit_ram dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_ram planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portrait_ram dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_idle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_idle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_move planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_move dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_attack planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_attack dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "anim_ram_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "boss_bulwark planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "boss_bulwark dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "boss_powder planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "boss_powder dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_fields planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_fields dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_timber planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_timber dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_keep planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "env_keep dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "base_player planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "base_player dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "base_enemy planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "base_enemy dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u01 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u01 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u02 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u02 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u03 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u03 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u04 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u04 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u05 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u05 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u06 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u06 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u07 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u07 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u08 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u08 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u09 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u09 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u10 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u10 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u11 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u11 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u12 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u12 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u13 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u13 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u14 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u14 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u15 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u15 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u16 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u16 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u17 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u17 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u18 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u18 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u19 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u19 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u20 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u20 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u21 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u21 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u22 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u22 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u23 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u23 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u24 planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "icon_u24 dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_home_campaign planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_home_campaign dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_army planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_army dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_battle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_battle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_draft planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_draft dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_results planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_results dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_shop planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_shop dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_medal planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_medal dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_supply planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_supply dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_health planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_health dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_rally planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_rally dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_pause planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_pause dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_close planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_close dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_back planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_back dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_lock planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_lock dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_check planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_check dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_retry planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_retry dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_audio planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_audio dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_privacy planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui_icon_privacy dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "music_menu planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "music_menu dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "music_battle planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "music_battle dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_oak planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_oak dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_barrel planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_barrel dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_iron planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "banner_iron dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cosmetic_paid_set planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cosmetic_paid_set dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_app_icon planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_app_icon dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_feature_graphic planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_feature_graphic dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_screenshot_set planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_screenshot_set dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_gameplay_trailer planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_gameplay_trailer dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_store_copy planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "store_store_copy dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_deployment_dust planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_deployment_dust dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_melee_slash planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_melee_slash dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_light_hit planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_light_hit dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_shield_block planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_shield_block dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_bolt_trail_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_bolt_trail_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_grenade_explosion planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_grenade_explosion dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_spawn_barrier planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_spawn_barrier dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_rally_aura planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_rally_aura dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_hit_flash planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_hit_flash dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_death_puff planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_death_puff dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_medal_reward planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_medal_reward dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_fortress_destruction planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vfx_fortress_destruction dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_tap planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_tap dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_confirm planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_confirm dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_cancel planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_cancel dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_error planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ui_error dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_deploy planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_deploy dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_troop_unlock planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_troop_unlock dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_draft_choose planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_draft_choose dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_medal_receipt planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_medal_receipt dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_light_swing planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_light_swing dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_club_swing planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_club_swing dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_light_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_light_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_shield_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_shield_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_heavy_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_heavy_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_crossbow_fire planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_crossbow_fire dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_bolt_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_bolt_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_grenade_release planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_grenade_release dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_explosion planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_explosion dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ram_roll planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ram_roll dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ram_impact planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_ram_impact dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_soft_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_soft_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_heavy_death planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_heavy_death dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_rally planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_rally dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_base_damage planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_base_damage dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_base_destruction planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_base_destruction dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_overtime_warning planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sfx_overtime_warning dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_victory planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_victory dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_defeat planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_defeat dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_expedition_completion planned not generated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sting_expedition_completion dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev01 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev01 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev02 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev02 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev03 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev03 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev04 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev04 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev05 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev05 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev06 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev06 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev07 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev07 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev08 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev08 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev09 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev09 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev10 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev10 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev11 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev11 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev12 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev12 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev13 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev13 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev14 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev14 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev15 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev15 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev16 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev16 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev17 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev17 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev18 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev18 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev19 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev19 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev20 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev20 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev21 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev21 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev22 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev22 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev23 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev23 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev24 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev24 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev25 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev25 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev26 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev26 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev27 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev27 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev28 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev28 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev29 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev29 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev30 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev30 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev31 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev31 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev32 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev32 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev33 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev33 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev34 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev34 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev35 parameter budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ev35 sensitive fields absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "offline single player",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no forced ads",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "balance unvalidated disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "toolchain not falsely built",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no runtime QA fabricated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no phase fabricated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH01 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH01 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH02 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH02 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH03 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH03 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH04 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH04 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH05 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH05 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH06 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH06 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH07 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH07 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH08 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH08 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH09 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH09 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH10 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH10 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH11 topological order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PH11 task",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "placeholder-before-final generation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no task auto-authorized",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-002 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-002 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-002 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-002 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-003 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-003 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-003 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-003 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-004 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-004 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-004 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CORE-004 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-INT-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-INT-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-INT-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-INT-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CAP-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CAP-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CAP-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-CAP-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-ART-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-ART-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-ART-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-ART-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-002 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-002 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-002 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-PRES-002 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-002 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-002 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-002 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-REL-002 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-OPS-001 file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-OPS-001 dependencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-OPS-001 bibles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "OLW-OPS-001 QA refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capture count28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-A reference bytes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-A style not numeric",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-B reference bytes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-B style not numeric",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-C reference bytes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V001-C style not numeric",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/units.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/upgrades.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/encounters.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/expeditions.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/boss_variants.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/economy.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/products.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/assets.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/analytics_events.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B001 preserved data/strings_en.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "history One_Lane_War_Planning_v0.1.0.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "history ZIP CRC One_Lane_War_Planning_v0.1.0.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "history One_Lane_War_Design_Lock_v0.2.0.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "history ZIP CRC One_Lane_War_Design_Lock_v0.2.0.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-08",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-09",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT08",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT09",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #start",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-00",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #bible-02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML anchor #ref-EXT20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no font files",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

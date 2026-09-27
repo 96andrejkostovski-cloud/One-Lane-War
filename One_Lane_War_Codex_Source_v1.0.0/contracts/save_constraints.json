@@ -1,0 +1,19 @@
+{
+  "id": "SAVE_S1_CLOSURE",
+  "wallet_int64_max": 9223372036854775807,
+  "overflow_policy": "validatebeforecommit;failrecoverablyratherthanwrap",
+  "settled_completed_runs_retained": 32,
+  "pruning": "onlyfullysettledclosedrunsatHome;keepfirstclearIDsandunsettledreceiptsindefinitelyuntilresolved",
+  "completed_run_callback_policy": "callbackcannotcreditabsentclosedrun;onlyretainedactualearnedpendingreceiptsrecover;neveropennewrun",
+  "max_envelope_bytes": 1048576,
+  "source_missing_active_run": "preservebankedvalue,quarantinediagnosticanddocumentedmigration",
+  "canonical_saved_run_phase_enum": [
+    "DRAFT_PENDING",
+    "DRAFT_READY",
+    "PREBATTLE",
+    "BATTLE_ACTIVE",
+    "RESULT_COMMITTING",
+    "BETWEEN_BATTLES",
+    "RUN_RESULTS"
+  ]
+}

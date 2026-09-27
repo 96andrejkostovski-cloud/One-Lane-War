@@ -1,0 +1,135 @@
+{
+  "version": "A001_CONSOLIDATED",
+  "custom_event_registry": "analytics_events.json",
+  "custom_events": 35,
+  "automatic_events": "Do not manually duplicate first_open/ad_impression/in_app_purchase supplied by SDK integrations. Canonical revenue uses one deduplicated projection.",
+  "dashboards": [
+    "health",
+    "acquisition",
+    "retention",
+    "gameplay",
+    "monetization",
+    "cohort_economics"
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "name": "crash_free_users",
+      "threshold": 0.995,
+      "operator": ">=",
+      "formula": "1 - unique active users with fatal crash / unique active users in identical seven-day build window",
+      "minimum_cohort_for_rate_interpretation": 500,
+      "action": "Release severity gate; sparse cohorts use absolute defect review."
+    },
+    {
+      "id": "M02",
+      "name": "save_corruption",
+      "threshold": 0,
+      "operator": "=",
+      "formula": "known reproducible corruption or unrecoverable loss defects",
+      "minimum_cohort_for_rate_interpretation": 0,
+      "action": "Any reproducible loss blocks release; incidence is not permission to lose a few saves."
+    },
+    {
+      "id": "M03",
+      "name": "verified_purchase_grant_failures",
+      "threshold": 0,
+      "operator": "=",
+      "formula": "durably verified purchases not granted after recovery/retry, excluding genuinely pending store payments",
+      "minimum_cohort_for_rate_interpretation": 0,
+      "action": "Any known broken grant path blocks release."
+    },
+    {
+      "id": "M04",
+      "name": "earned_reward_grant_failure_rate",
+      "threshold": 0.005,
+      "operator": "<",
+      "formula": "unique earned receipts not durably granted after safe recovery / unique earned receipts",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Alert threshold only; known duplicate/lost reward defect still blocks."
+    },
+    {
+      "id": "M05",
+      "name": "first_battle_start_rate",
+      "threshold": 0.85,
+      "operator": ">=",
+      "formula": "first-install players starting their first battle / eligible first opens in same measurable cohort",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Investigate boot/consent/onboarding dropoff."
+    },
+    {
+      "id": "M06",
+      "name": "tutorial_completion",
+      "threshold": 0.8,
+      "operator": ">=",
+      "formula": "players completing or explicitly skipping all tutorial prompts / players shown first tutorial prompt",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Report skip separately; no fake tutorial completion."
+    },
+    {
+      "id": "M07",
+      "name": "first_expedition_completion",
+      "threshold": 0.5,
+      "operator": ">=",
+      "formula": "players winning their first expedition attempt / players starting first expedition attempt",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Distinguish losses, exits and unresolved resumable attempts; censor latter until window closes."
+    },
+    {
+      "id": "M08",
+      "name": "D1_active_retention",
+      "threshold": 0.3,
+      "operator": ">=",
+      "formula": "installs with foreground gameplay >=10s in [24h,48h) after first open / measurable installs aged>=48h",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Internal investigation target, not external benchmark."
+    },
+    {
+      "id": "M09",
+      "name": "D7_active_retention",
+      "threshold": 0.08,
+      "operator": ">=",
+      "formula": "installs with foreground gameplay >=10s in [168h,192h) / measurable installs aged>=192h",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Not first-release gate; report confidence interval and missing consent."
+    },
+    {
+      "id": "M10",
+      "name": "D30_active_retention",
+      "threshold": 0.03,
+      "operator": ">=",
+      "formula": "installs with foreground gameplay >=10s in [720h,744h) / measurable installs aged>=744h",
+      "minimum_cohort_for_rate_interpretation": 200,
+      "action": "Not first-release gate; mature cohort only."
+    }
+  ],
+  "timing_targets": {
+    "intro_battle_s": [
+      45,
+      90
+    ],
+    "normal_battle_s": [
+      90,
+      150
+    ],
+    "stronghold_s": [
+      120,
+      180
+    ],
+    "expedition_with_drafts_s": [
+      480,
+      720
+    ]
+  },
+  "query_rules": "exclude test/build environments and test receipts; report denominators and Wilson95% intervals; consent-related missingness explicit; source/country/build cohort separation; no causal conclusions from selection-win correlation",
+  "revenue": "ads callback estimates separate from reconciled earnings; net IAP receipts after real reports, not hardcoded fee; one-time buyers not recurring revenue",
+  "organic": "five approved genuine gameplay clip concepts; source-tagged links; no fake reviews/spam; unattributed remains unattributed",
+  "cadence": "Developer inspects health after test/release; weekly gameplay/organic review; monthly financial close. No background task or alert subscription created by this document.",
+  "health_metric_separation": "Crashlytics crash-free users, Play user-perceived crashes and Play ANRs are different denominators; do not transform one into another.",
+  "additional_health_targets": {
+    "play_user_perceived_crash_rate_max": 0.005,
+    "play_user_perceived_anr_rate_max": 0.002,
+    "rate_windows": "same documented build/time window; always show denominator and source; known severe defects block independent of sample"
+  },
+  "query_contract": "reports/sql contains BigQuery-ready parameterized templates over a defined normalized event view; deployment identifiers are explicit inputs, not fake deployed resources."
+}

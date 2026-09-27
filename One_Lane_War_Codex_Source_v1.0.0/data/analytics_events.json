@@ -1,0 +1,696 @@
+[
+  {
+    "id": "ev01",
+    "name": "game_boot",
+    "parameters": [
+      "boot_outcome",
+      "startup_ms",
+      "save_version"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev02",
+    "name": "tutorial_step",
+    "parameters": [
+      "step_id",
+      "outcome"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev03",
+    "name": "view_open",
+    "parameters": [
+      "view_id",
+      "entry_reason"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev04",
+    "name": "army_changed",
+    "parameters": [
+      "loadout_id",
+      "slot",
+      "unit_id"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev05",
+    "name": "expedition_start",
+    "parameters": [
+      "expedition_id",
+      "run_id",
+      "loadout_id",
+      "is_replay"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev06",
+    "name": "expedition_resume",
+    "parameters": [
+      "expedition_id",
+      "run_id",
+      "checkpoint_kind"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev07",
+    "name": "expedition_end",
+    "parameters": [
+      "expedition_id",
+      "run_id",
+      "outcome",
+      "battles_won",
+      "active_seconds"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev08",
+    "name": "battle_start",
+    "parameters": [
+      "encounter_id",
+      "run_id",
+      "attempt_id",
+      "loadout_id",
+      "build_id"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev09",
+    "name": "battle_end",
+    "parameters": [
+      "encounter_id",
+      "run_id",
+      "attempt_id",
+      "outcome",
+      "duration_s",
+      "base_hp_fraction",
+      "enemy_base_hp_fraction",
+      "supply_spent",
+      "supply_wasted",
+      "peak_units"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev10",
+    "name": "battle_unit_summary",
+    "parameters": [
+      "attempt_id",
+      "unit_id",
+      "side",
+      "spawned",
+      "damage_units",
+      "damage_base",
+      "deaths",
+      "time_alive_s"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev11",
+    "name": "battle_interrupted",
+    "parameters": [
+      "attempt_id",
+      "cause",
+      "elapsed_s"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev12",
+    "name": "rally_summary",
+    "parameters": [
+      "attempt_id",
+      "uses",
+      "first_use_s",
+      "active_s"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev13",
+    "name": "draft_offered",
+    "parameters": [
+      "run_id",
+      "draft_id",
+      "option_1",
+      "option_2",
+      "option_3",
+      "offer_ordinal"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev14",
+    "name": "draft_chosen",
+    "parameters": [
+      "run_id",
+      "draft_id",
+      "upgrade_id",
+      "decision_ms",
+      "offer_ordinal"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev15",
+    "name": "draft_reroll",
+    "parameters": [
+      "run_id",
+      "draft_id",
+      "source",
+      "reward_id"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev16",
+    "name": "medals_changed",
+    "parameters": [
+      "transaction_id",
+      "source_or_sink",
+      "amount",
+      "balance_after"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev17",
+    "name": "unlock_complete",
+    "parameters": [
+      "unlock_id",
+      "medal_cost"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev18",
+    "name": "shop_view",
+    "parameters": [
+      "entry_point",
+      "remaining_medal_unlocks"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev19",
+    "name": "reward_offer",
+    "parameters": [
+      "placement_id",
+      "run_id",
+      "reward_id",
+      "eligible"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev20",
+    "name": "reward_request",
+    "parameters": [
+      "placement_id",
+      "reward_id",
+      "consent_bucket"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev21",
+    "name": "reward_load_result",
+    "parameters": [
+      "placement_id",
+      "reward_id",
+      "outcome",
+      "error_class"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev22",
+    "name": "reward_show_result",
+    "parameters": [
+      "placement_id",
+      "reward_id",
+      "outcome",
+      "error_class"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev23",
+    "name": "reward_earned",
+    "parameters": [
+      "placement_id",
+      "reward_id",
+      "sdk_source"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev24",
+    "name": "reward_granted",
+    "parameters": [
+      "placement_id",
+      "reward_id",
+      "grant_source",
+      "reward_value"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev25",
+    "name": "iap_intent",
+    "parameters": [
+      "product_id",
+      "display_currency",
+      "entry_point"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev26",
+    "name": "iap_state",
+    "parameters": [
+      "product_id",
+      "outcome",
+      "error_class"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev27",
+    "name": "entitlement_sync",
+    "parameters": [
+      "product_id",
+      "state",
+      "source",
+      "latency_ms"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev28",
+    "name": "restore_result",
+    "parameters": [
+      "outcome",
+      "entitlements_found",
+      "error_class"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev29",
+    "name": "save_result",
+    "parameters": [
+      "operation",
+      "schema_version",
+      "outcome",
+      "error_class"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev30",
+    "name": "consent_state",
+    "parameters": [
+      "revision",
+      "analytics_allowed",
+      "ads_request_allowed"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev31",
+    "name": "config_applied",
+    "parameters": [
+      "config_version",
+      "outcome"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev32",
+    "name": "performance_summary",
+    "parameters": [
+      "device_tier",
+      "duration_s",
+      "p95_frame_ms",
+      "peak_memory_mb",
+      "fps_target"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev33",
+    "name": "support_open",
+    "parameters": [
+      "reason",
+      "view_id"
+    ],
+    "origin": "client",
+    "delivery": "consent-gated behavioral telemetry",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev34",
+    "name": "purchase_verified",
+    "parameters": [
+      "product_id",
+      "purchase_hash",
+      "currency",
+      "value",
+      "is_test"
+    ],
+    "origin": "backend",
+    "delivery": "restricted operational ledger; optional separately consented analytics projection",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  },
+  {
+    "id": "ev35",
+    "name": "purchase_revoked",
+    "parameters": [
+      "product_id",
+      "purchase_hash",
+      "reason"
+    ],
+    "origin": "backend",
+    "delivery": "restricted operational ledger; optional separately consented analytics projection",
+    "common_envelope": [
+      "event_id",
+      "app_version",
+      "balance_version",
+      "environment",
+      "session_id"
+    ],
+    "notes": "High-cardinality IDs stay in raw export, not GA4 custom dimensions. No email, purchase token, full order ID, ad ID, or free text."
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW economy structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "ad_bonus_after_all_unlocks": {
+      "type": "string"
+    },
+    "balance_version": {
+      "type": "string"
+    },
+    "cosmetic_banners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cost_medals": {
+            "type": "integer"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "cost_medals",
+          "id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "currency": {
+      "type": "string"
+    },
+    "design_path": {
+      "type": "string"
+    },
+    "finite_sinks_acknowledged": {
+      "type": "boolean"
+    },
+    "no_daily_rewards": {
+      "type": "boolean"
+    },
+    "no_reward_on_unresolved_battle": {
+      "type": "boolean"
+    },
+    "premium_currency": {
+      "type": "boolean"
+    },
+    "promised_unlock_times": {
+      "type": "boolean"
+    },
+    "purchase_priority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reward_bonus": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "type": "string"
+        },
+        "claim_once_per_run": {
+          "type": "boolean"
+        },
+        "eligible": {
+          "type": "string"
+        },
+        "factor": {
+          "type": "number"
+        },
+        "max_rewarded_ads_per_run_total": {
+          "type": "integer"
+        },
+        "rounding": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "basis",
+        "claim_once_per_run",
+        "eligible",
+        "factor",
+        "max_rewarded_ads_per_run_total",
+        "rounding"
+      ],
+      "additionalProperties": false
+    },
+    "rewards_atomic": {
+      "type": "boolean"
+    },
+    "starting_balance": {
+      "type": "integer"
+    },
+    "total_medal_sinks": {
+      "type": "integer"
+    },
+    "troop_unlocks": {
+      "type": "object",
+      "properties": {
+        "brute": {
+          "type": "integer"
+        },
+        "ram": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "brute",
+        "ram"
+      ],
+      "additionalProperties": false
+    },
+    "unlock_costs_are_design_authority": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "ad_bonus_after_all_unlocks",
+    "balance_version",
+    "cosmetic_banners",
+    "currency",
+    "design_path",
+    "finite_sinks_acknowledged",
+    "no_daily_rewards",
+    "no_reward_on_unresolved_battle",
+    "premium_currency",
+    "promised_unlock_times",
+    "purchase_priority",
+    "reward_bonus",
+    "rewards_atomic",
+    "starting_balance",
+    "total_medal_sinks",
+    "troop_unlocks",
+    "unlock_costs_are_design_authority"
+  ],
+  "additionalProperties": false
+}

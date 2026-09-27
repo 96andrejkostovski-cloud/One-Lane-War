@@ -1,0 +1,131 @@
+{
+  "id": "T001",
+  "selection_status": "LOCKED_SELECTED_VERSIONS",
+  "joint_compatibility_status": "NOT_BUILT",
+  "selection_date": "2026-09-27",
+  "latest_version_claim": false,
+  "editor": {
+    "version": "6000.3.21f1",
+    "changeset": "c02631ffc030",
+    "line": "Unity6.3LTS",
+    "source_id": "T01"
+  },
+  "android": {
+    "minimum_api": 28,
+    "target_api": 36,
+    "compile_api": 36,
+    "production_abi": "arm64-v8a",
+    "backend": "IL2CPP",
+    "graphics_apis": [
+      "OpenGLES3"
+    ],
+    "render_pipeline": "Built-in 2D; no URP dependency",
+    "orientation": "Auto-rotate landscape left/right only",
+    "sdk_build_tools": "36.0.0",
+    "sdk_platform_tools": "36.0.0",
+    "sdk_command_line_tools": "16.0",
+    "ndk": "27.2.12479018",
+    "ndk_label": "r27c",
+    "jdk": "OpenJDK17 bundled with exact Unity editor installation; do not substitute Android Studio JBR",
+    "gradle": "9.1.0",
+    "android_gradle_plugin": "9.0.0",
+    "source_ids": [
+      "T02",
+      "T03"
+    ],
+    "jdk_patch_policy": "Use editor-bundled binary as exact upstream selection; capture java -version and SHA256 at PH01. No invented patch number.",
+    "signing": "Debug key for local/test only; owner-controlled upload key and Play App Signing for production"
+  },
+  "unity_packages": {
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.purchasing": "5.4.3",
+    "com.unity.services.core": "1.18.0",
+    "com.unity.ugui": "EDITOR_BOUND_6000.3.21f1",
+    "com.unity.test-framework": "EDITOR_BOUND_6000.3.21f1"
+  },
+  "unity_package_policy": "Editor-core packages are selected by editor version rather than fabricated independent patch numbers. Commit actual packages-lock.json and hashes at PH01; no latest, caret, or automatic upgrade policy for top-level selectable packages.",
+  "firebase": {
+    "unity": "13.17.0",
+    "cpp": "13.13.0",
+    "android_bom": "34.19.0",
+    "edm4u": "1.2.189",
+    "import": [
+      "App",
+      "Analytics",
+      "Crashlytics",
+      "RemoteConfig"
+    ],
+    "source_id": "T04"
+  },
+  "advertising": {
+    "unity_plugin": "11.5.0",
+    "android_gma": "25.4.0",
+    "android_ump": "4.0.0",
+    "backend": "STANDARD_GMA_NOT_NEXT_GEN",
+    "mediation_adapters": [],
+    "source_ids": [
+      "T06",
+      "T07",
+      "T08"
+    ],
+    "resolver": "one shared EDM4U1.2.189; remove duplicate older resolver"
+  },
+  "purchases": {
+    "unity_iap": "5.4.3",
+    "android_billing": "9.0.0",
+    "google_play_only": true,
+    "d2c": false,
+    "webshop": false,
+    "remote_catalog": false,
+    "unity_analytics": false,
+    "telemetry_review": "Explicitly configure Unity Developer Data/consent; IAP package telemetry is included in SDK inventory. Never assume Firebase is the only telemetry source.",
+    "source_id": "T05"
+  },
+  "development_tools": {
+    "android_studio": "Quail4 |2026.1.4 Patch1",
+    "android_emulator": "37.1.11",
+    "source_ids": [
+      "T09",
+      "T10"
+    ]
+  },
+  "backend": {
+    "provider": "Firebase Cloud Functions2ndgen",
+    "runtime": "nodejs22 (provider-managed security patches)",
+    "language": "JavaScript ESM; Node built-in test runner; no TypeScript compiler dependency",
+    "firebase_functions": "7.4.0",
+    "firebase_admin": "13.10.0",
+    "database": "Firestore Native; no client database access",
+    "region": "europe-west1",
+    "reporting_region": "EU BigQuery dataset where supported; verify all provider data handling separately",
+    "runtime_version_note": "Managed service patch levels and remote service binaries cannot be made permanently immutable by a design document; capture deployed revision and resolved npm lock at integration.",
+    "source_ids": [
+      "T15",
+      "T16",
+      "T17"
+    ],
+    "deployed": false
+  },
+  "resolution_evidence_required": [
+    "editor changeset",
+    "SDK package.xml revisions",
+    "java -version",
+    "JDK SHA256",
+    "packages-lock.json",
+    "npm package-lock.json",
+    "resolved Gradle dependency graph",
+    "all imported SDK hashes",
+    "merged manifest",
+    "native ABI inventory",
+    "16KB compatibility report",
+    "AVD build fingerprint and abilist"
+  ],
+  "no_silent_replacements": true,
+  "conflict_rule": "Fail PH01/PH05 with a precise reproduction; Director issues a versioned T002 amendment, not an undocumented local upgrade.",
+  "phase_policy": {
+    "PH01": "Unity, Android, Input System, Newtonsoft and editor-core UI/test packages only; no real commercial SDK initialization",
+    "PH05": "Selected Firebase, Ads/UMP, IAP and backend integrations plus exact resolved dependency and consent proof"
+  },
+  "verification_note": "Rechecked selected primary version references during consolidation; live joint build proof remains NOT_BUILT. No silent latest-version replacement."
+}

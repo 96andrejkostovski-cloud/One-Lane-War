@@ -1,0 +1,67 @@
+{
+  "source_id": "OLW-SOURCE-1.0.0",
+  "version": "1.0.0",
+  "created_utc": "2026-09-27",
+  "game": "One Lane War (working title)",
+  "purpose": "Self-contained Codex migration/source Bibles;not a Unity implementation",
+  "active_versions": {
+    "balance": "B001",
+    "toolchain": "T001",
+    "workflow": "WF002",
+    "visual_direction": "V001",
+    "presentation": "P001_DEFERRED_TO_CAPTURE_APPROVAL",
+    "analytics": "A001_TRANSPORT_1",
+    "save": "S1",
+    "services": "S002"
+  },
+  "precedence": [
+    "Explicit later owner-authorized numbered amendment",
+    "SOURCE_AUTHORITY.json and current decision/supersession logs",
+    "Canonical data/ records for numerical/content IDs",
+    "Normative bibles/ and contracts/ for behavior",
+    "Current scoped tasks/ and acceptance",
+    "Approved visual references for style only",
+    "Generated INDEX.html and catalogue reading aids",
+    "references/history never active"
+  ],
+  "conflict_policy": "Do not guess. Preserve actual current source,document conflict and propose minimal numbered amendment. No illustration changes numeric authority.",
+  "latest_owner_directions": [
+    "Single-player offline local progression",
+    "Placeholder-first full working game before final art/music/SFX",
+    "Actual-build screenshots then faithful visual targets then asset production",
+    "Director owns balance/toolchain",
+    "Organic only;no new systems"
+  ],
+  "first_task": "OLW-CORE-001",
+  "execution_status": "SOURCE_CREATED_ONLY",
+  "source_design_delegation": "Owner authorized design choices and consolidation;whole package not represented as independently human-reviewed yet",
+  "permissions": {
+    "source_creation": true,
+    "implicit_all_tasks_execution": false,
+    "remote_repo_mutation": false,
+    "new_paid_spend": false,
+    "final_asset_generation": false,
+    "service_deployment": false,
+    "store_publication": false
+  },
+  "core_source_preserved_bytewise": [
+    "units.json",
+    "upgrades.json",
+    "encounters.json",
+    "expeditions.json",
+    "boss_variants.json",
+    "economy.json",
+    "products.json",
+    "assets.json",
+    "analytics_events.json",
+    "strings_en.json"
+  ],
+  "previous_sources_superseded": [
+    "Planning_v0.1.0",
+    "Design_Lock_v0.2.0"
+  ],
+  "workflow_supersedes": "All earlier asset-first G2/Visual Bible-before-placeholder sequences and art-generation prerequisites",
+  "final_media_status": "NOT_GENERATED;prior concept references included",
+  "unity_status": "NOT_BUILT",
+  "runtime_qa_status": "NOT_RUN"
+}

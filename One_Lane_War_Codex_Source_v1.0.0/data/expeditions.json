@@ -1,0 +1,137 @@
+[
+  {
+    "id": "c01_e01",
+    "name": "First Muster",
+    "chapter_id": "c01",
+    "encounter_ids": [
+      "c01_e01_b01",
+      "c01_e01_b02",
+      "c01_e01_b03",
+      "c01_e01_b04"
+    ],
+    "unlock_after_expedition": null,
+    "completion_medals": 20,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c01_e02",
+    "name": "Shield Road",
+    "chapter_id": "c01",
+    "encounter_ids": [
+      "c01_e02_b01",
+      "c01_e02_b02",
+      "c01_e02_b03",
+      "c01_e02_b04"
+    ],
+    "unlock_after_expedition": "c01_e01",
+    "completion_medals": 20,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c01_e03",
+    "name": "Barrel Crossing",
+    "chapter_id": "c01",
+    "encounter_ids": [
+      "c01_e03_b01",
+      "c01_e03_b02",
+      "c01_e03_b03",
+      "c01_e03_b04"
+    ],
+    "unlock_after_expedition": "c01_e02",
+    "completion_medals": 20,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c02_e01",
+    "name": "Heavy Footsteps",
+    "chapter_id": "c02",
+    "encounter_ids": [
+      "c02_e01_b01",
+      "c02_e01_b02",
+      "c02_e01_b03",
+      "c02_e01_b04"
+    ],
+    "unlock_after_expedition": "c01_e03",
+    "completion_medals": 30,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c02_e02",
+    "name": "Siege Track",
+    "chapter_id": "c02",
+    "encounter_ids": [
+      "c02_e02_b01",
+      "c02_e02_b02",
+      "c02_e02_b03",
+      "c02_e02_b04"
+    ],
+    "unlock_after_expedition": "c02_e01",
+    "completion_medals": 30,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c02_e03",
+    "name": "Powder Ridge",
+    "chapter_id": "c02",
+    "encounter_ids": [
+      "c02_e03_b01",
+      "c02_e03_b02",
+      "c02_e03_b03",
+      "c02_e03_b04"
+    ],
+    "unlock_after_expedition": "c02_e02",
+    "completion_medals": 30,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c03_e01",
+    "name": "Broken Standards",
+    "chapter_id": "c03",
+    "encounter_ids": [
+      "c03_e01_b01",
+      "c03_e01_b02",
+      "c03_e01_b03",
+      "c03_e01_b04"
+    ],
+    "unlock_after_expedition": "c02_e03",
+    "completion_medals": 40,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c03_e02",
+    "name": "Iron Convoy",
+    "chapter_id": "c03",
+    "encounter_ids": [
+      "c03_e02_b01",
+      "c03_e02_b02",
+      "c03_e02_b03",
+      "c03_e02_b04"
+    ],
+    "unlock_after_expedition": "c03_e01",
+    "completion_medals": 40,
+    "first_clear_medals": 20,
+    "replayable": true
+  },
+  {
+    "id": "c03_e03",
+    "name": "Last Gate",
+    "chapter_id": "c03",
+    "encounter_ids": [
+      "c03_e03_b01",
+      "c03_e03_b02",
+      "c03_e03_b03",
+      "c03_e03_b04"
+    ],
+    "unlock_after_expedition": "c03_e02",
+    "completion_medals": 40,
+    "first_clear_medals": 20,
+    "replayable": true
+  }
+]

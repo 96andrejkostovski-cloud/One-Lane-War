@@ -1,0 +1,621 @@
+[
+  {
+    "id": "OLW-CORE-001",
+    "title": "Toolchain and placeholder combat foundation",
+    "phase": "PH01",
+    "depends_on": [],
+    "required_bibles": [
+      "bibles/00_SOURCE_GOVERNANCE.md",
+      "bibles/01_PRODUCT_AND_PLAYER_JOURNEY.md",
+      "bibles/02_COMBAT_SIMULATION.md",
+      "bibles/03_CONTENT_AND_ENEMY_DESIGN.md",
+      "bibles/07_TECHNICAL_ARCHITECTURE.md",
+      "bibles/08_TOOLCHAIN_ANDROID_AND_BUILD_PROFILES.md",
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+      "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md"
+    ],
+    "scope": [
+      "Inventory the actual host, Unity editor, Android modules and ABI-capable test environment without buying resources.",
+      "Create the clean Game/ Unity project and a typed importer for canonical source data.",
+      "Implement all six troop mechanics and all 24 upgrade operators in the plain C# deterministic 20 Hz model.",
+      "Build the developer harness: four-unit loadout, actual encounter selection, eligible upgrades, seed, 1×/2×/4×/10× scheduling, pause and single-step.",
+      "Implement Supply, formation, melee, projectiles, ground splash, barriers, bonus troops, Ram behavior, fortresses, Rally, cutoff, overtime and draws.",
+      "Use primitive role-distinct unit views, plain HUD controls, placeholder sockets and model-driven visual cues.",
+      "Produce pure-model, EditMode and PlayMode tests plus the Android build and actual native-loading evidence."
+    ],
+    "forbidden": [
+      "No real Firebase, AdMob, IAP or backend integration in this task.",
+      "The full campaign and production Draft/Shop screens belong to CORE-002.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Pass runtime fixtures for all six troops and all 24 upgrade operators using the actual C# model.",
+      "Produce an Android native build and an installed capture, or a precise reproducible ABI/environment blocker; a blocker is not a pass.",
+      "Prove identical command-stream results at different render/playback speeds and cover the combat boundary cases.",
+      "Rebuild from a clean checkout and record source hash, commands, logs, actual test counts and artifact hashes."
+    ],
+    "qa_ids": [
+      "QA-082",
+      "MIG-QA-001",
+      "MIG-QA-003",
+      "MIG-QA-004",
+      "MIG-QA-005",
+      "MIG-QA-006",
+      "MIG-QA-007",
+      "MIG-QA-009",
+      "MIG-QA-041"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-CORE-002",
+    "title": "Full placeholder game",
+    "phase": "PH02",
+    "depends_on": [
+      "OLW-CORE-001"
+    ],
+    "required_bibles": [
+      "bibles/01_PRODUCT_AND_PLAYER_JOURNEY.md",
+      "bibles/03_CONTENT_AND_ENEMY_DESIGN.md",
+      "bibles/04_CAMPAIGN_ECONOMY_MONETIZATION_DESIGN.md",
+      "bibles/05_UI_UX_AND_COPY.md",
+      "bibles/06_SAVE_AND_RECOVERY.md",
+      "bibles/07_TECHNICAL_ARCHITECTURE.md",
+      "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md"
+    ],
+    "scope": [
+      "Implement all nine expeditions and 36 ordered encounters, including the two boss variants.",
+      "Implement all six main views, the tutorial, bounded overlays and canonical English copy.",
+      "Implement the deterministic draft, eligibility guarantees, rerolls and all 24 upgrade choices.",
+      "Implement Medals, troop/banner unlocks, campaign progression and replay.",
+      "Implement S1 atomic local saves, backup recovery, resume, reset and migration fixtures.",
+      "Expose fake/unavailable ads, purchase, privacy and analytics adapters for full state coverage.",
+      "Represent cosmetics, animation and VFX through placeholders while preserving final presentation interfaces."
+    ],
+    "forbidden": [
+      "Use fake/unavailable commercial adapters, not actual purchases or cloud deployments.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Record a fresh-save-to-final-expedition playthrough governed by the actual campaign and unlock rules.",
+      "Pass reward, cost, fake restoration, duplicate-callback and process-termination recovery cases.",
+      "Demonstrate that every required screen and overlay state is reachable and mapped to source IDs.",
+      "Produce the full placeholder Android build and a complete playthrough recording."
+    ],
+    "qa_ids": [
+      "MIG-QA-026"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-CORE-003",
+    "title": "Shared-model balance proof and corrections",
+    "phase": "PH03",
+    "depends_on": [
+      "OLW-CORE-002"
+    ],
+    "required_bibles": [
+      "bibles/02_COMBAT_SIMULATION.md",
+      "bibles/03_CONTENT_AND_ENEMY_DESIGN.md",
+      "bibles/04_CAMPAIGN_ECONOMY_MONETIZATION_DESIGN.md",
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+      "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md"
+    ],
+    "scope": [
+      "Use the exact C# CombatModel assembly in the headless batch runner.",
+      "Exercise all 15 loadouts and 36 encounters under documented player policies and upgrade paths.",
+      "Run normal campaign-unlock routes and establish no-ad/no-purchase campaign viability.",
+      "Inspect congestion, idle time, dominant policies, effective damage, duration and timeout-fraction victories.",
+      "Propose a B002 amendment only with exact changed fields, before/after evidence and required review."
+    ],
+    "forbidden": [
+      "Do not substitute nominal-DPS arithmetic for the actual combat model.",
+      "No balance changes outside a documented source amendment.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Export actual-model battle outcomes as CSV/JSON with seeds, loadouts, upgrade paths and exact player-policy definitions.",
+      "Prove state-hash agreement between the live game and headless runner for identical command streams.",
+      "Demonstrate a no-ad/no-purchase campaign route and record separate human gameplay-review observations.",
+      "Label bot performance separately from human enjoyment, retention and commercial evidence."
+    ],
+    "qa_ids": [
+      "QA-001",
+      "QA-002",
+      "QA-003",
+      "QA-004",
+      "QA-005",
+      "QA-006",
+      "QA-007",
+      "QA-008",
+      "QA-009",
+      "QA-010",
+      "QA-011",
+      "QA-012",
+      "QA-013",
+      "QA-014",
+      "QA-015",
+      "QA-016",
+      "QA-017",
+      "QA-018",
+      "QA-019",
+      "QA-020",
+      "QA-021",
+      "QA-022",
+      "QA-023",
+      "QA-024",
+      "QA-025",
+      "QA-026",
+      "QA-027",
+      "QA-028",
+      "QA-029",
+      "QA-030",
+      "QA-031",
+      "QA-032",
+      "QA-033",
+      "QA-034",
+      "QA-035",
+      "QA-036",
+      "QA-037",
+      "QA-038",
+      "QA-039",
+      "QA-040",
+      "QA-041",
+      "QA-042",
+      "QA-073",
+      "QA-074",
+      "QA-090",
+      "LOCK-QA-01",
+      "LOCK-QA-02",
+      "LOCK-QA-03",
+      "LOCK-QA-04",
+      "LOCK-QA-05",
+      "LOCK-QA-06",
+      "LOCK-QA-07",
+      "LOCK-QA-08",
+      "LOCK-QA-09",
+      "LOCK-QA-10",
+      "LOCK-QA-11",
+      "LOCK-QA-12",
+      "MIG-QA-008",
+      "MIG-QA-010",
+      "MIG-QA-030"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-CORE-004",
+    "title": "Functional UX and resilience",
+    "phase": "PH04",
+    "depends_on": [
+      "OLW-CORE-002"
+    ],
+    "required_bibles": [
+      "bibles/05_UI_UX_AND_COPY.md",
+      "bibles/06_SAVE_AND_RECOVERY.md",
+      "bibles/07_TECHNICAL_ARCHITECTURE.md",
+      "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md",
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md"
+    ],
+    "scope": [
+      "Polish input, responsive layouts and safe areas using placeholder visuals.",
+      "Complete modal, pause-reason and background/focus behavior.",
+      "Exercise storage failures, atomic grants, reset and accurate restoration explanations.",
+      "Test audio/haptic interfaces using temporary local cues, without provider generation.",
+      "Complete reduced motion, readable states and actionable error flows."
+    ],
+    "forbidden": [
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Pass the selected functional QA scenarios with screenshots, recordings and logs.",
+      "Demonstrate that no primary control is unreachable, clipped or obscured at supported aspect ratios.",
+      "Exercise save recovery and combined pause/background/service-overlay reasons without unintended time advancement."
+    ],
+    "qa_ids": [
+      "MIG-QA-011",
+      "MIG-QA-012",
+      "MIG-QA-013",
+      "MIG-QA-018"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-INT-001",
+    "title": "Real test services and analytics",
+    "phase": "PH05",
+    "depends_on": [
+      "OLW-CORE-004"
+    ],
+    "required_bibles": [
+      "bibles/08_TOOLCHAIN_ANDROID_AND_BUILD_PROFILES.md",
+      "bibles/09_SERVICES_PURCHASES_AND_ADVERTISEMENTS.md",
+      "bibles/10_ANALYTICS_DATA_AND_DECISIONS.md",
+      "bibles/16_LEGAL_PRIVACY_AND_PUBLISHER.md",
+      "bibles/17_GOOGLE_PLAY_RELEASE_AND_DISTRIBUTION.md",
+      "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md"
+    ],
+    "scope": [
+      "Check owner-approved identities, test accounts, deployment permissions and cost guardrails.",
+      "Integrate the selected SDKs with one resolver and a captured native dependency graph.",
+      "Implement S002 purchase verification, signed receipts, acknowledgement and refund handling with server-only ownership.",
+      "Implement UMP and separate optional diagnostic choices; inspect actual denied/accepted/withdrawn network behavior.",
+      "Run genuine test rewarded-ad flows and licensed test purchases, never incidental real charges.",
+      "Implement the 35-event transport, normalization views and dashboard SQL against a known synthetic journey.",
+      "Capture backend package lock, redacted real test evidence and symbolication results."
+    ],
+    "forbidden": [
+      "No production sales or store publication.",
+      "No deployment without actual approved credentials, costs and permission.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Test pending, cancellation, restoration, refund, outage and deduplication using the actual SDKs and approved test flows.",
+      "Reconcile a known journey’s exact event counts through the raw export and dashboard queries.",
+      "Inspect the merged Android manifest and actual network behavior and update the data inventory.",
+      "Report missing credentials, service permissions or account inputs against their specific phase without inventing a pass."
+    ],
+    "qa_ids": [
+      "QA-043",
+      "QA-044",
+      "QA-045",
+      "QA-046",
+      "QA-047",
+      "QA-048",
+      "QA-049",
+      "QA-050",
+      "QA-051",
+      "QA-052",
+      "QA-053",
+      "QA-054",
+      "QA-055",
+      "QA-056",
+      "QA-057",
+      "QA-058",
+      "QA-059",
+      "QA-060",
+      "QA-061",
+      "QA-062",
+      "QA-063",
+      "QA-064",
+      "QA-065",
+      "QA-066",
+      "QA-067",
+      "QA-068",
+      "QA-069",
+      "QA-070",
+      "MIG-QA-014",
+      "MIG-QA-016",
+      "MIG-QA-017",
+      "MIG-QA-019",
+      "MIG-QA-020",
+      "MIG-QA-021",
+      "MIG-QA-022",
+      "MIG-QA-023",
+      "MIG-QA-024",
+      "MIG-QA-025",
+      "MIG-QA-027",
+      "MIG-QA-028",
+      "MIG-QA-029",
+      "MIG-QA-031",
+      "MIG-QA-048",
+      "MIG-QA-049"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-CAP-001",
+    "title": "Placeholder completion and real capture pack",
+    "phase": "PH06",
+    "depends_on": [
+      "OLW-CORE-003",
+      "OLW-CORE-004",
+      "OLW-INT-001"
+    ],
+    "required_bibles": [
+      "bibles/01_PRODUCT_AND_PLAYER_JOURNEY.md",
+      "bibles/05_UI_UX_AND_COPY.md",
+      "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+      "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md"
+    ],
+    "scope": [
+      "Audit the complete placeholder game from first boot through the final expedition.",
+      "Record placeholder content-complete acceptance without claiming final art exists.",
+      "Export the 28 real capture states and short recordings with their required sidecars.",
+      "Preserve native captures separately from reference-size re-renders; never stretch screenshots.",
+      "Label engineering-only fixtures distinctly from demonstrated ordinary attainable states."
+    ],
+    "forbidden": [
+      "No generated paintover may be labeled a runtime capture.",
+      "A fake-service pass cannot hide an unresolved real integration blocker.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions.",
+      "No final Higgsfield artwork, Suno music or ElevenLabs SFX production."
+    ],
+    "acceptance": [
+      "Provide the content-complete placeholder APK and full playthrough evidence.",
+      "Provide every required raw capture, metadata sidecar, recording and file hash.",
+      "Record owner/director acceptance of the placeholder build before proceeding to the final-look task."
+    ],
+    "qa_ids": [
+      "MIG-QA-002"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-PRES-001",
+    "title": "Screenshot-derived final-look targets",
+    "phase": "PH07",
+    "depends_on": [
+      "OLW-CAP-001"
+    ],
+    "required_bibles": [
+      "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+      "bibles/12_ASSETS_ANIMATION_AND_VFX.md",
+      "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md"
+    ],
+    "scope": [
+      "Use actual CAP001 screenshots and the approved V001 style references.",
+      "Generate only target variations explicitly authorized for this presentation task.",
+      "Compare geometry, actual HUD values, troop roles and state against each raw capture.",
+      "Record the owner’s selected target and precise approval scope.",
+      "Convert the selected look into P001 lighting, shadow, UI and VFX parameters plus modular asset bindings."
+    ],
+    "forbidden": [
+      "Do not infer gameplay rules or numerical changes from a generated image.",
+      "No automatic claim of pixel-perfect target preservation.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Provide the raw-capture, generated-target and planned implementation comparison for each reviewed state.",
+      "Record P001 parameters and the owner’s exact visual approval scope.",
+      "Reject generated changes to HUD numbers, troop roles, mechanics or unapproved controls."
+    ],
+    "qa_ids": [
+      "MIG-QA-032",
+      "MIG-QA-033",
+      "MIG-QA-034"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-ART-001",
+    "title": "Final asset and audio production",
+    "phase": "PH08",
+    "depends_on": [
+      "OLW-PRES-001"
+    ],
+    "required_bibles": [
+      "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+      "bibles/12_ASSETS_ANIMATION_AND_VFX.md",
+      "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md",
+      "bibles/16_LEGAL_PRIVACY_AND_PUBLISHER.md"
+    ],
+    "scope": [
+      "Confirm generation, budget and rights authorization for the actual provider outputs.",
+      "Produce Militia, Crossbowman and Ram as segmented final-art proofs and animate them inside the working game.",
+      "Expand to the 148 planned asset families only after the production animation proof passes.",
+      "Generate and edit two music loops, three stings and the 25 SFX families.",
+      "Deliver immutable masters, revisions, runtime exports, rights records and approvals."
+    ],
+    "forbidden": [
+      "No final production before the placeholder and target-approval prerequisites.",
+      "No redistribution of assistant-environment font binaries.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Provide complete final-asset manifest coverage with provenance, rights evidence and approval records.",
+      "Prove both facings, six animation states, sockets, joints and phone-scale readability in the working game.",
+      "Measure loop boundaries and audio levels and obtain the required audio approval.",
+      "Distinguish planned records from generated and accepted runtime files."
+    ],
+    "qa_ids": [
+      "QA-071",
+      "QA-072"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-PRES-002",
+    "title": "Final presentation integration and regression",
+    "phase": "PH09",
+    "depends_on": [
+      "OLW-ART-001"
+    ],
+    "required_bibles": [
+      "bibles/07_TECHNICAL_ARCHITECTURE.md",
+      "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+      "bibles/12_ASSETS_ANIMATION_AND_VFX.md",
+      "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md",
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md"
+    ],
+    "scope": [
+      "Replace placeholder presentation bindings without changing the combat model.",
+      "Apply the owner-approved P001 UI, lighting, shadow and effect treatment.",
+      "Integrate final animation, audio, mix, haptics and foreground/background layering.",
+      "Compare matched actual screens and motion against the approved targets.",
+      "Repeat determinism, performance, memory, safe-area and audio-focus regressions."
+    ],
+    "forbidden": [
+      "No flattened screenshot in place of live UI.",
+      "No renderer change without a documented amendment.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Provide final actual-game captures, recordings and accepted asset hashes.",
+      "Prove that the same command stream produces the same combat-model state after presentation replacement.",
+      "Pass crowded 24-vs-24 readability and performance tests, with no active placeholder bindings in release content."
+    ],
+    "qa_ids": [
+      "MIG-QA-035",
+      "MIG-QA-036",
+      "MIG-QA-037",
+      "MIG-QA-038",
+      "MIG-QA-039",
+      "MIG-QA-040"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-REL-001",
+    "title": "Release candidate and closed validation",
+    "phase": "PH10",
+    "depends_on": [
+      "OLW-PRES-002"
+    ],
+    "required_bibles": [
+      "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+      "bibles/16_LEGAL_PRIVACY_AND_PUBLISHER.md",
+      "bibles/17_GOOGLE_PLAY_RELEASE_AND_DISTRIBUTION.md",
+      "bibles/18_ORGANIC_MARKETING_AND_BUSINESS.md",
+      "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md"
+    ],
+    "scope": [
+      "Complete identity, licensing, privacy, Data Safety, IARC and the release checklist.",
+      "Build the signed production-like AAB while keeping private keys secure.",
+      "Use internal and closed Play distribution only within explicit approval.",
+      "Run a physical-phone Play-installed smoke test and the applicable AVD/native/16 KB matrix.",
+      "Collect independent human observations and mature metrics where sufficient data exists.",
+      "Capture store images and trailer footage from attainable final executable gameplay.",
+      "Prepare the exact artifact, public-document and country publication approval packet."
+    ],
+    "forbidden": [
+      "Do not publish to production automatically.",
+      "Do not fabricate legal signoff, physical-device evidence or retention.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Resolve every release-blocking test and external-input requirement with actual evidence.",
+      "Record the exact source head, AAB hash, symbols and complete release manifest.",
+      "Dispose of closed-test findings and record approval of all public documents and store materials."
+    ],
+    "qa_ids": [
+      "QA-075",
+      "QA-076",
+      "QA-077",
+      "QA-078",
+      "QA-079",
+      "QA-080",
+      "QA-081",
+      "QA-083",
+      "QA-084",
+      "QA-089",
+      "MIG-QA-015",
+      "MIG-QA-042",
+      "MIG-QA-043",
+      "MIG-QA-045",
+      "MIG-QA-046",
+      "MIG-QA-047"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-REL-002",
+    "title": "Owner-approved first production",
+    "phase": "PH11",
+    "depends_on": [
+      "OLW-REL-001"
+    ],
+    "required_bibles": [
+      "bibles/17_GOOGLE_PLAY_RELEASE_AND_DISTRIBUTION.md",
+      "bibles/18_ORGANIC_MARKETING_AND_BUSINESS.md",
+      "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md"
+    ],
+    "scope": [
+      "Require explicit owner approval of the exact AAB, countries, products and public documents.",
+      "Submit and publish only to the six approved first-production countries.",
+      "Verify the actual store-installed version and commercial-service readiness.",
+      "Record publication status and transfer the operational runbook."
+    ],
+    "forbidden": [
+      "No fictitious percentage staging for first production.",
+      "No additional countries or paid acquisition.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Record actual store publication status and installed version identity.",
+      "Verify support/privacy pages, app-ads.txt, advertisement readiness and merchant setup.",
+      "Confirm incident/recovery access and record the first operational check."
+    ],
+    "qa_ids": [
+      "QA-085",
+      "QA-086",
+      "QA-087",
+      "QA-088",
+      "QA-091",
+      "QA-092",
+      "QA-093",
+      "MIG-QA-044",
+      "MIG-QA-050"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  },
+  {
+    "id": "OLW-OPS-001",
+    "title": "Maintenance and business review",
+    "phase": "PH11",
+    "depends_on": [
+      "OLW-REL-002"
+    ],
+    "required_bibles": [
+      "bibles/10_ANALYTICS_DATA_AND_DECISIONS.md",
+      "bibles/18_ORGANIC_MARKETING_AND_BUSINESS.md",
+      "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md"
+    ],
+    "scope": [
+      "Perform only the currently authorized health, incident, update or accounting task.",
+      "Reconcile actual receipts and operating costs.",
+      "Correct defects through reviewed source changes and applicable regressions.",
+      "Maintain backup, retention, compatibility and responsible retirement records."
+    ],
+    "forbidden": [
+      "No unrequested recurring automation, spending or public marketing posts.",
+      "No new gameplay feature systems or unreviewed B001/T001 substitutions.",
+      "No external action beyond this issued task’s explicit permissions."
+    ],
+    "acceptance": [
+      "Provide the evidence and decision log for the specific authorized operational task.",
+      "Do not overstate cohort maturity, attributable acquisition, finalized revenue or profit."
+    ],
+    "qa_ids": [
+      "QA-085",
+      "QA-086",
+      "QA-087",
+      "QA-088",
+      "QA-091",
+      "QA-092",
+      "QA-093",
+      "MIG-QA-044",
+      "MIG-QA-050"
+    ],
+    "status": "NOT_STARTED",
+    "execution_authorized": false
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW deployment_inputs structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "acceptance": {
+        "type": "string"
+      },
+      "blocks_offline_placeholder": {
+        "type": "boolean"
+      },
+      "blocks_phase": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "item": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "value": {
+        "type": "null"
+      }
+    },
+    "required": [
+      "acceptance",
+      "blocks_offline_placeholder",
+      "blocks_phase",
+      "id",
+      "item",
+      "owner",
+      "status",
+      "value"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 16,
+  "maxItems": 16
+}

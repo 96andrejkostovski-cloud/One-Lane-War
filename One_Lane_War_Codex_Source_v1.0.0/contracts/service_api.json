@@ -1,0 +1,195 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "One Lane War entitlement service",
+    "version": "S002",
+    "description": "Contract only;no server deployed.HTTPS productionURL suppliedexternally."
+  },
+  "servers": [],
+  "paths": {
+    "/v1/purchases/verify": {
+      "post": {
+        "operationId": "verifyPurchase",
+        "description": "Same endpoint fornew purchase/restoredactualPlaytoken;allowlistpackage/product;durableidempotentverifythenack;signedreceipt",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Authoritative owned/revoked/pendingstate",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VerifyResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalidschema/package/product"
+          },
+          "429": {
+            "description": "boundedretryafter"
+          },
+          "503": {
+            "description": "temporarilyunavailable;donotrevokevalidcache"
+          }
+        }
+      }
+    },
+    "/v1/notifications/play": {
+      "post": {
+        "operationId": "handlePlayNotification",
+        "description": "ServerauthenticatedPubSub/RTDNonly;fetchauthoritativepurchase;notpublicclientgrant",
+        "responses": {
+          "204": {
+            "description": "idempotentlyhandled"
+          },
+          "401": {
+            "description": "unauthenticated"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "VerifyRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "operation_id",
+          "package_name",
+          "product_id",
+          "purchase_token",
+          "client_version"
+        ],
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "package_name": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 200
+          },
+          "product_id": {
+            "type": "string",
+            "enum": [
+              "adfree_bonuses",
+              "cosmetic_army_pack"
+            ]
+          },
+          "purchase_token": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096
+          },
+          "install_support_id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "client_version": {
+            "type": "string",
+            "maxLength": 40
+          }
+        }
+      },
+      "VerifyResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "operation_id",
+          "state",
+          "entitlement_id",
+          "signed_receipt",
+          "retryable"
+        ],
+        "properties": {
+          "operation_id": {
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "OWNED",
+              "REVOKED",
+              "PENDING"
+            ]
+          },
+          "entitlement_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "signed_receipt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "CompactJWS ES256;onlyownedverifiedstatehasreceipt"
+          },
+          "retryable": {
+            "type": "boolean"
+          }
+        }
+      },
+      "ReceiptPayload": {
+        "type": "object",
+        "required": [
+          "receipt_version",
+          "package_name",
+          "product_id",
+          "entitlement_id",
+          "state",
+          "issued_at_utc",
+          "key_id"
+        ],
+        "properties": {
+          "receipt_version": {
+            "const": 1
+          },
+          "package_name": {
+            "type": "string"
+          },
+          "product_id": {
+            "type": "string"
+          },
+          "entitlement_id": {
+            "type": "string"
+          },
+          "state": {
+            "const": "OWNED"
+          },
+          "issued_at_utc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "key_id": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "x-idempotency": "hashedtoken+package+productwithserverrecord;operation_idtracesrequestnotownership",
+  "x-offline-policy": "Previouslyvalidsignedownershipnotexpiredbytemporarynetworkerror;revocationlearnedatreconnect",
+  "x-unity-iap-caveat": "IAP5.4.3 can reportDuplicateTransaction whenbackendalreadyacknowledged;maponlytoexistingverifiedgrant,notloss/doublegrant",
+  "x-security": [
+    "allowlistedpackageandproducts",
+    "serveronlyFirestore",
+    "secretsredacted",
+    "authenticatedRTDN",
+    "noaccountcloudsave",
+    "max16KiBrequest",
+    "noPlayIntegritydependency"
+  ]
+}

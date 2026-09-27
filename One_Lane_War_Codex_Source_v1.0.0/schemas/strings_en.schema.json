@@ -1,0 +1,767 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW strings_en structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "locale": {
+      "type": "string"
+    },
+    "sdk_owned_text": {
+      "type": "string"
+    },
+    "strings": {
+      "type": "object",
+      "properties": {
+        "abandon.body": {
+          "type": "string"
+        },
+        "abandon.cancel": {
+          "type": "string"
+        },
+        "abandon.confirm": {
+          "type": "string"
+        },
+        "abandon.title": {
+          "type": "string"
+        },
+        "army.equip": {
+          "type": "string"
+        },
+        "army.equipped": {
+          "type": "string"
+        },
+        "army.locked": {
+          "type": "string"
+        },
+        "army.need_four": {
+          "type": "string"
+        },
+        "army.no_medals": {
+          "type": "string"
+        },
+        "army.run_locked": {
+          "type": "string"
+        },
+        "army.title": {
+          "type": "string"
+        },
+        "army.unequip": {
+          "type": "string"
+        },
+        "army.unlock": {
+          "type": "string"
+        },
+        "battle.army_full": {
+          "type": "string"
+        },
+        "battle.base": {
+          "type": "string"
+        },
+        "battle.cooldown": {
+          "type": "string"
+        },
+        "battle.end_time": {
+          "type": "string"
+        },
+        "battle.enemy_base": {
+          "type": "string"
+        },
+        "battle.no_supply": {
+          "type": "string"
+        },
+        "battle.overtime": {
+          "type": "string"
+        },
+        "battle.rally": {
+          "type": "string"
+        },
+        "battle.rally_active": {
+          "type": "string"
+        },
+        "battle.rally_ready": {
+          "type": "string"
+        },
+        "battle.rally_wait": {
+          "type": "string"
+        },
+        "battle.supply": {
+          "type": "string"
+        },
+        "briefing.battles": {
+          "type": "string"
+        },
+        "briefing.boss": {
+          "type": "string"
+        },
+        "briefing.enemy": {
+          "type": "string"
+        },
+        "briefing.enemy_orders": {
+          "type": "string"
+        },
+        "briefing.start": {
+          "type": "string"
+        },
+        "briefing.title": {
+          "type": "string"
+        },
+        "campaign.complete": {
+          "type": "string"
+        },
+        "campaign.locked": {
+          "type": "string"
+        },
+        "draft.ad_reroll": {
+          "type": "string"
+        },
+        "draft.ad_unavailable": {
+          "type": "string"
+        },
+        "draft.free_reroll": {
+          "type": "string"
+        },
+        "draft.no_rerolls": {
+          "type": "string"
+        },
+        "draft.owned_reroll": {
+          "type": "string"
+        },
+        "draft.pick": {
+          "type": "string"
+        },
+        "draft.progress": {
+          "type": "string"
+        },
+        "draft.title": {
+          "type": "string"
+        },
+        "general.back": {
+          "type": "string"
+        },
+        "general.cancel": {
+          "type": "string"
+        },
+        "general.confirm": {
+          "type": "string"
+        },
+        "general.off": {
+          "type": "string"
+        },
+        "general.on": {
+          "type": "string"
+        },
+        "home.army": {
+          "type": "string"
+        },
+        "home.play": {
+          "type": "string"
+        },
+        "home.resume": {
+          "type": "string"
+        },
+        "home.settings": {
+          "type": "string"
+        },
+        "home.shop": {
+          "type": "string"
+        },
+        "home.title": {
+          "type": "string"
+        },
+        "pause.abandon": {
+          "type": "string"
+        },
+        "pause.home": {
+          "type": "string"
+        },
+        "pause.resume": {
+          "type": "string"
+        },
+        "pause.save_notice": {
+          "type": "string"
+        },
+        "pause.title": {
+          "type": "string"
+        },
+        "privacy.notice": {
+          "type": "string"
+        },
+        "purchase.cancelled": {
+          "type": "string"
+        },
+        "purchase.failed": {
+          "type": "string"
+        },
+        "purchase.pending": {
+          "type": "string"
+        },
+        "purchase.recovering": {
+          "type": "string"
+        },
+        "purchase.restore_none": {
+          "type": "string"
+        },
+        "purchase.revoked": {
+          "type": "string"
+        },
+        "purchase.success": {
+          "type": "string"
+        },
+        "purchase.verifying": {
+          "type": "string"
+        },
+        "reset.body": {
+          "type": "string"
+        },
+        "reset.cancel": {
+          "type": "string"
+        },
+        "reset.confirm": {
+          "type": "string"
+        },
+        "reset.title": {
+          "type": "string"
+        },
+        "results.banked": {
+          "type": "string"
+        },
+        "results.bonus": {
+          "type": "string"
+        },
+        "results.claimed": {
+          "type": "string"
+        },
+        "results.continue": {
+          "type": "string"
+        },
+        "results.draw": {
+          "type": "string"
+        },
+        "results.expedition_win": {
+          "type": "string"
+        },
+        "results.home": {
+          "type": "string"
+        },
+        "results.last_battle": {
+          "type": "string"
+        },
+        "results.loss": {
+          "type": "string"
+        },
+        "results.owned_bonus": {
+          "type": "string"
+        },
+        "results.retry": {
+          "type": "string"
+        },
+        "results.win": {
+          "type": "string"
+        },
+        "reward.failed": {
+          "type": "string"
+        },
+        "reward.processing": {
+          "type": "string"
+        },
+        "save.backup": {
+          "type": "string"
+        },
+        "save.failed": {
+          "type": "string"
+        },
+        "save.local_notice": {
+          "type": "string"
+        },
+        "save.newer": {
+          "type": "string"
+        },
+        "save.retry": {
+          "type": "string"
+        },
+        "save.unreadable": {
+          "type": "string"
+        },
+        "service.close": {
+          "type": "string"
+        },
+        "service.offline": {
+          "type": "string"
+        },
+        "service.retry": {
+          "type": "string"
+        },
+        "settings.build": {
+          "type": "string"
+        },
+        "settings.flashes": {
+          "type": "string"
+        },
+        "settings.haptics": {
+          "type": "string"
+        },
+        "settings.motion": {
+          "type": "string"
+        },
+        "settings.music": {
+          "type": "string"
+        },
+        "settings.privacy": {
+          "type": "string"
+        },
+        "settings.reset": {
+          "type": "string"
+        },
+        "settings.sfx": {
+          "type": "string"
+        },
+        "settings.support": {
+          "type": "string"
+        },
+        "settings.title": {
+          "type": "string"
+        },
+        "settings.ui": {
+          "type": "string"
+        },
+        "shop.adfree": {
+          "type": "string"
+        },
+        "shop.adfree_body": {
+          "type": "string"
+        },
+        "shop.adfree_exhausted": {
+          "type": "string"
+        },
+        "shop.buy": {
+          "type": "string"
+        },
+        "shop.cosmetic": {
+          "type": "string"
+        },
+        "shop.cosmetic_body": {
+          "type": "string"
+        },
+        "shop.network": {
+          "type": "string"
+        },
+        "shop.no_price": {
+          "type": "string"
+        },
+        "shop.owned": {
+          "type": "string"
+        },
+        "shop.preview": {
+          "type": "string"
+        },
+        "shop.restore": {
+          "type": "string"
+        },
+        "shop.title": {
+          "type": "string"
+        },
+        "support.missing": {
+          "type": "string"
+        },
+        "tutorial.front": {
+          "type": "string"
+        },
+        "tutorial.next": {
+          "type": "string"
+        },
+        "tutorial.rally": {
+          "type": "string"
+        },
+        "tutorial.ranged": {
+          "type": "string"
+        },
+        "tutorial.skip": {
+          "type": "string"
+        },
+        "unit.base_damage": {
+          "type": "string"
+        },
+        "unit.brute.name": {
+          "type": "string"
+        },
+        "unit.cost": {
+          "type": "string"
+        },
+        "unit.crossbowman.name": {
+          "type": "string"
+        },
+        "unit.damage": {
+          "type": "string"
+        },
+        "unit.grenadier.name": {
+          "type": "string"
+        },
+        "unit.hp": {
+          "type": "string"
+        },
+        "unit.militia.name": {
+          "type": "string"
+        },
+        "unit.period": {
+          "type": "string"
+        },
+        "unit.ram.name": {
+          "type": "string"
+        },
+        "unit.range": {
+          "type": "string"
+        },
+        "unit.reduction": {
+          "type": "string"
+        },
+        "unit.shieldguard.name": {
+          "type": "string"
+        },
+        "unit.speed": {
+          "type": "string"
+        },
+        "upgrade.u01.body": {
+          "type": "string"
+        },
+        "upgrade.u01.title": {
+          "type": "string"
+        },
+        "upgrade.u02.body": {
+          "type": "string"
+        },
+        "upgrade.u02.title": {
+          "type": "string"
+        },
+        "upgrade.u03.body": {
+          "type": "string"
+        },
+        "upgrade.u03.title": {
+          "type": "string"
+        },
+        "upgrade.u04.body": {
+          "type": "string"
+        },
+        "upgrade.u04.title": {
+          "type": "string"
+        },
+        "upgrade.u05.body": {
+          "type": "string"
+        },
+        "upgrade.u05.title": {
+          "type": "string"
+        },
+        "upgrade.u06.body": {
+          "type": "string"
+        },
+        "upgrade.u06.title": {
+          "type": "string"
+        },
+        "upgrade.u07.body": {
+          "type": "string"
+        },
+        "upgrade.u07.title": {
+          "type": "string"
+        },
+        "upgrade.u08.body": {
+          "type": "string"
+        },
+        "upgrade.u08.title": {
+          "type": "string"
+        },
+        "upgrade.u09.body": {
+          "type": "string"
+        },
+        "upgrade.u09.title": {
+          "type": "string"
+        },
+        "upgrade.u10.body": {
+          "type": "string"
+        },
+        "upgrade.u10.title": {
+          "type": "string"
+        },
+        "upgrade.u11.body": {
+          "type": "string"
+        },
+        "upgrade.u11.title": {
+          "type": "string"
+        },
+        "upgrade.u12.body": {
+          "type": "string"
+        },
+        "upgrade.u12.title": {
+          "type": "string"
+        },
+        "upgrade.u13.body": {
+          "type": "string"
+        },
+        "upgrade.u13.title": {
+          "type": "string"
+        },
+        "upgrade.u14.body": {
+          "type": "string"
+        },
+        "upgrade.u14.title": {
+          "type": "string"
+        },
+        "upgrade.u15.body": {
+          "type": "string"
+        },
+        "upgrade.u15.title": {
+          "type": "string"
+        },
+        "upgrade.u16.body": {
+          "type": "string"
+        },
+        "upgrade.u16.title": {
+          "type": "string"
+        },
+        "upgrade.u17.body": {
+          "type": "string"
+        },
+        "upgrade.u17.title": {
+          "type": "string"
+        },
+        "upgrade.u18.body": {
+          "type": "string"
+        },
+        "upgrade.u18.title": {
+          "type": "string"
+        },
+        "upgrade.u19.body": {
+          "type": "string"
+        },
+        "upgrade.u19.title": {
+          "type": "string"
+        },
+        "upgrade.u20.body": {
+          "type": "string"
+        },
+        "upgrade.u20.title": {
+          "type": "string"
+        },
+        "upgrade.u21.body": {
+          "type": "string"
+        },
+        "upgrade.u21.title": {
+          "type": "string"
+        },
+        "upgrade.u22.body": {
+          "type": "string"
+        },
+        "upgrade.u22.title": {
+          "type": "string"
+        },
+        "upgrade.u23.body": {
+          "type": "string"
+        },
+        "upgrade.u23.title": {
+          "type": "string"
+        },
+        "upgrade.u24.body": {
+          "type": "string"
+        },
+        "upgrade.u24.title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "abandon.body",
+        "abandon.cancel",
+        "abandon.confirm",
+        "abandon.title",
+        "army.equip",
+        "army.equipped",
+        "army.locked",
+        "army.need_four",
+        "army.no_medals",
+        "army.run_locked",
+        "army.title",
+        "army.unequip",
+        "army.unlock",
+        "battle.army_full",
+        "battle.base",
+        "battle.cooldown",
+        "battle.end_time",
+        "battle.enemy_base",
+        "battle.no_supply",
+        "battle.overtime",
+        "battle.rally",
+        "battle.rally_active",
+        "battle.rally_ready",
+        "battle.rally_wait",
+        "battle.supply",
+        "briefing.battles",
+        "briefing.boss",
+        "briefing.enemy",
+        "briefing.enemy_orders",
+        "briefing.start",
+        "briefing.title",
+        "campaign.complete",
+        "campaign.locked",
+        "draft.ad_reroll",
+        "draft.ad_unavailable",
+        "draft.free_reroll",
+        "draft.no_rerolls",
+        "draft.owned_reroll",
+        "draft.pick",
+        "draft.progress",
+        "draft.title",
+        "general.back",
+        "general.cancel",
+        "general.confirm",
+        "general.off",
+        "general.on",
+        "home.army",
+        "home.play",
+        "home.resume",
+        "home.settings",
+        "home.shop",
+        "home.title",
+        "pause.abandon",
+        "pause.home",
+        "pause.resume",
+        "pause.save_notice",
+        "pause.title",
+        "privacy.notice",
+        "purchase.cancelled",
+        "purchase.failed",
+        "purchase.pending",
+        "purchase.recovering",
+        "purchase.restore_none",
+        "purchase.revoked",
+        "purchase.success",
+        "purchase.verifying",
+        "reset.body",
+        "reset.cancel",
+        "reset.confirm",
+        "reset.title",
+        "results.banked",
+        "results.bonus",
+        "results.claimed",
+        "results.continue",
+        "results.draw",
+        "results.expedition_win",
+        "results.home",
+        "results.last_battle",
+        "results.loss",
+        "results.owned_bonus",
+        "results.retry",
+        "results.win",
+        "reward.failed",
+        "reward.processing",
+        "save.backup",
+        "save.failed",
+        "save.local_notice",
+        "save.newer",
+        "save.retry",
+        "save.unreadable",
+        "service.close",
+        "service.offline",
+        "service.retry",
+        "settings.build",
+        "settings.flashes",
+        "settings.haptics",
+        "settings.motion",
+        "settings.music",
+        "settings.privacy",
+        "settings.reset",
+        "settings.sfx",
+        "settings.support",
+        "settings.title",
+        "settings.ui",
+        "shop.adfree",
+        "shop.adfree_body",
+        "shop.adfree_exhausted",
+        "shop.buy",
+        "shop.cosmetic",
+        "shop.cosmetic_body",
+        "shop.network",
+        "shop.no_price",
+        "shop.owned",
+        "shop.preview",
+        "shop.restore",
+        "shop.title",
+        "support.missing",
+        "tutorial.front",
+        "tutorial.next",
+        "tutorial.rally",
+        "tutorial.ranged",
+        "tutorial.skip",
+        "unit.base_damage",
+        "unit.brute.name",
+        "unit.cost",
+        "unit.crossbowman.name",
+        "unit.damage",
+        "unit.grenadier.name",
+        "unit.hp",
+        "unit.militia.name",
+        "unit.period",
+        "unit.ram.name",
+        "unit.range",
+        "unit.reduction",
+        "unit.shieldguard.name",
+        "unit.speed",
+        "upgrade.u01.body",
+        "upgrade.u01.title",
+        "upgrade.u02.body",
+        "upgrade.u02.title",
+        "upgrade.u03.body",
+        "upgrade.u03.title",
+        "upgrade.u04.body",
+        "upgrade.u04.title",
+        "upgrade.u05.body",
+        "upgrade.u05.title",
+        "upgrade.u06.body",
+        "upgrade.u06.title",
+        "upgrade.u07.body",
+        "upgrade.u07.title",
+        "upgrade.u08.body",
+        "upgrade.u08.title",
+        "upgrade.u09.body",
+        "upgrade.u09.title",
+        "upgrade.u10.body",
+        "upgrade.u10.title",
+        "upgrade.u11.body",
+        "upgrade.u11.title",
+        "upgrade.u12.body",
+        "upgrade.u12.title",
+        "upgrade.u13.body",
+        "upgrade.u13.title",
+        "upgrade.u14.body",
+        "upgrade.u14.title",
+        "upgrade.u15.body",
+        "upgrade.u15.title",
+        "upgrade.u16.body",
+        "upgrade.u16.title",
+        "upgrade.u17.body",
+        "upgrade.u17.title",
+        "upgrade.u18.body",
+        "upgrade.u18.title",
+        "upgrade.u19.body",
+        "upgrade.u19.title",
+        "upgrade.u20.body",
+        "upgrade.u20.title",
+        "upgrade.u21.body",
+        "upgrade.u21.title",
+        "upgrade.u22.body",
+        "upgrade.u22.title",
+        "upgrade.u23.body",
+        "upgrade.u23.title",
+        "upgrade.u24.body",
+        "upgrade.u24.title"
+      ],
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "locale",
+    "sdk_owned_text",
+    "strings",
+    "version"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,150 @@
+{
+  "version": "SM001",
+  "clock_policy": "20Hz gameplay;pause reasons are a set;no wallclock catch-up",
+  "run_states": [
+    "HOME",
+    "BRIEFING",
+    "DRAFT_PENDING",
+    "DRAFT_READY",
+    "PREBATTLE",
+    "BATTLE_ACTIVE",
+    "BATTLE_PAUSED",
+    "RESULT_COMMITTING",
+    "BETWEEN_BATTLES",
+    "RUN_RESULTS",
+    "ABANDON_CONFIRM",
+    "SAVE_RECOVERY"
+  ],
+  "run_transitions": [
+    [
+      "HOME",
+      "BRIEFING",
+      "select unlocked expedition;validate four distinct unlocked units"
+    ],
+    [
+      "BRIEFING",
+      "DRAFT_PENDING",
+      "new nonzero seed/runId;lock loadout;commit"
+    ],
+    [
+      "DRAFT_PENDING",
+      "DRAFT_READY",
+      "generate and durably save offers+PRNG before display"
+    ],
+    [
+      "DRAFT_READY",
+      "PREBATTLE",
+      "valid selected option+allowances saved atomically"
+    ],
+    [
+      "PREBATTLE",
+      "BATTLE_ACTIVE",
+      "new attempt ID and battle-reset state"
+    ],
+    [
+      "BATTLE_ACTIVE",
+      "BATTLE_PAUSED",
+      "any pause reason"
+    ],
+    [
+      "BATTLE_PAUSED",
+      "BATTLE_ACTIVE",
+      "all reasons released and explicit resume after background"
+    ],
+    [
+      "BATTLE_ACTIVE",
+      "RESULT_COMMITTING",
+      "model terminal outcome"
+    ],
+    [
+      "RESULT_COMMITTING",
+      "BETWEEN_BATTLES",
+      "win battles1-3;commit unique reward"
+    ],
+    [
+      "BETWEEN_BATTLES",
+      "DRAFT_PENDING",
+      "next battle;prior upgrades retained"
+    ],
+    [
+      "RESULT_COMMITTING",
+      "RUN_RESULTS",
+      "winbattle4/lose/draw;unique settlement"
+    ],
+    [
+      "BETWEEN_BATTLES",
+      "HOME",
+      "preserve active checkpoint"
+    ],
+    [
+      "HOME",
+      "DRAFT_READY",
+      "resume saved draft"
+    ],
+    [
+      "HOME",
+      "PREBATTLE",
+      "resume saved prebattle"
+    ],
+    [
+      "BATTLE_PAUSED",
+      "ABANDON_CONFIRM",
+      "explicit request"
+    ],
+    [
+      "ABANDON_CONFIRM",
+      "HOME",
+      "confirm;retain banked rewards;noabandonadbonus"
+    ],
+    [
+      "RESULT_COMMITTING",
+      "SAVE_RECOVERY",
+      "writefailed;no fake progress"
+    ],
+    [
+      "SAVE_RECOVERY",
+      "RESULT_COMMITTING",
+      "retry same transaction"
+    ]
+  ],
+  "pause_reasons": [
+    "PLAYER",
+    "BACKGROUND",
+    "SYSTEM_FOCUS",
+    "STORE_OVERLAY",
+    "AD_OVERLAY",
+    "CONSENT_OVERLAY",
+    "SAVE_BLOCK"
+  ],
+  "ad_states": [
+    "UNAVAILABLE",
+    "ELIGIBLE",
+    "LOADING",
+    "SHOWING",
+    "EARNED_PENDING_COMMIT",
+    "GRANTED",
+    "FAILED",
+    "INTERRUPTED"
+  ],
+  "purchase_states": [
+    "UNAVAILABLE",
+    "METADATA_READY",
+    "STORE_OPEN",
+    "PENDING_PAYMENT",
+    "PURCHASED_UNVERIFIED",
+    "VERIFYING",
+    "VERIFIED_PENDING_LOCAL",
+    "OWNED",
+    "REVOKED",
+    "RETRYABLE_ERROR"
+  ],
+  "save_states": [
+    "LATEST_VALID",
+    "BACKUP_RECOVERED",
+    "WRITE_PENDING",
+    "WRITE_FAILED",
+    "BOTH_INVALID",
+    "NEWER_SCHEMA_BLOCKED"
+  ],
+  "concurrency": "One active purchase UI;reward operation IDs tied to original run;view cancellation not cancellation of earned transaction"
+}

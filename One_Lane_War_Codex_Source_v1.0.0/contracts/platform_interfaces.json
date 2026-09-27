@@ -1,0 +1,176 @@
+{
+  "id": "PI001",
+  "implementations": [
+    "fake_development",
+    "unavailable",
+    "real_integration"
+  ],
+  "interfaces": [
+    {
+      "name": "ISaveStore",
+      "operations": [
+        "LoadLatest",
+        "Commit(expectedRevision,newPayload)",
+        "RecoverBackup"
+      ],
+      "result_states": [
+        "success",
+        "write_failed",
+        "corrupt",
+        "newer_schema"
+      ]
+    },
+    {
+      "name": "IAnalytics",
+      "operations": [
+        "Record(typedEvent)",
+        "SetOptionalCollection(enabled)"
+      ],
+      "result_states": [
+        "accepted_local",
+        "disabled",
+        "dropped_invalid"
+      ]
+    },
+    {
+      "name": "IDiagnostics",
+      "operations": [
+        "RecordHandledError(redactedCode)",
+        "SetOptionalCollection(enabled)"
+      ],
+      "result_states": [
+        "disabled",
+        "recorded"
+      ]
+    },
+    {
+      "name": "IConsentState",
+      "operations": [
+        "RefreshRequiredState",
+        "ShowPrivacyOptions",
+        "SetDiagnosticsChoice"
+      ],
+      "result_states": [
+        "unknown",
+        "allowed",
+        "denied",
+        "unavailable"
+      ]
+    },
+    {
+      "name": "IRewardedAds",
+      "operations": [
+        "CheckEligibility(placement,run)",
+        "Show(attemptId,placement)",
+        "SubscribeEarned"
+      ],
+      "result_states": [
+        "unavailable",
+        "loading",
+        "showing",
+        "earned",
+        "closed",
+        "failed"
+      ]
+    },
+    {
+      "name": "IPurchases",
+      "operations": [
+        "FetchProducts",
+        "BeginPurchase(productId)",
+        "QueryOwned",
+        "CompleteVerifiedOrder"
+      ],
+      "result_states": [
+        "unavailable",
+        "metadata",
+        "pending",
+        "purchased",
+        "cancelled",
+        "already_owned",
+        "error"
+      ]
+    },
+    {
+      "name": "IEntitlements",
+      "operations": [
+        "VerifyPurchase",
+        "RestoreOwned",
+        "ReadVerifiedCache",
+        "ApplyAuthoritativeRevocation"
+      ],
+      "result_states": [
+        "verifying",
+        "owned",
+        "revoked",
+        "retryable_error"
+      ]
+    },
+    {
+      "name": "IRemoteSettings",
+      "operations": [
+        "FetchAtSafeBoundary",
+        "ReadEffective"
+      ],
+      "result_states": [
+        "bundled",
+        "cached",
+        "verified_remote",
+        "ignored_invalid"
+      ]
+    },
+    {
+      "name": "IAudioOutput",
+      "operations": [
+        "PlayCue(event)",
+        "SetMix",
+        "AcquireFocusMute(reason)",
+        "ReleaseFocusMute(reason)"
+      ],
+      "result_states": [
+        "no_op",
+        "played"
+      ]
+    },
+    {
+      "name": "IHaptics",
+      "operations": [
+        "Pulse(cue)",
+        "SetEnabled"
+      ],
+      "result_states": [
+        "unsupported",
+        "disabled",
+        "played"
+      ]
+    },
+    {
+      "name": "IPlatformLifecycle",
+      "operations": [
+        "SubscribeFocus",
+        "ReadSafeArea",
+        "OpenSupportWithConsent"
+      ],
+      "result_states": [
+        "foreground",
+        "background",
+        "overlay"
+      ]
+    }
+  ],
+  "common_operation_fields": [
+    "operation_id",
+    "source_state_id",
+    "created_monotonic_ms",
+    "terminal_status",
+    "error_class"
+  ],
+  "rules": [
+    "NoUnityobjectaccessfromnetworkthread",
+    "NoUIrenderawardsmoney",
+    "Nooptionalserviceblockscombat",
+    "Cancellationdoesnoteraseearnedtransaction",
+    "Fakesexcludedfromrelease"
+  ],
+  "task_integration": "CORE001 interfaces only where needed;CORE002 fake states;INT001 real"
+}

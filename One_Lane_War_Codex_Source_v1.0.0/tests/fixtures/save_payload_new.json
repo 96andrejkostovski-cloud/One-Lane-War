@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "save_revision": 1,
+  "source_version": "1.0.0",
+  "balance_version": "B001",
+  "settings": {
+    "music": 0.55,
+    "sfx": 0.8,
+    "haptics": true,
+    "reduced_motion": false,
+    "analytics_allowed": false,
+    "diagnostics_allowed": false
+  },
+  "medals": 0,
+  "unlocked_units": [
+    "militia",
+    "shieldguard",
+    "crossbowman",
+    "grenadier"
+  ],
+  "unlocked_banners": [],
+  "completed_expeditions": [],
+  "first_clear_paid": [],
+  "tutorial": {
+    "resolved_steps": [],
+    "skipped": false,
+    "intro_attempt_started": false
+  },
+  "selected_loadout": [
+    "militia",
+    "shieldguard",
+    "crossbowman",
+    "grenadier"
+  ],
+  "selected_cosmetic": null,
+  "active_run": null,
+  "last_run_result": null,
+  "settlement_journal": [],
+  "pending_rewards": [],
+  "entitlement_receipts": []
+}

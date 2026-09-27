@@ -1,0 +1,89 @@
+{
+  "version": "AV001",
+  "visual_approval": "V001_STYLE_SELECTED_FINAL_ASSETS_DEFERRED",
+  "audio_selection": "DIRECTOR_SPECIFIED; actual outputs require listening/licence review",
+  "music": {
+    "loops": 2,
+    "menu": {
+      "bpm": 96,
+      "time_signature": "4/4",
+      "bars": 16,
+      "target_loop_s": 40,
+      "style": "light martial wood/hand percussion, restrained strings, no vocals"
+    },
+    "battle": {
+      "bpm": 120,
+      "time_signature": "4/4",
+      "bars": 16,
+      "target_loop_s": 32,
+      "style": "clear marching percussion and short brass/strings, no vocals, space for impacts"
+    },
+    "stings_s": {
+      "victory": 2.0,
+      "defeat": 2.0,
+      "expedition_complete": 3.0
+    },
+    "loop_edit": "trim/fade and musically align actual mastered output; AI track duration is not assumed exact",
+    "master_format": "WAV48kHz24-bit stereo",
+    "loudness_target_lufs": -16,
+    "true_peak_max_dbtp": -1,
+    "runtime": "Unity compressed streaming music; keep source masters; seamless boundary must be listened to"
+  },
+  "sfx": {
+    "families": 25,
+    "master_format": "WAV48kHz24-bit mono; stereo only for UI/reward/base destruction when useful",
+    "runtime": "short effects preloaded/decompressed; no streaming delay for impacts",
+    "max_simultaneous_voices": 16,
+    "per_family_voice_cap": 3,
+    "minimum_same_family_gap_s": 0.05,
+    "priority": "purchase/save warnings > fortress end > player command/Rally > major hit > ordinary hit > ambience",
+    "sfx_loudness": "do not normalize every effect to equal perceived loudness; preserve impact hierarchy; mix must not clip"
+  },
+  "mixer_defaults": {
+    "music": 0.55,
+    "sfx": 0.8,
+    "ui": 0.65,
+    "master": 1.0
+  },
+  "vfx": {
+    "families": 12,
+    "max_live_effect_instances": 64,
+    "max_total_particles": 400,
+    "world_screen_shake_max_m": 0.06,
+    "shake_max_duration_s": 0.15,
+    "reduced_motion": "no camera shake, no decorative UI overshoot; preserve gameplay cues",
+    "reduced_flashes": "remove full-sprite bright flashes; use outline/contact movement instead",
+    "criticality": "Simulation projectiles/health remain independent; pool exhaustion drops decorative work first"
+  },
+  "haptics_ms": {
+    "deployment": 0,
+    "rally": 25,
+    "fortress_finishing_hit": 45,
+    "victory": 35
+  },
+  "haptics_default": true,
+  "art_import": {
+    "max_texture_dimension": 2048,
+    "atlas_dimension": 2048,
+    "mipmaps": false,
+    "filter": "Bilinear",
+    "wrap": "Clamp",
+    "sprite_ppu": 512,
+    "background_reference_px": [
+      2560,
+      1440
+    ],
+    "troop_layer_canvas_px": [
+      1024,
+      1024
+    ],
+    "ui_icon_source_px": [
+      512,
+      512
+    ],
+    "format": "lossless transparent PNG masters; final mobile compression after alpha/colour inspection, without changing geometry",
+    "empty_alpha_margins": "retained logical registration or explicit pivot metadata; no auto-crop that moves joints",
+    "font_source": "Preferred display Roboto Slab ExtraBold, functional Inter SemiBold/Bold, Noto Sans fallback. Font licenses must be obtained and retained by implementer; no font binaries are distributed in this source pack."
+  },
+  "generation_stage": "PH08_ONLY_AFTER_PH06_AND_PH07"
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "file": "data/analytics_events.json",
+    "schema": "schemas/analytics_events.schema.json"
+  },
+  {
+    "file": "data/analytics_metrics.json",
+    "schema": "schemas/analytics_metrics.schema.json"
+  },
+  {
+    "file": "data/animation_contract.json",
+    "schema": "schemas/animation_contract.schema.json"
+  },
+  {
+    "file": "data/assets.json",
+    "schema": "schemas/assets.schema.json"
+  },
+  {
+    "file": "data/audio_vfx_contract.json",
+    "schema": "schemas/audio_vfx_contract.schema.json"
+  },
+  {
+    "file": "data/boss_variants.json",
+    "schema": "schemas/boss_variants.schema.json"
+  },
+  {
+    "file": "data/build_gates.json",
+    "schema": "schemas/build_gates.schema.json"
+  },
+  {
+    "file": "data/deployment_inputs.json",
+    "schema": "schemas/deployment_inputs.schema.json"
+  },
+  {
+    "file": "data/economy.json",
+    "schema": "schemas/economy.schema.json"
+  },
+  {
+    "file": "data/encounters.json",
+    "schema": "schemas/encounters.schema.json"
+  },
+  {
+    "file": "data/expeditions.json",
+    "schema": "schemas/expeditions.schema.json"
+  },
+  {
+    "file": "data/external_sources.json",
+    "schema": "schemas/external_sources.schema.json"
+  },
+  {
+    "file": "data/game_rules.json",
+    "schema": "schemas/game_rules.schema.json"
+  },
+  {
+    "file": "data/products.json",
+    "schema": "schemas/products.schema.json"
+  },
+  {
+    "file": "data/qa_cases.json",
+    "schema": "schemas/qa_cases.schema.json"
+  },
+  {
+    "file": "data/release_checklist.json",
+    "schema": "schemas/release_checklist.schema.json"
+  },
+  {
+    "file": "data/screenshot_pack.json",
+    "schema": "schemas/screenshot_pack.schema.json"
+  },
+  {
+    "file": "data/service_contract.json",
+    "schema": "schemas/service_contract.schema.json"
+  },
+  {
+    "file": "data/strings_en.json",
+    "schema": "schemas/strings_en.schema.json"
+  },
+  {
+    "file": "data/tasks.json",
+    "schema": "schemas/tasks.schema.json"
+  },
+  {
+    "file": "data/test_matrix.json",
+    "schema": "schemas/test_matrix.schema.json"
+  },
+  {
+    "file": "data/toolchain_lock.json",
+    "schema": "schemas/toolchain_lock.schema.json"
+  },
+  {
+    "file": "data/ui_contract.json",
+    "schema": "schemas/ui_contract.schema.json"
+  },
+  {
+    "file": "data/units.json",
+    "schema": "schemas/units.schema.json"
+  },
+  {
+    "file": "data/upgrades.json",
+    "schema": "schemas/upgrades.schema.json"
+  },
+  {
+    "file": "data/visual_references.json",
+    "schema": "schemas/visual_references.schema.json"
+  },
+  {
+    "file": "templates/SAVE_S1_EXAMPLE.json",
+    "schema": "schemas/save_envelope.schema.json"
+  },
+  {
+    "file": "tests/fixtures/save_payload_new.json",
+    "schema": "schemas/save_payload.schema.json"
+  },
+  {
+    "file": "tests/fixtures/save_payload_draft.json",
+    "schema": "schemas/save_payload.schema.json"
+  }
+]

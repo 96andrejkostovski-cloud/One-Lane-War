@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW upgrades structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "additional_rules": {
+        "type": "object",
+        "properties": {
+          "absorbs_triggering_damage": {
+            "type": "boolean"
+          },
+          "activation": {
+            "type": "string"
+          },
+          "additional_targets": {
+            "type": "integer"
+          },
+          "bonus_count": {
+            "type": "integer"
+          },
+          "bonus_damage_factor": {
+            "type": "number"
+          },
+          "can_secondary_hit_base": {
+            "type": "boolean"
+          },
+          "counter_basis": {
+            "type": "string"
+          },
+          "counter_reset": {
+            "type": "string"
+          },
+          "damage_add_pct": {
+            "type": "number"
+          },
+          "duration_s": {
+            "type": "integer"
+          },
+          "hp_add_pct": {
+            "type": "number"
+          },
+          "hp_basis": {
+            "type": "string"
+          },
+          "initial_cooldown_changed": {
+            "type": "boolean"
+          },
+          "landed_base_hits_interval": {
+            "type": "integer"
+          },
+          "max_extra_distance_m": {
+            "type": "number"
+          },
+          "movement_add_pct": {
+            "type": "number"
+          },
+          "pending_bonus_cap": {
+            "type": "integer"
+          },
+          "radius_m": {
+            "type": "number"
+          },
+          "recursive": {
+            "type": "boolean"
+          },
+          "refresh": {
+            "type": "string"
+          },
+          "secondary_damage_factor": {
+            "type": "number"
+          },
+          "starting_supply_add": {
+            "type": "integer"
+          },
+          "supply_cost_add_pct": {
+            "type": "number"
+          },
+          "untriggered_expiry": {
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "description": {
+        "type": "string"
+      },
+      "icon_asset_id": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string"
+      },
+      "max_rank": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "operator": {
+        "type": "string"
+      },
+      "requires_equipped_unit": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "selection_weight": {
+        "type": "integer"
+      },
+      "validation_status": {
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "additional_rules",
+      "description",
+      "icon_asset_id",
+      "id",
+      "kind",
+      "max_rank",
+      "name",
+      "operator",
+      "requires_equipped_unit",
+      "selection_weight",
+      "validation_status",
+      "value"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 24,
+  "maxItems": 24
+}

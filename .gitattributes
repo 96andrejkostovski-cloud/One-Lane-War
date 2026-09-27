@@ -1,0 +1,14 @@
+# Keep Unity's text assets stable in mixed Windows/Linux tooling.
+*.cs text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# This rule comes last so it overrides extension rules above.
+# Preserve every imported source-package byte across platforms.
+One_Lane_War_Codex_Source_v1.0.0/** -text -eol

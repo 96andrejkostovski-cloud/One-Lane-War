@@ -1,0 +1,212 @@
+[
+  {
+    "id": "S01",
+    "title": "Unity 6 support",
+    "url": "https://unity.com/releases/unity-6/support",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S02",
+    "title": "Unity preparing artwork",
+    "url": "https://docs.unity3d.com/Packages/com.unity.2d.animation@11.0/manual/PreparingArtwork.html",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S03",
+    "title": "Unity Sprite Skin",
+    "url": "https://docs.unity3d.com/Packages/com.unity.2d.animation@10.2/manual/SpriteSkin.html",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S04",
+    "title": "Higgsfield Terms",
+    "url": "https://higgsfield.ai/terms-of-use-agreement",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S05",
+    "title": "Suno paid subscription rights",
+    "url": "https://help.suno.com/en/articles/9601665",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S06",
+    "title": "Suno non-retroactive rights help",
+    "url": "https://help.suno.com/en/articles/2425729",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S07",
+    "title": "ElevenLabs terms, non-EEA",
+    "url": "https://elevenlabs.io/terms-of-use",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S08",
+    "title": "ElevenLabs Sound Effects Terms",
+    "url": "https://elevenlabs.io/sound-effects-terms",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S09",
+    "title": "Google Play target API policy",
+    "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S10",
+    "title": "Play Billing deprecation",
+    "url": "https://developer.android.com/google/play/billing/deprecation-faq",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S11",
+    "title": "Android 16 KB support",
+    "url": "https://developer.android.com/guide/practices/page-sizes",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S12",
+    "title": "Billing security and verification",
+    "url": "https://developer.android.com/google/play/billing/security",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S13",
+    "title": "AdMob UMP for Unity",
+    "url": "https://developers.google.com/admob/unity/privacy",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S14",
+    "title": "AdMob impression-level revenue",
+    "url": "https://developers.google.com/admob/unity/impression-level-ad-revenue",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S15",
+    "title": "AdMob app-ads.txt verification",
+    "url": "https://support.google.com/admob/answer/14538460?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S16",
+    "title": "Rewarded-ad policy",
+    "url": "https://support.google.com/admob/answer/7313578?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S17",
+    "title": "Firebase Analytics Unity",
+    "url": "https://firebase.google.com/docs/analytics/unity/get-started",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S18",
+    "title": "Firebase Crashlytics Unity",
+    "url": "https://firebase.google.com/docs/crashlytics/unity/get-started",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S19",
+    "title": "Firebase Remote Config Unity",
+    "url": "https://firebase.google.com/docs/remote-config/unity/get-started",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S20",
+    "title": "Firebase BigQuery export",
+    "url": "https://firebase.google.com/docs/projects/bigquery-export",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S21",
+    "title": "Google Play Data safety",
+    "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S22",
+    "title": "First release and rollout",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9859348?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S23",
+    "title": "Staged update rollouts",
+    "url": "https://support.google.com/googleplay/android-developer/answer/6346149?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S24",
+    "title": "Personal-account test requirement",
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S25",
+    "title": "Play organization identity",
+    "url": "https://support.google.com/googleplay/android-developer/answer/13628312?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S26",
+    "title": "Supported merchant countries",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S27",
+    "title": "Play preview assets",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S28",
+    "title": "Install Referrer",
+    "url": "https://developer.android.com/google/play/installreferrer",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S29",
+    "title": "Cloud budget alerts",
+    "url": "https://cloud.google.com/billing/docs/how-to/budgets",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  },
+  {
+    "id": "S30",
+    "title": "Unity IAP changelog",
+    "url": "https://docs.unity3d.com/Packages/com.unity.purchasing@5.0/changelog/CHANGELOG.html",
+    "checked": "2026-09-27",
+    "source_type": "primary_provider_documentation"
+  }
+]

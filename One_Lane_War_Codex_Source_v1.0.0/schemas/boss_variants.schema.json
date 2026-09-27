@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW boss_variants structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "asset_id": {
+        "type": "string"
+      },
+      "base_unit": {
+        "type": "string"
+      },
+      "damage_multiplier": {
+        "type": "number"
+      },
+      "hp_multiplier": {
+        "type": "number"
+      },
+      "id": {
+        "type": "string"
+      },
+      "maximum_per_encounter": {
+        "type": "integer"
+      },
+      "note": {
+        "type": "string"
+      },
+      "resolved_b001": {
+        "type": "object",
+        "properties": {
+          "attack_period_ticks": {
+            "type": "integer"
+          },
+          "barrier_hp": {
+            "type": "integer"
+          },
+          "base_damage": {
+            "type": "integer"
+          },
+          "damage": {
+            "type": "integer"
+          },
+          "hp": {
+            "type": "integer"
+          },
+          "move_speed_m_s": {
+            "type": "number"
+          },
+          "splash_radius_m": {
+            "type": "number"
+          },
+          "supply_cost": {
+            "type": "integer"
+          },
+          "windup_ticks": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "attack_period_ticks",
+          "base_damage",
+          "damage",
+          "hp",
+          "move_speed_m_s",
+          "supply_cost",
+          "windup_ticks"
+        ],
+        "additionalProperties": false
+      },
+      "special": {
+        "type": "string"
+      },
+      "supply_cost_multiplier": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "asset_id",
+      "base_unit",
+      "damage_multiplier",
+      "hp_multiplier",
+      "id",
+      "maximum_per_encounter",
+      "note",
+      "resolved_b001",
+      "special",
+      "supply_cost_multiplier"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 2,
+  "maxItems": 2
+}

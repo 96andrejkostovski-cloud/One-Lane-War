@@ -1,0 +1,313 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW animation_contract structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "attack_authority": {
+      "type": "string"
+    },
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "height_px": {
+          "type": "integer"
+        },
+        "reference_only": {
+          "type": "string"
+        },
+        "transparent": {
+          "type": "boolean"
+        },
+        "width_px": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "height_px",
+        "reference_only",
+        "transparent",
+        "width_px"
+      ],
+      "additionalProperties": false
+    },
+    "coordinate_convention": {
+      "type": "string"
+    },
+    "death_overrides_all_visual_states": {
+      "type": "boolean"
+    },
+    "facings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hit_reaction_interrupts_attack": {
+      "type": "boolean"
+    },
+    "hit_reaction_overlay_s": {
+      "type": "number"
+    },
+    "normalized_attack_phases": {
+      "type": "boolean"
+    },
+    "part_required_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "per_unit_timing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anticipation_release_s": {
+            "type": "number"
+          },
+          "attack_nominal_s": {
+            "type": "number"
+          },
+          "attack_time_authority": {
+            "type": "string"
+          },
+          "corpse_fade_s": {
+            "type": "number"
+          },
+          "death_s": {
+            "type": "number"
+          },
+          "followthrough_s": {
+            "type": "number"
+          },
+          "idle_loop_s": {
+            "type": "number"
+          },
+          "move_cycle_s": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "movement_cycle_scales_with_speed": {
+            "type": "boolean"
+          },
+          "pose_positions": {
+            "type": "string"
+          },
+          "recovery_s": {
+            "type": "number"
+          },
+          "unit_id": {
+            "type": "string"
+          },
+          "victory_loop_s": {
+            "type": "number"
+          },
+          "wheel_radius_m": {
+            "type": "number"
+          },
+          "wheel_rule": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anticipation_release_s",
+          "attack_nominal_s",
+          "attack_time_authority",
+          "corpse_fade_s",
+          "death_s",
+          "followthrough_s",
+          "idle_loop_s",
+          "move_cycle_s",
+          "movement_cycle_scales_with_speed",
+          "pose_positions",
+          "recovery_s",
+          "unit_id",
+          "victory_loop_s"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "pixels_per_unit": {
+      "type": "integer"
+    },
+    "proof_units": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rig_method": {
+      "type": "string"
+    },
+    "rigs": {
+      "type": "object",
+      "properties": {
+        "biped": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reused_by": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "root": {
+              "type": "string"
+            },
+            "sockets": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "parts",
+            "reused_by",
+            "root",
+            "sockets"
+          ],
+          "additionalProperties": false
+        },
+        "ram": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reused_by": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "root": {
+              "type": "string"
+            },
+            "sockets": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "parts",
+            "reused_by",
+            "root",
+            "sockets"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "biped",
+        "ram"
+      ],
+      "additionalProperties": false
+    },
+    "root_motion": {
+      "type": "boolean"
+    },
+    "simulation_hit_pause": {
+      "type": "boolean"
+    },
+    "source_canvas_height_px": {
+      "type": "integer"
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "transition_blend_s": {
+      "type": "number"
+    },
+    "visual_approval_path": {
+      "type": "object",
+      "properties": {
+        "generation_authorized_by_this_package": {
+          "type": "boolean"
+        },
+        "mechanical_lock_survives_style_selection": {
+          "type": "boolean"
+        },
+        "no_mass_generation_until": {
+          "type": "string"
+        },
+        "owner_selects": {
+          "type": "boolean"
+        },
+        "placeholder_proof": {
+          "type": "string"
+        },
+        "style_reference": {
+          "type": "string"
+        },
+        "style_selected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "generation_authorized_by_this_package",
+        "mechanical_lock_survives_style_selection",
+        "no_mass_generation_until",
+        "owner_selects",
+        "placeholder_proof",
+        "style_reference",
+        "style_selected"
+      ],
+      "additionalProperties": false
+    },
+    "visual_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "attack_authority",
+    "canvas",
+    "coordinate_convention",
+    "death_overrides_all_visual_states",
+    "facings",
+    "hit_reaction_interrupts_attack",
+    "hit_reaction_overlay_s",
+    "normalized_attack_phases",
+    "part_required_fields",
+    "per_unit_timing",
+    "pixels_per_unit",
+    "proof_units",
+    "rig_method",
+    "rigs",
+    "root_motion",
+    "simulation_hit_pause",
+    "source_canvas_height_px",
+    "states",
+    "status",
+    "transition_blend_s",
+    "visual_approval_path",
+    "visual_checks"
+  ],
+  "additionalProperties": false
+}

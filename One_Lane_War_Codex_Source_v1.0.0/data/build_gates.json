@@ -1,0 +1,156 @@
+[
+  {
+    "id": "PH01",
+    "name": "Toolchain and placeholder combat foundation",
+    "depends_on": [],
+    "primary_task": "OLW-CORE-001",
+    "acceptance": "Core Unity/native build and all six troop/24 upgrade mechanics in developer harness",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH02",
+    "name": "Full placeholder game",
+    "depends_on": [
+      "PH01"
+    ],
+    "primary_task": "OLW-CORE-002",
+    "acceptance": "All nine expeditions,36 encounters,six screens,local save,economy and fake service state coverage",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH03",
+    "name": "Actual-model balance and correction",
+    "depends_on": [
+      "PH02"
+    ],
+    "primary_task": "OLW-CORE-003",
+    "acceptance": "Shared C# model batch evidence,15 loadouts,policy coverage,source-reviewed corrections",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH04",
+    "name": "Functional UX and failure closure",
+    "depends_on": [
+      "PH02"
+    ],
+    "primary_task": "OLW-CORE-004",
+    "acceptance": "Responsive input,accessibility,pause,recovery,all placeholder screen states",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH05",
+    "name": "Real approved test services and analytics",
+    "depends_on": [
+      "PH04"
+    ],
+    "primary_task": "OLW-INT-001",
+    "acceptance": "Real licence-test purchases,test ads,consent,ownership recovery and measured event transport",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": true
+  },
+  {
+    "id": "PH06",
+    "name": "Placeholder content-complete acceptance",
+    "depends_on": [
+      "PH03",
+      "PH04",
+      "PH05"
+    ],
+    "primary_task": "OLW-CAP-001",
+    "acceptance": "Whole game playable through final expedition with verified state handling;presentation placeholders only",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH07",
+    "name": "Screenshot-derived presentation targets",
+    "depends_on": [
+      "PH06"
+    ],
+    "primary_task": "OLW-PRES-001",
+    "acceptance": "Raw real screenshots/recordings and owner-approved layout-faithful V001 targets",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": true
+  },
+  {
+    "id": "PH08",
+    "name": "Final art/audio production",
+    "depends_on": [
+      "PH07"
+    ],
+    "primary_task": "OLW-ART-001",
+    "acceptance": "Authorized provider generation,three-unit final animation proof,rights and complete catalogue",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": true,
+    "phase_specific_permission_required": true
+  },
+  {
+    "id": "PH09",
+    "name": "Final presentation integration",
+    "depends_on": [
+      "PH08"
+    ],
+    "primary_task": "OLW-PRES-002",
+    "acceptance": "Final UI,art,animation,VFX,audio fitted to tested gameplay and regression evidence",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": false
+  },
+  {
+    "id": "PH10",
+    "name": "Release candidate and closed validation",
+    "depends_on": [
+      "PH09"
+    ],
+    "primary_task": "OLW-REL-001",
+    "acceptance": "Real devices,Play-installed tests,independent players,store/legal/service readiness",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": true
+  },
+  {
+    "id": "PH11",
+    "name": "Owner publication and operation",
+    "depends_on": [
+      "PH10"
+    ],
+    "primary_task": "OLW-REL-002",
+    "acceptance": "Exact artifact/country/publication approval and operational recovery",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "workflow": "WF002",
+    "external_generation_allowed": false,
+    "phase_specific_permission_required": true
+  }
+]

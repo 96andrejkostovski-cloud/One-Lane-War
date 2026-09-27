@@ -1,0 +1,182 @@
+{
+  "scope": "JSON schema structure only; not game tests",
+  "engine": "python jsonschema Draft202012Validator in assembly environment",
+  "checks": 29,
+  "passed": 29,
+  "results": [
+    {
+      "file": "data/analytics_events.json",
+      "schema": "schemas/analytics_events.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/analytics_metrics.json",
+      "schema": "schemas/analytics_metrics.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/animation_contract.json",
+      "schema": "schemas/animation_contract.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/assets.json",
+      "schema": "schemas/assets.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/audio_vfx_contract.json",
+      "schema": "schemas/audio_vfx_contract.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/boss_variants.json",
+      "schema": "schemas/boss_variants.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/build_gates.json",
+      "schema": "schemas/build_gates.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/deployment_inputs.json",
+      "schema": "schemas/deployment_inputs.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/economy.json",
+      "schema": "schemas/economy.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/encounters.json",
+      "schema": "schemas/encounters.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/expeditions.json",
+      "schema": "schemas/expeditions.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/external_sources.json",
+      "schema": "schemas/external_sources.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/game_rules.json",
+      "schema": "schemas/game_rules.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/products.json",
+      "schema": "schemas/products.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/qa_cases.json",
+      "schema": "schemas/qa_cases.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/release_checklist.json",
+      "schema": "schemas/release_checklist.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/screenshot_pack.json",
+      "schema": "schemas/screenshot_pack.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/service_contract.json",
+      "schema": "schemas/service_contract.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/strings_en.json",
+      "schema": "schemas/strings_en.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/tasks.json",
+      "schema": "schemas/tasks.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/test_matrix.json",
+      "schema": "schemas/test_matrix.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/toolchain_lock.json",
+      "schema": "schemas/toolchain_lock.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/ui_contract.json",
+      "schema": "schemas/ui_contract.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/units.json",
+      "schema": "schemas/units.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/upgrades.json",
+      "schema": "schemas/upgrades.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "data/visual_references.json",
+      "schema": "schemas/visual_references.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "templates/SAVE_S1_EXAMPLE.json",
+      "schema": "schemas/save_envelope.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "tests/fixtures/save_payload_new.json",
+      "schema": "schemas/save_payload.schema.json",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "file": "tests/fixtures/save_payload_draft.json",
+      "schema": "schemas/save_payload.schema.json",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

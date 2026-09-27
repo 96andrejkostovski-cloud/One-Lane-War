@@ -1,0 +1,13 @@
+{
+  "scope": "ARITHMETIC/FUNDING/ECONOMY ONLY; NOT COMBAT SIMULATION",
+  "status": "PASS",
+  "configurations": 45900,
+  "unit_rally_states": 367200,
+  "extremes": {
+    "max_hp": 648,
+    "max_base_hit": 218,
+    "min_period_ticks": 13,
+    "max_cost": 115
+  },
+  "violations": []
+}

@@ -1,0 +1,394 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW service_contract structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "accounts": {
+      "type": "boolean"
+    },
+    "ads": {
+      "type": "object",
+      "properties": {
+        "ad_overlay_freezes_game": {
+          "type": "boolean"
+        },
+        "intro_attempt_suppressed": {
+          "type": "boolean"
+        },
+        "no_fill": {
+          "type": "string"
+        },
+        "placements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preload": {
+          "type": "string"
+        },
+        "price_text": {
+          "type": "string"
+        },
+        "reward_source": {
+          "type": "string"
+        },
+        "show_attempt_receipt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ad_overlay_freezes_game",
+        "intro_attempt_suppressed",
+        "no_fill",
+        "placements",
+        "preload",
+        "price_text",
+        "reward_source",
+        "show_attempt_receipt"
+      ],
+      "additionalProperties": false
+    },
+    "backend_limits": {
+      "type": "object",
+      "properties": {
+        "concurrency": {
+          "type": "integer"
+        },
+        "cpu": {
+          "type": "integer"
+        },
+        "max_instances": {
+          "type": "integer"
+        },
+        "memory_mib": {
+          "type": "integer"
+        },
+        "min_instances": {
+          "type": "integer"
+        },
+        "request_body_max_bytes": {
+          "type": "integer"
+        },
+        "request_timeout_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "concurrency",
+        "cpu",
+        "max_instances",
+        "memory_mib",
+        "min_instances",
+        "request_body_max_bytes",
+        "request_timeout_s"
+      ],
+      "additionalProperties": false
+    },
+    "client_network": {
+      "type": "object",
+      "properties": {
+        "background_polling": {
+          "type": "boolean"
+        },
+        "max_automatic_attempts": {
+          "type": "integer"
+        },
+        "offline_play_blocked": {
+          "type": "boolean"
+        },
+        "retry_delays_s": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "timeout_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "background_polling",
+        "max_automatic_attempts",
+        "offline_play_blocked",
+        "retry_delays_s",
+        "timeout_s"
+      ],
+      "additionalProperties": false
+    },
+    "entitlements": {
+      "type": "object",
+      "properties": {
+        "acknowledgement": {
+          "type": "string"
+        },
+        "client_firestorereadwrite": {
+          "type": "boolean"
+        },
+        "client_grant": {
+          "type": "string"
+        },
+        "offline": {
+          "type": "string"
+        },
+        "offline_receipt": {
+          "type": "string"
+        },
+        "pending": {
+          "type": "string"
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "raw_tokens_in_analytics": {
+          "type": "boolean"
+        },
+        "record_key": {
+          "type": "string"
+        },
+        "refunds": {
+          "type": "string"
+        },
+        "restore": {
+          "type": "string"
+        },
+        "rtdn": {
+          "type": "string"
+        },
+        "signature_key_rotation": {
+          "type": "string"
+        },
+        "verify": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "acknowledgement",
+        "client_firestorereadwrite",
+        "client_grant",
+        "offline",
+        "offline_receipt",
+        "pending",
+        "products",
+        "raw_tokens_in_analytics",
+        "record_key",
+        "refunds",
+        "restore",
+        "rtdn",
+        "signature_key_rotation",
+        "verify"
+      ],
+      "additionalProperties": false
+    },
+    "integration_stage": {
+      "type": "string"
+    },
+    "local_progression": {
+      "type": "boolean"
+    },
+    "offline_revocation_limitation": {
+      "type": "string"
+    },
+    "privacy": {
+      "type": "object",
+      "properties": {
+        "analytics_choice": {
+          "type": "string"
+        },
+        "behavioral_collection_default": {
+          "type": "boolean"
+        },
+        "behavioral_export_retention_days": {
+          "type": "integer"
+        },
+        "crash_collection": {
+          "type": "string"
+        },
+        "data_minimization": {
+          "type": "string"
+        },
+        "financial_retention": {
+          "type": "string"
+        },
+        "no_preconsent_backlog": {
+          "type": "boolean"
+        },
+        "support_log_retention_days": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "analytics_choice",
+        "behavioral_collection_default",
+        "behavioral_export_retention_days",
+        "crash_collection",
+        "data_minimization",
+        "financial_retention",
+        "no_preconsent_backlog",
+        "support_log_retention_days"
+      ],
+      "additionalProperties": false
+    },
+    "remote_config": {
+      "type": "object",
+      "properties": {
+        "activate": {
+          "type": "string"
+        },
+        "allowlist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "balance_remote_mutation": {
+          "type": "boolean"
+        },
+        "defaults": {
+          "type": "object",
+          "properties": {
+            "ads_enabled": {
+              "type": "boolean"
+            },
+            "iap_enabled": {
+              "type": "boolean"
+            },
+            "medal_ad_enabled": {
+              "type": "boolean"
+            },
+            "reroll_ad_enabled": {
+              "type": "boolean"
+            },
+            "support_notice": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ads_enabled",
+            "iap_enabled",
+            "medal_ad_enabled",
+            "reroll_ad_enabled",
+            "support_notice"
+          ],
+          "additionalProperties": false
+        },
+        "minimum_fetch_interval_s": {
+          "type": "integer"
+        },
+        "ownership_survives_kill_switch": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "activate",
+        "allowlist",
+        "balance_remote_mutation",
+        "defaults",
+        "minimum_fetch_interval_s",
+        "ownership_survives_kill_switch"
+      ],
+      "additionalProperties": false
+    },
+    "runtime_ai_calls": {
+      "type": "boolean"
+    },
+    "saves": {
+      "type": "object",
+      "properties": {
+        "android_backup": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "midbattle": {
+          "type": "string"
+        },
+        "reset": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "integer"
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unknown_newer_schema": {
+          "type": "string"
+        },
+        "write": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "android_backup",
+        "format",
+        "midbattle",
+        "reset",
+        "schema",
+        "slots",
+        "unknown_newer_schema",
+        "write"
+      ],
+      "additionalProperties": false
+    },
+    "spending": {
+      "type": "object",
+      "properties": {
+        "acquisition": {
+          "type": "integer"
+        },
+        "existing_provider_credits": {
+          "type": "string"
+        },
+        "new_devices": {
+          "type": "integer"
+        },
+        "new_subscriptions": {
+          "type": "integer"
+        },
+        "public_service_activation_authorized": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "acquisition",
+        "existing_provider_credits",
+        "new_devices",
+        "new_subscriptions",
+        "public_service_activation_authorized"
+      ],
+      "additionalProperties": false
+    },
+    "support_identity": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accounts",
+    "ads",
+    "backend_limits",
+    "client_network",
+    "entitlements",
+    "integration_stage",
+    "local_progression",
+    "offline_revocation_limitation",
+    "privacy",
+    "remote_config",
+    "runtime_ai_calls",
+    "saves",
+    "spending",
+    "support_identity",
+    "version"
+  ],
+  "additionalProperties": false
+}

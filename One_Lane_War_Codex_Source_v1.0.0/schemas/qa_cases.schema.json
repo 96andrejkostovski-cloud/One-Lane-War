@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW qa_cases structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "acceptance": {
+        "type": "string"
+      },
+      "area": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "null"
+      },
+      "id": {
+        "type": "string"
+      },
+      "inherited_gate": {
+        "type": "string"
+      },
+      "method": {
+        "type": "string"
+      },
+      "phase": {
+        "type": "string"
+      },
+      "provenance": {
+        "type": "string"
+      },
+      "scenario": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "acceptance",
+      "area",
+      "evidence",
+      "id",
+      "method",
+      "phase",
+      "provenance",
+      "scenario",
+      "status"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 155,
+  "maxItems": 155
+}

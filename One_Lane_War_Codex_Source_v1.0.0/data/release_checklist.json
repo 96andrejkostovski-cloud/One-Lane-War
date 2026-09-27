@@ -1,0 +1,146 @@
+[
+  {
+    "id": "RC01",
+    "domain": "Identity and account",
+    "required": "DEP01–DEP07verified;productionIDnotexample",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC02",
+    "domain": "Source and build identity",
+    "required": "Exactsourcehead/manifest,T/B/S/Aversions,AABhashandlock",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC03",
+    "domain": "Native compatibility",
+    "required": "API/Billingrulechecked;ARM64/16KBalllibraries",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC04",
+    "domain": "Save integrity",
+    "required": "Allpublicschemamigrations,kill/recovery,reset,offline",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC05",
+    "domain": "Real billing",
+    "required": "Licensedtestpurchase,pending,restore,refund,ack,dedup,offlinecache",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC06",
+    "domain": "Real rewarded and consent",
+    "required": "CorrectIDs,UMP,earnedgrant,no-fill,firstattemptsuppression",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC07",
+    "domain": "Privacy and documents",
+    "required": "MeasuredSDKinventory,DataSafety,policy/support/terms/notices",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC08",
+    "domain": "Rights",
+    "required": "Finalasset/audio/font/codeledgerapproved",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC09",
+    "domain": "Final media",
+    "required": "No placeholders;V001/P001approved;actualgameplaystorescreens",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC10",
+    "domain": "Device and performance",
+    "required": "Playinstalledphone,AVDmatrix,safeareas,soak,memory,audio",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC11",
+    "domain": "Analytics",
+    "required": "Knownjourney,eventcount,normalizedexport,nonduplicatedrevenue",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC12",
+    "domain": "AdMob readiness",
+    "required": "Storelinked,app-ads.txtverified,servingreviewstatus",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC13",
+    "domain": "Crash diagnostics",
+    "required": "Symbols/mappinguploaded,testcrashverified,debugtriggerremoved",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC14",
+    "domain": "Closed players",
+    "required": "Uncoachedusability,issuesresolved,cohortlimitshonest",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC15",
+    "domain": "Recovery",
+    "required": "Uploadkeyandentitlementbackuprestore,alerts/operatoraccess",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  },
+  {
+    "id": "RC16",
+    "domain": "Final approval",
+    "required": "OwnerexactAAB,countries,commercialactivation,publishapproval",
+    "status": "NOT_RUN",
+    "evidence": null,
+    "owner": "owner_and_director",
+    "blocks_release": true
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW test_matrix structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "additional_performance_targets": {
+      "type": "object",
+      "properties": {
+        "cold_start_lowtier_s": {
+          "type": "integer"
+        },
+        "cold_start_midrange_s": {
+          "type": "integer"
+        },
+        "no_automatic_device_purchase": {
+          "type": "boolean"
+        },
+        "per_frame_gc_hot_paths_bytes": {
+          "type": "integer"
+        },
+        "warm_home_to_battle_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cold_start_lowtier_s",
+        "cold_start_midrange_s",
+        "no_automatic_device_purchase",
+        "per_frame_gc_hot_paths_bytes",
+        "warm_home_to_battle_s"
+      ],
+      "additionalProperties": false
+    },
+    "avds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "abi_gate": {
+            "type": "string"
+          },
+          "api": {
+            "type": "integer"
+          },
+          "display_px": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "ram_mib": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "abi_gate",
+          "api",
+          "display_px",
+          "id",
+          "purpose",
+          "ram_mib"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "development_primary": {
+      "type": "string"
+    },
+    "editor_tests": {
+      "type": "string"
+    },
+    "execution_status": {
+      "type": "string"
+    },
+    "no_forced_x86_unity_target": {
+      "type": "string"
+    },
+    "performance_targets": {
+      "type": "object",
+      "properties": {
+        "download_target_mib": {
+          "type": "integer"
+        },
+        "live_units_max": {
+          "type": "integer"
+        },
+        "low_mode_fps": {
+          "type": "integer"
+        },
+        "simulation_hz": {
+          "type": "integer"
+        },
+        "simulation_projectiles_budget": {
+          "type": "integer"
+        },
+        "soak_minutes": {
+          "type": "integer"
+        },
+        "steady_state_process_memory_mib": {
+          "type": "integer"
+        },
+        "target_fps": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "download_target_mib",
+        "live_units_max",
+        "low_mode_fps",
+        "simulation_hz",
+        "simulation_projectiles_budget",
+        "soak_minutes",
+        "steady_state_process_memory_mib",
+        "target_fps"
+      ],
+      "additionalProperties": false
+    },
+    "physical_release_check": {
+      "type": "string"
+    },
+    "proof_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "secondary_layouts": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      }
+    },
+    "unsupported_row_policy": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "additional_performance_targets",
+    "avds",
+    "development_primary",
+    "editor_tests",
+    "execution_status",
+    "no_forced_x86_unity_target",
+    "performance_targets",
+    "physical_release_check",
+    "proof_required",
+    "secondary_layouts",
+    "unsupported_row_policy"
+  ],
+  "additionalProperties": false
+}

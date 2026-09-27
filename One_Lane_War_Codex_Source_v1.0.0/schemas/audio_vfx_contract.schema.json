@@ -1,0 +1,340 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW audio_vfx_contract structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "art_import": {
+      "type": "object",
+      "properties": {
+        "atlas_dimension": {
+          "type": "integer"
+        },
+        "background_reference_px": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "empty_alpha_margins": {
+          "type": "string"
+        },
+        "filter": {
+          "type": "string"
+        },
+        "font_source": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "max_texture_dimension": {
+          "type": "integer"
+        },
+        "mipmaps": {
+          "type": "boolean"
+        },
+        "sprite_ppu": {
+          "type": "integer"
+        },
+        "troop_layer_canvas_px": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "ui_icon_source_px": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "wrap": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "atlas_dimension",
+        "background_reference_px",
+        "empty_alpha_margins",
+        "filter",
+        "font_source",
+        "format",
+        "max_texture_dimension",
+        "mipmaps",
+        "sprite_ppu",
+        "troop_layer_canvas_px",
+        "ui_icon_source_px",
+        "wrap"
+      ],
+      "additionalProperties": false
+    },
+    "audio_selection": {
+      "type": "string"
+    },
+    "generation_stage": {
+      "type": "string"
+    },
+    "haptics_default": {
+      "type": "boolean"
+    },
+    "haptics_ms": {
+      "type": "object",
+      "properties": {
+        "deployment": {
+          "type": "integer"
+        },
+        "fortress_finishing_hit": {
+          "type": "integer"
+        },
+        "rally": {
+          "type": "integer"
+        },
+        "victory": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "deployment",
+        "fortress_finishing_hit",
+        "rally",
+        "victory"
+      ],
+      "additionalProperties": false
+    },
+    "mixer_defaults": {
+      "type": "object",
+      "properties": {
+        "master": {
+          "type": "number"
+        },
+        "music": {
+          "type": "number"
+        },
+        "sfx": {
+          "type": "number"
+        },
+        "ui": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "master",
+        "music",
+        "sfx",
+        "ui"
+      ],
+      "additionalProperties": false
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "battle": {
+          "type": "object",
+          "properties": {
+            "bars": {
+              "type": "integer"
+            },
+            "bpm": {
+              "type": "integer"
+            },
+            "style": {
+              "type": "string"
+            },
+            "target_loop_s": {
+              "type": "integer"
+            },
+            "time_signature": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "bars",
+            "bpm",
+            "style",
+            "target_loop_s",
+            "time_signature"
+          ],
+          "additionalProperties": false
+        },
+        "loop_edit": {
+          "type": "string"
+        },
+        "loops": {
+          "type": "integer"
+        },
+        "loudness_target_lufs": {
+          "type": "integer"
+        },
+        "master_format": {
+          "type": "string"
+        },
+        "menu": {
+          "type": "object",
+          "properties": {
+            "bars": {
+              "type": "integer"
+            },
+            "bpm": {
+              "type": "integer"
+            },
+            "style": {
+              "type": "string"
+            },
+            "target_loop_s": {
+              "type": "integer"
+            },
+            "time_signature": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "bars",
+            "bpm",
+            "style",
+            "target_loop_s",
+            "time_signature"
+          ],
+          "additionalProperties": false
+        },
+        "runtime": {
+          "type": "string"
+        },
+        "stings_s": {
+          "type": "object",
+          "properties": {
+            "defeat": {
+              "type": "number"
+            },
+            "expedition_complete": {
+              "type": "number"
+            },
+            "victory": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "defeat",
+            "expedition_complete",
+            "victory"
+          ],
+          "additionalProperties": false
+        },
+        "true_peak_max_dbtp": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "battle",
+        "loop_edit",
+        "loops",
+        "loudness_target_lufs",
+        "master_format",
+        "menu",
+        "runtime",
+        "stings_s",
+        "true_peak_max_dbtp"
+      ],
+      "additionalProperties": false
+    },
+    "sfx": {
+      "type": "object",
+      "properties": {
+        "families": {
+          "type": "integer"
+        },
+        "master_format": {
+          "type": "string"
+        },
+        "max_simultaneous_voices": {
+          "type": "integer"
+        },
+        "minimum_same_family_gap_s": {
+          "type": "number"
+        },
+        "per_family_voice_cap": {
+          "type": "integer"
+        },
+        "priority": {
+          "type": "string"
+        },
+        "runtime": {
+          "type": "string"
+        },
+        "sfx_loudness": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "families",
+        "master_format",
+        "max_simultaneous_voices",
+        "minimum_same_family_gap_s",
+        "per_family_voice_cap",
+        "priority",
+        "runtime",
+        "sfx_loudness"
+      ],
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string"
+    },
+    "vfx": {
+      "type": "object",
+      "properties": {
+        "criticality": {
+          "type": "string"
+        },
+        "families": {
+          "type": "integer"
+        },
+        "max_live_effect_instances": {
+          "type": "integer"
+        },
+        "max_total_particles": {
+          "type": "integer"
+        },
+        "reduced_flashes": {
+          "type": "string"
+        },
+        "reduced_motion": {
+          "type": "string"
+        },
+        "shake_max_duration_s": {
+          "type": "number"
+        },
+        "world_screen_shake_max_m": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "criticality",
+        "families",
+        "max_live_effect_instances",
+        "max_total_particles",
+        "reduced_flashes",
+        "reduced_motion",
+        "shake_max_duration_s",
+        "world_screen_shake_max_m"
+      ],
+      "additionalProperties": false
+    },
+    "visual_approval": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "art_import",
+    "audio_selection",
+    "generation_stage",
+    "haptics_default",
+    "haptics_ms",
+    "mixer_defaults",
+    "music",
+    "sfx",
+    "version",
+    "vfx",
+    "visual_approval"
+  ],
+  "additionalProperties": false
+}

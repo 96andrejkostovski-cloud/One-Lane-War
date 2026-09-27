@@ -1,0 +1,102 @@
+{
+  "development_primary": "Android Studio emulator",
+  "editor_tests": "EditMode pure C# + PlayMode; not substitute for Android integration",
+  "avds": [
+    {
+      "id": "A28",
+      "api": 28,
+      "display_px": [
+        1280,
+        720
+      ],
+      "ram_mib": 2048,
+      "purpose": "minimum API and small-layout coverage",
+      "abi_gate": "Requires a system image that can actually execute ARM64. If unavailable on host, do not mark native coverage passed; use actual API28 ARM64 device for this row."
+    },
+    {
+      "id": "A30",
+      "api": 30,
+      "display_px": [
+        1920,
+        1080
+      ],
+      "ram_mib": 3072,
+      "purpose": "documented x86_64 Google system image ARM64-translation fallback for core development",
+      "abi_gate": "Verify actual image exposes arm64-v8a and successfully loads IL2CPP; translation performance not device performance."
+    },
+    {
+      "id": "A33",
+      "api": 33,
+      "display_px": [
+        2400,
+        1080
+      ],
+      "ram_mib": 3072,
+      "purpose": "intermediate Android compatibility",
+      "abi_gate": "Play-enabled x86_64 image with verified ARM64 translation on x86 host, or ARM64 image on ARM host; otherwise fail row."
+    },
+    {
+      "id": "A36",
+      "api": 36,
+      "display_px": [
+        2400,
+        1080
+      ],
+      "ram_mib": 4096,
+      "purpose": "current target OS and real test-store integration",
+      "abi_gate": "same verified compatibility requirement; no assumption that every AVD supports ARM64."
+    },
+    {
+      "id": "A36_16KB",
+      "api": 36,
+      "display_px": [
+        1920,
+        1080
+      ],
+      "ram_mib": 4096,
+      "purpose": "16KB native-library testing",
+      "abi_gate": "verify getconf PAGE_SIZE=16384 and successful app start; binary inspection alone not runtime pass."
+    }
+  ],
+  "secondary_layouts": [
+    [
+      2560,
+      1440
+    ],
+    [
+      1920,
+      1200
+    ]
+  ],
+  "physical_release_check": "At least one real ARM64 Android phone with Play-installed candidate; no claim emulator proved thermal, battery, touch or haptics",
+  "proof_required": [
+    "AVD config.ini",
+    "system-image package revision",
+    "build fingerprint",
+    "ro.product.cpu.abilist",
+    "native library load log",
+    "graphics API",
+    "page size",
+    "actual installed APK/AAB version"
+  ],
+  "no_forced_x86_unity_target": "Unity6.3 restricts x86_64 to existing MagicLeap projects; do not misconfigure a new phone game as MagicLeap.",
+  "unsupported_row_policy": "Record BLOCKED, not PASS. Resolve with compatible emulator image or real-device coverage; any minAPI/engine change requires versioned technical amendment.",
+  "performance_targets": {
+    "target_fps": 60,
+    "low_mode_fps": 30,
+    "simulation_hz": 20,
+    "live_units_max": 48,
+    "simulation_projectiles_budget": 80,
+    "steady_state_process_memory_mib": 500,
+    "download_target_mib": 150,
+    "soak_minutes": 20
+  },
+  "execution_status": "NOT_RUN",
+  "additional_performance_targets": {
+    "cold_start_midrange_s": 4,
+    "cold_start_lowtier_s": 7,
+    "warm_home_to_battle_s": 2,
+    "per_frame_gc_hot_paths_bytes": 0,
+    "no_automatic_device_purchase": true
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW assets structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "approval": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "commercial_clearance_required": {
+        "type": "boolean"
+      },
+      "depends_on": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "exchange": {
+        "type": "string"
+      },
+      "gameplay_authority": {
+        "type": "boolean"
+      },
+      "gameplay_geometry": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "master_format": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "new_animation_states": {
+        "type": "integer"
+      },
+      "no_baked_text": {
+        "type": "boolean"
+      },
+      "no_stat_effect": {
+        "type": "boolean"
+      },
+      "note": {
+        "type": "string"
+      },
+      "pooled": {
+        "type": "boolean"
+      },
+      "provider": {
+        "type": "string"
+      },
+      "reuse_allowed": {
+        "type": "boolean"
+      },
+      "rig": {
+        "type": "string"
+      },
+      "rights_evidence": {
+        "type": "null"
+      },
+      "rules": {
+        "type": "string"
+      },
+      "runtime_format": {
+        "type": "string"
+      },
+      "sha256": {
+        "type": "null"
+      },
+      "sim_authoritative": {
+        "type": "boolean"
+      },
+      "source_path": {
+        "type": "null"
+      },
+      "states": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string"
+      },
+      "vocal": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "approval",
+      "category",
+      "id",
+      "name",
+      "provider",
+      "rights_evidence",
+      "sha256",
+      "source_path",
+      "status"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 148,
+  "maxItems": 148
+}

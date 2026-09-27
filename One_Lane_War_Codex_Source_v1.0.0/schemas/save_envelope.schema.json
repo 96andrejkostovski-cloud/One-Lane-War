@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW save envelope S1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "envelope_version",
+    "payload_json",
+    "payload_sha256"
+  ],
+  "properties": {
+    "format": {
+      "const": "OLW_SAVE_ENVELOPE"
+    },
+    "envelope_version": {
+      "const": 1
+    },
+    "payload_json": {
+      "type": "string",
+      "minLength": 2
+    },
+    "payload_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

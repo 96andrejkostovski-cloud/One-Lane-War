@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW analytics_events structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "common_envelope": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "delivery": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "origin": {
+        "type": "string"
+      },
+      "parameters": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "common_envelope",
+      "delivery",
+      "id",
+      "name",
+      "notes",
+      "origin",
+      "parameters"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 35,
+  "maxItems": 35
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "T01",
+    "title": "Unity 6000.3.21f1 release",
+    "url": "https://unity.com/releases/editor/whats-new/6000.3.21f1",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T02",
+    "title": "Unity Android dependencies",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/android-supported-dependency-versions.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T03",
+    "title": "Unity Gradle compatibility",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/android-gradle-version-compatibility.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T04",
+    "title": "Firebase Unity releases",
+    "url": "https://firebase.google.com/support/release-notes/unity",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T05",
+    "title": "Unity IAP5.4 changelog",
+    "url": "https://docs.unity3d.com/Packages/com.unity.purchasing@5.4/changelog/CHANGELOG.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T06",
+    "title": "Mobile Ads Unity releases",
+    "url": "https://github.com/googleads/googleads-mobile-unity/releases",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T07",
+    "title": "Ads11.5 native dependencies",
+    "url": "https://raw.githubusercontent.com/googleads/googleads-mobile-unity/v11.5.0/source/plugin/Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T08",
+    "title": "Ads11.5 UMP dependency",
+    "url": "https://raw.githubusercontent.com/googleads/googleads-mobile-unity/v11.5.0/source/plugin/Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T09",
+    "title": "Android Studio updates",
+    "url": "https://developer.android.com/latest-updates",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T10",
+    "title": "Android Emulator releases and ARM translation",
+    "url": "https://developer.android.com/studio/releases/emulator",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T11",
+    "title": "Unity core uGUI binding",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.ugui.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T12",
+    "title": "Unity core test framework binding",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/Manual/com.unity.test-framework.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T13",
+    "title": "Unity Newtonsoft package3.2.2",
+    "url": "https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T14",
+    "title": "Unity Android x86_64 restriction",
+    "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AndroidArchitecture.X86_64.html",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T15",
+    "title": "Functions runtime options",
+    "url": "https://firebase.google.com/docs/functions/manage-functions",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T16",
+    "title": "Firebase Functions releases",
+    "url": "https://github.com/firebase/firebase-functions/releases",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "T17",
+    "title": "Firebase Admin releases",
+    "url": "https://github.com/firebase/firebase-admin-node/releases",
+    "checked": "2026-09-27"
+  }
+]

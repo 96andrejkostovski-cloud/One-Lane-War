@@ -1,0 +1,30 @@
+[
+  {
+    "id": "adfree_bonuses",
+    "type": "non_consumable",
+    "entitlements": [
+      "one additional draft reroll per expedition without an ad",
+      "one eligible +50% battle-Medal bonus per ended expedition without an ad"
+    ],
+    "limits": "same limits and eligibility as the two rewarded placements; one free reroll remains for everyone",
+    "restorable": true,
+    "store_copy_requirement": "Explain finite Medal progression and continued reroll benefit; no permanent stats; no forced ads exist in the free game.",
+    "after_all_medal_unlocks": "Keep same USD base price; dynamically truthful benefit text mentions only additional reroll. No personalized price changes. Owned benefits persist.",
+    "usd_base_price": 4.99,
+    "price_status": "LOCKED_INITIAL_PRICE_NOT_CONVERSION_VALIDATED",
+    "external_store_created": false
+  },
+  {
+    "id": "cosmetic_army_pack",
+    "type": "non_consumable",
+    "entitlements": [
+      "one coordinated cosmetic set: banner, shield marking, fortress trim, equipment accents"
+    ],
+    "restorable": true,
+    "statistics_effect": "none",
+    "store_copy_requirement": "Preview exactly what changes; one set, not six new troop models.",
+    "usd_base_price": 2.99,
+    "price_status": "LOCKED_INITIAL_PRICE_NOT_CONVERSION_VALIDATED",
+    "external_store_created": false
+  }
+]

@@ -1,0 +1,56 @@
+# Unity-generated local state
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+/Builds/
+
+# Generated IDE and build files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Android/Gradle local state
+/.gradle/
+/AndroidBuild/
+*.apk
+*.aab
+*.apks
+
+# Python source-check caches
+__pycache__/
+*.py[cod]
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+**/secrets/
+google-services.json
+GoogleService-Info.plist
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

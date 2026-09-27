@@ -1,0 +1,30 @@
+{
+  "example_only": true,
+  "capture_id": "SC05",
+  "app_version": null,
+  "source_manifest_sha256": null,
+  "commit": null,
+  "balance_version": "B001",
+  "state_id": "battle_open",
+  "encounter_id": "c01_e01_b01",
+  "run_id": null,
+  "attempt_id": null,
+  "loadout": [
+    "militia",
+    "shieldguard",
+    "crossbowman",
+    "grenadier"
+  ],
+  "upgrades": [],
+  "sim_tick": null,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "safe_area": null,
+  "camera": null,
+  "device_or_avd": null,
+  "fixture_only": false,
+  "raw_file_sha256": null,
+  "status": "NOT_CAPTURED"
+}

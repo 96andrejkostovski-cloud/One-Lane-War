@@ -1,0 +1,72 @@
+{
+  "package": "OLW-SOURCE-1.0.0",
+  "history": [
+    {
+      "name": "One_Lane_War_Planning_v0.1.0.zip",
+      "path": "references/history/One_Lane_War_Planning_v0.1.0.zip",
+      "bytes": 104039,
+      "sha256": "f87b777132b01cb74e39fa660713c1912cd69050d3ef626c8950624a8a20f63c",
+      "authority": "HISTORICAL_NOT_ACTIVE"
+    },
+    {
+      "name": "One_Lane_War_Design_Lock_v0.2.0.zip",
+      "path": "references/history/One_Lane_War_Design_Lock_v0.2.0.zip",
+      "bytes": 135456,
+      "sha256": "119ee040c1962189387dd2e3a605c2247fc4b8cc1ee923aa78e3c443b2a6202f",
+      "authority": "HISTORICAL_NOT_ACTIVE"
+    }
+  ],
+  "retained_b001_files": [
+    {
+      "path": "data/units.json",
+      "sha256": "395d762bdec6aae1dc002872da3a168cc06b422e867ff638ac4af03dc454d67b",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/upgrades.json",
+      "sha256": "57dd535f27ee896619e4a37eda2f032bfa3eb24aef2172afde7bbadd687f99a4",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/encounters.json",
+      "sha256": "b8e8c16c551079142f5f425393307bdc1eadfce25576181faef61c4cb10efe91",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/expeditions.json",
+      "sha256": "caf422cb5c6e1f1aaa7e6abc1588e43a00e2b4988cd65e60fade29db0a0f8cd9",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/boss_variants.json",
+      "sha256": "2be8efb983b451cfc76df2ef80daaf0a1d51e7b0d6dd2da4fef8af0e36fc58fd",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/economy.json",
+      "sha256": "a4feffc486f60197a198d38f4a58d5f099c06779d1898ac26d3ce7808b298a0f",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/products.json",
+      "sha256": "42043fb06625a430f929d8f974ae12ae861d46b569f902baeddf6b4d72501c31",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/assets.json",
+      "sha256": "df0686d0bcc25526e7beddcefcccc6b1bfa8b9de808deedbb180968a85c527fb",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/analytics_events.json",
+      "sha256": "328e1249e32d9da2d1191d4f5f8ea5937051e708c488426622d71c9722bd73d7",
+      "upstream": "Design Lock v0.2.0"
+    },
+    {
+      "path": "data/strings_en.json",
+      "sha256": "fc9f615134f5939935f7e54fef1c498e7e86a5fe14e0ba028ee8ca2c46e1d296",
+      "upstream": "Design Lock v0.2.0"
+    }
+  ],
+  "conversation_scope": "Current One Lane War conversation through 2026-09-27T15:24:57Z; selected decisions summarized, not a fabricated verbatim transcript."
+}

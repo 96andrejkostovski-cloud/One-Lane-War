@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW analytics_metrics structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "additional_health_targets": {
+      "type": "object",
+      "properties": {
+        "play_user_perceived_anr_rate_max": {
+          "type": "number"
+        },
+        "play_user_perceived_crash_rate_max": {
+          "type": "number"
+        },
+        "rate_windows": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "play_user_perceived_anr_rate_max",
+        "play_user_perceived_crash_rate_max",
+        "rate_windows"
+      ],
+      "additionalProperties": false
+    },
+    "automatic_events": {
+      "type": "string"
+    },
+    "cadence": {
+      "type": "string"
+    },
+    "custom_event_registry": {
+      "type": "string"
+    },
+    "custom_events": {
+      "type": "integer"
+    },
+    "dashboards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "health_metric_separation": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "formula": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "minimum_cohort_for_rate_interpretation": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "operator": {
+            "type": "string"
+          },
+          "threshold": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "action",
+          "formula",
+          "id",
+          "minimum_cohort_for_rate_interpretation",
+          "name",
+          "operator",
+          "threshold"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "organic": {
+      "type": "string"
+    },
+    "query_contract": {
+      "type": "string"
+    },
+    "query_rules": {
+      "type": "string"
+    },
+    "revenue": {
+      "type": "string"
+    },
+    "timing_targets": {
+      "type": "object",
+      "properties": {
+        "expedition_with_drafts_s": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "intro_battle_s": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "normal_battle_s": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "stronghold_s": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      },
+      "required": [
+        "expedition_with_drafts_s",
+        "intro_battle_s",
+        "normal_battle_s",
+        "stronghold_s"
+      ],
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "additional_health_targets",
+    "automatic_events",
+    "cadence",
+    "custom_event_registry",
+    "custom_events",
+    "dashboards",
+    "health_metric_separation",
+    "metrics",
+    "organic",
+    "query_contract",
+    "query_rules",
+    "revenue",
+    "timing_targets",
+    "version"
+  ],
+  "additionalProperties": false
+}

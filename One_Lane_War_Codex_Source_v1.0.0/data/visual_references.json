@@ -1,0 +1,70 @@
+{
+  "version": "V001",
+  "references": [
+    {
+      "id": "V001-A",
+      "path": "references/visual/V001_A_OWNER_SELECTED.png",
+      "source_filename": "1000019489.png",
+      "width": 1536,
+      "height": 864,
+      "sha256": "d4e5224ad0b6226c5c7cc7a79606bf782f69df1a1a593b70f745ed2ae0923704",
+      "role": "Original owner-selected bright comic-medieval battlefield style",
+      "status": "STYLE_APPROVED_NOT_PRODUCTION_ASSET",
+      "generated_image": true,
+      "runtime_capture": false,
+      "numerical_authority": false,
+      "layout_exactness_guaranteed": false
+    },
+    {
+      "id": "V001-B",
+      "path": "references/visual/V001_B_FINISH_TARGET.png",
+      "source_filename": "wide_colorful_game_ui_screenshot_illustration_a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "adee0d1091dfbcc5fd99531bbd1241a645bdd7eec2298ebefd562edecf32aaa7",
+      "role": "Owner-accepted finished-game-like battle style; generated target, not runtime capture",
+      "status": "STYLE_APPROVED_NOT_PRODUCTION_ASSET",
+      "generated_image": true,
+      "runtime_capture": false,
+      "numerical_authority": false,
+      "layout_exactness_guaranteed": false
+    },
+    {
+      "id": "V001-C",
+      "path": "references/visual/V001_C_UI_STYLE_SHEET.png",
+      "source_filename": "a_wide_composite_game_ui_mockup_screenshot_sheet_f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d75bc1be4f460c9d1d3a2d7369793405b80b3fe4e779323addf589412df043eb",
+      "role": "Owner-accepted UI styling language only; several depicted mechanics/values are not source-authoritative",
+      "status": "STYLE_APPROVED_NOT_PRODUCTION_ASSET",
+      "generated_image": true,
+      "runtime_capture": false,
+      "numerical_authority": false,
+      "layout_exactness_guaranteed": false
+    }
+  ],
+  "approved_traits": [
+    "bright polished cartoon-medieval 2D/2.5D appearance",
+    "sunlit layered valley/mountain/river scenery",
+    "blue player and red enemy with non-color team symbols",
+    "readable chunky troop and equipment silhouettes",
+    "dark metallic HUD panels and gold Rally emphasis",
+    "crisp game-interface text rendered at runtime"
+  ],
+  "invalid_mockup_details": [
+    "4000/3000 fortress HP examples",
+    "1000/600/500 Supply caps",
+    "150/300/250/350 starter costs",
+    "Army Power score",
+    "three-star battle ratings",
+    "four campaign nodes interpreted as four expeditions per chapter",
+    "first-clear bonus granted per intermediate battle",
+    "Medal ad bonus offered after every battle",
+    "Packed Powder +40%",
+    "language picker suggesting translated launch languages",
+    "logo implies a cleared final brand",
+    "barrel explosions imply knockback/ragdoll mechanics"
+  ],
+  "replacement_rule": "Read source numbers and English strings; do not copy raster text, prices, rewards or invented widgets. Treat images as style only."
+}

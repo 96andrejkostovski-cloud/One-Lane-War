@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW release_checklist structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "blocks_release": {
+        "type": "boolean"
+      },
+      "domain": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "null"
+      },
+      "id": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "required": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "blocks_release",
+      "domain",
+      "evidence",
+      "id",
+      "owner",
+      "required",
+      "status"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 16,
+  "maxItems": 16
+}

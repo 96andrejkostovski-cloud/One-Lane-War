@@ -1,0 +1,551 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW game_rules structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "acquisition": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "balance_status": {
+      "type": "string"
+    },
+    "balance_version": {
+      "type": "string"
+    },
+    "base_fronts_m": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "battle": {
+      "type": "object",
+      "properties": {
+        "base_attacks": {
+          "type": "boolean"
+        },
+        "base_healing": {
+          "type": "boolean"
+        },
+        "enemy_orders_expire_at_s": {
+          "type": "integer"
+        },
+        "enemy_policy": {
+          "type": "string"
+        },
+        "enemy_rally": {
+          "type": "boolean"
+        },
+        "forced_app_stop": {
+          "type": "string"
+        },
+        "hard_time_limit_s": {
+          "type": "integer"
+        },
+        "overtime": {
+          "type": "string"
+        },
+        "pause": {
+          "type": "string"
+        },
+        "player_base_default_hp": {
+          "type": "integer"
+        },
+        "simultaneous_base_destruction": {
+          "type": "string"
+        },
+        "soft_time_limit_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "base_attacks",
+        "base_healing",
+        "enemy_orders_expire_at_s",
+        "enemy_policy",
+        "enemy_rally",
+        "forced_app_stop",
+        "hard_time_limit_s",
+        "overtime",
+        "pause",
+        "player_base_default_hp",
+        "simultaneous_base_destruction",
+        "soft_time_limit_s"
+      ],
+      "additionalProperties": false
+    },
+    "cloud_progression": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "string"
+    },
+    "design_lock_authorized": {
+      "type": "boolean"
+    },
+    "engine_candidate": {
+      "type": "string"
+    },
+    "expedition": {
+      "type": "object",
+      "properties": {
+        "additional_rewarded_rerolls_per_expedition": {
+          "type": "integer"
+        },
+        "base_and_supply_reset_each_battle": {
+          "type": "boolean"
+        },
+        "battles": {
+          "type": "integer"
+        },
+        "draft_before_battles": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "equipped_units": {
+          "type": "integer"
+        },
+        "free_rerolls_per_expedition": {
+          "type": "integer"
+        },
+        "loadout_locked": {
+          "type": "string"
+        },
+        "options_per_draft": {
+          "type": "integer"
+        },
+        "run_duration_target_minutes": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "same_upgrade_repeats": {
+          "type": "boolean"
+        },
+        "selected_upgrades_max": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "additional_rewarded_rerolls_per_expedition",
+        "base_and_supply_reset_each_battle",
+        "battles",
+        "draft_before_battles",
+        "equipped_units",
+        "free_rerolls_per_expedition",
+        "loadout_locked",
+        "options_per_draft",
+        "run_duration_target_minutes",
+        "same_upgrade_repeats",
+        "selected_upgrades_max"
+      ],
+      "additionalProperties": false
+    },
+    "formation_contract": {
+      "type": "object",
+      "properties": {
+        "base_attack_blocking": {
+          "type": "string"
+        },
+        "crossing": {
+          "type": "string"
+        },
+        "crowding": {
+          "type": "string"
+        },
+        "engagement_slots_per_side": {
+          "type": "integer"
+        },
+        "friendly_group_spacing_m": {
+          "type": "number"
+        },
+        "proof_status": {
+          "type": "string"
+        },
+        "range_tolerance_m": {
+          "type": "number"
+        },
+        "ranged_queue_spacing_m": {
+          "type": "number"
+        },
+        "ranged_retreat": {
+          "type": "boolean"
+        },
+        "slot_assignment": {
+          "type": "string"
+        },
+        "target_selection": {
+          "type": "string"
+        },
+        "unprotected_ranged": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "base_attack_blocking",
+        "crossing",
+        "crowding",
+        "engagement_slots_per_side",
+        "friendly_group_spacing_m",
+        "proof_status",
+        "range_tolerance_m",
+        "ranged_queue_spacing_m",
+        "ranged_retreat",
+        "slot_assignment",
+        "target_selection",
+        "unprotected_ranged"
+      ],
+      "additionalProperties": false
+    },
+    "human_approved": {
+      "type": "boolean"
+    },
+    "initial_production_countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lane_length_m": {
+      "type": "integer"
+    },
+    "language": {
+      "type": "string"
+    },
+    "low_tier_render_fps": {
+      "type": "integer"
+    },
+    "max_alive_units_per_side": {
+      "type": "integer"
+    },
+    "max_melee_engagement_slots_per_side": {
+      "type": "integer"
+    },
+    "new_cash_spend_authorized": {
+      "type": "integer"
+    },
+    "note": {
+      "type": "string"
+    },
+    "numeric_contract": {
+      "type": "object",
+      "properties": {
+        "attack_period_ticks": {
+          "type": "string"
+        },
+        "barrier_activation": {
+          "type": "string"
+        },
+        "clock_boundaries": {
+          "type": "string"
+        },
+        "coordinate_scale_per_metre": {
+          "type": "integer"
+        },
+        "cost_rounding": {
+          "type": "string"
+        },
+        "damage_hp_rounding": {
+          "type": "string"
+        },
+        "enemy_funding": {
+          "type": "string"
+        },
+        "flat_reduction_before_barrier": {
+          "type": "boolean"
+        },
+        "integer_width_bits": {
+          "type": "integer"
+        },
+        "movement_rounding": {
+          "type": "string"
+        },
+        "percentage_scale": {
+          "type": "integer"
+        },
+        "range_measure": {
+          "type": "string"
+        },
+        "save_identity": {
+          "type": "string"
+        },
+        "simulation_tick_ms": {
+          "type": "integer"
+        },
+        "supply_rounding": {
+          "type": "string"
+        },
+        "supply_scale_per_unit": {
+          "type": "integer"
+        },
+        "timer_expiry": {
+          "type": "string"
+        },
+        "windup_ticks": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attack_period_ticks",
+        "barrier_activation",
+        "clock_boundaries",
+        "coordinate_scale_per_metre",
+        "cost_rounding",
+        "damage_hp_rounding",
+        "enemy_funding",
+        "flat_reduction_before_barrier",
+        "integer_width_bits",
+        "movement_rounding",
+        "percentage_scale",
+        "range_measure",
+        "save_identity",
+        "simulation_tick_ms",
+        "supply_rounding",
+        "supply_scale_per_unit",
+        "timer_expiry",
+        "windup_ticks"
+      ],
+      "additionalProperties": false
+    },
+    "offline_core": {
+      "type": "boolean"
+    },
+    "orientation": {
+      "type": "string"
+    },
+    "physics_damage": {
+      "type": "boolean"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "player_accounts": {
+      "type": "boolean"
+    },
+    "player_mode": {
+      "type": "string"
+    },
+    "production_authorized": {
+      "type": "boolean"
+    },
+    "rally": {
+      "type": "object",
+      "properties": {
+        "affected": {
+          "type": "string"
+        },
+        "attack_rate_bonus": {
+          "type": "number"
+        },
+        "charges_sold": {
+          "type": "boolean"
+        },
+        "cooldown_s": {
+          "type": "integer"
+        },
+        "cooldown_starts": {
+          "type": "string"
+        },
+        "damage_bonus": {
+          "type": "integer"
+        },
+        "duration_s": {
+          "type": "integer"
+        },
+        "initial_cooldown_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "affected",
+        "attack_rate_bonus",
+        "charges_sold",
+        "cooldown_s",
+        "cooldown_starts",
+        "damage_bonus",
+        "duration_s",
+        "initial_cooldown_s"
+      ],
+      "additionalProperties": false
+    },
+    "ranged_fire_through_friendlies": {
+      "type": "boolean"
+    },
+    "render_fps_target": {
+      "type": "integer"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "backgrounds": {
+          "type": "integer"
+        },
+        "chapters": {
+          "type": "integer"
+        },
+        "core_views": {
+          "type": "integer"
+        },
+        "derived_boss_variants": {
+          "type": "integer"
+        },
+        "encounter_configs": {
+          "type": "integer"
+        },
+        "expeditions_per_chapter": {
+          "type": "integer"
+        },
+        "forced_ads": {
+          "type": "integer"
+        },
+        "iap_products": {
+          "type": "integer"
+        },
+        "new_features_excluded": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rewarded_placements": {
+          "type": "integer"
+        },
+        "units": {
+          "type": "integer"
+        },
+        "upgrade_definitions": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "backgrounds",
+        "chapters",
+        "core_views",
+        "derived_boss_variants",
+        "encounter_configs",
+        "expeditions_per_chapter",
+        "forced_ads",
+        "iap_products",
+        "new_features_excluded",
+        "rewarded_placements",
+        "units",
+        "upgrade_definitions"
+      ],
+      "additionalProperties": false
+    },
+    "simulation_hz": {
+      "type": "integer"
+    },
+    "source_package": {
+      "type": "string"
+    },
+    "spawn_positions_m": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "supply": {
+      "type": "object",
+      "properties": {
+        "cap": {
+          "type": "integer"
+        },
+        "cap_reached": {
+          "type": "string"
+        },
+        "deployment_cooldown_s": {
+          "type": "number"
+        },
+        "insufficient_funds": {
+          "type": "string"
+        },
+        "on_kill": {
+          "type": "integer"
+        },
+        "rate_per_s": {
+          "type": "integer"
+        },
+        "start": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cap",
+        "cap_reached",
+        "deployment_cooldown_s",
+        "insufficient_funds",
+        "on_kill",
+        "rate_per_s",
+        "start"
+      ],
+      "additionalProperties": false
+    },
+    "toolchain_lock": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "visual_approval": {
+      "type": "string"
+    },
+    "workflow_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "acquisition",
+    "audience",
+    "balance_status",
+    "balance_version",
+    "base_fronts_m",
+    "battle",
+    "cloud_progression",
+    "date",
+    "design_lock_authorized",
+    "engine_candidate",
+    "expedition",
+    "formation_contract",
+    "human_approved",
+    "initial_production_countries",
+    "lane_length_m",
+    "language",
+    "low_tier_render_fps",
+    "max_alive_units_per_side",
+    "max_melee_engagement_slots_per_side",
+    "new_cash_spend_authorized",
+    "note",
+    "numeric_contract",
+    "offline_core",
+    "orientation",
+    "physics_damage",
+    "platform",
+    "player_accounts",
+    "player_mode",
+    "production_authorized",
+    "rally",
+    "ranged_fire_through_friendlies",
+    "render_fps_target",
+    "scope",
+    "simulation_hz",
+    "source_package",
+    "spawn_positions_m",
+    "status",
+    "supply",
+    "toolchain_lock",
+    "version",
+    "visual_approval",
+    "workflow_version"
+  ],
+  "additionalProperties": false
+}

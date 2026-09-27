@@ -1,0 +1,287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW S1 logical payload, core constraints",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "save_revision",
+    "source_version",
+    "balance_version",
+    "settings",
+    "medals",
+    "unlocked_units",
+    "unlocked_banners",
+    "completed_expeditions",
+    "first_clear_paid",
+    "tutorial",
+    "selected_loadout",
+    "selected_cosmetic",
+    "active_run",
+    "last_run_result",
+    "settlement_journal",
+    "pending_rewards",
+    "entitlement_receipts"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "save_revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "medals": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    "unlocked_units": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "militia",
+          "shieldguard",
+          "crossbowman",
+          "grenadier",
+          "brute",
+          "ram"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "completed_expeditions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "c01_e01",
+          "c01_e02",
+          "c01_e03",
+          "c02_e01",
+          "c02_e02",
+          "c02_e03",
+          "c03_e01",
+          "c03_e02",
+          "c03_e03"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "first_clear_paid": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "c01_e01",
+          "c01_e02",
+          "c01_e03",
+          "c02_e01",
+          "c02_e02",
+          "c02_e03",
+          "c03_e01",
+          "c03_e02",
+          "c03_e03"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "selected_loadout": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "militia",
+          "shieldguard",
+          "crossbowman",
+          "grenadier",
+          "brute",
+          "ram"
+        ]
+      },
+      "uniqueItems": true,
+      "maxItems": 4,
+      "minItems": 4
+    },
+    "active_run": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "run_id",
+            "expedition_id",
+            "loadout",
+            "selected_upgrades",
+            "battle_index",
+            "phase",
+            "seed",
+            "prng_state",
+            "offers",
+            "offer_ordinal",
+            "free_rerolls_remaining",
+            "extra_reroll_state",
+            "banked_battle_medals",
+            "content_version"
+          ],
+          "properties": {
+            "run_id": {
+              "type": "string"
+            },
+            "expedition_id": {
+              "enum": [
+                "c01_e01",
+                "c01_e02",
+                "c01_e03",
+                "c02_e01",
+                "c02_e02",
+                "c02_e03",
+                "c03_e01",
+                "c03_e02",
+                "c03_e03"
+              ]
+            },
+            "loadout": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "militia",
+                  "shieldguard",
+                  "crossbowman",
+                  "grenadier",
+                  "brute",
+                  "ram"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 4,
+              "minItems": 4
+            },
+            "selected_upgrades": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "u01",
+                  "u02",
+                  "u03",
+                  "u04",
+                  "u05",
+                  "u06",
+                  "u07",
+                  "u08",
+                  "u09",
+                  "u10",
+                  "u11",
+                  "u12",
+                  "u13",
+                  "u14",
+                  "u15",
+                  "u16",
+                  "u17",
+                  "u18",
+                  "u19",
+                  "u20",
+                  "u21",
+                  "u22",
+                  "u23",
+                  "u24"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 4
+            },
+            "battle_index": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            },
+            "phase": {
+              "enum": [
+                "DRAFT_PENDING",
+                "DRAFT_READY",
+                "PREBATTLE",
+                "BATTLE_ACTIVE",
+                "RESULT_COMMITTING",
+                "BETWEEN_BATTLES",
+                "RUN_RESULTS"
+              ]
+            },
+            "seed": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4294967295
+            },
+            "prng_state": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4294967295
+            },
+            "offers": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "u01",
+                  "u02",
+                  "u03",
+                  "u04",
+                  "u05",
+                  "u06",
+                  "u07",
+                  "u08",
+                  "u09",
+                  "u10",
+                  "u11",
+                  "u12",
+                  "u13",
+                  "u14",
+                  "u15",
+                  "u16",
+                  "u17",
+                  "u18",
+                  "u19",
+                  "u20",
+                  "u21",
+                  "u22",
+                  "u23",
+                  "u24"
+                ]
+              },
+              "uniqueItems": true,
+              "maxItems": 3
+            },
+            "offer_ordinal": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "free_rerolls_remaining": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "extra_reroll_state": {
+              "enum": [
+                "AVAILABLE",
+                "EARNED_PENDING_COMMIT",
+                "USED"
+              ]
+            },
+            "banked_battle_medals": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "content_version": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "entitlement_receipts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "verifiedcompactJWS,notbooleanownership"
+      }
+    }
+  },
+  "additionalProperties": true
+}

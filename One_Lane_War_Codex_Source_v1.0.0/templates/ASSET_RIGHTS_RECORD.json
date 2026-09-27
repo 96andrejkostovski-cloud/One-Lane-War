@@ -1,0 +1,21 @@
+{
+  "asset_id": null,
+  "provider": null,
+  "model": null,
+  "account_licence_holder": null,
+  "creation_utc": null,
+  "download_utc": null,
+  "plan_at_creation": null,
+  "terms_reference": null,
+  "supplied_reference_rights": [],
+  "prompt_path": null,
+  "original_path": null,
+  "original_sha256": null,
+  "revisions": [],
+  "runtime_exports": [],
+  "font_or_code_notice": null,
+  "visual_approval": "PENDING",
+  "technical_approval": "PENDING",
+  "rights_review": "PENDING",
+  "integration_evidence": null
+}

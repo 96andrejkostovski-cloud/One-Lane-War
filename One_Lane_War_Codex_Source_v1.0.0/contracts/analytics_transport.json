@@ -1,0 +1,96 @@
+{
+  "id": "A001_TRANSPORT_1",
+  "custom_event_count": 35,
+  "preserved_event_source": "data/analytics_events.json",
+  "canonical_auto_events": [
+    "first_open",
+    "user_engagement",
+    "ad_impression",
+    "in_app_purchase_when_present"
+  ],
+  "event_parameter_limit": 25,
+  "value_policy": "string/long/double SDK supported scalar;neverrawtokens;boundedcodes;nocustomnestedobjects",
+  "ordered_loadout_id": "comma-joined4stableunitIDsindisplayorder",
+  "build_id": "comma-joinedselectedupgradeIDssortedlexicographically",
+  "draft_options": "existingoption_1/2/3scalarfields;noarrayrequired",
+  "optional_envelope_fields": [
+    "source_version",
+    "schema_version"
+  ],
+  "performance_summary_extension": {
+    "sample_kind": [
+      "qualifying_gameplay",
+      "session_summary"
+    ],
+    "foreground_gameplay_ms": "integer",
+    "reason": "Additive transport mapping without new eventname;explicit A001 transport revision",
+    "qualifying_emission": "onceatfirst10000msrealforegroundactivebattleineachnewforegroundplaysegment;measurep95andmemoryoverwindow;duration_s=10",
+    "not_simulated_time": true,
+    "not_emitted_if_collection_disabled": true
+  },
+  "normalized_views": {
+    "olw_events": {
+      "event_id": "STRING",
+      "user_key": "STRING",
+      "event_timestamp": "TIMESTAMP",
+      "event_name": "STRING",
+      "environment": "STRING",
+      "app_version": "STRING",
+      "balance_version": "STRING",
+      "run_id": "STRING",
+      "attempt_id": "STRING",
+      "encounter_id": "STRING",
+      "params_json": "STRING",
+      "is_test": "BOOL"
+    },
+    "olw_installs": {
+      "user_key": "STRING",
+      "first_observed_open": "TIMESTAMP",
+      "source": "STRING",
+      "country": "STRING",
+      "is_test": "BOOL",
+      "consent_observed": "BOOL"
+    },
+    "olw_activity": {
+      "user_key": "STRING",
+      "activity_at": "TIMESTAMP",
+      "foreground_gameplay_ms": "INT64",
+      "sample_kind": "STRING",
+      "is_test": "BOOL"
+    },
+    "olw_ad_revenue": {
+      "impression_id": "STRING",
+      "user_key": "STRING",
+      "paid_at": "TIMESTAMP",
+      "placement_id": "STRING",
+      "currency": "STRING",
+      "value_micros": "INT64",
+      "precision": "STRING",
+      "is_test": "BOOL"
+    },
+    "olw_purchase_ledger": {
+      "ledger_id": "STRING",
+      "user_key": "STRING_OR_NULL",
+      "occurred_at": "TIMESTAMP",
+      "product_id": "STRING",
+      "currency": "STRING",
+      "gross_micros": "INT64",
+      "refund_micros": "INT64",
+      "net_settlement_micros": "INT64_OR_NULL",
+      "is_test": "BOOL",
+      "verification_state": "STRING"
+    }
+  },
+  "normalization_rules": [
+    "Firebase export user_pseudo_idpseudonymouskeynotperson",
+    "Event paramsflattenfromtypedkeyvalues",
+    "dedupcustombyevent_id",
+    "qualifyingactivityfromperformance_summarysample_kindqualifying_gameplay",
+    "installsfirstobservedconsentedfirst_openmaybelaterthaninstallation",
+    "automaticad/purchasechooseonecanonicalpath",
+    "paidcallbackmoney integercurrencyprecision",
+    "noinventedlinkfromanonymouspurchasetoanalyticsuserwithoutlawfulmapping"
+  ],
+  "live_export_status": "NOT_DEPLOYED",
+  "sql_status": "TEMPLATES_NOT_EXECUTED_ON_BIGQUERY"
+}

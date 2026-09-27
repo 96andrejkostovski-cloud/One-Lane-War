@@ -1,0 +1,162 @@
+[
+  {
+    "id": "DEP01",
+    "item": "Final commercial title",
+    "blocks_phase": "PH05",
+    "owner": "owner/director",
+    "acceptance": "Name/store/trademark review before public identity setup",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP02",
+    "item": "Final production package ID",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "One identity across Play,Firebase,AdMob and server; development com.example never ships",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP03",
+    "item": "Verified legal publisher/D-U-N-S/organization account",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "Secure actual verified entity records; no private identifiers in Git",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP04",
+    "item": "Publisher website/support/privacy URLs",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "Real reachable approved pages",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP05",
+    "item": "Play merchant/payout/tax profile",
+    "blocks_phase": "PH10",
+    "owner": "owner",
+    "acceptance": "Verified actual business setup",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP06",
+    "item": "Real service projects/app IDs/test accounts",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "Explicit deployment/test authorization and cost review",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP07",
+    "item": "Signing/upload key and receipt signing keys",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "Secure location,public fingerprints,recovery; no private key in source",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP08",
+    "item": "Unity executable/modules and licence entitlement",
+    "blocks_phase": "PH01",
+    "owner": "Codex/owner",
+    "acceptance": "Actual host inspection and lawful use; not a guessed path",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": true
+  },
+  {
+    "id": "DEP09",
+    "item": "Usable ARM64 AVD/native loading route",
+    "blocks_phase": "PH01",
+    "owner": "Codex",
+    "acceptance": "Record image,host,ABI and logs; block incompatible row,not gameplay by fiction",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": true
+  },
+  {
+    "id": "DEP10",
+    "item": "Physical ARM64 phone release smoke evidence",
+    "blocks_phase": "PH10",
+    "owner": "owner/Codex",
+    "acceptance": "Play-installed real build; no purchase of new device authorized",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP11",
+    "item": "Actual final artwork/lighting/shadow/UI target approval",
+    "blocks_phase": "PH07",
+    "owner": "owner",
+    "acceptance": "From real working placeholder screenshots,not abstract concept alone",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP12",
+    "item": "Output-specific asset/audio/font/code rights",
+    "blocks_phase": "PH08",
+    "owner": "owner/director",
+    "acceptance": "No font binaries in source; licence evidence for actual final outputs",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP13",
+    "item": "Privacy basis,retention,trader/consumer regional review",
+    "blocks_phase": "PH10",
+    "owner": "owner/qualified reviewer",
+    "acceptance": "Actual final SDK traffic and company/market obligations",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP14",
+    "item": "Store IARC and honest target-audience review",
+    "blocks_phase": "PH10",
+    "owner": "owner",
+    "acceptance": "Adult creative target is not a rating or child-policy exemption",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP15",
+    "item": "Explicit store submission/publication approval",
+    "blocks_phase": "PH11",
+    "owner": "owner",
+    "acceptance": "Exact AAB hash,countries,products and notices",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  },
+  {
+    "id": "DEP16",
+    "item": "New cash spend authorization",
+    "blocks_phase": "PH05",
+    "owner": "owner",
+    "acceptance": "Zero unapproved spend; provider access does not grant new budget",
+    "value": null,
+    "status": "UNRESOLVED_EXTERNAL_INPUT",
+    "blocks_offline_placeholder": false
+  }
+]

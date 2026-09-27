@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW units structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "attack_period_s": {
+        "type": "number"
+      },
+      "attack_period_ticks": {
+        "type": "integer"
+      },
+      "base_damage": {
+        "type": "integer"
+      },
+      "collision_half_width_m": {
+        "type": "number"
+      },
+      "combat_role": {
+        "type": "string"
+      },
+      "damage": {
+        "type": "integer"
+      },
+      "flat_damage_reduction": {
+        "type": "integer"
+      },
+      "hp": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "string"
+      },
+      "master_asset_id": {
+        "type": "string"
+      },
+      "move_speed_m_s": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "projectile_speed_m_s": {
+        "type": "integer"
+      },
+      "range_m": {
+        "type": "number"
+      },
+      "rig": {
+        "type": "string"
+      },
+      "splash_radius_m": {
+        "type": "number"
+      },
+      "supply_cost": {
+        "type": "integer"
+      },
+      "tuning_status": {
+        "type": "string"
+      },
+      "unlock_medals": {
+        "type": "integer"
+      },
+      "unlocked_initially": {
+        "type": "boolean"
+      },
+      "windup_s": {
+        "type": "number"
+      },
+      "windup_ticks": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "attack_period_s",
+      "attack_period_ticks",
+      "base_damage",
+      "collision_half_width_m",
+      "combat_role",
+      "damage",
+      "flat_damage_reduction",
+      "hp",
+      "id",
+      "master_asset_id",
+      "move_speed_m_s",
+      "name",
+      "projectile_speed_m_s",
+      "range_m",
+      "rig",
+      "splash_radius_m",
+      "supply_cost",
+      "tuning_status",
+      "unlock_medals",
+      "unlocked_initially",
+      "windup_s",
+      "windup_ticks"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 6,
+  "maxItems": 6
+}

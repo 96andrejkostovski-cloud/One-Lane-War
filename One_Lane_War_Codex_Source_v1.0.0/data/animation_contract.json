@@ -1,0 +1,217 @@
+{
+  "status": "MECHANICS_LOCKED_V001_STYLE_APPROVED_FINAL_ART_DEFERRED",
+  "coordinate_convention": "2D local XY; side-facing character; feet origin; engine metadata normalized before export",
+  "source_canvas_height_px": 1024,
+  "pixels_per_unit": 512,
+  "rigs": {
+    "biped": {
+      "reused_by": [
+        "militia",
+        "shieldguard",
+        "crossbowman",
+        "grenadier",
+        "brute"
+      ],
+      "root": "root",
+      "parts": [
+        "hips",
+        "torso",
+        "head",
+        "rear_upper_arm",
+        "rear_lower_arm",
+        "rear_hand",
+        "rear_upper_leg",
+        "rear_lower_leg",
+        "rear_foot",
+        "front_upper_arm",
+        "front_lower_arm",
+        "front_hand",
+        "front_upper_leg",
+        "front_lower_leg",
+        "front_foot",
+        "weapon",
+        "shield_optional"
+      ],
+      "sockets": [
+        "projectile_origin",
+        "weapon_tip",
+        "barrier_center",
+        "foot_contact"
+      ]
+    },
+    "ram": {
+      "reused_by": [
+        "ram"
+      ],
+      "root": "root",
+      "parts": [
+        "body",
+        "front_wheel",
+        "rear_wheel",
+        "striker",
+        "crest_optional"
+      ],
+      "sockets": [
+        "impact_tip",
+        "dust_front",
+        "dust_rear"
+      ]
+    }
+  },
+  "part_required_fields": [
+    "id",
+    "parent",
+    "pivot_local_xy",
+    "position_local_xy",
+    "rotation_deg",
+    "sorting_order",
+    "pixels_per_unit",
+    "source_path",
+    "sha256",
+    "approval"
+  ],
+  "states": [
+    "idle",
+    "move",
+    "attack",
+    "hit",
+    "death",
+    "victory"
+  ],
+  "attack_authority": "simulation normalized phase; no animation event damage",
+  "facings": [
+    "right",
+    "left"
+  ],
+  "visual_checks": [
+    "joint overlap without holes",
+    "ground contact",
+    "no floating grip",
+    "socket follows facing",
+    "real phone scale",
+    "crowded battlefield readability",
+    "no baked mirrored text"
+  ],
+  "proof_units": [
+    "militia",
+    "crossbowman",
+    "ram"
+  ],
+  "canvas": {
+    "width_px": 1024,
+    "height_px": 1024,
+    "transparent": true,
+    "reference_only": "body may occupy less than canvas; physical collision size belongs to units.json"
+  },
+  "rig_method": "SpriteRenderer transform hierarchy + Unity AnimationClip/Animator; no external skeletal package, root motion or SpriteSkin required",
+  "normalized_attack_phases": true,
+  "transition_blend_s": 0.08,
+  "hit_reaction_overlay_s": 0.1,
+  "hit_reaction_interrupts_attack": false,
+  "death_overrides_all_visual_states": true,
+  "root_motion": false,
+  "simulation_hit_pause": false,
+  "visual_approval_path": {
+    "owner_selects": true,
+    "style_reference": "V001",
+    "style_selected": true,
+    "generation_authorized_by_this_package": false,
+    "no_mass_generation_until": "PH06 complete placeholder-game acceptance AND PH07 screenshot-derived target approval AND PH08 three-unit final-art motion proof",
+    "mechanical_lock_survives_style_selection": true,
+    "placeholder_proof": "primitive separated parts or transforms, no provider generation; same sockets/timing as final"
+  },
+  "per_unit_timing": [
+    {
+      "unit_id": "militia",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": 0.64,
+      "attack_nominal_s": 0.8,
+      "anticipation_release_s": 0.2,
+      "followthrough_s": 0.15,
+      "recovery_s": 0.45,
+      "death_s": 0.45,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value"
+    },
+    {
+      "unit_id": "shieldguard",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": 0.9,
+      "attack_nominal_s": 1.1,
+      "anticipation_release_s": 0.25,
+      "followthrough_s": 0.2,
+      "recovery_s": 0.65,
+      "death_s": 0.6,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value"
+    },
+    {
+      "unit_id": "crossbowman",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": 0.8,
+      "attack_nominal_s": 1.8,
+      "anticipation_release_s": 0.35,
+      "followthrough_s": 0.15,
+      "recovery_s": 1.3,
+      "death_s": 0.45,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value"
+    },
+    {
+      "unit_id": "grenadier",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": 0.85,
+      "attack_nominal_s": 2.4,
+      "anticipation_release_s": 0.5,
+      "followthrough_s": 0.2,
+      "recovery_s": 1.7,
+      "death_s": 0.55,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value"
+    },
+    {
+      "unit_id": "brute",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": 1.1,
+      "attack_nominal_s": 1.6,
+      "anticipation_release_s": 0.45,
+      "followthrough_s": 0.25,
+      "recovery_s": 0.9,
+      "death_s": 0.8,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value"
+    },
+    {
+      "unit_id": "ram",
+      "idle_loop_s": 2.4,
+      "move_cycle_s": null,
+      "attack_nominal_s": 2,
+      "anticipation_release_s": 0.55,
+      "followthrough_s": 0.3,
+      "recovery_s": 1.15,
+      "death_s": 1.0,
+      "corpse_fade_s": 0.25,
+      "victory_loop_s": 1.6,
+      "movement_cycle_scales_with_speed": true,
+      "attack_time_authority": "quantized simulation snapshot",
+      "pose_positions": "derived from approved layered art within this timing contract; not an unresolved game-design value",
+      "wheel_radius_m": 0.25,
+      "wheel_rule": "angle_radians += actual_distance_m / radius; no slip while stopped"
+    }
+  ]
+}

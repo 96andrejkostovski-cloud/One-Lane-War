@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW tasks structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "acceptance": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "depends_on": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "execution_authorized": {
+        "type": "boolean"
+      },
+      "forbidden": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "id": {
+        "type": "string"
+      },
+      "phase": {
+        "type": "string"
+      },
+      "qa_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "required_bibles": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "scope": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "acceptance",
+      "depends_on",
+      "execution_authorized",
+      "forbidden",
+      "id",
+      "phase",
+      "qa_ids",
+      "required_bibles",
+      "scope",
+      "status",
+      "title"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 12,
+  "maxItems": 12
+}

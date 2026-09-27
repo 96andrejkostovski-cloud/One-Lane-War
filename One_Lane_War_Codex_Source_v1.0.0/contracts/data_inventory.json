@@ -1,0 +1,103 @@
+{
+  "status": "IMPLEMENTATION_INVENTORY_REQUIRED",
+  "entries": [
+    {
+      "system": "local_save",
+      "purpose": "offlineprogress",
+      "planned_fields": [
+        "settings",
+        "Medals",
+        "unlocks",
+        "runcheckpoint",
+        "signedownership"
+      ],
+      "collection_gate": "localonly",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "FirebaseAnalytics",
+      "purpose": "optionalbehavior",
+      "planned_fields": [
+        "pseudonymousSDKID",
+        "app/deviceattributes",
+        "35boundedcustomevents"
+      ],
+      "collection_gate": "optionalanalyticschoice",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "Crashlytics",
+      "purpose": "optionaldiagnostics",
+      "planned_fields": [
+        "stack/device/app",
+        "redactederrors"
+      ],
+      "collection_gate": "diagnosticschoiceandSDKreview",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "UnityIAP",
+      "purpose": "storeintegration",
+      "planned_fields": [
+        "purchaseToken/storedata",
+        "SDKDeveloperDatatelemetry"
+      ],
+      "collection_gate": "transactionnecessary+actualDeveloperDatareview",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "AdMob_UMP",
+      "purpose": "optionalrewardedads/privacy",
+      "planned_fields": [
+        "SDKdevice/adrequestsignals",
+        "privacychoices",
+        "impression/reward"
+      ],
+      "collection_gate": "UMPandappeligibility",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "EntitlementBackend",
+      "purpose": "paidownership",
+      "planned_fields": [
+        "restrictedpurchaseToken",
+        "state",
+        "signedreceipts",
+        "refundrecord"
+      ],
+      "collection_gate": "purchase/restore",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    },
+    {
+      "system": "Support",
+      "purpose": "userrequestedhelp",
+      "planned_fields": [
+        "voluntaryemail",
+        "redacteddiagnostics"
+      ],
+      "collection_gate": "userinitiatedandexplained",
+      "actual_network_verified": false,
+      "processor_terms_reviewed": false,
+      "retention": "90dbehavior/30dsupport whereapplicable;financialactuallegaldecision",
+      "public_disclosure_completed": false
+    }
+  ]
+}

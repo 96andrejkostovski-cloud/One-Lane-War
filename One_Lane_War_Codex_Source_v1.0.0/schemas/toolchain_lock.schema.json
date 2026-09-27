@@ -1,0 +1,421 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW toolchain_lock structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "advertising": {
+      "type": "object",
+      "properties": {
+        "android_gma": {
+          "type": "string"
+        },
+        "android_ump": {
+          "type": "string"
+        },
+        "backend": {
+          "type": "string"
+        },
+        "mediation_adapters": {
+          "type": "array",
+          "items": {}
+        },
+        "resolver": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unity_plugin": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "android_gma",
+        "android_ump",
+        "backend",
+        "mediation_adapters",
+        "resolver",
+        "source_ids",
+        "unity_plugin"
+      ],
+      "additionalProperties": false
+    },
+    "android": {
+      "type": "object",
+      "properties": {
+        "android_gradle_plugin": {
+          "type": "string"
+        },
+        "backend": {
+          "type": "string"
+        },
+        "compile_api": {
+          "type": "integer"
+        },
+        "gradle": {
+          "type": "string"
+        },
+        "graphics_apis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "jdk": {
+          "type": "string"
+        },
+        "jdk_patch_policy": {
+          "type": "string"
+        },
+        "minimum_api": {
+          "type": "integer"
+        },
+        "ndk": {
+          "type": "string"
+        },
+        "ndk_label": {
+          "type": "string"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "production_abi": {
+          "type": "string"
+        },
+        "render_pipeline": {
+          "type": "string"
+        },
+        "sdk_build_tools": {
+          "type": "string"
+        },
+        "sdk_command_line_tools": {
+          "type": "string"
+        },
+        "sdk_platform_tools": {
+          "type": "string"
+        },
+        "signing": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "target_api": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "android_gradle_plugin",
+        "backend",
+        "compile_api",
+        "gradle",
+        "graphics_apis",
+        "jdk",
+        "jdk_patch_policy",
+        "minimum_api",
+        "ndk",
+        "ndk_label",
+        "orientation",
+        "production_abi",
+        "render_pipeline",
+        "sdk_build_tools",
+        "sdk_command_line_tools",
+        "sdk_platform_tools",
+        "signing",
+        "source_ids",
+        "target_api"
+      ],
+      "additionalProperties": false
+    },
+    "backend": {
+      "type": "object",
+      "properties": {
+        "database": {
+          "type": "string"
+        },
+        "deployed": {
+          "type": "boolean"
+        },
+        "firebase_admin": {
+          "type": "string"
+        },
+        "firebase_functions": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "provider": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "reporting_region": {
+          "type": "string"
+        },
+        "runtime": {
+          "type": "string"
+        },
+        "runtime_version_note": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "database",
+        "deployed",
+        "firebase_admin",
+        "firebase_functions",
+        "language",
+        "provider",
+        "region",
+        "reporting_region",
+        "runtime",
+        "runtime_version_note",
+        "source_ids"
+      ],
+      "additionalProperties": false
+    },
+    "conflict_rule": {
+      "type": "string"
+    },
+    "development_tools": {
+      "type": "object",
+      "properties": {
+        "android_emulator": {
+          "type": "string"
+        },
+        "android_studio": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "android_emulator",
+        "android_studio",
+        "source_ids"
+      ],
+      "additionalProperties": false
+    },
+    "editor": {
+      "type": "object",
+      "properties": {
+        "changeset": {
+          "type": "string"
+        },
+        "line": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "changeset",
+        "line",
+        "source_id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "firebase": {
+      "type": "object",
+      "properties": {
+        "android_bom": {
+          "type": "string"
+        },
+        "cpp": {
+          "type": "string"
+        },
+        "edm4u": {
+          "type": "string"
+        },
+        "import": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "unity": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "android_bom",
+        "cpp",
+        "edm4u",
+        "import",
+        "source_id",
+        "unity"
+      ],
+      "additionalProperties": false
+    },
+    "id": {
+      "type": "string"
+    },
+    "joint_compatibility_status": {
+      "type": "string"
+    },
+    "latest_version_claim": {
+      "type": "boolean"
+    },
+    "no_silent_replacements": {
+      "type": "boolean"
+    },
+    "phase_policy": {
+      "type": "object",
+      "properties": {
+        "PH01": {
+          "type": "string"
+        },
+        "PH05": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "PH01",
+        "PH05"
+      ],
+      "additionalProperties": false
+    },
+    "purchases": {
+      "type": "object",
+      "properties": {
+        "android_billing": {
+          "type": "string"
+        },
+        "d2c": {
+          "type": "boolean"
+        },
+        "google_play_only": {
+          "type": "boolean"
+        },
+        "remote_catalog": {
+          "type": "boolean"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "telemetry_review": {
+          "type": "string"
+        },
+        "unity_analytics": {
+          "type": "boolean"
+        },
+        "unity_iap": {
+          "type": "string"
+        },
+        "webshop": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "android_billing",
+        "d2c",
+        "google_play_only",
+        "remote_catalog",
+        "source_id",
+        "telemetry_review",
+        "unity_analytics",
+        "unity_iap",
+        "webshop"
+      ],
+      "additionalProperties": false
+    },
+    "resolution_evidence_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "selection_date": {
+      "type": "string"
+    },
+    "selection_status": {
+      "type": "string"
+    },
+    "unity_package_policy": {
+      "type": "string"
+    },
+    "unity_packages": {
+      "type": "object",
+      "properties": {
+        "com.unity.inputsystem": {
+          "type": "string"
+        },
+        "com.unity.nuget.newtonsoft-json": {
+          "type": "string"
+        },
+        "com.unity.purchasing": {
+          "type": "string"
+        },
+        "com.unity.services.core": {
+          "type": "string"
+        },
+        "com.unity.test-framework": {
+          "type": "string"
+        },
+        "com.unity.ugui": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "com.unity.inputsystem",
+        "com.unity.nuget.newtonsoft-json",
+        "com.unity.purchasing",
+        "com.unity.services.core",
+        "com.unity.test-framework",
+        "com.unity.ugui"
+      ],
+      "additionalProperties": false
+    },
+    "verification_note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "advertising",
+    "android",
+    "backend",
+    "conflict_rule",
+    "development_tools",
+    "editor",
+    "firebase",
+    "id",
+    "joint_compatibility_status",
+    "latest_version_claim",
+    "no_silent_replacements",
+    "phase_policy",
+    "purchases",
+    "resolution_evidence_required",
+    "selection_date",
+    "selection_status",
+    "unity_package_policy",
+    "unity_packages",
+    "verification_note"
+  ],
+  "additionalProperties": false
+}

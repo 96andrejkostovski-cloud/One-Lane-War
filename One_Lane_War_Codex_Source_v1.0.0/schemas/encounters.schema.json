@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW encounters structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "adaptive_counter_selection": {
+        "type": "boolean"
+      },
+      "battle_index": {
+        "type": "integer"
+      },
+      "boss_queue_index_zero_based": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "integer"
+          }
+        ]
+      },
+      "boss_queue_replacement": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "boss_reveal_lead_s": {
+        "type": "integer"
+      },
+      "boss_variant": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "chapter": {
+        "type": "integer"
+      },
+      "enemy_base_hp": {
+        "type": "integer"
+      },
+      "enemy_first_deployment_earliest_s": {
+        "type": "integer"
+      },
+      "enemy_min_deployment_gap_s": {
+        "type": "number"
+      },
+      "enemy_orders_expire_at_s": {
+        "type": "integer"
+      },
+      "enemy_rally": {
+        "type": "boolean"
+      },
+      "enemy_spawn_queue": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "enemy_stat_multiplier": {
+        "type": "number"
+      },
+      "enemy_supply_cap": {
+        "type": "integer"
+      },
+      "enemy_supply_rate_per_s": {
+        "type": "number"
+      },
+      "enemy_supply_start": {
+        "type": "integer"
+      },
+      "enemy_total_supply_budget": {
+        "type": "integer"
+      },
+      "environment_asset_id": {
+        "type": "string"
+      },
+      "expedition_id": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "loss_medals": {
+        "type": "integer"
+      },
+      "minimum_funding_only_last_deployment_s": {
+        "type": "number"
+      },
+      "pattern_id": {
+        "type": "string"
+      },
+      "player_base_hp": {
+        "type": "integer"
+      },
+      "policy": {
+        "type": "string"
+      },
+      "schedule_note": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "target_seconds": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "win_medals": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "adaptive_counter_selection",
+      "battle_index",
+      "boss_queue_index_zero_based",
+      "boss_queue_replacement",
+      "boss_reveal_lead_s",
+      "boss_variant",
+      "chapter",
+      "enemy_base_hp",
+      "enemy_first_deployment_earliest_s",
+      "enemy_min_deployment_gap_s",
+      "enemy_orders_expire_at_s",
+      "enemy_rally",
+      "enemy_spawn_queue",
+      "enemy_stat_multiplier",
+      "enemy_supply_cap",
+      "enemy_supply_rate_per_s",
+      "enemy_supply_start",
+      "enemy_total_supply_budget",
+      "environment_asset_id",
+      "expedition_id",
+      "id",
+      "loss_medals",
+      "minimum_funding_only_last_deployment_s",
+      "pattern_id",
+      "player_base_hp",
+      "policy",
+      "schedule_note",
+      "status",
+      "target_seconds",
+      "win_medals"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 36,
+  "maxItems": 36
+}

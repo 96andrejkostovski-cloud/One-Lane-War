@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW screenshot_pack structure v1.0.0",
+  "type": "object",
+  "properties": {
+    "capture_after": {
+      "type": "string"
+    },
+    "captures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "view": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "filename",
+          "id",
+          "state",
+          "status",
+          "view"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "generation_rule": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "native_sizes_also_required": {
+      "type": "boolean"
+    },
+    "raw_capture_no_retouch": {
+      "type": "boolean"
+    },
+    "recordings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_size": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "sidecar_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "target_approval_phase": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "capture_after",
+    "captures",
+    "generation_rule",
+    "id",
+    "native_sizes_also_required",
+    "raw_capture_no_retouch",
+    "recordings",
+    "reference_size",
+    "sidecar_required",
+    "target_approval_phase"
+  ],
+  "additionalProperties": false
+}

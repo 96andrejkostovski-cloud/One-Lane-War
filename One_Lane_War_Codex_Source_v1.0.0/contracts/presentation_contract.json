@@ -1,0 +1,74 @@
+{
+  "id": "PENDING_P001",
+  "workflow": "WF002",
+  "approved_style": "V001",
+  "final_art_generation_phase": "PH08",
+  "screenshots_required_first": true,
+  "locked_technical": {
+    "reference_canvas": [
+      1920,
+      1080
+    ],
+    "camera": "orthographic fixedduringbattle fit_safe_gameplay_rect",
+    "render_pipeline": "built_in_2d",
+    "graphics": "OpenGLES3",
+    "color_space_candidate": "Linear,validate at final art proof",
+    "texture_baseline": "ETC2;inspectalpha",
+    "filter": "bilinear",
+    "atlas_max": 4096,
+    "atlas_groups": [
+      "ui",
+      "troops",
+      "environments",
+      "vfx"
+    ],
+    "character_ui_mipmaps": false,
+    "environment_mipmaps": "only where minification merits;profile",
+    "runtime_text": true,
+    "font_files_in_package": false,
+    "shadow_is_gameplay": false
+  },
+  "placeholder_defaults": {
+    "shapes": "distinct labeled primitive per role",
+    "team_blue_red_plus_symbols": true,
+    "shadows": "simple local ellipse optional,no collision",
+    "postprocessing": false,
+    "generated_final_assets": false
+  },
+  "final_values_deferred_to_actual_capture_approval": [
+    "apparent_key_light_direction",
+    "shadow_opacity",
+    "shadow_tint",
+    "shadow_blur",
+    "shadow_offset",
+    "horizon_height",
+    "troop_pixel_height",
+    "fortress_art_width",
+    "palette",
+    "final_ui_radii_borders_gradients",
+    "exact_font_sizes_after_safearea",
+    "material_grading",
+    "final_vfx_sprite_and_density"
+  ],
+  "not_deferred": [
+    "combatstats",
+    "attacktiming",
+    "modelhitboxes",
+    "inputbehavior",
+    "UIstatecoverage",
+    "sourceIDs"
+  ],
+  "no_engine_pipeline_change_without_amendment": true,
+  "font_preferences": {
+    "display": "Roboto Slab ExtraBold",
+    "functional": "Inter SemiBold/Bold",
+    "fallback": "Noto Sans"
+  },
+  "acceptance": [
+    "samestatebeforetargetaftercaptures",
+    "24v24readable",
+    "B001numericvalues",
+    "bothlandscapeorientations",
+    "nopaintoversasstorescreenshots"
+  ]
+}

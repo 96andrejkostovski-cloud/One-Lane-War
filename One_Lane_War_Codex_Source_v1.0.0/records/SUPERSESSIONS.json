@@ -1,0 +1,104 @@
+[
+  {
+    "id": "C01",
+    "old": "Final animation/asset proof before first code",
+    "current": "PH01–PH06 placeholders;externalproductionPH08",
+    "reason": "Latest owner WF002"
+  },
+  {
+    "id": "C02",
+    "old": "One single expedition called entire game",
+    "current": "CORE001foundation;CORE002all9/36;PH06entireplaceholder",
+    "reason": "Fullplaceholder scope"
+  },
+  {
+    "id": "C03",
+    "old": "Images showed4000HP/1000Supply/differentprices",
+    "current": "UseB001900playerHP/200Supply/20,45,50,65startercosts",
+    "reason": "Imagesstyleonly"
+  },
+  {
+    "id": "C04",
+    "old": "Reactive counter-buy AI example",
+    "current": "Finite exact queues inencounters.json",
+    "reason": "B001"
+  },
+  {
+    "id": "C05",
+    "old": "$7.99 Ad-free proposal",
+    "current": "$4.99 initially;$2.99cosmetic",
+    "reason": "B001"
+  },
+  {
+    "id": "C06",
+    "old": "Old barrier expires while walking",
+    "current": "8stimerfirstpositivepostmitigationdamage",
+    "reason": "B001"
+  },
+  {
+    "id": "C07",
+    "old": "All SDK imports in first build",
+    "current": "PH01coreonly;PH05commercialSDKs",
+    "reason": "Latest CORE001"
+  },
+  {
+    "id": "C08",
+    "old": "Selected visual means exactlighting/shadowsapproved",
+    "current": "V001styleapproved,P001exactcapture-derivedlater",
+    "reason": "Latest owner/direction"
+  },
+  {
+    "id": "C09",
+    "old": "100%pixelperfectgeneration promise",
+    "current": "Paintoverreference requiresgeometry/textcomparison",
+    "reason": "Honestproductioncontract"
+  },
+  {
+    "id": "C10",
+    "old": "Every lock means validatedgame/compliance",
+    "current": "Selecteddesign!=Unitybuild!=playtest!=legalrelease",
+    "reason": "Evidence separation"
+  },
+  {
+    "id": "C11",
+    "old": "18+chosen for policyavoidance",
+    "current": "Actualaudience must honestlymatchart/marketing;IARCseparate",
+    "reason": "Legal closure"
+  },
+  {
+    "id": "C12",
+    "old": "Analytics generic eventexamples replacecatalogue",
+    "current": "35canonicalexistingevents;explicittransportmapping",
+    "reason": "A001"
+  },
+  {
+    "id": "C13",
+    "old": "No backend because singleplayer",
+    "current": "No gameplaybackend;minimalpurchaseverificationonly",
+    "reason": "Singleplayerservicesboundary"
+  },
+  {
+    "id": "C14",
+    "old": "First production5% rollout",
+    "current": "Firstcountryrelease;percentageforupdateswhereavailable",
+    "reason": "Play process"
+  },
+  {
+    "id": "C15",
+    "old": "Allclosurepercentages quantifiedcompletion",
+    "current": "No percentage claims;file/evidence statesonly",
+    "reason": "Audit honesty"
+  },
+  {
+    "id": "C16",
+    "old": "Missing finaltitle blocks prototype",
+    "current": "Developmentonlycom.example.onelanewar.dev;realIDrequiredPH05",
+    "reason": "Stage specific inputs"
+  },
+  {
+    "id": "C17",
+    "old": "MockUI extra stars/units/orders are gamefeatures",
+    "current": "Noextras;functionalstatesandB001authority",
+    "reason": "Scope law"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "COV01",
+    "area": "Authority/latest decisions",
+    "bible": "bibles/00_SOURCE_GOVERNANCE.md",
+    "records": [
+      "SOURCE_AUTHORITY.json",
+      "records/DECISIONS.jsonl",
+      "records/SUPERSESSIONS.json"
+    ],
+    "phase": "PH01",
+    "required_evidence": "Source integrity and no stale history authority",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV02",
+    "area": "Product/scope/single player",
+    "bible": "bibles/01_PRODUCT_AND_PLAYER_JOURNEY.md",
+    "records": [
+      "data/game_rules.json"
+    ],
+    "phase": "PH02",
+    "required_evidence": "Full campaign offline,excluded systems absent",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV03",
+    "area": "Combat/timing/formation",
+    "bible": "bibles/02_COMBAT_SIMULATION.md",
+    "records": [
+      "data/game_rules.json",
+      "data/units.json"
+    ],
+    "phase": "PH01",
+    "required_evidence": "Model tests and deterministic harness",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV04",
+    "area": "Upgrades/draft/enemies/bosses",
+    "bible": "bibles/03_CONTENT_AND_ENEMY_DESIGN.md",
+    "records": [
+      "data/upgrades.json",
+      "data/encounters.json",
+      "data/boss_variants.json"
+    ],
+    "phase": "PH03",
+    "required_evidence": "Everyoperator/queue and all15loadouts",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV05",
+    "area": "Economy/monetization",
+    "bible": "bibles/04_CAMPAIGN_ECONOMY_MONETIZATION_DESIGN.md",
+    "records": [
+      "data/economy.json",
+      "data/products.json"
+    ],
+    "phase": "PH02",
+    "required_evidence": "Actualatomicrewardpaths;finitecatalogue",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV06",
+    "area": "UI/allstatecopy",
+    "bible": "bibles/05_UI_UX_AND_COPY.md",
+    "records": [
+      "data/ui_contract.json",
+      "data/strings_en.json"
+    ],
+    "phase": "PH04",
+    "required_evidence": "Screenstate/input/copycoverage",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV07",
+    "area": "Saves/migrations",
+    "bible": "bibles/06_SAVE_AND_RECOVERY.md",
+    "records": [
+      "schemas/save_envelope.schema.json",
+      "contracts/state_machines.json"
+    ],
+    "phase": "PH04",
+    "required_evidence": "Killpointrecoverytests",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV08",
+    "area": "Architecture/interfaces",
+    "bible": "bibles/07_TECHNICAL_ARCHITECTURE.md",
+    "records": [
+      "contracts/platform_interfaces.json"
+    ],
+    "phase": "PH01",
+    "required_evidence": "Dependencydirectionandlifecycletests",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV09",
+    "area": "Toolchain/AVD/native",
+    "bible": "bibles/08_TOOLCHAIN_ANDROID_AND_BUILD_PROFILES.md",
+    "records": [
+      "data/toolchain_lock.json",
+      "data/test_matrix.json"
+    ],
+    "phase": "PH01",
+    "required_evidence": "Actualbuild/native/environmentproof",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV10",
+    "area": "Services/ads/purchases",
+    "bible": "bibles/09_SERVICES_PURCHASES_AND_ADVERTISEMENTS.md",
+    "records": [
+      "data/service_contract.json",
+      "contracts/service_api.json"
+    ],
+    "phase": "PH05",
+    "required_evidence": "Realtestservicesnotfakes",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV11",
+    "area": "Analytics/metrics/queries",
+    "bible": "bibles/10_ANALYTICS_DATA_AND_DECISIONS.md",
+    "records": [
+      "data/analytics_events.json",
+      "contracts/analytics_transport.json",
+      "reports/sql/"
+    ],
+    "phase": "PH05",
+    "required_evidence": "Knownjourneyexportandqueries",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV12",
+    "area": "Visuals/lighting/screenshots",
+    "bible": "bibles/11_VISUAL_DIRECTION_AND_SCREENSHOT_WORKFLOW.md",
+    "records": [
+      "data/visual_references.json",
+      "data/screenshot_pack.json",
+      "contracts/presentation_contract.json"
+    ],
+    "phase": "PH07",
+    "required_evidence": "Ownerselectedreal-layouttargets",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV13",
+    "area": "Assets/animation/VFX",
+    "bible": "bibles/12_ASSETS_ANIMATION_AND_VFX.md",
+    "records": [
+      "data/assets.json",
+      "data/animation_contract.json"
+    ],
+    "phase": "PH08",
+    "required_evidence": "Finalproductionafterplaceholder",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV14",
+    "area": "Music/SFX/haptics",
+    "bible": "bibles/13_AUDIO_MUSIC_AND_HAPTICS.md",
+    "records": [
+      "data/audio_vfx_contract.json"
+    ],
+    "phase": "PH09",
+    "required_evidence": "Ingameaudio/focus/listeningproof",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV15",
+    "area": "QA/balance/evidence",
+    "bible": "bibles/14_QA_BALANCE_AND_EVIDENCE.md",
+    "records": [
+      "data/qa_cases.json",
+      "tools/",
+      "tests/"
+    ],
+    "phase": "PH03",
+    "required_evidence": "Sourcevsruntimeevidenceseparation",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV16",
+    "area": "Codex tasks/gates",
+    "bible": "bibles/15_CODEX_EXECUTION_AND_PRODUCTION_PLAN.md",
+    "records": [
+      "data/tasks.json",
+      "data/build_gates.json",
+      "tasks/"
+    ],
+    "phase": "PH01",
+    "required_evidence": "Scopedevidenceandexact-headreview",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV17",
+    "area": "Legal/privacy/rights",
+    "bible": "bibles/16_LEGAL_PRIVACY_AND_PUBLISHER.md",
+    "records": [
+      "contracts/data_inventory.json",
+      "data/deployment_inputs.json"
+    ],
+    "phase": "PH10",
+    "required_evidence": "ActualentitySDK/rightsreview",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV18",
+    "area": "Playrelease/store",
+    "bible": "bibles/17_GOOGLE_PLAY_RELEASE_AND_DISTRIBUTION.md",
+    "records": [
+      "data/release_checklist.json"
+    ],
+    "phase": "PH11",
+    "required_evidence": "Exactowner-approvedAAB/storeproof",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV19",
+    "area": "Organic/business",
+    "bible": "bibles/18_ORGANIC_MARKETING_AND_BUSINESS.md",
+    "records": [
+      "reports/sql/",
+      "templates/PUBLIC_DOCUMENTS_WORKSHEET.md"
+    ],
+    "phase": "PH11",
+    "required_evidence": "Truthfulcreativeandactualreceipts",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  },
+  {
+    "id": "COV20",
+    "area": "Ops/support/recovery",
+    "bible": "bibles/19_OPERATIONS_SUPPORT_AND_RECOVERY.md",
+    "records": [
+      "templates/TASK_RESULT.md",
+      "data/release_checklist.json"
+    ],
+    "phase": "PH11",
+    "required_evidence": "Recovery/incident/retirementdrills",
+    "status": "DEFINED_RUNTIME_NOT_RUN"
+  }
+]

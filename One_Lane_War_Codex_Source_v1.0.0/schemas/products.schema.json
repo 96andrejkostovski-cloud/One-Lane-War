@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OLW products structure v1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "after_all_medal_unlocks": {
+        "type": "string"
+      },
+      "entitlements": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "external_store_created": {
+        "type": "boolean"
+      },
+      "id": {
+        "type": "string"
+      },
+      "limits": {
+        "type": "string"
+      },
+      "price_status": {
+        "type": "string"
+      },
+      "restorable": {
+        "type": "boolean"
+      },
+      "statistics_effect": {
+        "type": "string"
+      },
+      "store_copy_requirement": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "usd_base_price": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "entitlements",
+      "external_store_created",
+      "id",
+      "price_status",
+      "restorable",
+      "store_copy_requirement",
+      "type",
+      "usd_base_price"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 2,
+  "maxItems": 2
+}
