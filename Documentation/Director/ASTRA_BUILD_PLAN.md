@@ -1,7 +1,8 @@
 # One Lane War — sequential Astra build plan
 
-**Status:** Director plan ready for review; no implementation Goal has been
-issued by this document. **Date:** 2026-09-27.
+**Status:** PH01 accepted by Director on 2026-09-28. Goal 02 remains an
+explicit next assignment, not an automatic continuation. **Plan date:**
+2026-09-27. See `OLW-CORE-001-DIRECTOR-REVIEW.md` for exact commit and limits.
 
 ## 1. Fixed authority and present state
 
@@ -11,20 +12,18 @@ issued by this document. **Date:** 2026-09-27.
 - **Imported source:** `One_Lane_War_Codex_Source_v1.0.0/` remains intact.
   Its `SOURCE_MANIFEST.json` SHA-256 is
   `6c5ab38839a42dfe9a8c0085860d13bf05899441b2a389f3b6d243b552a16d90`.
-  OLW-AMEND-001 through 004 correct location, source navigation,
-  designated remote and prompt batching. B001, T001, WF002, V001,
-  A001 and S1 retain their source meanings.
+  OLW-AMEND-001 through 005 correct location, source navigation,
+  designated remote, prompt batching and fortress-pressure spawning.
+  B001 numbers, T001 pins, WF002, V001, A001 and S1 retain their source meanings.
 - **GitHub destination:**
   `https://github.com/96andrejkostovski-cloud/One-Lane-War.git`.
-  One `git ls-remote` call returned success with no advertised refs;
-  another failed to connect through the local proxy. Remote identity,
-  visibility, branch state and write access require fresh verification
-  before initialization/push. Never clone it as a second project or
-  overwrite remote history.
-- **Runtime status:** no Git repository or Unity project exists yet in
-  the root. All PH gates and game QA remain NOT_RUN. The installed
-  Unity Hub path showed 6000.3.25f1, while T001 selects 6000.3.21f1;
-  this is a PH01 proof issue, not an approved T002 change.
+  The baseline and scoped PH01 branch were pushed normally and verified;
+  `main` remains at the baseline. Verify refs again before each future push.
+  Never clone it as a second project or overwrite remote history.
+- **Runtime status:** PH01's root Unity project, exact T001 Android build
+  and compatible native replay evidence are accepted at the implementation
+  commit in the Director review. PH02 and later gates remain NOT_RUN. Live
+  emulator rotation and physical-device performance remain unproven.
 - **Source checks already done:** 147/147 sealed-file hashes and sizes
   match; 35 reference tests, 837 non-manifest semantic checks and the
   arithmetic audit pass. The original full verifier fails one Windows
@@ -219,6 +218,7 @@ the operating runbook. No paid acquisition is included.
 
 ## 6. Next action
 
-Issue **Goal 01 only** to the Astra High implementation chat, using
-`ASTRA_GOAL_PROMPTS.md`. The Director then reviews its result before
-issuing Goal 02. No work in Goal 02–06 is authorized by this plan alone.
+PH01 has passed Director review. Issue **Goal 02 only** to the existing
+Astra High implementation chat, using `ASTRA_GOAL_PROMPTS.md` and the
+PH01 Director review. The Director reviews Goal 02's packet evidence
+before Goal 03. No work in Goal 03–06 is authorized by this plan alone.

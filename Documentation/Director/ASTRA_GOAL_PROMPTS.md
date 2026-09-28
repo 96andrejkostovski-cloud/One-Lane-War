@@ -13,10 +13,10 @@ Create a Goal to complete **OLW-CORE-001 / PH01** and its evidence packet.
 Work only in `C:\Users\Andrej\Downloads\One Lane War`, which must be
 both Git and Unity project root; preserve the nested
 `One_Lane_War_Codex_Source_v1.0.0` package byte-for-byte. Read the root
-`AGENTS.md`, OLW-AMEND-001 through 004, `ASTRA_BUILD_PLAN.md`,
+`AGENTS.md`, OLW-AMEND-001 through 005, `ASTRA_BUILD_PLAN.md`,
 `OLW-CORE-001-TASK.md`, and that source task's applicable Bibles and
-canonical JSON. Starting commit is NONE; record the first baseline
-commit and use a scoped local branch. Verify the supplied
+canonical JSON. Use the existing Git baseline and a scoped local branch.
+Verify the supplied
 `https://github.com/96andrejkostovski-cloud/One-Lane-War.git` refs,
 identity, visibility and write access before any normal push. Never
 force-push or create another project. Investigate the exact T001
@@ -38,9 +38,10 @@ Director review; do not begin CORE-002.
 ## Goal 02 — PH02–PH04 complete placeholder gameplay
 
 Create a Goal to execute **OLW-CORE-002 → OLW-CORE-003 → OLW-CORE-004**
-in that order, starting from the Director-accepted Goal 01 commit in
+in that order, starting from the Director-accepted Goal 01 branch in
 `C:\Users\Andrej\Downloads\One Lane War`. Read root `AGENTS.md`,
-OLW-AMEND-001 through 004, `ASTRA_BUILD_PLAN.md`, each source task
+OLW-AMEND-001 through 005, `OLW-CORE-001-DIRECTOR-REVIEW.md`,
+`ASTRA_BUILD_PLAN.md`, each source task
 packet and its relevant Bibles/data. Use one scoped local branch and
 separate commits, exact-head checks and evidence packets for each task.
 OLW-AMEND-004 permits continuation between these three packets only
